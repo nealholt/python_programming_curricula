@@ -1,0 +1,30 @@
+
+For 35 points, watch the video "List Operations" found here:
+https://youtu.be/lDnVIB35-Oo
+and answer the following questions.
+
+
+1. Below is a bunch of comments. Use what you learned from the video to fill in code beneath each comment that does as the comment instructs. Turn in your code.
+
+#Create a list that contains the values 7, 6, 5, 4 in that order.
+
+#Append the number 3 to the list.
+
+#Print the second number in the list. You should not use index 2!
+
+#Insert the number 0 at index 2 in the list.
+
+#Set the value at index 0 equal to 9
+
+#Set the value at index 3 equal to the value at index 4
+
+#Swap the values at index 0 and 4.
+
+#Delete the value at index 5.
+
+#Print the length of the list.
+
+#Print the list
+
+#Erase the list back to empty
+

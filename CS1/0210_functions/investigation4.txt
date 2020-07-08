@@ -1,0 +1,51 @@
+
+'''For 17 points, answer the following questions.
+
+
+'''Suppose I have a function named liar that takes a string as 
+input. If the string is a True statement then the function returns 
+False. If the statement is False then the function returns True. 
+For example, the following program prints "True":'''
+response = liar("The moon is made of cheese.")
+print(response)
+#1. What does this program print? (There is a correct answer!)
+response = liar("Ashaya is a good dog.")
+print(response)
+
+
+'''2. If the liar function always responds to statements with a 
+lie, which of the following functions always returns the truth?
+A.
+def truth(statement):
+    return liar(statement) or not liar(statement)
+B.
+def truth(statement):
+    return not liar(statement)
+C.
+def truth(statement):
+    return True
+'''
+
+
+'''3. Does the following function ever return True?
+4. Does it ever return False?'''
+def truth(statement):
+    return liar(statement) or not liar(statement)
+
+
+#5. What does the following program print?
+if liar('Pigs fly') and liar('Earth is flat') and liar('Moon is cheese'):
+    print('What a strange universe!')
+else:
+    print('Obviously not.')
+
+
+'''6. Use the liar function to complete the following "two 
+truths and one lie" program to determine which statement is the 
+lie. (Note: The game "two truths and one lie" is simple. One 
+person makes 3 statements about themself, one of which is a lie.
+Everyone else then guesses which statement is the lie.)'''
+statement1 = input('What is your first statement?')
+statement2 = input('What is your second statement?')
+statement3 = input('What is your third statement?')
+

@@ -1,0 +1,34 @@
+
+For 100 points watch the video linked here
+https://drive.google.com/file/d/1b5_pSGklZrKJ7GxZn_3PPsNWl8tMv3iW/view?usp=sharing
+and answer the following questions. Email the answers to your teacher with the subject line "CS2 (or CS3) Diep Objects"
+
+1) What four arguments are passed to the constructor of the initial DiepCritter class?
+
+2) List at least three functions that the initial DiepCritter class has aside from the constructor.
+
+3) How much is different in the move function between the first draft with jerky movement and the second draft with smoother movement?
+
+4) Compare the first line of the DiepCritter class with the first line of the EnemyCritter class which inherits from DiepCritter. What is the main difference on the first line? (By first line, I mean teh line beginning with the word "class".)
+
+5) A class that is inherited from is often called a super class or a parent class. A class that inherits is often called a child class. How is the word "super" used in the constructor (also known as the __init__ function) of a child class?
+
+6) When a child class defines a function with the same name as a function in the parent class, the parent class function is overriden. What function does the EnemyCritter override so it can follow the target?
+
+7) Around 9 minutes and 30 seconds I explain what it means to inherit in the context of programming languages. What does it mean?
+
+8) The great thing about inheritance is reusing code without actually writing te code again. How many new classes did it take to add the experience items that I called food? (Remember that classes are instructions for how to make an object. Objects are created from classes and can be put in variables or lists. Classes are like blueprints for a car and objects are like physical cars made from those blueprints. I'm asking about classes in this question, not objects.)
+
+9) Functions and classes are both examples of encapsulation, hiding complexity in capsules. Functions and classes are both capsules that complexity can be hidden within. Encapsulation is used to hide complexity from the user and from the programmer themself (or others on a team of programmers). Why are some benefits of hiding complexity?
+
+10) Complexity shouldn't be the same as incomprehensibility. What do I put in my bounceOff function so that someone who wants to understand or modify it can do so?
+
+11) How do the DiepCritters keep track of separate HealthBar objects?
+
+12) The Bullet class inherits from DiepSprite. Bullets want to update in mostly the same manner that any other DiepSprite updates, but they also want to make one small change, which is decreasing a timeout. How do Bullets accomplish both?
+
+13) What is the very bad thing I confess to having done?
+
+14) It's nice to separate every object (class is what I really meant to say) into a separate what?
+
+15) What is the downside of keeping the Bullet class code in the same file as the DiepSprite class?

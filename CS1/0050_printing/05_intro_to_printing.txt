@@ -1,0 +1,48 @@
+#For 5 points, answer the following questions.
+
+
+'''Actions (known as functions) are written as a command
+followed by parentheses.
+Sometimes we put things in the parentheses to tell the action
+specifically what to do.
+Change hello and re-run the program to see what happens.
+1. Are you allowed to capitalize hello?
+2. Are you allowed to capitalize print?'''
+print("hello")
+
+'''Python will warn you if you did something wrong.
+3. What error does this throw?'''
+print '3'
+
+'''Parentheses are vital, but you can use either quotation
+marks or apostraphes.'''
+print("This is Holtschulte's ")
+print("class. It is a 'good' class.")
+print('At least, I hope it is')
+
+#4. Is there any difference in the output if you run this code
+print(5)
+#compared to running this code?
+print("5")
+
+#5. Is there any difference in the output if you run this code
+print('5')
+#compared to running this code?
+print("5")
+
+#6. Is there any difference in the output if you run this code
+print('hello')
+#compared to running this code?
+print(hello)
+
+'''Numbers can be printed without quotation marks. Run this
+program then write code to see if you can print a big number, a 
+small number, a fraction, a negative number, a decimal. Include all
+of this code in your answer.
+7. big number
+8. small number
+9. fraction
+10. negative number
+11. decimal
+'''
+print(7)

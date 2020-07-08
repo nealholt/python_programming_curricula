@@ -1,0 +1,110 @@
+
+For 8 points, answer the following questions.
+
+
+
+'''Programs need a way to remember information. This might be 
+information that the user typed in or values that change as the 
+program runs.
+
+A robot would like to know its location and direction.
+
+A music app would like to remember your favorite songs.
+
+This information is stored in variables.
+
+Here is a variable named x. I have put the value of 7 in x.'''
+x = 7
+
+#Here is a variable named street. I have put the value of Candelaria in street.
+street = "Candelaria"
+
+#Think of variables as labeled containers. They have two parts, 
+#a name (or label) and a value. The value is what's inside the container.
+
+#Creating a variable means creating a variable name and giving the name a value.
+
+# x is the name. 7 is the value.
+x = 7
+
+# name is the name. "Timbob" is the value.
+name = "Timbob"
+
+# pi is the name. 3.14 is the value
+pi = 3.14
+
+#1. What is the name and what is the value?
+y = 7.6
+
+#2. What is the name and what is the value?
+room = 'lab 9'
+
+#3. What happens if I run a program with this line of code?
+7 = x
+
+#4. What happens if I run a program with this line of code?
+'lab 9' = room
+
+'''The variable name ALWAYS goes on the left. This is NOT mathematical equals.
+In Python equals in Python means assignment.
+x = 2
+x is assigned the value of 2.
+Equals means keep, save, remember, record.
+It means create a variable and put a value in it.'''
+
+'''We can re-use variables by assigning new values to them.
+5. What does the following program print?'''
+food = "green eggs"
+food = "ham" #We've replaced the previous value with a new value.
+#The old value of "green eggs" is gone forever.
+print(food)
+
+'''This might seem surprising. Remember that variables are containers.
+But, whenever something new is put in the container, the old thing
+vanishes.
+6. What does the following program print?'''
+name = "Trinket"
+name = "Python"
+print(name)
+
+'''Where does the old value go? It gets erased to make room 
+for the new value. What if we want to save the old value, remember 
+it for later? Then we need a new variable.
+7. What gets printed here?'''
+name = "Nala"
+lion = name
+name = "Simba"
+print(lion)
+print(name)
+
+
+'''Variables are named with underscores between words. All lowercase
+Variable names should be nouns.
+
+8. Fix the formatting of each of the following variable names:'''
+Rabbit
+BigNumber
+loop_Control_Variable
+NAME
+starDust
+
+'''9. If your first, middle(if you have one), and last name was 
+all one variable name, how would it be written?'''
+
+#10. Does "case sensitive" mean I'm picky about luggage? What does it mean?
+
+#11. Which of the following lines of code assigns a string value to a variable?
+name = first_name + last_name
+name == "Marcus"
+name = 8
+name
+
+#12. Write code to create a variable with the name head_of_school and the value Sinfield.
+
+#13. Suppose a variable named temperature exists. Write code to set temperature equal to 98.6.
+
+#14. Suppose email_address is a variable name. Write code to print the value of the variable named email_address.
+
+#15. Suppose a variable named guests exists. Write code to add one to guests.
+
+#16. Write code to create a variable with the name president_lincoln and the value 16.

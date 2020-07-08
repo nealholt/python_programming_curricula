@@ -1,0 +1,37 @@
+
+For 140 points, write a strategy for a simulated herbivore to out compete
+all the other herbivores.
+
+Run main.py, but write code in critterAI1.py's and/or critterAI2.py's 
+takeAction function. takeAction describes all the actions that these
+herbivore critters can take.
+
+You do not need any loops in takeAction. Each of your critters will
+perform takeAction once per turn.
+
+I recommend that you do this project at the same time as another student
+so you can compete to see whose herbivore wins the herbivwar.
+
+
+General information:
+There is "grass" in each square of the world. Herbivores eat grass to 
+gain energy and spend energy to take actions. Grass replenishes over 
+time. Your herbivore critters can take only one action per turn by
+returning the name of the action from the takeAction function. However,
+as fatigue increases, actions cost more and more energy. Returning
+'rest' resets fatigue back to zero.
+
+Some code has been provided for you, but it can be greatly improved.
+
+Turn in your best critter code.
+
+
+You can change your critter image and team name in main.py at
+#Put a critter in the world
+team = 0; row = 0; col = 0; team0_name = 'Frog'
+critter_cells[row][col] = critterAI1.CritterAI1(screen, row, col, frames[0], team, team0_name)
+critter_cells[row][col].direction_index = 1 #face east
+team = 1; row = 9; col = 9; team1_name = 'Caterpillar'
+critter_cells[row][col] = critterAI2.CritterAI2(screen, row, col, frames[12], team, team1_name)
+critter_cells[row][col].direction_index = 3 #face west
+#Your image options include all the Pokemon in the image.

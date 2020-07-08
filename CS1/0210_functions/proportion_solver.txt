@@ -1,0 +1,15 @@
+
+'''For 35 points, write a program that has a function named
+proportionSolver. This function should take 3 arguments a, b,
+and c. The function should then return the value of x in
+the equation:
+
+a/b = c/x
+
+In other words, you're writing a function to solver
+a/b = c/x given any a, b, and c.
+
+For instance:
+5/9 = 3/x
+means that x = 27/5
+'''

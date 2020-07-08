@@ -1,0 +1,10 @@
+
+For 140 points, make an animation of the blob (see images folder) that
+walks half way across the screen and then turns around and walks back.
+
+You will want to pre-load lists of images for this program. You will 
+need a variable to keep track of the index of the variable you are
+currently drawing on the screen.
+
+Challenge (40 extra points): Make the blob jump. You will need to 
+modify the blob's y value as well as x for this.

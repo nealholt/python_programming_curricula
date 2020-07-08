@@ -1,0 +1,7 @@
+
+I assume you have already watched the "List Pop Culture" found here:
+https://youtu.be/iY6eDesdd7I
+and answered the questions found here:
+https://drive.google.com/file/d/1T3rG25IYM5RWn1gs2z_sLAvnZpUoRmB3/view?usp=sharing
+
+If so, then for 40 points, if you have your own idea of some "Lists in Pop Culture", send your instructor a link to the pop culture reference or describe it to them, along with some code using lists that represents the reference. Email this to your instructor with the subject line: "CS1: List References".

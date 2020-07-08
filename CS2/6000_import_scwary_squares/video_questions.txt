@@ -1,0 +1,13 @@
+
+The video is: 1400_import_and_pygame
+https://drive.google.com/file/d/1oTB0OFprkp8A4qeJu993kKh9IRlPykwm/view?usp=sharing
+
+For 35 points watch the video and answer these questions:
+
+1. What 3 files did Holt create and import?
+
+2. When Holt first tested his collision function, no collisions occurred. Why?
+
+3. What was the original value of vision_radius before Holt changed it?
+
+4. Why did Holt keep self.x and self.y variables, but rather than simply keeping a self variable to reference the rectangle, he created rectangles inside the draw and collision functions in the Player object?

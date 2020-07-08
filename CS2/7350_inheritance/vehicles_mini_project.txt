@@ -1,0 +1,8 @@
+
+For 35 points, create a Vehicle class with at least two methods and two attributes.
+
+Then create two classes that inherit from vehicle that each have at least one method that is unique to them.
+
+Your two vehicle classes could be Car and Truck, or more distant vehicles like Plane and Submarine.
+
+Create instances of your two sub-classes and call some of their functions.

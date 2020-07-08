@@ -1,0 +1,8 @@
+
+For 50 points, read the first webpage then answer all the questions on the second webpage:
+
+Read this:
+http://programarcadegames.com/index.php?chapter=conditional_statements
+
+Complete this:
+http://programarcadegames.com/worksheets/show_file.php?file=worksheet_03.php&lang=en

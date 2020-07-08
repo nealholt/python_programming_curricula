@@ -1,0 +1,37 @@
+#For 5 points, answer the following questions.
+
+
+'''Programming has variables, but they aren't exactly the same as math variables.
+Figure out what's going on here.
+1. Does this do what you expect? What did you expect?'''
+x = 4
+print(4)
+print("4")
+print(x)
+print("x")
+
+'''Run this program then re-order the lines of code and run it again.
+2. What does exit do?'''
+print("My name is")
+exit()
+print("Neal")
+
+'''print and exit are standard, built-in functions.
+Other built in functions include:
+
+print(type())
+print(int())
+print(str())
+print(len())
+
+Put each of the following in the parentheses of each the above functions 
+and write down the result. Some of these will cause an error. Write down 
+the name of the error. There are 4 functions above and 4 inputs below. That 
+means you should end up with 16 total answers. Number these questions 3 
+through 18.
+
+"hello"
+5
+"42"
+7.98
+'''

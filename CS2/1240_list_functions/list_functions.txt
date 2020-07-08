@@ -1,0 +1,53 @@
+
+#For 140 points, write the following functions.
+
+'''Write a function that takes a list of numbers and returns the largest 
+number in the list.'''
+
+
+'''Write a function that takes a list of numbers and returns the second
+largest number in the list.'''
+
+
+'''Write a function that counts up and returns the number of vowels in 
+a string. It can be useful to use "in" for this. For example:'''
+vowels = 'aeiou'
+if 'a' in vowels:
+    print('Is a vowel.')
+if 'c' in vowels:
+    print('Is NOT a vowel.')
+
+
+'''Write a function that counts up and returns the number of letter 
+pairs in a string. A letter pair is any two adjacent letters with 
+the same value.
+"doggy" contains 1 letter pair.
+"mississippi" contains 3 letter pairs.
+The last letter in a pair can be used to create another new pair:
+"aaaaaa" contains 5 letter pairs.'''
+
+
+'''Write a function that counts up the number of unique values in a 
+list. In order to do this, we need to remember what values have already 
+been seen. A list of "seen before" values is perfect for this, just 
+append unique values to the list and use "in" to check if the next value
+is already in the list.'''
+
+
+'''Write a function that creates and returns a list of 50 random 
+numbers between 1 and 100 with no duplicates. There are many different
+solutions to this problem. How quick and simple can you make your code?
+Use your answer to the previous question to test to make sure your 
+function works correctly.'''
+
+
+'''Write a function that adds up the odd numbers in a list of numbers
+and returns it.'''
+
+
+'''Write a function that takes a list of numbers and returns True if 
+the number 2 occurs at least twice in the list.'''
+
+
+'''Write a function that takes a list of numbers and returns True if 
+the number 2 occurs EXACTLY twice in the list.'''

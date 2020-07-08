@@ -1,0 +1,34 @@
+
+'''
+For 35 points, answer the following questions.
+
+Here is an example of a program that checks to see if temperature is above 100.
+temperature = 95
+if temperature > 100:
+    print('stay inside')
+else:
+    print('well, it is a dry heat')
+'''
+
+'''1. The last day of final exams is May 24th. Write a program that checks 
+if day is greater than 24 and if so prints out "summer break".'''
+
+'''2. Write a program with two variables named teacher_score and student_score.
+Start the variables off with any value you like. Write the code that will print 
+"Teacher victory" if the teacher has a higher score and will print 
+"Student victory" if the student score is higher.'''
+
+'''3. Write a program that asks the user for two different numbers, x and y.
+If x equals zero, print out "divide by zero error". Otherwise print out
+the result of y divided by x.'''
+
+'''4. Write a program that gets input from the user. Then if the user typed "hi"
+the program responds with "hello". If the user typed "bye", respond with "goodbye".
+If the user types anything else, respond with "No thanks, I'm full".
+
+'''5. Write an if statement that checks if an integer variable named x is 
+greater than zero and if so adds 10 to x.'''
+
+'''6. Write code that checks if an integer variable named count is less than 
+or equal to zero. If so, the code sets count equal to 100. If count is 
+greater than zero, the code decreases count by 1.'''

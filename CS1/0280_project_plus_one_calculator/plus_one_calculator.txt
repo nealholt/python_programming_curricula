@@ -1,0 +1,15 @@
+
+For 35 points, write a function that adds two numbers together and
+returns their sum, but you can only use +1. In other words, if I want to
+add a and b, I can't just return a+b. Instead I have to use a loop
+and +1.
+
+For 35 points, write a muliplication function that only uses addition.
+
+For 35 points, write a subtraction function that only uses -1. In 
+other words, if I want to subtract a and b, I can't just return a-b. 
+Instead I have to use a loop and -1.
+
+For 35 points, write a function that divides two numbers without using 
+the division symbol. Your function only needs to work on numbers that
+evenly divide.

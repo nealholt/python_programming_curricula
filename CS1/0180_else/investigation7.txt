@@ -1,0 +1,88 @@
+
+#For 17 points, answer the following questions.
+
+'''1. What is different between program A and program B below?
+2. Why do they print different things?'''
+
+#Program A
+x=6
+y=2
+if x+y<10:
+    x=20
+if x>10:
+    x=1
+print(x)
+print(y)
+
+#Program B
+x=6
+y=2
+if x+y<10:
+    x=20
+elif x>10:
+    x=1
+print(x)
+print(y)
+
+
+'''3. The code has gotten all out of order. Rearrange the
+code and fix the indentation to print who is tallest.'''
+if student1 > student2 and student1 > student3:
+student1 = int(input("Enter student1's height."))
+elif student2 > student1 and student2 > student3:
+student2 = int(input("Enter student2's height."))
+print("Student2 is tallest.")
+print("Student1 is tallest.")
+print("Student3 is tallest.")
+student3 = int(input("Enter student3's height."))
+else:
+
+
+'''4. What does this program print if has_vitamin_c is 
+True, but must_peel is False?'''
+if must_peel and has_vitamin_c:
+    print('orange')
+else:
+    print('apple')
+
+
+'''5. What does this program print if 
+brought_lunch_money is True and packed_lunch is False?'''
+if brought_lunch_money or packed_lunch:
+    print('happy')
+else:
+    print('hungry')
+
+
+#6. If x equals 720 and y equals 450, what does this code print?
+#7. What does it print if y > x is True and x is 720?
+screen_height = 600
+screen_width = 800
+x = int(input("What is the x value?"))
+y = int(input("What is the y value?"))
+if x > screen_width or y > screen_height:
+    print('out of bounds')
+else:
+    print('ok')
+
+
+'''8. The code has gotten all out of order. Rearrange the
+code and fix the indentation to print which is the better deal.'''
+actual_price = shirt_price_bargette * bargette_coupon
+print('shop lawmart')
+shirt_price_lawmart = 20
+shirt_price_bargette = 25
+else:
+bargette_coupon = 0.7
+if shirt_price_lawmart < actual_price:
+print('shop bargette')
+
+
+#9. If angle_left is 45 and angle_right is 315, what does this code print?
+#10. What does it print when angle_left and angle_right are both 0?
+if angle_left > angle_right:
+    print('turn right')
+elif angle_left < angle_right:
+    print('turn left')
+else:
+    print('straight ahead')

@@ -1,0 +1,116 @@
+
+#For 22 points, answer the following questions.
+
+
+'''1. Jim currently runs a car rental dealership and wishes to write a 
+program that allows the user to enter in the temperature of the location 
+they plan to visit and then recommend a car based on the data.  Below is 
+a summary of the program structure Jim is looking for.
+	Temp greater than 80 a Convertible should be selected
+	Temp  greater than 60 and less than 80 an SUV should be selected
+	Temp less than 60 a truck should be selected.
+Jim has no trouble writing the code if the temperate is greater than 80 but 
+gets stuck when he tries to write code for when Temp is greater than 60 and 
+less than 80. Help Jim by writing the condition he is struggling with.
+'''
+
+
+'''2. Write a program that asks the user for a short word. If the 
+word is more than 4 letters, print "I wanted a short word!". 
+Otherwise do nothing.'''
+
+
+'''3. Given that I want to know if two numbers are greater than 10,
+what should this program print?
+4. Does this program work as intended? If not, how can you fix it?'''
+x = 1
+y = 20
+if x and y > 10:
+    print("Both are bigger than 10")
+else:
+    print("x or y is less than 10")
+
+
+#5. Which line is broken in this program?
+speed = 70
+if speed >= 75:
+    print("Issue speeding ticket")
+elif speed > 70:
+    print("Issue warning")
+else speed<=70:
+    print("No action")
+#A. if speed >= 75:
+#B. elif speed > 70:
+#C. else speed<=70:
+#D. print("Issue speeding ticket")
+
+
+#6. What does the following program print? Guess before running it.
+colors = ["red", "green", "blue"]
+fish = ["catfish", "pike", "sturgeon"]
+if "yellow" in colors:
+    print("sun")
+if "catfish" in fish:
+    print("meow")
+if "urge" in "sturgeon":
+    print("I urge you to visit MeowWolf")
+
+
+#7. in is a handy word in python. What does this program print
+#when you run it and type in "hello, how are you?"
+response = input("Greetings.")
+if "hello" in response:
+	print("hi")
+
+
+'''8. Stacy is automating her kitchen. She needs a program that 
+can prepare a timely breakfast based on how much time she has
+available. Below is a summary of the program structure Stacy
+wants:
+    If time is less than 5, make a pop tart.
+    If time is greater than 5 and less than 15, make toast.
+    Otherwise make eggs.
+Write Stacy's program. Print the chosen food.'''
+
+
+'''9. If whatever==True there is no problem, but if 
+whatever==False there is an error. Test to verify then
+explain why this happens.'''
+if whatever:
+    x = 0
+else:
+    x = x + 1
+
+
+'''10. If whatever==True there is no problem, but if 
+whatever==False there is an error. Test to verify then
+explain why this happens.'''
+if whatever:
+    x = 0
+else:
+    y = 0
+x = x + 1
+
+
+'''11. I win even when I type tails for coin 1 and heads for 
+coin 2. Fix the code so that it works properly.'''
+coin1 = input('How did coin 1 land?')
+coin1 = input('How did coin 2 land?')
+if coin1 and coin2 == 'heads':
+	print('You win!')
+else:
+	print('You lose!')
+
+
+'''12. The following program got scrambled. Rearrange the 
+lines of code so that they make sense. Include proper 
+indentation.'''
+else:
+print('Here is your vanilla ice cream in a cone.')
+flavor = input("Do you want chocolate?")
+print('Here is your chocolate ice cream in a cone.')
+print('Are you serious? These are waffle cones. You really want a bowl?')
+elif wants_cone=='yes':
+if wants_cone=='yes' and flavor=='yes':
+wants_cone = input("Do you want your ice cream in a cone?")
+

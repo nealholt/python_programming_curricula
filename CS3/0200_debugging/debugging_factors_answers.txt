@@ -1,0 +1,31 @@
+
+This is not a project for points. This is the program that I used for the debugging video.
+
+
+Find factors of a number: https://www.programiz.com/python-programming/examples/factor-number
+
+
+Bug ideas for the following program:
+Delete the + 1  in  for i in range(1, x + 1):
+Reverse x and i in if x % i == 0:
+input not converted to an int
+typo in the function name
+
+
+# Python Program to find the factors of a number
+# define a function
+def printFactors(x):
+    # This function takes a number and prints the factors
+    print("The factors of",x,"are:")
+    #Loop from 1 to x, including both.
+    for i in range(1, x + 1):
+        #Check if x is divisible by i
+        if x % i == 0:
+            #print i, if i is a factor of x
+            print(i)
+# change this value for a different result.
+num = 320
+# uncomment the following line to take input from the user
+#num = int(input("Enter a number: "))
+printFactors(num)
+

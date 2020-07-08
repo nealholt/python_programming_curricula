@@ -1,0 +1,25 @@
+
+For 35 points, watched the video "Functions" found here:
+https://youtu.be/hnBT5pn3dys
+and answer the following questions.
+
+
+1. What does print return or give back?
+
+2. How do you pass values to a function?
+
+3. Function definition starts with what keyword?
+
+4. What should be thought of as a "mailbox"?
+
+5. After return is reached in the code, the function call gets replaced by what?
+
+6. Values passed to a function should be separated by what symbol?
+
+7. What error do you get if the number of values sent to a function does not match the number of "mailboxes"?
+
+8. What turtle function does the narrator create?
+
+9. What does the narrator's turtle function return?
+
+10. The goal of functions is to encapsulate... what?

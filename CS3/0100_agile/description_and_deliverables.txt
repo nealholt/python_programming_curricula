@@ -1,0 +1,34 @@
+
+Agile is a methodology for completing large group tasks. We will be using these methods on all our group projects.
+
+
+BEGINNING
+
+1. Privately individual team members write down ideas for pieces of the project on post-its.
+2. Publicly everyone puts up their post-its so the whole group can see each other's ideas.
+3. The team members group up related post-its into categories.
+4. Discuss and make sure everyone agrees on what to include in the project. Some ideas/post-its might be eliminated at this point.
+5. Create a list of tasks that all need to be done in order to complete the project and put them on post-its. Not all tasks will be programming related. Some might even be "learn X" where X is something the group isn't sure how to do. Some tasks might end up spawning other tasks.
+6. Arrange the tasks in order of priority.
+7. Copy down all the tasks into a shared Google spreadsheet. Keep the post-its too. They will be used regularly. This document will contain the following columns: priority, task description, do-er, reviewer, and lastly whether or not the task is done.
+
+
+DAILY
+
+Did, doing, stuck on:
+At the start of class spend no more than 5 minutes for the whole group to say what they did yesterday, what they plan on doing today, and discussing anything they are stuck on or concerned about (such as tasks they didn't list before or tasks in the wrong priority order).
+
+Next everyone makes sure they have a task in their doing or reviewing column.
+
+Then everyone gets to work.
+
+When a task is finished, it is put in another team member's reviewing column and a new task is put in the doing column.
+
+Team members should review as soon as they finish what they are doing. Reviewing consists of reading and (if possible) running the code that another team member wrote and deciding whether the task is done or if it needs more work. If it's done, then the post-it gets moved to the done column and marked as done on the shared spreadsheet.
+
+
+TURNED IN
+All groups will turn in the following:
+-Description of the project based on initial post-it brainstorming.
+-List of all tasks and their priorities (shared it as a google spreadsheet most likely). Tasks may NEVER be deleted off this spreadsheet. Each task must be marked with the name of the person that completed it and the person that reviewed it.
+-Daily scrum sheet for each group member consisting of 3 sentences: what they did yesterday, what they plan on doing today, and what they are stuck on.

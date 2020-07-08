@@ -1,0 +1,16 @@
+
+For 800 points, create your own neural network that uses matrix
+multiplication for significant speed gains over the provided
+neural network, then train your network to recognize the handwritten
+digits (basically the second part means "do the basic assignment").
+
+This sequence of videos discusses neural networks in great detail and
+uses the specific dataset we are using as an example:
+https://www.youtube.com/watch?v=aircAruvnKk
+https://www.youtube.com/watch?v=IHZwWFHWa-w
+https://www.youtube.com/watch?v=Ilg3gGewQ5U
+https://www.youtube.com/watch?v=tIeHLnjs5U8
+
+For more information on neural nets including a great explanation of
+backpropagation, look here:
+https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/

@@ -1,0 +1,7 @@
+pygame.transform.flip()
+flip vertically and horizontally
+flip(Surface, xbool, ybool) -> Surface
+This can flip a Surface either vertically, horizontally, or both. Flipping a Surface is non-destructive and returns a new Surface with the same dimensions.
+
+#Pre: rect has already been created. image has already been created.
+image = pygame.transform.flip(image, False, True), rect)

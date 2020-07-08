@@ -1,0 +1,53 @@
+
+For 120 points, watch this video
+https://www.youtube.com/watch?v=15APgIcGip0
+and answer the following questions and email them to your teacher with the subject line: "CS2: quicksort video".
+
+1) What is the pivot used for in the Quicksort algorithm?
+
+2) What's the best initial pivot to use when sorting the following list?
+[7,1,2]
+
+3) What's the best initial pivot to use when sorting the following list?
+[55,2,87,94,26,15,1]
+
+4) What's the best initial pivot to use when sorting the following list?
+[8,3,6,7,3,2,6,4,3]
+
+5) What are the 4 different ways to choose a pivot?
+
+6) What is good about using the median as the pivot?
+
+7) What is bad about using the median as the pivot?
+
+8) Write a partition function that
+    A) Takes one argument, a list.
+	B) Randomly chooses a pivot from the list
+	C) Separates the remaining list values into two lists, one for values less than the pivot and one for values greater than the pivot.
+This is basically the algorithm demonstrated in the very first card demonstration of quicksort.
+
+9) What is the part of Quicksort that varies?
+
+10) In Lomuto's partition, index j is used to iterate through the list to make sure we compare all the values to the pivot. What is index i used for?
+
+11) What is the purpose of the final swap in Lomuto's partition?
+
+12) What is strange about the movement of the index in Hoare's partition, as demonstrated in the dancing example of Quicksort?
+
+13) How can Quicksort and other divide and conquer algorithms make use of multiple processors?
+
+14) How many while loops does Hoare's partition algorithm use?
+
+15) How does the worst case time complexity of Quicksort compare to Bubblesort and Insertionsort?
+
+16) What is the average/best case time complexity of Quicksort?
+
+17) I want to sort n=100 values. How much better is n*log(n) compared to n*n. (Use a calculator and subtract the two values.)
+
+18) What is Big O of 5*log(n)?
+In other words O(5*log(n)) = ?
+
+19) What is Big O of n*log(n) + log(n)?
+In other words O(n*log(n) + log(n)) = ?
+
+20) Quicksort is not stable. Why not?

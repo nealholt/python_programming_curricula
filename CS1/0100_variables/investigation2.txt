@@ -1,0 +1,207 @@
+
+For 15 points, answer the following questions.
+
+
+'''Variable names should be descriptive and short. This can be challenging.
+
+Consider the following question:
+
+Susie has worked the same job for 7 years.
+What is a good name for a variable storing the number of years she has worked?
+A. x
+B. my_integer
+C. years
+D. years_worked
+The correct answer is D. years_worked.
+I would also give partial credit or even full credit for C. years.'''
+
+
+'''1. Suppose you're writing a program to manage a webpage and you want 
+to count the number of hits that the webpage gets. You will need to 
+define an integer variable to count the number of hits.
+Write a concise but descriptive name for this variable.'''
+
+'''2. Suppose you're writing a program to correct typos in a text 
+document. You need a variable to hold a list of commonly misspelled words.
+Write a concise but descriptive name for this variable.'''
+
+'''3. Suppose you're writing a program for NASA and you need a variable 
+to store the fraction of a rocket's weight that must be fuel.
+Write a concise but descriptive name for this variable.'''
+
+'''4. Suppose you're writing a computer game. You need a variable 
+to store the delay between shots from the player's weapon.
+Write a concise but descriptive name for this variable.'''
+
+'''5. Suppose you're writing an address book app. You need a variable 
+to store a list of the user’s most frequent contacts.
+Write a concise but descriptive name for this variable.'''
+
+#6. Multiple choice: number_of_cards
+A. number of cards is most likely an integer variable.
+B. number of cards is most likely a function.
+C. number of cards is most likely an boolean variable.
+D. number of cards is most likely an object.
+
+'''7. Match the variable names on the left with the program in which 
+you might find such a variable on the right.'''
+W. contacts		A. Rocket Launch Simulator
+X. score		B. Video Chat App
+Y. connection	C. Video Game
+Z. velocity		D. Texting and Email Application
+
+'''8. The following code is broken. How do I need to write it to assign 
+the value of 10 to the variable width?'''
+10 = width
+
+'''You can only do two things with a variable, ask for the value 
+or set the value.
+
+If a variable shows up on the left side of an equals sign, then a value
+is being put into the variable.
+If a variable shows up ANYWHERE ELSE then the code is asking for the value 
+of the variable.
+
+For example:'''
+#Put the value of 1 into x
+x = 1
+#Put the value of x into y
+y = x
+#Replace the value of x with a new value
+x = 99
+#y has not changed. It still has its old value
+print(y)
+
+#9. What does the previous program print?
+
+#10. On line 3, a is set equal to the value of b. What is the value of a after line 3?
+a = 8
+b = 4
+a = b+1  #What is the value of a now?
+b = a
+print(a)
+print(b)
+
+#11. Write a line of code that increases the value of x by 10
+#12. Write a line of code that sets the value of x to 9283
+#The two lines of code in 11 and 12 should be different.
+x = 9273
+
+#Variables have to be assigned a value before they can be used in the program.
+#13. Which of the following lines of code will throw an error? List all correct answers.
+A. count = 7
+B. count = total - 4
+C. count values + 1
+D. count
+
+
+
+TODO LEFT OFF HERE
+Put acting out program right after this.
+Check for quizzes related to this stuff in the other folder.
+
+
+
+
+
+
+
+#14. Which of the following lines of code will throw an error? List all correct answers.
+A.  c = a + b
+B.  c = a +
+C.   = c
+
+#15. Which of the following lines of code will throw an error? List all correct answers.
+A.  time = 12
+B.  12 = time
+C.  time == 12
+D.  time  12
+
+#16. What error does the following program give?
+x = x + 7
+
+#17. What error does the following program give?
+print(x)
+x = 0
+
+#18. How can you fix this program?
+print(x)
+x = 0
+
+#19. I want to print out "Hello World". What have I done wrong?
+a = "Hello World"
+print("a")
+
+#20. What does the program print? If it doesn't print, give the name of the error.
+a = "hello"
+b = "python"
+print(a)
+print(b)
+
+#21. What does the program print? If it doesn't print, give the name of the error.
+a = "hello"
+b = "python"
+print(b)
+print(a)
+
+#22. What does the program print? If it doesn't print, give the name of the error.
+b = "python"
+a = "hello"
+print(a)
+print(b)
+
+#23. What does the program print? If it doesn't print, give the name of the error.
+b = "python"
+a = "hello"
+print(a+b)
+
+#24. What does the program print? If it doesn't print, give the name of the error.
+a = "hello"
+print(a+b)
+
+#25. What does the program print? If it doesn't print, give the name of the error.
+print(a)
+b = "python"
+a = "hello"
+
+#26. What does the program print? If it doesn't print, give the name of the error.
+x = 2
+y = 3
+x = x+4
+y = x+8
+x = 1
+print(x)
+print(y)
+
+#27. What does the program print? If it doesn't print, give the name of the error.
+x = 1
+x = 2
+y = 3
+x = x+4
+y = x+8
+print(x)
+print(y)
+
+#28. What does the program print? If it doesn't print, give the name of the error.
+y = x+8
+x = 1
+y = 3
+x = x+4
+print(x)
+print(y)
+
+#29. What does the program print? If it doesn't print, give the name of the error.
+x = 1
+y = x+8
+x = x+4
+y = 3
+print(x)
+print(y)
+
+#30. What does the program print? If it doesn't print, give the name of the error.
+x = 1
+y = x+8
+print(y)
+y = 3
+print(x)
+x = x+4

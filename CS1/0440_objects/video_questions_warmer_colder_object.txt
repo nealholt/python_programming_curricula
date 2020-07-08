@@ -1,0 +1,15 @@
+
+For 25 points, watch the video "Warmer Colder Object" found here:
+https://youtu.be/pb4TM7Lrqsw
+and answer the following questions.
+
+
+1. How do you refer to variables from within an object in Python?
+
+2. Functions that belong to an object have to have what keyword as the first word inside the parentheses of the function definition?
+
+3. How do I access the x or y value that belongs to a coordinate object?
+
+4. When the program is tested the second time (with the random goal coordinate), where is the goal coordinate located?
+
+5. What are objects "all about" according to the narrator?

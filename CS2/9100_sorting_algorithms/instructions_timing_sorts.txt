@@ -1,0 +1,10 @@
+
+TIMING SORTS
+For 100 points, use the example code found here
+https://drive.google.com/open?id=1WFPv6vM_7eQIyjgUfj5Z5lAHj4cdKIUf
+and here
+https://drive.google.com/open?id=1Znf5cIEYGNXlHn2F3zZgnaI48Z7TI6Eh
+to time a sorting algorithm. You can write the code for the sort yourself or find it online. Fill in all the code and timing information found in this document
+https://drive.google.com/open?id=1v9bggK7SiJCl0dAhWNuT6DsUVOBnWYg8
+and email it to Holt for credit.
+

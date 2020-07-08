@@ -1,0 +1,135 @@
+
+Starting map solution:
+
+		String heading = getBoatHeading();
+		while(true)
+		{
+			//Turn east and head toward destination
+			while(!heading.equals("east"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalX()>getBoatX() && isClearAhead())
+			{
+				move();
+			}
+			//Turn north and head toward destination
+			while(!heading.equals("north"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalY()<getBoatY() && isClearAhead())
+			{
+				move();
+			}
+		}
+
+Starting map solution with functions:
+
+		String heading = getBoatHeading();
+		while(true)
+		{
+			goEast();
+			goNorth();
+		}
+
+	private void goNorth()
+	{
+		//Turn north and head toward destination
+		while(!heading.equals("north"))
+		{
+			turnClockwise();
+			heading = getBoatHeading();
+		}
+		while(getGoalY()<getBoatY() && isClearAhead())
+		{
+			move();
+		}
+	}
+	
+	private void goEast()
+	{
+		//Turn east and head toward destination
+		while(!heading.equals("east"))
+		{
+			turnClockwise();
+			heading = getBoatHeading();
+		}
+		while(getGoalX()>getBoatX() && isClearAhead())
+		{
+			move();
+		}
+	}
+
+Challenge map 0 through 3 solution, but there exist much better solutions:
+
+		String heading = getBoatHeading();
+		while(true)
+		{
+			//Turn east and head toward destination
+			while(!heading.equals("east"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalX()>getBoatX() && isClearAhead())
+			{
+				move();
+			}
+			//Turn west and head toward destination
+			while(!heading.equals("west"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalX()<getBoatX() && isClearAhead())
+			{
+				move();
+			}
+			//Turn south and head toward destination
+			while(!heading.equals("south"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalY()>getBoatY() && isClearAhead())
+			{
+				move();
+			}
+			//Turn north and head toward destination
+			while(!heading.equals("north"))
+			{
+				turnClockwise();
+				heading = getBoatHeading();
+			}
+			while(getGoalY()<getBoatY() && isClearAhead())
+			{
+				move();
+			}
+			//I'm headed north check if the way is blocked
+			//or if I'm even with goal.
+			if(!isClearAhead() || getGoalY()==getBoatY())
+			{
+				//Follow along the edge of the obstacle 
+				//until my y value is less then what it was 
+				//when I started.
+				int distance = Math.abs(getBoatY()-getGoalY()) + Math.abs(getBoatX()-getGoalX());
+				while(distance <= Math.abs(getBoatY()-getGoalY()) + Math.abs(getBoatX()-getGoalX()))
+				{
+					if(isClearAhead())
+					{
+						move();
+					}
+					else if(isClearRight())
+					{
+						turnClockwise();
+					}
+					else
+					{
+						turnCounterClockwise();
+					}
+				}
+			}
+		}

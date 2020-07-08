@@ -1,0 +1,8 @@
+
+For 70 points, install the numpy python library and use it to multiply matrices.
+
+Compare the time it takes for numpy to multiply matrices versus yours or one of your classmates' matrix multiplication functions.
+
+Multiply two 20x20 matrices, then 40x40 matrices using.
+
+Turn in your numpy code and speed tests.

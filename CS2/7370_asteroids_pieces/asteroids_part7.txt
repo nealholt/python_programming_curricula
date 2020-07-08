@@ -1,0 +1,61 @@
+
+
+ASTEROIDS: Miscellaneous Extras
+
+There are lots of additional features that can be added to asteroids.
+
+For 35 points, add code that makes some smaller asteroids spawning when
+a large asteroid is destroyed.
+
+
+For 15 points make the bullets wrap around the screen in the same way the asteroids do.
+
+
+For 100 points, implement an enemy flying saucer that ocassionally flies 
+across the screen and shoots at the player.
+
+
+For 70 points add in a life system.
+
+
+For 70 points add in a point system and levels that increase in 
+difficulty.
+
+
+For 70 points add a randomly appearing powerup that upgrades the player's
+shooting to a spread shot or triple shot or an extra life.
+
+
+For 100 points "animate" the destruction of asteroids (or the player's 
+ship) using something like the Line class, which I provide below.
+The idea is that when an asteroid is shot you create a line that exactly
+matches all the current lines of the asteroid's polygon. Send each of 
+the lines flying and spinning off in different directions then delete
+the original asteroid. It will look like the asteroid broke into pieces.
+class Line(Polygon):
+    def __init__(self, x1, y1, x2, y2, dx, dy):
+        #Get the midpoint of the line. We do this so we can draw the line
+        #based on an angle, which makes it possible to more easily rotate the line.
+        super().__init__((x2+x1)/2, (y2+y1)/2, dx, dy, 0)
+        #Get the length of the line
+        self.length = math.sqrt((x1-x2)**2+(y1-y2)**2)
+        #Get the angle of the line
+        self.angle = math.atan2(y2-y1, x2-x1)
+        #Randomly rotate +-math.pi/256 per frame
+        self.rotation_rate = random.random()*math.pi/128
+        self.rotation_rate = self.rotation_rate-math.pi/256
+
+    def move(self):
+        super().move()
+        self.angle = self.angle + self.rotation_rate
+
+    def draw(self, screen):
+        #Calculate the coordinates of both ends of the line
+        coord1 = [self.x+math.cos(self.angle)*self.length/2,
+                  self.y+math.sin(self.angle)*self.length/2]
+        coord2 = [self.x-math.cos(self.angle)*self.length/2,
+                  self.y-math.sin(self.angle)*self.length/2]
+        pygame.draw.line(screen, white, coord1, coord2, 3)
+
+
+Add in your own modifications for some number of points to be determined by Holt.

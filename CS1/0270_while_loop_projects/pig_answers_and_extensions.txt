@@ -1,0 +1,46 @@
+
+http://nifty.stanford.edu/2010/neller-pig/
+Game of pig
+
+The rules are simple: Two players race to reach 100 points. Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls (i.e. the turn total). At any time during a player's turn, the player is faced with two decisions:
+
+Choice is roll or hold:
+
+roll - If the player rolls a
+		1: the player scores nothing and it becomes the opponent's turn.
+	2 - 6: the number is added to the player's turn total and the player's turn continues.
+hold - The turn total is added to the player's score and it becomes the opponent's turn.
+
+
+
+
+PSEUDOCODE:
+Game of Pig
+Set up variables for 
+	both players' total scores
+	dice roll
+	points accumulated so far this turn
+	whether or not the current turn is over
+	whose turn it is currently: player 1 or 2
+while neither player has won
+	while the current turn is not over
+		Print the player's total score and points so far this turn
+		ask the player to roll or hold
+		if hold
+			if player 1: update player 1's score
+			else: update player 2's score
+			set current turn ended to true
+		else //roll
+			get a new dice roll
+			if the roll is a 1:
+				set current turn ended to true
+			else //did not roll a 1
+				add dice roll points to points accumulated so far this turn
+	//The current turn is over
+	Switch whose turn it is
+	Set points accumulated this turn to zero.
+//The game is over
+if player 1's score is higher than player 2's score
+	print that player 1 won
+else
+	print that player 2 won

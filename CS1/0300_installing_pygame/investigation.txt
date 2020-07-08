@@ -1,0 +1,27 @@
+
+#For 5 points, email me your answer to the single question below 
+#with the subject line: CS1 Pygame
+
+#Read the following code:
+import sys, pygame, sprite, random, bird, wall
+
+pygame.init()
+
+#Create some constant values to make the code more readable.
+width = 1000
+height = 600
+white = (255, 255, 255) #r g b
+
+#Create the pygame drawing surface and clock
+screen = pygame.display.set_mode((width, height))
+clock = pygame.time.Clock()
+
+'''1. From the above code, which are NOT variables. List ALL correct
+answers:
+A. sys
+B. init
+C. width
+D. white
+E. screen
+F. clock
+'''

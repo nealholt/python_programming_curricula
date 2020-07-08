@@ -1,0 +1,114 @@
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+
+=== KAHOOT
+
+Suppose you're writing a program to manage a webpage and you want to count the number of people who visit the webpage. What should the type of the variable be?
+integer
+float
+string
+boolean
+
+Suppose you're writing a program to correct typos in a text document. You need a variable to hold a list of commonly misspelled words. What type of values will the list hold?
+integers
+floats
+strings
+booleans
+
+Suppose you're writing a program for NASA and you need a variable to store the fraction of a rocket's weight that must be fuel. This variable might need to store fractions such as 1/5 or 3/4 as a decimal.
+What should the type of this variable be?
+integer
+float
+string
+boolean
+
+Suppose you're writing a trivia game program about celebrities. You need to store the answer to each question in a separate variable. Every answer is a name such as: "Wayne Brady", "Colin Mochrey", or "Ryan Stiles". What should the type of this variable be?
+integer
+float
+string
+boolean
+
+Suppose you're writing an address book app. You need a variable to store the names of the user's most frequent contacts. What should the type of the variable be? 
+integer
+float
+string
+boolean
+
+Suppose you're writing a calendar program. You need three variables: one to store the day, one to store the month, and one to store the year. What should the types of these variables be?
+integer
+float
+string
+boolean
+
+
+What does this program print?
+print(int("4")+2)
+2
+4
+6
+Error
+
+
+What does this program print?
+print(int("2.7"))
+2
+2.7
+3
+Error
+
+
+What does this program print?
+print(float("2.7"))
+2
+2.7
+3
+Error
+
+
+What does this program print?
+print(float("5.8")+3)
+3
+5
+8
+8.8
+
+
+What does this program print?
+x = input("Give me a number")
+x = int(x) + 4
+print(x)
+
+3
+4
+5
+We don't know.
+
+
+
+
+The following code is out of order. Put it in the correct order:
+1 age = int(response)
+2 response = input("How old are you?")
+3 print('Next year you will be '+str(age)+' years old.')
+4 age = age+1
+2 1 4 3 <--Correct
+3 4 1 2
+2 3 4 1
+1 4 3 2
+
+The following code is out of order. Put it in the correct order:
+1 print(grade)
+2 grade = input("What was your score?")
+3 grade = float(grade)
+4 grade = grade+5
+2 3 4 1 <--Correct
+3 1 4 2
+3 4 1 2
+1 4 3 2
+
+
+=== QUIZ
+
+Just borrow from the above.

@@ -1,0 +1,10 @@
+ANSWER:
+dot_on = True
+to_print = '.'
+while(True):
+	if dot_on:
+		to_print = '.'
+	else:
+		to_print = '-'
+	dot_on = not dot_on
+	print(to_print)

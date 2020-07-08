@@ -1,0 +1,34 @@
+
+For up to 240 points, create the Flood-It / Ink Spill Game
+
+Example: https://unixpapa.com/floodit/
+
+
+Step 1 (for 40 points):
+Create a new class called ColorRect that has two attributes, 
+a Pygame Rect and a color. ColorRect should also have a draw
+function that draws it on the screen when called. Display at 
+least one ColorRect on the screen.
+
+
+Step 2 (for 40 points):
+Create a 2-dimensional list of ColorRects and display them as a 
+grid on the screen using Pygame.
+
+
+Step 3 (for 40 points):
+Modify your code such that clicking on any rectangle in the grid 
+changes the color of the upper left rectangle to the color of 
+the rectangle that was clicked.
+
+
+Step 4 (for 100 points):
+Write a function that takes the grid of ColorRects and a color.
+The function should flood (aka spill) the color outward from the 
+upper left corner. You will need to remember the original color
+of the upper left corner.
+
+Refer to the example https://unixpapa.com/floodit/ for what is 
+meant by "flood" or "spill".
+
+20 bonus points if this function is RECURSIVE.

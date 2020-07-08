@@ -1,0 +1,35 @@
+
+'''
+
+UnPlugged Activity
+
+For 50 points each, find a partner and get out one of the RoboRally board
+games. Examine the boards and skim through the instructions (though your
+instructions are different).
+
+Your goal is to write instructions, on paper, to guide a robot to collect
+three flags.
+
+For example, your instructions might look like:
+
+	if forward gets me closer to the next flag:
+		move forward
+	else:
+		turn right
+
+There are 3 catches:
+1. Your robot must avoid the pits, cannot cross walls, and after each move
+your robot will be conveyed if it lands on a conveyor.
+2. The other person will obey your robot instructions literally. You
+don't steer your own robot.
+3. You and your partner must write robot instructions separately.
+
+You may revise your robot instructions.
+
+Once you are done you must turn in
+1. The instructions you wrote and the name of your partner.
+2. Answers to the following questions:
+-What went right on the first try?
+-What went wrong on the first try?
+-How did you fix what went wrong?
+'''

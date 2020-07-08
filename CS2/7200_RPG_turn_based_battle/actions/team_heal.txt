@@ -1,0 +1,6 @@
+name:Heal
+target all:True
+health steal:0
+cooldown:2
+damage modifier:-30
+target allies:True

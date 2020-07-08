@@ -1,0 +1,31 @@
+
+
+
+If you mis-type the file name in this line of code, what error do you get?
+image = pygame.image.load('images/left000.png')
+ANSWER: pygame.error: Couldn't open
+
+To change the color of the background, which line of code should I change?
+surface = pygame.display.set_mode((400,400))
+screen.fill((0,0,0))
+screen.blit(image, (0,0))
+time.sleep(2)
+ANSWER: screen.fill((0,0,0))
+
+To draw the image further to the right I should...
+screen.blit(image, (a,b))
+Make the variable "a" larger
+Make the variable "a" smaller or more negative
+Make the variable "b" larger
+Make the variable "b" smaller or more negative
+ANSWER: Make the variable "a" larger
+
+To draw the image further down on the screen I should...
+screen.blit(image, (a,b))
+Make the variable "a" larger
+Make the variable "a" smaller or more negative
+Make the variable "b" larger
+Make the variable "b" smaller or more negative
+ANSWER: Make the variable "b" larger
+
+

@@ -1,0 +1,38 @@
+
+'''
+For 70 points, Write a program that makes your turtle draw a 
+gradient across the screen. A gradient is a gradually changing
+color.
+
+Here is an example of how to gradually change a turtle's color
+import turtle
+t = turtle.Turtle()
+for i in range(100):
+	t.color(0,0,i/100)
+
+Do this project in steps.
+
+Step 1 SETUP: setup consists of importing turtle, creating your 
+turtle, lifting the pen up, positioning it on the screen where 
+you want it to start, setting the pen size, then putting the pen 
+down.
+
+Step 2 WALK: telling your turtle how to walk all over screen is 
+best written using a loop. 
+
+There are many ways to walk over the whole screen. You could walk 
+in a sawtooth pattern, up down over repeat. You could walk along 
+a diagonal, shading the gradient at an angle as you walk from one 
+corner to the opposite corner. You could even look at the circle 
+drawing code from your face program and fill the screen with 
+concentric circles.
+
+Consider drawing on paper the path you want your turtle to walk 
+then figure out what goto (or forward and setheading) commands will 
+get you there. At what point does your drawing on paper repeat? 
+That's what needs to go inside your loop. What values (x or y) are
+increasing as your drawing progresses? The answer is a hint as to how 
+to use the loop variable.
+
+Step 3 COLORING: worry about changing the turtle's color last.
+'''

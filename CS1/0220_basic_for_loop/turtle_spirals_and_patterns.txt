@@ -1,0 +1,20 @@
+
+'''
+For 70 points complete the following assignment.
+
+For loops are a great way to repeat a piece of code a
+certain number of times. For example, this program prints
+the numbers 0 through 9:'''
+for i in range(10):
+	print(i)
+'''This program prints "Hi" 30 times:'''
+for i in range(30):
+	print("Hi")
+'''
+Read this webpage then write a turtle program that draws a
+pattern of your own design (you can't just copy the website)
+using for loops:
+
+https://michael0x2a.com/blog/turtle-examples
+
+'''

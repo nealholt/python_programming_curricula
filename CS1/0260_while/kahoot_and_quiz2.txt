@@ -1,0 +1,175 @@
+
+TITLE
+Python: While and Review 2
+
+(You should randomize the order of questions and answers)
+
+
+What could the user type to end this program?
+response = input("stay or leave")
+while response == "stay":
+	print('Here you are')
+	response = input("stay or leave")
+stay
+leave
+frog
+horn
+
+
+What could the user type to end this program?
+response = input("stay or leave")
+while response != "leave":
+	print('Here you are')
+	response = input("stay or leave")
+stay
+leave
+frog
+horn
+
+
+What is a while loop?
+Code that repeats while a condition is true
+Code that repeats while counting up to a number
+Code that repeats for each item in a list
+A travesty
+
+
+
+What does this code do?
+number = 1
+while number < 5:
+    print(number)
+    number = number + 1
+#Prints 1 through 5
+#Prints 1 through 4
+#Adds up 1 through 5
+#Adds up 1 through 4
+
+
+How many times can you get the wrong answer before the program ends?
+answer = input("What is the capital of France?")
+lives = 9
+while answer != "paris" and lives > 0:
+    answer = input("What is the capital of France?")
+    lives = lives - 2
+ANSWER: 6
+
+
+True or False: These two loops do the exact same thing.
+#LOOP A
+x=50
+while x<100:
+	print(x)
+	x = x+1
+#LOOP B
+for i in range(50,100,5):
+	print(i)
+
+
+True or False: These two loops do the exact same thing.
+#LOOP A
+x=7
+while x<13:
+	print(x)
+	x = x+2
+#LOOP B
+for i in range(7,14,2):
+	print(i)
+
+
+True or False: These two loops do the exact same thing.
+#LOOP A
+x=60
+while x>0:
+	print(x)
+	x = x-1
+#LOOP B
+for i in range(60,0,-1):
+	print(i)
+
+
+I told my dog. "Go outside, while you're there do your business. Come back in." Dog never came back! I should have said
+A Go outside, do your business, then come inside.
+B Come inside. While outside, do your business.
+C While inside, do your business. Go outside.
+D Go outside. While outside, do your business.
+
+
+True or False: You get an error when you write a loop that runs forever.
+FALSE
+
+True or False: A function is called with its name followed by parentheses.
+
+Which of the following is NOT a function call?
+exit()
+int(response)
+turtle.goto(8,40)
+if (x<7):
+
+Functions are defined by 
+def then a name then parentheses then :
+a name then parentheses
+a name then parentheses then a colon
+def then function
+
+I want to choose one of three options. One option WILL be chosen. I should use...
+if and else
+if and elif and else
+if and elif and elif
+if and if and if
+
+I want to choose one of three options or none of the options. I should use...
+if and else
+if and elif and else
+if and elif and elif
+if and if and if
+
+I want to choose either of two options or both or none. I should use...
+if and else
+if and elif
+if and if
+
+Fill in the blank so the program repeats until the user has set the desired temperature.
+temperature = 50
+comfort = input("Is temp ok?")
+while comfort == "no":
+	temperature = temperature+1
+	comfort = ______________
+input("Is temp ok?") answer
+comfort+1
+int(comfort)
+"no"
+
+What does this code print?
+start = "b"
+middle = ""
+end = "s"
+while len(start+middle+end)<4:
+	middle = middle + "e"
+print(start+middle+end)
+bs
+bess
+bees
+start middle end
+
+What does this code print? If at the start i=2
+while i!=1: #while i is not 1
+	print(i)
+	if i%2==0: #if i is even
+		i = i/2
+	else:
+		i = 3*i + 1
+Answer: 2
+2  1
+7  22  11  34  16  8  4  2
+7  22  11  34  16  8  4  2  1
+
+What does this code print? If at the start i=5
+while i!=1: #while i is not 1
+	print(i)
+	if i%2==0: #if i is even
+		i = i/2
+	else: #else i is odd
+		i = 3*i + 1
+Answer: 5 16 8 4 2
+

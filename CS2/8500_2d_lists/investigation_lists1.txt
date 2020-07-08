@@ -1,0 +1,2 @@
+
+For 10 points, run the lists_2d.py program and practice until you can reliably determine the row and column of the randomly placed red square. When you are ready, show Mr. H and he will give you the points.

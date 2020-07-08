@@ -1,0 +1,75 @@
+
+
+
+
+Discuss the error messages we have found so far and how to read and interpret them.
+
+Then talk briefly about strings. Printing 5 versus "5". Printing calendar versus "calendar"
+
+
+
+Discuss using sets of print functions. Broken up by calls to sleep.
+
+
+https://learnpython.trinket.io/learn-python-part-3-words-and-letters#/strings/strings
+
+Words and letters:
+
+Strings: Computer scientists have a special word for text: strings. It's an old term – dating back to printing presses in the late 1890s! – that came about because all words are made up of letters that have been "strung together."
+
+Strings are surrounded by single or double quotes. If you don't use them or you forget one of them then you get a ParseError. But specifically you may get a name error, for example if you just type Jack and hit enter. Or you might get a Syntax error if you forget one quotation mark.
+
+My challenge: how to make a string with the words Jack's Hippocampus using the apostrophe. What about a string with air quotes such as 'a sophisticated heat beam, which we called a "laser"'?
+
+
+
+Import lets you...
+Use other people’s code!
+Use code from a different python file.
+
+
+In python . (period) means possessive, like an apostrophe s.
+
+English:
+	holt's classroom
+Python:
+	holt.classroom
+
+Dot '.' means belongs to
+
+Q Translate the following into English:
+neal.walk()
+A Imperative: Walk, Neal.
+
+Q List two functions you know:
+A print and sleep
+
+
+random.randint()
+Random's randint function
+
+turtle.getX()
+turtle's getX function
+
+rect.width
+rect's width attribute
+
+
+In python parentheses at the end of a word means do that word, take an action.
+
+Go to the store, Neal.
+neal.goToStore()
+or perhaps neal.goTo(store)
+
+
+
+In the DnD Text Adventure
+you.name - this refers to your name.
+you.castSpell(target) - this commands you to cast a spell at the target.
+
+
+
+circle.radius - this refers to the value of the circle's radius.
+
+circle.getArea() - this tells the circle to calculate and return its area.
+

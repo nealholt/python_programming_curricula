@@ -1,0 +1,22 @@
+'''
+
+For 50 points, write a timed trivia game. 
+
+Use if statements to check if the user got the question right.
+
+Give bonus points if the user answers within a certain time limit.
+The user must answer BOTH correctly and quickly to get the maximum points.
+
+Print the number of points earned at the end of the trivia game.
+Ask at least 3 trivia questions.
+
+Here is example code showing how to figure out the elapsed time:
+'''
+import time
+
+print("What is the capital of Australia?")
+start = time.time()
+answer = input()
+end = time.time()
+print("The correct answer is Canberra")
+print("You took "+str(end-start)+" seconds to answer.")

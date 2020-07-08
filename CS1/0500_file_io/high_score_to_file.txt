@@ -1,0 +1,4 @@
+
+For 70 points, use Python's file reading and writing ability to add 
+a high score system to one of your previous games such as Flappy Bird.
+The high score must persist between games even if the program is closed.

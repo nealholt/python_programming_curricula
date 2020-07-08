@@ -1,0 +1,48 @@
+
+
+#The following rectangle appears on the screen as follows. Label A, B, C, and D as height, width, x coordinate, and y coordinate.
+A = 10
+B = 50
+C = 20
+D = 400
+rectangle = pygame.Rect(A,B,C,D)
+[TODO Draw the rectangle and screen on paper.]
+
+
+
+
+#Which of the following are perfectly acceptable arrangements of the code in the main loop of a computer game? Circle ALL that are correct.
+
+A.
+surface.fill(black) #erase everything on the screen to black
+pygame.display.flip()
+clock.tick(30)
+handleEvents()
+pygame.draw.rect(surface, yellow, rectangle)
+ANSWER: Does not work. screen is filled after the rectangle is drawn
+
+B.
+handleEvents()
+clock.tick(30)
+surface.fill(black) #erase everything on the screen to black
+pygame.draw.rect(surface, yellow, rectangle)
+pygame.display.flip()
+ANSWER: Does work.
+
+C.
+clock.tick(30)
+surface.fill(black) #erase everything on the screen to black
+handleEvents()
+pygame.draw.rect(surface, yellow, rectangle)
+pygame.display.flip()
+ANSWER: Does work.
+
+D.
+pygame.draw.rect(surface, yellow, rectangle)
+handleEvents()
+clock.tick(30)
+surface.fill(black) #erase everything on the screen to black
+pygame.display.flip()
+ANSWER: Does not work. screen is filled after the rectangle is drawn
+
+

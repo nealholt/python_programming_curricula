@@ -1,0 +1,27 @@
+'''
+For 140 points, complete the following project.
+
+Write a function that takes two arguments, a list of data and an alphabet, and returns the entropy of the data.
+
+Then test your function by comparing the entropy of the original Gettysburg address with the "improved" version below.
+
+The "alphabet" is a list of all possible symbols used. Your list of all 
+possible symbols can be seen by running this short little program:'''
+import string
+print(string.printables)
+
+'''
+Your "list of data" is the whole text below in this case.
+Entropy is calculated by taking the probability of each symbol in your data
+and multiplying it by the log base 2 of that probability and then adding up
+the results for every symbol.
+
+The probability is literally just 
+(count of the symbol in the data) / (total symbols in the data)
+'''
+
+gettysburg_original = 'four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal. now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. we are met on a great battle-field of that war. we have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. it is altogether fitting and proper that we should do this. but, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. the brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. the world will little note, nor long remember what we say here, but it can never forget what they did here. it is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. it is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under god, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.'
+
+gettysburg_improved = 'for skor and seven iers ago ower faxers brot forx on xis kontinent, a new naiyun, konsived in liberti, and dedicaited to the proposiyun xat all men ar kreeaited ekwal. now we ar engaijed in a grait sivil war, testin wexer xat naiyun, or ani naiyun so konseeved and so dedikaited, kan lon ender. we ar met on a grait batl-feeld of xat war. we hav kom to dedikait a poryun of xat feeld, as ai final restin plais for xos hoo heer gaiv xer lievs xat xat nayun miet liv. it is altugexer fiting and proper xat we yold du xis. but, in a larjer sens, we kan not dedikait -- we kan not konsekrait -- we kan not halow -- xis grownd. xi braiv men, living and ded, hu struhgled heer, hav konsekraited it, far abov ower por power to ad or detrakt. xi world wil litl not, nor lon remember wat we sai heer, but it kan never forget wat xai did heer. it is for us xi living, raxer, to be dedikated heer to xi unfiniyed work wic xai hu fot heer hav xus far so noblee advansed. it is raxer for us tu bee heer dedikated to the grait task remaining befor us -- xat from xees onored ded wee taik inkreesed devoyun tu xat caus for wic xai gaiv xi last ful meser of devoyun -- xat wee heer hylee resolv xat xees ded yal not hav died in vain -- xat xis nayun, under god, yal hav a nu berx of freedom -- and xat government of xi peepl, bai xi peepl, for xi peepl, yal not periy from xi erx.'
+
+#What other things might you compare?

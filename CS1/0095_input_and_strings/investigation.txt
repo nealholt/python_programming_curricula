@@ -1,0 +1,79 @@
+
+For 15 points, answer the following questions.
+
+
+
+'''1. Programs that interact with the user are more interesting than those
+that don't. Describe in one sentence what the following code does.'''
+input("What's your name?")
+
+'''2. This is not useful unless we can get the response the user writes.
+Run this program and enter different responses, then press enter.
+What happens?'''
+response = input("What is your name?")
+print("Hello, "+response)
+
+'''3. Addition of numbers works like in math class. Addition of 
+strings (aka text) is different. What happens when you add strings?'''
+print(7+3)
+print("Hello, "+" Bartholomew")
+
+#4. Why doesn't this code print 10?
+print("7"+"3")
+
+'''5. Python knows how to add numbers and it knows how to add strings,
+but what happens when you try to add strings to numbers? Write some code
+to try it out.'''
+
+'''6. Anything you type in to input is saved as a string (in other words, text).
+What happens when you try the following?'''
+x = input("What's your favorite number?")
+y = x+1
+print("I prefer "+y)
+
+'''7. Here are three different fixes for the previous program.
+Which do you prefer and why?'''
+
+#OPTION A:
+x = int(input("What's your favorite number?"))
+y = str(x+1)
+print("I prefer "+y)
+
+#OPTION B:
+x = input("What's your favorite number?")
+y = int(x)+1
+print("I prefer "+str(y))
+
+#OPTION C:
+x = input("What's your favorite number?")
+x = int(x)
+y = x+1
+y = str(y)
+print("I prefer "+y)
+
+
+#8. Why doesn't this fix the problem?
+x = int(input("What's your favorite number?"))
+y = x+1
+print("I prefer "+y)
+
+#9. This program is broken in multiple ways. Fix it.
+name = input("What is your name?")
+age = input("What is your age?")
+print("name is age years old")
+
+'''10. I want to ask the user for their favorite number and then add 3
+to it. The following program does not do what I want. Fix it.'''
+x = input("What is your favorite number?")
+x = int(x)
+x + 3
+print(x)
+
+#11. Fix this program:
+input = ("is it raining?")
+print(rain_result)
+
+#12. Fix this program:
+weather = input("is it sunny?")
+print(input)
+

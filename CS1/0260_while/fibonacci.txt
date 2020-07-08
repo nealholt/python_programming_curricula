@@ -1,0 +1,8 @@
+
+'''For 17 points, write a program that prints the first 10 fibonacci
+numbers using a while loop.
+
+Reminder: the fibonacci numbers start off with one, one, then you 
+calculate each next number by adding up the previous two numbers.
+1,1,2,3,5,8,13, and so on.
+'''

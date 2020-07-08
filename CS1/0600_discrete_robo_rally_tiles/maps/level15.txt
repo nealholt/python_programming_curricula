@@ -1,0 +1,12 @@
+1wr ,empt,1wl ,hole,1wu ,1wu ,1wu ,1wl ,1wd ,1wd ,1wd ,1wd ,1wl ,empt
+1wd ,chek,1wl ,empt,1wr ,1wl ,empt,1wl ,1wd ,empt,1wd ,1wd ,1wl ,empt
+1wr ,1wr ,1wr ,1wu ,1wu ,1wu ,1wl ,1wd ,1wd ,1wl ,1wl ,1wr ,empt,empt
+1wr ,1wr ,cv1d,cv1d,cv1d,1wl ,1wl ,1wl ,1wl ,1wl ,1wr ,empt,empt
+1wr ,1wr ,hole,hole,hole,1wd ,1wl ,1wl ,1wl ,empt,1wl ,1wr ,empt,empt
+1wr ,1wr ,1wu ,empt,1wd ,1wd ,1wd ,1wl ,1wl ,cv1d,1wl ,1wr ,empt,empt
+1wr ,1wr ,empt,1wr ,empt,empt,empt,empt,1wl ,hole,1wl ,1wr ,empt,empt
+1wr ,1wr ,empt,1wr ,1wd ,1wd ,1wd ,empt,1wl ,1wl ,1wl ,1wr ,empt,empt
+1wr ,1wr ,empt,empt,empt,empt,1wr ,1wd ,1wl ,1wu ,empt,1wr ,empt,empt
+1wr ,empt,1wu ,1wu ,1wu ,1wu ,1wr ,empt,1wu ,1wu ,hole,1wu ,empt,empt
+1wr ,empt,1wr ,1wu ,1wu ,1wu ,1wu ,empt,empt,empt,empt,empt,empt,empt
+ 

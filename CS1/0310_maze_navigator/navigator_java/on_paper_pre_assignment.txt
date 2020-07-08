@@ -1,0 +1,27 @@
+
+Before writing any code you will write instructions for how to navigate a two-dimensional grid starting at one point and ending at another.
+
+Your instructions should take the form of a control flow diagram.
+
+The boat that you will program has the following functions:
+		 * move() - moves the boat ahead 1 is the way is clear
+		 * isClearAhead() - returns true if there is no obstacle ahead
+		 * isClearLeft() - returns true if there is no obstacle left
+		 * isClearRight() - returns true if there is no obstacle right
+		 * turnClockwise() - turns the boat clockwise
+		 * turnCounterClockwise() - turns the boat counterclockwise
+		 * getGoalX() - returns the x coordinate of the goal
+		 * getGoalY() - returns the y coordinate of the goal
+		 * getBoatX() - returns the x coordinate of the boat
+		 * getBoatY() - returns the y coordinate of the boat
+		 * getBoatHeading() - returns the heading of the boat as a
+		 * 					String: north, south, east, or west.
+but you can write your own functions for your control flow instructions. For example, you could use the instructions: goNorth or goEast, even though you would need to use a few of the above functions to make goNorth work.
+
+You can also use conditions that are not directly given to you. For example, your instructions could include: "if the goal is east of my current location" even though the code to check that condition would require calls to getGoalX() and getBoatX.
+
+Your instructions should be perfectly clear such that I could read them, act like a robot, and get to the destination. Your instructions can be in plain English.
+
+Test out your instructions on the provided maps. Even better, exchange instructions with a classmate and make sure that you can get from the start to the destination following their instructions and they can do the same with yours. If not, fix your instructions and try again.
+
+All control flow diagrams must be clearly written, with neatly drawn arrows. I will return any un-tidy or unclear instructions and ask you to do them over.

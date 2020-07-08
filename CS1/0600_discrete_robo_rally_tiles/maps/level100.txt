@@ -1,0 +1,8 @@
+chek,empt,empt,empt,empt,empt,empt,empt
+chek,empt,hole,empt,empt,hole,empt,hole
+chek,empt,hole,empt,empt,empt,empt,empt
+chek,empt,empt,empt,hole,hole,empt,empt
+chek,empt,empt,empt,empt,empt,empt,empt
+chek,empt,empt,hole,hole,hole,empt,empt
+chek,empt,empt,hole,empt,empt,empt,empt
+chek,empt,empt,empt,empt,empt,empt,empt

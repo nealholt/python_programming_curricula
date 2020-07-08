@@ -1,0 +1,27 @@
+
+For 35 points, watched the video "While" found here:
+https://youtu.be/PxOx_8qsVbQ
+and answer the following questions.
+
+
+1. What's another name for a "for loop"?
+
+2. The syntax for a while loop is similar to what?
+
+3. What are the odds that the narrator gets two 7's in a row when he runs his second while loop program?
+
+4. Write a program that asks the user if there are more s's in the word accessory and keeps adding s until the user says there are not more. Your program should print out something like this:
+Are there more s's in accesory?yes
+Are there more s's in accessory?yes
+Are there more s's in accesssory?yes
+Are there more s's in accessssory?yes
+Are there more s's in accesssssory?no
+Thanks. How do you like my accesssssories?
+
+5. What is a danger that exists with while loops that does not exist with for loops?
+
+6. How does the narrator have to fix the problem that occurs when translating the for loop to a while loop?
+
+7. In what situations do you want to use a "for loop" instead of a "while loop"?
+
+8. In what sort of situation do you need a "while loop" instead of a "for loop"?

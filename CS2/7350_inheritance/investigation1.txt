@@ -1,0 +1,50 @@
+'''
+For 35 points read the following and answer the questions.
+
+A recurring goal of new programming techniques is to reuse code with 
+minimal additional text. (More text = more bugs.)
+
+Inheritance is a technique that lets different classes share the
+same code. For a game, for example, a programmer may create a Sprite
+class that has an image, a hitbox, and knows how to move and draw
+itself on the screen.
+
+Then sub-classes such as Player and Enemy will inherit from Sprite,
+borrowing all of Sprite's code, but adding specificity as needed.
+
+Check out the following example.'''
+
+class Person:
+    def __init__(self, first, last):
+        self.firstname = first
+        self.lastname = last
+
+    def Name(self):
+        return self.firstname + " " + self.lastname
+
+
+class Employee(Person):
+    def __init__(self, first, last, staffnum):
+        super().__init__(first, last)
+        self.staffnumber = staffnum
+
+    def GetEmployee(self):
+        return self.Name() + ", " +  self.staffnumber
+
+
+x = Person("Marge", "Simpson")
+y = Employee("Homer", "Simpson", "1007")
+
+print(x.Name())
+print(y.GetEmployee())
+
+'''
+1) What does the above program print?
+
+2) What is the parent class?
+
+3) What is the child class?
+
+4) Homer is both a Person and an Employee. Is Marge? Why or why not?
+
+'''

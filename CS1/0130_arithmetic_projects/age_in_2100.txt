@@ -1,0 +1,14 @@
+'''
+
+For 18 points, write a program asks the user for their age, 
+asks the user for the current year, then calculates and prints 
+out how old the user will be in the year 2100. 
+
+Interaction with your program might look like the following:
+>What is your age?
+14
+> What is the current year?
+2019
+>You will be 95 in the year 2100!
+
+'''

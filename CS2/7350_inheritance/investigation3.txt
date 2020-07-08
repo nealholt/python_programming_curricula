@@ -1,0 +1,49 @@
+'''
+For 35 points read the following and answer the questions.
+'''
+
+class Polygon:
+    def __init__(self, no_of_sides):
+        self.n = no_of_sides
+        self.sides = []
+        for i in range(no_of_sides):
+            self.sides.append(0)
+
+    def inputSides(self):
+        for i in range(self.n):
+            self.sides[i] = float(input("Enter side "+str(i+1)+" : "))
+
+    def displaySides(self):
+        for i in range(self.n):
+            print("Side "+str(i+1)+" is "+str(self.sides[i]))
+
+
+class Triangle(Polygon):
+    def __init__(self):
+        Polygon.__init__(self, 3)
+
+    def findArea(self):
+        a = self.sides[0]
+        b = self.sides[1]
+        c = self.sides[2]
+        # calculate the semi-perimeter
+        s = (a + b + c) / 2
+        area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+        print('The area of the triangle is '+str(area))
+
+
+t = Triangle()
+t.inputSides()
+t.displaySides()
+t.findArea()
+
+'''
+1) What does the above program print?
+
+
+
+2) What is the parent class?
+
+
+3) What is the child class?
+'''

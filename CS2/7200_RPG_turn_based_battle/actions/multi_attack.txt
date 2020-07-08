@@ -1,0 +1,6 @@
+name:Multi-Attack
+target all:True
+health steal:0
+cooldown:2
+damage modifier:80
+target allies:False

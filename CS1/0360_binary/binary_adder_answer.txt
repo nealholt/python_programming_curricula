@@ -1,0 +1,25 @@
+
+print(bin(13))
+
+def binaryAdder(bin1, bin2):
+    result = []
+    carry = 0
+    for i in reversed(range(len(bin1))):
+        temp = bin1[i]+bin2[i]+carry
+        if temp == 2:
+            result.insert(0,0)
+            carry = 1
+        elif temp == 3:
+            result.insert(0,1)
+            carry = 1
+        else:
+            result.insert(0,temp)
+            carry = 0
+    if carry == 1:
+        result.insert(0,1)
+    return result
+
+result = binaryAdder([1,0,0,1], [1,0,1,1])
+print(result)
+
+

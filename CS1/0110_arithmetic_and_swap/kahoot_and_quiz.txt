@@ -1,0 +1,89 @@
+
+Which of the following assigns the value 3 to the variable x?
+x += 3
+3 = x
+3 += x
+x = 3
+x == 3
+
+x = x + 7
+If x was 10 before this line of code, x is now 7.
+If x was 10 before this line of code, x is now 17.
+If x was 10 before this line of code, x is now 0.
+If x was 10 before this line of code, x is now 14.
+
+What does this code print?
+x = 3
+x = 5
+a = 8
+print(x)
+x
+3
+5
+8
+
+Write code to create a variable with the name pi and the value 3.14
+
+Write code to create a variable with the name likes_vanilla and the value True.
+
+Write code to create a variable with the name rank and the value 26.
+
+Write code to create a variable with the name street and the value Osuna.
+
+Suppose a variable named x exists. Write code to set x equal to 35.
+
+Suppose a variable named gpa exists. Write code to set gpa equal to 3.6.
+
+A variable has two parts, what are they?
+
+#Explain why this code prints Gump
+name = "Gump"
+print(name)
+#but this code prints name
+name = "Gump"
+print("name")
+
+
+
+What is the value of x, y, and z when the following program is finished?
+x = 91
+y = 42
+z = 0
+y = x
+x = z
+
+
+Write the line of code from the previous question's program where x's value became zero.
+
+
+
+What is the value of x, y, and z when the following program is finished?
+x = 91
+y = 42
+z = 0
+x = z
+z = y
+
+
+
+Write the line of code from the previous question's program where z's value became forty-two.
+
+
+Write the line of code from the previous question's program where x's value became zero.
+
+
+
+Programming languages will obey the standard order of mathematical operations: Operations in parentheses first, then exponents, then multiplication and division, then addition and subtraction.
+What does this code print?
+x = 1
+y = 5
+x = y*4 - x*6
+print(x)
+
+
+What does this code print? Be careful, PEMDAS is a lie. Multiplication and division have the same priority. This is true on your calculator too!
+x = 3
+y = 12
+y = x * 4 / y * 3 + 1
+print(y)
+

@@ -1,0 +1,250 @@
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+https://create.kahoot.it/details/python-quiz-2-variables/d6e8282b-6d0b-41b7-a34a-8368c337c55f
+
+
+=== KAHOOT
+
+What are the two parts of a variable?
+stem and leaf
+name and value
+player and coach
+function and object
+
+What do you get when you use a variable's name in a program?
+You get the variable's value
+You get an error
+You change the variable's value
+You get the variable's name
+
+Write code to create a variable with the name decimal and the value 5.6
+decimal = 5.6
+5.6 = decimal
+decimal = float 5.6
+decimal = int(5.6)
+
+Write code to create a variable with the name classroom and the value art.
+classroom = 'art'
+classroom = art
+art = classroom
+'art' = classroom
+
+Two integer variables, x and y, have already been created. Write code to set the value of y to be x plus 7.
+y = x + 7
+7 + x = y
+x + y = 7
+x = y + 7
+
+Write code to create a variable named spider_legs and put the value 8 in the variable.
+spider_legs = 8
+int(8) = spider_legs
+spider_legs = int 8
+spider_legs = str(8)
+
+Which of the following lines of code assigns a string value to a variable?
+name = "Marcus"
+name == "Marcus"
+name = 5
+name
+
+What does the following program print?
+food = "green eggs"
+food = "ham"
+print(food)
+
+green
+green eggs
+ham
+error
+
+How is the equals sign in math related to the equals sign in programming?
+In programming the order matters.
+In math the order does not matter.
+Both are true.
+Neither are true.
+
+How is the equals sign in math related to the equals sign in programming?
+In programming the equals sign changes the value of a variable.
+In math the equals sign changes the value of a variable.
+Both are true.
+Neither are true.
+
+number_of_cards is most likely...
+an integer variable.
+a function.
+a boolean variable.
+an object.
+
+Variable names should be short and descriptive.
+You're writing a program for NASA and you need a variable for the fraction of a rocket's weight that must be fuel. Which is the best variable name?
+percent_fuel
+x
+percentage_of_weight_that_must_be_fuel
+fuel
+
+Which line of Python code puts the value vermillion into fav_color?
+fav_color = 'vermillion'
+vermillion = fav_color
+fav_color == 'vermillion'
+fav_color :: 'vermillion'
+
+
+Does the program throw an error? If not, what does it print?
+a = "hello"
+b = "python"
+print(a)
+print("b")
+A. 
+hello
+world
+B. 
+hello
+python
+C. 
+a
+b
+D. 
+hello
+b
+
+Does the program throw an error? If not, what does it print?
+a = "hello"
+a = "python"
+print(a)
+print(b)
+A. 
+hello
+python
+B. 
+hello
+hello
+C. 
+a
+b
+D. 
+ERROR
+
+Does the program throw an error? If not, what does it print?
+a = "hello"
+b = "python"
+print(a)
+print(a)
+A. 
+hello
+python
+B. 
+hello
+hello
+C. 
+a
+b
+D. 
+ERROR
+
+Does the program throw an error? If not, what does it print?
+x = 2
+y = 3
+y = x+8
+x = 1
+x = x+4
+print(x)
+print(y)
+A.
+10
+3
+B. CORRECT
+5
+10
+C.
+5
+1
+D.
+2
+10
+
+
+=== QUIZ
+
+What are the two parts of a variable?
+stem and leaf
+name and value
+player and coach
+function and object
+
+
+Write code to create a variable named centipede_legs and put the value 100 in the variable.
+
+
+Write code to create a variable named lab and put the value "Buck's lab" in the variable.
+
+
+What does the following program print?
+day = "Wed"
+day = "Thur"
+print(day)
+
+Wed
+Thur
+day
+error
+
+
+How is the equals sign in math different from the equals sign in programming?
+A. In programming the order matters.
+B. In math the order does not matter.
+C. In programming the equals sign changes the value of a variable.
+D. In math the equals sign doesn't change anything. It's just a statement.
+I. A and B are true.
+II. A C and D are true.
+III. B and D are true.
+IV. All of the above are true.
+
+Variable names should be short and descriptive.
+Suppose you're writing a computer game. You need a variable 
+to store the height that the player can jump.
+Which of the following is the best variable name?
+h
+height
+jump_height
+height_that_the_player_can_jump
+
+Variables have to be assigned a value before they can be used in a program.
+Which of the following lines of code will throw an error? List all correct answers.
+A. count = 7
+B. count = total - 4
+C. count values + 1
+D. count
+A and D
+B and C
+B C and D <-- Correct
+All of the above
+
+
+Does the program throw an error? If not, what does it print?
+a = "hello"
+b = "python"
+print("a")
+print(b)
+
+
+Does the program throw an error? If not, what does it print?
+x = 1
+y = 1
+y = x+7
+x = x+y
+print(x)
+print(y)
+A.
+1
+1
+B.
+7
+2
+C. CORRECT
+8
+2
+D.
+8
+9

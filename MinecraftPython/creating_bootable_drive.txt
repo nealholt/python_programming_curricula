@@ -1,0 +1,10 @@
+
+Follow this tutorial to create a bootable Raspberry pi drive on a microSD card (I think you can also do it on a flash drive which is probably cheaper and easier).
+https://howtoraspberrypi.com/create-raspbian-sd-card-raspberry-pi-windows/
+SKIP down to "The files and programs needed to create the SD card"
+
+(Also, if you have it on a flash drive, can any PC boot from the flash drive and then simulate the raspberry pi minecraft?)
+
+You should not need to format the drive while following the tutorial though my PC asked me multiple times if I wanted to and then when I said yes it made the microSD card write only and I had to download this utility 
+https://www.sdcard.org/downloads/formatter/
+to re-re-format and remove the formatting before it would work.

@@ -1,0 +1,8 @@
+
+For 100 points, download the provided starter code then modify it
+to create a game with three sprites: a ball, a coin, and a hand.
+The ball should bounce around the screen. The coin should not move.
+The hand will be controlled by the user, using the arrow keys. When 
+the hand touches a coin, the game should increase the player's score 
+by 1 and print the current score. If the hand touches the ball, the 
+game ends.

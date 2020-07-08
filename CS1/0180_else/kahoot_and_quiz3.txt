@@ -1,0 +1,224 @@
+
+=== KAHOOT ===
+
+Using "if", "else if", and "else" statements, write a program that asks the user for the temperature and reads in the user's input. Assume the user types in an integer and nothing else. Then the program should print "Too hot" if the input is above 75, print "Too cold" if the temperature is below 65, and print "Just right" in all other cases.
+
+
+Which line is broken in this program?
+speed = 70
+if speed >= 75:
+    print("Issue speeding ticket")
+elif speed > 70:
+    print("Issue warning")
+else speed<=70:
+    print("No action")
+#A. if speed >= 75:
+#B. elif speed > 70:
+#C. else speed<=70:
+#D. print("Issue speeding ticket")
+
+
+What does this program print?
+speed = 70
+if speed >= 75:
+    print("Issue speeding ticket")
+elif speed > 70:
+    print("Issue warning")
+else:
+    print("No action")
+
+
+What does this program print?
+speed = 75
+if speed >= 75:
+    print("Issue speeding ticket")
+elif speed > 70:
+    print("Issue warning")
+else:
+    print("No action")
+
+
+If angle_left is 45 and angle_right is 315, what does this code print?
+if angle_left > angle_right:
+    print('turn right')
+elif angle_left < angle_right:
+    print('turn left')
+else:
+    print('straight ahead')
+
+
+If angle_left is 0 and angle_right is 0, what does this code print?
+if angle_left > angle_right:
+    print('turn right')
+elif angle_left < angle_right:
+    print('turn left')
+else:
+    print('straight ahead')
+
+
+How many possible different things can this program print if we run it over and over?
+response = input("What month is your Bday?")
+if response=="January":
+    print("Capricorn?")
+elif response=="March":
+    print("Pisces?")
+
+
+How many possible different things can this program print if we run it over and over?
+response = input("What month is your Bday?")
+if response=="January":
+    print("Capricorn?")
+elif response=="March":
+    print("Pisces?")
+else:
+    print("I am not very good at this.")
+
+
+How many possible different things can this program print if we run it over and over?
+response = int(input("What month is your Bday?"))
+if response < 2:
+    print("Capricorn?")
+if response < 4:
+    print("Pisces?")
+else:
+    print("I am not very good at this.")
+
+
+The percent sign % is called modulus and gives the remainder after division. 10 divided by 4 is 2 with 2 left over.
+
+What does 6%4 equal?
+
+What does 7%3 equal?
+
+
+Python was created in what decade?
+1970s
+1980s
+1990s
+2000s
+
+Modulus, %, can be used to see if one number is divisible by another. If the remainder is zero, then the number is divisible.
+
+What does this code print?
+x=10
+if x%2==0:
+	print('A')
+elif x%5==0:
+	print('B')
+
+
+What does this code print?
+x=10
+if x%2==0:
+	print('A')
+if x%5==0:
+	print('B')
+
+
+What's the fix for this code?
+x=101
+if x < 100:
+print("percent")
+else:
+print("too high")
+A missing parend )
+B missing colon :
+C misspelling
+D indentation
+
+
+Frank wrote this code. It works, but he didn't need all these variables. How few variables could he have used to write the same program?
+x = int(input("What's your fav num?"))
+y = x+1
+print("My fav num is "+str(y))
+z = int(input("What's your 2nd fav num?"))
+if z==y:
+    print("Don't copy me.")
+
+
+=== QUIZ ===
+
+
+Suppose the variable temperature has already been created and given a numeric value. Write code that prints "hot" if temperature is greater than 85 and prints "cold" if temperature is less than 65.
+
+
+#What does this code print?
+a = 14
+if a/7 == 2:
+    print("A")
+    a = a + 2
+    if a > 5:
+        print("B")
+        a = a + 5
+    elif a > 10:
+        print("C")
+        a = a + 6
+else:
+    print("D")
+    a = a + 3
+    if a < 700:
+        print("E")
+        a = a + 4
+    else:
+        print("F")
+print(a)
+
+
+How many possible different things can this program print if we run it over and over?
+response = input("What month is your Bday?")
+if response=="January":
+    print("Capricorn?")
+elif response=="March":
+    print("Pisces?")
+
+
+How many possible different things can this program print if we run it over and over?
+response = int(input("What month is your Bday?"))
+if response < 2:
+    print("Capricorn?")
+if response < 4:
+    print("Pisces?")
+else:
+    print("I am not very good at this.")
+
+
+The percent sign % is called modulus and gives the remainder after division. 5 divided by 2 is 2 with 1 left over.
+5%2 == 1
+7 divided by 4 is 1 with 3 left over.
+7%4 == 3
+
+What does 3%2 equal?
+
+What does 8%3 equal?
+
+
+What's the fix for this code?
+x=101
+if x < 100:
+    print("percent")
+else:
+    pint("too high")
+A missing parend )
+B missing colon :
+C misspelling
+D indentation
+
+
+Frank wrote this code. It works, but he didn't need all these variables. How few variables could he have used to write the same program?
+x = int(input("What's your fav num?"))
+y = x+1
+print("My fav num is "+str(y))
+z = int(input("What's your 2nd fav num?"))
+print(str(z)+" is a bad number.")
+
+
+What does this code print?
+x = 2
+a = 1
+x = x*x - a + x/a
+print(str(x))
+
+
+Yes or no. After these two lines of code run, is there any way to figure out what the user typed in to input?
+x = int(input("number?"))
+x = 4

@@ -1,0 +1,75 @@
+
+For 8 points, answer the following questions.
+
+
+
+#1. What is the name of the error you get if you try to run this line of code?
+print("4"+2)
+
+'''Python can be picky about what you can and can’t do with different types of data. 
+Luckily Python gives us functions that will try to convert between types.
+
+int()
+str()
+float()
+
+There are many different types. For now we will only deal with integers (positive 
+and negative whole numbers), floats (decimals), and string (text).
+
+The following code converts "4" to a number, then adds 4 to 2, then prints the results:'''
+print(int("4")+2)
+
+'''Write Python code to perform the following conversion and print 
+the result then write what is printed or write what the error is if there 
+is an error.'''
+
+#2. Convert "10" to an int
+#3. Convert "3.14" to a float
+#4. Convert 42 to a string
+#5. Convert 10 to a float
+#6. Convert 3.14 to an int
+#7. Convert "hello" to a float
+
+#If you're getting the speed of a vehicle, the type of the speed would be a float.
+#If you want to know a person's age, you're interested in an integer type.
+#If you want to know who wrote Moby Dick, the answer has type string.
+
+#8. Run the following program then write one sentence saying what it does:
+response = input("How old are you?")
+age = int(response)
+age = age+1
+print('Next year you will be '+str(age)+' years old.')
+
+#9. What error does the following program throw?
+response = input("How old are you?")
+age = age+1
+print('Next year you will be '+str(age)+' years old.')
+
+'''The int, float, and str functions are particularly useful when 
+using input because input will always return a string.
+
+For example, if I want to ask the user what grade out of 100 
+they got on the test so I can add 5 bonus points to it, I would 
+have to use one of the following programs:'''
+
+#Program A
+grade = input("What was your score?")
+grade = float(grade)+5
+print(grade)
+
+#or
+
+#Program B
+grade = float(input("What was your score?"))
+grade = grade+5
+print(grade)
+
+#or
+
+#Program C
+grade = float(input("What was your score?"))+5
+print(grade)
+
+#10. Which of the above 3 program options makes the most sense to you?
+#11. Write one good thing and one bad thing about each program above.
+

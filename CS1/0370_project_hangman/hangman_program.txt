@@ -1,0 +1,57 @@
+
+For 280 points, write a hangman-playing program. You must complete
+the hangman design assignment before starting this.
+
+#The following example will show you how to test if a letter is in a list or in a string.
+secret_word = 'xylophone'
+if 'a' in secret_word:
+    print('a is in the word')
+else:
+    print('a is NOT in the word')
+#Here's another example using a variable.
+letter = 'x'
+if letter in secret_word:
+    print(letter+' is in the word')
+else:
+    print(letter+' is NOT in the word')
+
+Your hangman game should let the user guess a letter each round and the 
+game should display blanks for the word with certain letters filled in 
+as well as some kind of ascii representation of how many mistakes the 
+user has made.
+
+For example:
+    ____
+   |      
+   |
+_____
+_ ____ ____
+Choose a letter:
+u
+
+    ____
+   |      
+   |
+_____
+
+_ __u_ __u_
+Choose a letter:
+e
+
+    ____
+   |      O
+   |
+_____
+
+_ __u_ __u_
+Choose a letter:
+a
+
+    ____
+   |      O
+   |      |
+_____
+
+_ __u_ __u_
+Choose a letter:
+

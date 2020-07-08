@@ -1,0 +1,138 @@
+<!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+Released absolutely free to use anywhere, all I ask is that you kindly leave the link back at the bottom.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../asubtlegreen.css" />
+	<title>Heat Flow</title>
+	<meta name="description" content="" /> 
+	<meta name="keywords" content="fiction, generator, crossover, random, genre" />
+
+	<script type="text/javascript" src="HeatFlow.js"></script>
+	<script type="text/javascript" src="time.js"></script>
+</head>
+<!-- Use "onload" in the body to immediately set the table in the body. -->
+<body onload="printTable();">
+
+<div id="page"> 
+    <div id="header">
+    	<div class="title">Smart Amusement</div>
+        <div class="subText">by Neal Holtschulte</div>
+    </div>
+    <div id="bar">
+        <div class="menuLink" onclick="parent.location='../../index.html'">Home</div>
+        <div class="menuLink" onclick="parent.location='../../about/index.html'">About</div>
+        <div class="menuLink" onclick="parent.location='../../research/index.html'">Research</div>
+        <div class="menuLink" onclick="parent.location='../../running/index.html'">Running</div>
+        <div class="menuLink" onclick="parent.location='../../contact/index.html'">Contact</div>
+    </div>
+    <div id="pageContent">
+    
+    <div class="articleTitle">Heat Flow</div>
+        
+        
+      <div class="articleContent">
+      
+      <div class="rightLinks">
+            <div class="linkTitle">Links:</div>
+    			<p class="links">
+                <!--SideLinksStart-->
+                <a href="../../teaching/index.html">Teaching</a><br />
+                <a href="../../programming/index.html">Programming</a><br />
+                <a href="../../writing/index.html">Writing</a><br />
+                <!--SideLinksEnd-->
+				</p><br />
+        </div>
+          <!--BodyStart-->
+
+
+<center><img src="../../images/programming/HeatFlow/HeatFlow.JPG" /></center>
+
+<p>I wanted to learn some javascript and I've also been meaning to replicate a simulation of heat flow that I wrote in college (at the time I used only Microsoft excel). I'm quite pleased with the result. The heat flow simulator can be found below.</p><br />
+
+<p>Instructions:<br />
+To change the dimensions of the heat grid change the numbers in the "Rows" and "Columns" fields then click "Set dimensions".</p><br />
+
+<p>For a quick demo click "Random Setup". This will randomly throw heat into the grid. The heat is represented by colored cells below the "Random Setup" button. Colors range from cold black to white hot with all the reds and yellows in between.</p><br />
+
+<p>After setting up the grid you can watch the heat flow. Click "Start" to begin the process which will update every half second until you press "Stop" or close the window. Alternatively, you can click "Step" to watch the heat disperse one step at a time.</p><br />
+
+<p>Below the buttons and the heat grid is another grid with green borders. This input grid has the same dimensions as the heat grid. Here you can enter your own heat values and then simulate them by clicking "Custom setup".</p><br />
+
+<p>Due to the nature of HTML colors any number above 765 is going to appear white. That doesn't mean you can't enter numbers well above 765. I enjoy putting in numbers like 10,000 or more and watching the resulting "explosion".</p><br />
+
+<p>Lastly, below the input grid, is a read-only text area that starts out blank. If you click the button, "Print CSV of heat", at the very bottom then the heat values in the current grid will print to the text area as comma separated values (CSV). It may look something like this:</p><br />
+
+<pre>
+0,0,0,0,2,4,7,8,7,4,2,0,0,0,0,
+0,0,0,2,7,14,22,24,22,14,7,2,0,0,0,
+0,0,2,8,21,40,56,64,56,40,21,8,2,0,0,
+0,1,7,21,48,84,117,129,117,84,48,21,7,1,0,
+0,4,14,40,84,142,193,215,193,142,84,40,14,4,0,
+1,6,22,56,117,193,262,288,262,193,117,56,22,6,1,
+1,7,24,64,129,215,288,319,288,215,129,64,24,7,1,
+1,6,22,56,117,193,262,288,262,193,117,56,22,6,1,
+0,4,14,40,84,142,193,215,193,142,84,40,14,4,0,
+0,1,7,21,48,84,117,129,117,84,48,21,7,1,0,
+0,0,2,8,21,40,56,64,56,40,21,8,2,0,0,
+0,0,0,2,7,14,22,24,22,14,7,2,0,0,0,
+0,0,0,0,1,4,6,7,6,4,1,0,0,0,0,
+0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+</pre>
+
+<p>The CSV text can be copied and pasted into a text file (make sure the text file is blank except for whatever was pasted in). Finally, by changing the text file's extension from ".txt" to ".csv" you will be able to open the text file in excel and graph the heat <i>surface</i>, like I've shown below. Select a "Surface" graph in excel.</p><br />
+
+<center><img src="../../images/programming/HeatFlow/HeatFlowExcel.JPG" /></center>
+
+<p>When you try to change the file's extension you will get a warning about the file becoming unusable. Just ignore it. You can always change the file extension back and changing the extension never affects the actual data in the file.</p><br />
+
+<p>If, when attempting to name files, you don't see .doc, .txt, .html, or any other "dot" extensions, you will need to change your folder settings. Open a folder, any folder, open the "tools" tab. Select "Folder Options". Select the "view" tab. Under "advanced settings" un-check the box next to "Hide extensions for known file types." Click "Apply to All Folders." Then you will be able to view and modify file extensions.</p><br />
+
+<p>Toy around with it. Make some pretty pictures. Enjoy.</p><br />
+
+<p>Code for the following can be found in the these two scripts: <a href="HeatFlow.js">HeatFlow.js</a> and <a href="time.js">time.js</a>.</p><br />
+
+<form>
+<!-- Here is javascript code for restricting an input field to nondecimal numbers.
+<!-- By adding "maxlength=3" in the input tag below, you can limit the input further.
+<!-- http://www.htmlcodetutorial.com/forms/index_famsupp_158.html 
+<!-- Here is another resource for "masking" user input. This is perfect for formatting
+<!-- times and dates. http://www.xaprb.com/html-input-mask/html-form-input-mask.html -->
+Rows: <input type="text" size=4 id="rows" value=15 maxlength=3 onKeyPress="return numbersonly(this, event)"> 
+Columns: <input type="text" size=4 id="cols" value=15 maxlength=3 onKeyPress="return numbersonly(this, event)">
+<input type="button" value="Set dimensions" onClick="printTable(); return true">
+
+<br /><br />
+
+<input type="button" value="Custom Setup" onClick="initializeStart(); return true" />
+&nbsp;
+<input type="button" value="Random Setup" onClick="randomStart(); return true" />
+&nbsp;
+<input type="button" value="Start" onClick="setWait(500); timedCount('step()'); return true" />
+&nbsp;
+<input type="button" value="Stop" onClick="stopCount(); return true" />
+&nbsp;
+<input type="button" value="Step" onClick="step(); return true" />
+</form>
+
+<br />
+<!-- This is the main (and only) division that all the html output is written to. -->
+<div id="main"></div>
+
+          <!--BodyEnd-->
+	</div>
+
+
+    </div>
+
+</div>
+    <div id="footer"><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a> | <a href="http://www.quackit.com">web tutorials</a> | <a href="http://www.htmlcodes.me">html code</a> | <a href="http://www.free-templates.me">free templates</a></div>
+        
+</body>
+</html>

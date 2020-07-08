@@ -1,0 +1,9 @@
+
+For 140 points, write a turtle racing program.
+
+Line up at least 5 turtles on a starting line. Put all the turtles in
+a list. Make all the turtles different colors.
+
+Draw a finish line as well. Then loop repeatedly and move a random 
+turtle forward. Each time the loop repeats, move a new turtle forward.
+Once a turtle reaches the finish line, end the race.

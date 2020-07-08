@@ -1,0 +1,48 @@
+
+For 140 points, write a program that makes the eyes of an image follow 
+the cursor.
+
+You have been provided with a folder of images and an initial python 
+file to get you started.
+
+(By the way, you can hide the mouse cursor with this
+pygame.mouse.set_visible(False)
+)
+
+STEPS:
+1 Choose which image with the cut out eyes you want to use and change
+the line of code right after "#Load image" to use the image you want.
+
+2 Draw pupils for the eyes. You will modify the code right after
+"#Draw pupils". Currently there is an example of how to draw a black
+circle. Print out the mouse position (found right after "#Get mouse 
+coordinates") to determine the best position of the pupil, then add a 
+second pupil for the other eye.
+
+3 There are many ways to write code to make the pupils follow the 
+mouse cursor. Usually students do the following, but if you can come
+up with another way, that's fine too.
+
+Use if, elif, and else statements to make the eyes:
+A. Default to looking straight ahead 
+B. Look right when the mouse is on the far right side of the screen
+C. Look left when the mouse is on the far left side of the screen
+D. Look up when the mouse is on the top of the screen
+E. Look down when the mouse is on the bottom of the screen
+F. Look cross-eyed when the mouse is between the eyes
+
+4 Change the order of the drawing so that the pupils appear underneath 
+the image with the cut out eyes.
+
+5 Add an image that is positioned under the mouse cursor. For example, 
+if you are using the cat background image, you want to use the mouse 
+image. If you are using the Homer background, then you want to use the 
+donut image.
+
+6 If you have time, make additions to the project. Some ideas follow:
+	* Give the eyes irises
+	* Turn the eyes into cat eyes with an iris around a vertical oval pupil.
+	* Make one or both eyes drifts a bit using random.
+	* Change the background image and give someone else eyes such as the Mona Lisa or Steve Buscemi
+	* Make the Mona Lisa "talk" using Lisa-del-Giocondo_open.png and Lisa-del-Giocondo_mouth.png
+	* Change the color of the eyes based on the position of the mouse.

@@ -1,0 +1,11 @@
+chek,empt,empt,empt,empt,empt,empt,empt,empt,empt,empt
+empt,1wr ,1wl ,empt,empt,empt,empt,empt,empt,empt,empt
+empt,empt,hole,empt,empt,empt,empt,2wrd,2wdl,empt,empt
+empt,1wd ,empt,hole,empt,empt,empt,2wur,2wlu,empt,empt
+empt,1wu ,empt,chek,empt,empt,empt,empt,empt,empt,empt
+empt,empt,hole,empt,empt,empt,empt,empt,cv1d,empt,empt
+empt,empt,hole,empt,empt,empt,empt,empt,cv1d,empt,empt
+empt,empt,empt,empt,empt,empt,empt,empt,cv1d,cv1l,cv1l
+empt,cvrr,cvrd,empt,empt,empt,empt,empt,cv1r,cv1r,cv1u
+empt,cvru,cvrl,empt,cvld,cvll,empt,empt,empt,empt,empt
+empt,empt,empt,empt,cvlr,cvlu,empt,empt,empt,empt,empt

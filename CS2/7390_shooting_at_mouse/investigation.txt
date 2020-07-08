@@ -1,0 +1,35 @@
+
+For 35 points, answer the following questions about the Python files:
+shooting_at_mouse_bad.py
+and
+shooting_at_mouse_good.py
+
+Run both Python programs. Use the arrow keys to move. Click on the screen to 
+shoot.
+
+Both Python files define a class named Square that is used to create player
+and bullet objects. 
+
+
+1. What are some similarities and differences between the class Square in 
+shooting_at_mouse_bad.py compared to the class Square in 
+shooting_at_mouse_good.py?
+
+
+2. Try to shoot (clicking on the screen with the mouse) at angles of 0, 20, 
+and 45 degrees from the player square in both the good and bad files. How
+does the shooting at these angles compare in the two programs?
+
+
+3. Compare and contrast the three lines of code immediately following the
+comment   #Move and draw all the bullets   in the two files.
+
+
+4. Print out the value of b.rect.x in the loop below #Move and draw all the bullets
+and compare it to the printed value of b.x in the other file. What difference
+do you notice?
+
+
+5. Explain the connection between the answer to number 4 and the behavior
+you noticed in number 2. If you get stuck, the comment at the top of 
+shooting_at_mouse_bad.py will help.

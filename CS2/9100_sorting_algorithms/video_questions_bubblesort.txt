@@ -1,0 +1,31 @@
+
+For 60 points, watch this video 
+https://www.youtube.com/watch?v=uMY0fxiB_MI
+and answer the following questions and email them to your teacher with the subject line: "CS2: bubble sort video".
+
+1) The reason the inner loop of bubblesort loops to len(xs)-1 is so we don't run off the end of the list when comparing xs[i] and xs[i+1]. What error would we get if we looped to len(xs)?
+
+2) Why does the first geeksforgeeks bubblesort code loop to n-i-1 instead of n-1?
+(Reminder: n is the length of the list.)
+
+3) What is the optimization in the optimized geeksforgeeks bubblesort code?
+
+4) Describe Big O notation in your own words.
+
+5) What is Big O of 5n^3+6n+8?
+In other words O(5n^3+6n+8) = ?
+
+6) What is Big O of 4n^9+6^n?
+In other words O(4n^9+6^n) = ?
+
+7) What is the worst case time complexity for bubblesort?
+
+8) How much extra computer memory does bubble sort use?
+
+9) Does bubble sort copy the list values to a new location when sorting?
+
+10) Is there a possibility that bubblesort will swap equal values that are adjacent?
+
+11) How many cards are in the list at the end?
+
+12) How many comparisons does it take to sort the cards at the end?

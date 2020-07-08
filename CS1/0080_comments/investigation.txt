@@ -1,0 +1,39 @@
+
+For 3 points, answer the following questions.
+
+
+
+'''Comments are notes you write to yourself, in English, in your programs. Python ignores all comments. They do not affect how your program runs. Comments should be written BEFORE a block of code to describe the whats and whys of the code that follows. For example:'''
+#Ask the user their name so we can say hello
+name = input(“What is your name?”)
+print(“Hello, ”+name)
+
+
+'''1. PyScripter colors comments what color?'''
+
+
+'''2. Comments can also be useful to try a variation of a line of code without deleting it. What does the following program print?'''
+#print("Do I get a new line/n like this?")
+print("Do I get a new line\n like this?")
+
+'''3. Why does the above program only print once?'''
+
+
+'''To comment multiple lines of code, use 3 apostrophes or 3 quotation marks to start the comment and another 3 to end it. Try it out.'''
+
+
+
+'''Comments are for organizing and clarifying the reason why the code is what it is.
+4. Which of the following comments explains the why of the code?'''
+#A: Increase money by 200
+#B: Reward the player for passing go
+money = money + 200
+
+
+'''You don't want to simply repeat what the code does in the comment. Your comment should add something new.
+5. Which of the following comments adds something new?'''
+#A: If two players are in the same location, they will meet.
+#B: Check to see if the coordinates of self and other are the same. If so, call activateMeeting.
+if self.x == other.x and self.y == other.y:
+	activateMeeting()
+

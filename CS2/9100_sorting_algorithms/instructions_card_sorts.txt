@@ -1,0 +1,8 @@
+
+BUBBLE SORT CARDS
+For 20 points demonstrate a bubble sort to Holt using a deck of cards. Holt will provide the cards.
+
+
+INSERTION SORT CARDS
+For 20 points demonstrate an insertion sort to Holt using a deck of cards. Holt will provide the cards.
+

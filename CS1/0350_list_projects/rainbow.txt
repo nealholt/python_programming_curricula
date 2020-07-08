@@ -1,0 +1,16 @@
+
+For 70 points, write a program that uses lists, loops, and turtles to 
+draw a rainbow.
+
+Consider using the following code fragment (the print is there only 
+to help you see what is going on):
+
+#List of colors in order.
+#This will let us greatly shorten the code!
+roygbiv = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+for color in roygbiv:
+    print(color)
+
+Remember that you can put loops INSIDE of other loops.
+
+If your program is shorter than 40 lines (NOT including comments and blank lines), you get 20 bonus points.

@@ -1,0 +1,14 @@
+
+For 100 points, write a program that lets two players or one player
+against the computer play the game of pig.
+
+The rules are simple: Two players race to reach 100 points. Each turn, 
+a player chooses roll or hold. If they roll a 1, their turn is over
+and their temporary score is reset to zero. If they roll anything else, 
+the value they rolled is added to a temporary score. If they choose 
+hold, their temporary score is added to their true score
+
+roll - If the player rolls a
+		1: the player scores nothing and it becomes the opponent's turn.
+	2 - 6: the number is added to the player's turn total and the player's turn continues.
+hold - The turn total is added to the player's score and it becomes the opponent's turn.

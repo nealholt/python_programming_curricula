@@ -1,0 +1,494 @@
+
+KAHOOT: Python: Lists 1
+Randomize these questions AND answers.
+
+1 A list is a ...
+A) closed hand usually used to hit or to hold things.
+B) secret meeting, usually of a romantic nature.
+C) type of variable that can hold many values.
+D) speech impediment that makes “s” sound like “th”.
+
+2 An index is a number that ...
+A) it’s not a number, it’s a finger
+B) contains contact information
+C) librarians worry about
+D) refers to a value in a list
+
+3 What is the length of this list? names = ["Bill", "Mike", "Ally", "Jane"]
+options: 0, 3, 4, Bill
+
+4 What is the length of this list? names = []
+options: 0, 1, 4, names
+
+5 What is the index of Bill in this list? names = ["Bill", "Mike", "Ally", "Jane"]
+
+6 What is the index of Jane in this list? names = ["Bill", "Mike", "Ally", "Jane"]
+
+7 What is the index of yellow in this list? colors = ['red', 'yellow', 'blue']
+
+8 After this code runs, what values are in numbers?
+numbers = [ ]
+for i in range(4, 8):
+	numbers.append(i)
+ANSWER: 4, 5, 6, 7
+
+9 After this code runs, how long is the numbers list?
+numbers = [ ]
+for i in range(12):
+	numbers.append(i)
+
+10 What does this code print?
+numbers = [ ]
+for i in range(12):
+	numbers.append(i)
+print(numbers[0])
+One option is: ERROR: Index out of range
+
+11 What does this code print?
+numbers = [ ]
+for i in range(12):
+	numbers.append(i)
+print(numbers[11])
+One option is: ERROR: Index out of range
+
+12 What does this code print?
+numbers = [ ]
+for i in range(12):
+	numbers.append(i)
+print(numbers[12])
+One option is: ERROR: Index out of range
+
+13 An index in computer programming is much like...
+a street number in an address
+a number of planets in the solar system
+a dollar number in a bank statement
+a number representing age
+
+14 What does this code print?
+names=["Bill","Mike","Ally","Jane"]
+print( names[1] )
+
+15 What does this code print?
+colors=['red','yellow','blue']
+print( colors[2] )
+
+16 Which variable is the index in the following program?
+choice  = 2
+rainbow=["red","yellow","green"]
+color = rainbow[choice]
+print(color)
+
+17 This code is an example of what?
+
+numbers[i] = numbers[i] + 1
+del sprites[i]
+my_list.append(x)
+values = [ ]
+values[i] = 3
+numbers = [7, 12, 5]
+
+OPTIONS FOR THE LAST FEW QUESTIONS:
+I. Increase the value in the list at index i
+II. Create a list with initial values in it
+III. Add a value to the end of the list
+IV. Set the value in the list at index i
+V. Create an empty list
+VI. Delete the value in the list at index i
+
+
+
+KAHOOT: Python: Lists 2
+Randomize these questions AND answers.
+
+1 Which variable is the index in the following program?
+j_names = ["jack","jill","jim","jeff","jane"]
+x = 0
+person = j_name[x]
+print(person)
+
+2 What is the length of this list?
+j_names = ["jack","jill","jim","jeff","jane"]
+
+3 What does this code print?
+j_names = ["jack","jill","jim","jeff","jane"]
+length = len(j_names)
+print(length)
+
+4 What does this code print?
+j_names = ["jack","jill","jim","jeff","jane"]
+choice = j_names[3]
+print(choice)
+ANSWER: Jeff
+
+5 What is the index of "jim" in this list?
+j_names=["jack","jill","jim","jeff","jane"]
+
+6 The following code does what?
+numbers = [9, 8, 7]
+for i in range(len(numbers)):
+	print(numbers[i])
+A) Puts  7, 8, 9  in a list
+B) Puts  9, 8, 7  in a list
+C) Prints  7  8  9
+D) Prints  9  8  7
+
+7 The following code does what?
+numbers = []
+for i in range(9, 6, -1):
+	numbers[i].append(i)
+A) Puts  7, 8, 9  in a list
+B) Puts  9, 8, 7  in a list
+C) Prints  7  8  9
+D) Prints  9  8  7
+
+8 What does this code print?
+values = [4, 19, 3, 81]
+x = values[3]
+print(x)
+
+9 What does this code print?
+values = [4, 19, 3, 81]
+x = len(values)
+print(x)
+
+10 What does this code print?
+values = [4, 19, 3, 81]
+values.append(0)
+x = len(values)
+print(x)
+
+11 What does this code print?
+values = [4, 19, 3, 81]
+del values[1]
+x = values[1]
+print(x)
+
+12 What does this code print?
+values = [4, 19, 3, 81]
+del values[1]
+x = values[2]
+print(x)
+
+13 What does this code print?
+values = [4, 19, 3, 81]
+values[1] = values[3]
+x = values[1]
+print(x)
+
+14 What does this code print?
+values = [4, 19, 3, 81]
+values[0] = values[1] + values[2]
+x = values[0]
+print(x)
+
+15 This code is an example of what?
+
+prices[i] = prices[i] + 1
+del images[i]
+coordinates.append(x)
+my_list = [ ]
+numbers[i] = 3
+decimals = [3.8, 2.2, 5.0]
+print(len(my_list))
+print(my_list[len(my_list)-1])
+print(my_list[0])
+print(my_list[len(my_list)])
+
+OPTIONS FOR THE LAST FEW QUESTIONS:
+I. Increase the value in the list at index i
+II. Create a list with initial values in it
+III. Add a value to the end of the list
+IV. Set the value in the list at index i
+V. Create an empty list
+VI. Delete the value in the list at index i
+VII. Print the length of the list
+VIII. Print the last value in the list
+IX. Print the first value in the list
+X. Cause an index out of range error
+
+
+
+KAHOOT: Python: Lists 3
+Randomize these questions AND answers.
+
+1 Which line of code gives an “index out of range” error for this list? numbers=[7,14,21]
+A) print( numbers[0] )
+B) print( numbers[1] )
+C) print( numbers[2] )
+D) print( numbers[3] )
+
+
+2 Which line of code gives an “index out of range” error for this list? numbers=[4,6]
+A) print( numbers[-1] )
+B) print( numbers[0] )
+C) print( numbers[1] )
+D) print( numbers[2] )
+
+
+3 Which line of code gives an “index out of range” error for this list? numbers=[5,5,5,5,5]
+A) print( numbers[-1] )
+B) print( numbers[5] )
+C) print( numbers[1] )
+D) print( numbers[4] )
+
+4 This code would be better written how?
+name0 = "pete"
+name1 = "phil"
+name2 = "pat"
+A) names = ["pete","phil","pat"]
+B) no better way to do this
+C) names = ["pete,phil,pat"]
+D) names = [name0,name1,name2]
+
+5 This code would be better written how?
+weather0 = "sunny"
+weather1 = "cloudy"
+weather2 = "rainy"
+A) weather = ["sunny","cloudy","rainy"]
+B) no better way to do this
+C) weather = ["sunny,cloudy,rainy"]
+D) weather = [weather0,weather1,weather2]
+
+6 What does this code print?
+values = [6, 2, 8]
+i = 2
+if values[i] > 5:
+	print("boom")
+else:
+	print("fizz")
+
+7 What does this code print?
+values = [16, 7, 22, 3]
+i = 1
+if values[i] < 10:
+	print("pop")
+else:
+	print("zip")
+
+8 What does this code print?
+values = [16, 7, 22, 3]
+i = len(values)-1
+if values[i] < 10:
+	print("pop")
+else:
+	print("zip")
+
+9 True or False: This program will throw an “index out of range” error
+values = [16, 7, 22, 3]
+i = 1
+del values[i]
+if values[i] < 10:
+	print("pop")
+else:
+	print("zip")
+
+10 True or False: This program will throw an “index out of range” error
+values = [16, 7, 22, 3]
+i = len(values)-1
+del values[i]
+if values[i] < 10:
+	print("pop")
+else:
+	print("zip")
+
+11 What does this code print?
+trilogy = ["Alien", "Aliens", "Alien 3"]
+for i in range( len( trilogy ) ):
+	print( str(i+1) +"   "+trilogy[i] )
+0 Alien   1 Aliens   2 Alien 3
+1 Alien   2 Aliens   3 Alien 3
+2 Alien   3 Aliens   4 Alien 3
+Predator is better
+
+12 What does this code print?
+trilogy = ["Awakens", "Jedi", "Skywalker"]
+for i in range( len( trilogy ) ):
+	print( str(i) +"   "+trilogy[i] )
+0 Awakens   1 Jedi   2 Skywalker
+1 Awakens   2 Jedi   3 Skywalker
+7 Awakens   8 Jedi   9 Skywalker
+Star Trek is better
+
+13 Fill in the blanks to write a program that prints out "piece of cake"
+text=["slice","piece","pie","cake"]
+x=text[______]+' of '+text[______]
+print(x)
+
+14 Fill in the blanks to write a program that prints out "my jam!"
+text=["my","your","the","butter","jam"]
+x=text[______]+" "+text[______]
+print(x)
+
+15 What does this code print?
+values = [16, 7, 22, 3]
+x = len( values )
+print(x)
+
+16 What does this code print?
+animals=['pig','cow','dog']
+del animals[0]
+x = len(animals)
+print(x)
+
+17 What does this code print?
+animals=['pig','cow','dog']
+del animals[0]
+x = animals[len(animals)-1]
+print(x)
+
+18 What does this code print?
+animals=['pig','cow','dog']
+del animals[0]
+x = animals[0]
+print(x)
+
+19 What does this code print?
+animals=['pig','cow','dog']
+x = 2
+animal = animals[x]
+print(animal)
+
+
+
+
+
+KAHOOT: Python: Lists 4
+Randomize these questions AND answers.
+
+1 What does this code do?
+numbers=[6,5]
+other_numbers=[8,1]
+xs=numbers+other_numbers
+print(xs)
+A) Index out of range error
+B) Operator error: cannot add lists
+C) prints out [6,5,8,1]
+D) prints out [6,5],[8,1]
+
+2 What does this code print?
+numbers = [6,1,1,2]
+numbers.pop(1)
+print(numbers)
+A) [6,  1,  1,  2]
+B) [6,  1,  2]
+C) [6,  1,  1]
+D) Index out of range error
+
+3 What does this code print?
+numbers = [6,1,1,2]
+numbers.remove(6)
+print(numbers)
+A) [1,  1,  2]
+B) [6,  1,  1,  2]
+C) [6,  1,  1]
+D) Index out of range error
+
+4 What does this code print?
+numbers = [1,  2,  3]
+x = numbers[0]
+numbers[0] = numbers[1]
+numbers[1] = x
+print( numbers[1] )
+
+5 What does this code print?
+numbers = [1,  2,  3]
+numbers[0] = numbers[1]
+numbers[1] = numbers[0]
+print( numbers[1] )
+
+6 What does this code print?
+values = [7, 2, 2]
+values[1] = 4
+values[2] = 8
+if values[2] > values[3]:
+	print("bonkers")
+else:
+	print("nutty")
+ANSWER: Index out of range
+
+7 What does this code print?
+values = [7, 2, 2]
+values[1] = 4
+values[2] = 8
+if values[0] < values[2]:
+	print("bonkers")
+else:
+	print("nutty")
+
+8 What does this code print?
+chem=["oxygen","carbon","iron"]
+chem.insert(0,"lithium")
+print( chem[2] )
+
+9 What does this code print?
+chem=["oxygen","carbon","iron"]
+chem.insert(0,"lithium")
+print( chem[0] )
+
+10 What does this code print?
+chem=["oxygen","carbon","iron"]
+chem.insert(2,"lithium")
+print( chem[3] )
+
+11 What does this code print?
+chem=["oxygen","carbon","iron"]
+chem.insert(2,"lithium")
+print( len(chem) )
+
+12 Fill in the blanks to change the values stored in numbers from this: 
+[1, 2] to this [1, 10, 100]
+numbers = [1, 2]
+numbers.pop(________)
+numbers.insert(_______, 10)
+numbers.insert(_______, 100)
+
+13 Fill in the blanks to change the values stored in numbers from this: 
+[7,8,9] to this [4, 8]
+numbers = [7, 8, 9]
+numbers.pop(________)
+numbers.remove(________)
+numbers.insert(_______, 4)
+
+14 Fill in the blanks to change the values stored in numbers from this: 
+[3, 6] to this [3, 8]
+numbers = [3, 6]
+numbers.remove(________)
+numbers.append(________)
+
+15 What does this code print?
+planets=["Mars","Jupiter","Saturn"]
+for i in range( len( planets ) ):
+	print(str(i+4)+"   "+planets[i])
+4 Mars   5 Jupiter   6 Saturn CORRECT ANSWER
+1 Mars   2 Jupiter   3 Saturn
+0 Mars   1 Jupiter   2 Saturn
+I miss Pluto
+
+16 What is the length of this list? planets=["Mars","Jupiter","Saturn"]
+
+17 What is the index of Mars in this list?
+planets=["Mars","Jupiter","Saturn"]
+
+18 What is the index of Neptune in this list?
+planets=["Mars","Jupiter","Saturn"]
+planets.append("Neptune")
+
+19 After this code runs, what values are in numbers?
+numbers = [ ]
+for i in range(9, 12):
+	numbers.append(i)
+
+20 After this code runs, what values are in numbers?
+numbers = [ ]
+for i in range(10,7,-1):
+	numbers.append(i)
+
+21 After this code runs, how long is the numbers list?
+numbers = [ ]
+for i in range(8):
+	numbers.append(i)
+
+22 After this code runs, what values are in numbers?
+numbers = [ ]
+for i in range(6):
+	numbers.append(i)

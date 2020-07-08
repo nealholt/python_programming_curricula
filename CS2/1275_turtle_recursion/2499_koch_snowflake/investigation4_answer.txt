@@ -1,0 +1,6 @@
+
+#ANSWER: This code goes in the elif:
+#Back out the last calculation.
+#Divide by half of the divisor in the future
+#All further values added in are divided by 2
+return -1+divide(divisee+divisor, divisor/2)/2

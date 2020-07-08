@@ -1,0 +1,29 @@
+
+For 800 points make a lunar lander game in which you have to safely direct
+a lander to a safe landing site, like this:
+http://moonlander.seb.ly/
+
+IMPORTANT: You can work in groups on this project, but before you begin coding 
+you must share a project plan with the teacher that includes the pieces of the 
+project that you will need to create, the order in which you will create them, 
+and which group members will work on which piece. This plan can change but you
+need to start somewhere.
+
+The following are recommendations and things to consider:
+
+I recommend using Pygame's polygon drawing function to draw both the lander
+and the lunar surface.
+
+Write a function that returns the ground height at a given x value so you can
+determine if the lander crashed.
+
+Make sure you know how to use dx and dy velocity components. (Ask if this sounds
+unfamiliar.)
+
+Make sure you know how to use sine and cosine to implement "ballistic" controls.
+For instance, if you lander has an angle of 45 degrees and fires its thrusters
+then you should add   power*math.cos(45)   to dx and add   power*math.sin(45)
+to dy each frame while the thrusters are firing, where power is some variable
+determining the strength of the thrusters.
+!ALSO! Python's math functions are in radians so you can't actually use 45, but
+need to use math.pi/4 instead.

@@ -1,0 +1,49 @@
+
+2 separate questions:
+def fibonacci(a,b,n):
+    if n>0:
+        return fibonacci(b,a+b,n-1)
+    else:
+        return a+b
+Which is the base case?
+Which is the recursive case?
+
+
+The base case is NOT:
+what the function heads towards
+the point at which the function stops
+the case in which the function calls itself
+the case in which something is returned(usually)
+
+
+The recursive case is NOT:
+the case that keeps going
+where the repetition happens
+where the function calls itself
+the place where the function stops
+
+
+What does this nonsense program print?
+def foo(a,b):
+	if a>b:
+		return -2
+	else:
+		return 1+foo(a+1,b)
+print(foo(4,6))
+0
+1 Correct answer
+2
+-2
+
+What does this nonsense program print?
+def foo(a,b):
+	if a>b:
+		return -2
+	else:
+		return 1+foo(a+1,b)
+print(foo(1,10))
+8 Correct answer
+9
+10
+11
+

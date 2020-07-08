@@ -1,0 +1,13 @@
+
+For 20 points, watched the video "Variables & Arithmetic" found here:
+https://youtu.be/WK5_AEiG7G8
+and answer the following questions.
+
+
+1. List three functions that the narrator calls in the program.
+
+2. Why is int(x) important?
+
+3. Why is str(y) important?
+
+4. The narrator's dense version of the program has how many lines of code?

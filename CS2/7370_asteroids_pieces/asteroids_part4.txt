@@ -1,0 +1,19 @@
+
+ASTEROIDS: Making Asteroids
+
+For 35 points, add to the code from earlier parts as described below.
+
+Next we'll add some asteroids (still by reusing the polygon class).
+
+Create a list of polygons and draw them on the screen at random 
+locations. Make the number of angles and the radii random. Adjust the 
+random numbers until the polygons look like lumpy polygon rocks.
+
+Randomize the dx and dy values for the asteroids and call their move
+functions in the main loop.
+
+Lastly, when an asteroid leaves one side of the screen, it should appear 
+on the opposite side. To make this happen, in the main loop, check each 
+of your asteroid polygons and if the x,y coordinates of the asteroid
+are offscreen, add the screen width or height to the appropriate x or y
+value.

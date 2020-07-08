@@ -1,0 +1,53 @@
+
+For 70 points, follow the directions below carefully to create
+a turtle program that will draw a surprise image.
+
+
+Step 1: import turtles and random
+
+Step 2: Test your imports by creating a turtle and moving it 
+to a random location.
+
+Step 3: Choose 3 coordinates far enough apart that you could 
+draw a big triangle on the screen between them.
+Store the values of these coordinates in variables. Consider 
+naming the variables x1, y1, x2, etc.
+
+Step 4: Test that your points are located where you think they 
+are by having your turtle draw circles at each point.
+
+Step 5: Use random to randomly print one of your 3 pairs of 
+coordinates. This will require if, elif, and else. Think about
+how you can make the probability that the first, second, or 
+third pair gets printed equally likely.
+
+Step 6: Put the code that randomly prints one of the 3 
+coordinate pairs in a for loop that repeats at least 100 times.
+Your program should now print each coordinate endlessly in a 
+random order.
+
+Step 7: Change the code slightly to print the x and y coordinate 
+halfway between the randomly chosen coordinate and the turtle's 
+current x,y location.
+
+The average is just the sum of the coordinates divided by two.
+You want to add your turtle's x coordinate, plus the randomly 
+chosen x coordinate, then divide by two and remember the result.
+Do the same thing for the y coordinates.
+
+If your turtle's name is t, you can ask for t's x coordinate with
+t.xcor()
+You can ask for the y coordinate with
+t.ycor()
+
+Step 8: Each loop move the turtle to the location halfway 
+between the randomly chosen corner and the turtle's current 
+x,y location. You should have calculated these values in the
+previous step, now use goto to move your turtle to the new
+location.
+
+Step 9: Lift the turtle's pen up BEFORE using the goto. After the
+goto, draw a small circle (2 to 4 pixels).
+
+Turn in your code and describe what gets drawn on the screen 
+after the program runs. You may want to loop more than 100 times.

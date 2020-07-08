@@ -1,0 +1,11 @@
+
+For 10 points, watched the video "Printing Part 2" found here:
+https://youtu.be/2nNmVikWCT0
+and answer the following questions.
+
+
+1. How can quotation marks be printed?
+
+2. How can a new line be printed?
+
+3. What does x=x+7 do in Python?

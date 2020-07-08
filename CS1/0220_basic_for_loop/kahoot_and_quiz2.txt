@@ -1,0 +1,181 @@
+
+Title: Python: For Loops 2
+
+(Randomize the questions and answers.)
+
+
+What is wrong with this for loop?  for i in range(7 10 2):
+Missing commas in the range
+Too few variables inside range
+Too many variables inside range
+Bad loop variable name
+
+What is wrong with this for loop?  for x in range(10)
+Too few variables inside range
+Too many variables inside range
+Bad loop variable name
+Missing colon at the end
+
+What is wrong with this for loop?  for  in range(20,50):
+Too few variables inside range
+Too many variables inside range
+Missing loop variable
+Missing commas in the range
+
+
+Does 3 or 10 get passed to the addTwo function?
+x = 10
+def double(x):
+	return x*2
+x = 3
+print(addTwo(x))
+
+
+What does this code print?
+x = 8
+if x > 9:
+	print('Big')
+elif x > 6:
+	print('Medium')
+elif x > 2:
+	print('Small')
+else:
+	print('Tiny')
+
+
+What does this code print?
+for i in range(4):
+    print(i)
+4  4  4  4
+i  i  i  i
+1  2  3  4
+0  1  2  3
+
+
+What does this code print?
+for i in range(6, 10):
+    print(i)
+6 6 6 6 6 6 6 6 6 6
+10 10 10 10 10 10
+6 7 8 9
+6 7 8 9 10
+
+
+What does this code print?
+for i in range(6, 10):
+    print(10)
+6 6 6 6
+10 10 10 10
+6 7 8 9
+6 7 8 9 10
+
+
+What does this code print?
+for i in range(4,10,2):
+    print(i)
+2 repeated 10 times
+2 repeated 6 times
+4 6 8
+4 6 8 10
+
+
+What does this code print?
+for i in range(4,10,2):
+    print(10)
+10 10 10
+4 4 4
+4 6 8
+4 6 8 10
+
+
+What does this code print if the user types in Chanukah?
+
+response = input("Winter Break")
+if response == "Hanukkah":
+	for i in range(1,9):
+		print(i)
+else:
+	print(25)
+
+
+
+What does this code print if the user types in Hanukkah?
+
+response = input(“Winter Break”)
+if response == “Hanukkah”:
+	for i in range(1,9):
+		print(i)
+else:
+	print(25)
+
+
+What does this code print?
+for i in range(2):
+	for q in range(2):
+		print(i)
+
+
+What does this code print?
+for i in range(2):
+	for q in range(2):
+		print(q)
+
+
+What does this code print?
+for i in range(2):
+	for q in range(3,8,2):
+		print(q)
+
+
+What does this code print?
+for i in range(2):
+	for q in range(3,8,2):
+		print(i)
+
+
+What does this code print? (Hint: len calculates the length of a string)
+def oracle(question):
+	print(question)
+	if len(question) < 10:
+		print("Yes!")
+	else:
+		print("No")
+
+oracle("Will I be famous?")
+
+
+
+
+I need to repeatedly do something, but I’m not sure how many times. I need a...
+A) For loop
+B) While loop
+C) If statement
+D) Variable
+
+
+I need to count from 1000 to 10,000. I need a...
+A) For loop
+B) While loop
+C) If statement
+D) Variable
+
+
+I need to remember a value for later. I need a...
+A) For loop
+B) While loop
+C) If statement
+D) Variable
+
+
+I need to choose between different options. I need a...
+A) For loop
+B) While loop
+C) If statement
+D) Variable
+
+
+I need to end a function and give back a value. I need a...
+A) Return
+B) Variable
+C) If statement
+D) Function definition

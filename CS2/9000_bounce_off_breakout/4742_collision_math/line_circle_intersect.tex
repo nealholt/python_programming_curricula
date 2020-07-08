@@ -1,0 +1,139 @@
+\documentclass[a4paper,10pt]{article} %This is some standard spacing and margins and 12 point font. See here for details: http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Preamble.html
+\usepackage[letterpaper]{geometry}
+
+%import some packages
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{graphicx} %Only needed if you are importing images.
+\usepackage{url} %needed for adding url's to a document.
+
+\parskip 10pt % sets spacing between paragraphs
+%This can be used anywhere. For example. to temporarily remove spacing type:
+%\parskip 0pt 
+%then to resume, type
+%\parskip 5.2pt
+
+%\renewcommand{\baselinestretch}{1.5} % Uncomment for 1.5 spacing between lines
+%\parindent 0pt % sets leading space for paragraphs
+%To suppress indentation on a specific paragraph, begin the line with \noindent 
+
+% Widen the margins and the text height. This is all explained here:
+% http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907057
+%\addtolength{\oddsidemargin}{-.875in}
+%\addtolength{\evensidemargin}{-.875in}
+%\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+%\title{Title Goes Here}
+%\author{Author Goes Here}
+%\date{}
+
+%Answer command
+\newcommand\answer[1]{ \iffoo \textcolor{red}{#1} \fi }
+
+%Use the following to quickly print an answer key.
+%Simply comment the one rather than the other and voila.
+%Your answers will be printed.
+\let\iffoo\iffalse
+%\let\iffoo\iftrue
+
+\begin{document}
+
+\LARGE
+
+%\maketitle %This causes the title, author, and date to actually display.
+
+Two lines intersect at one point if the lines have different slopes.
+
+Where do the following lines intersect?
+
+$y-2 = \frac{1}{2}(x+1)$
+
+$y = -2(x-5)$
+
+\answer{Answer:\\
+Substitute and solve for x
+$$-2(x-5)-2 = \frac{1}{2}(x+1)$$
+$$-2x+10-2 = \frac{x}{2}+\frac{1}{2}$$
+$$8-\frac{1}{2} = \frac{x}{2}+2x$$
+$$\frac{15}{2} = \frac{5x}{2}$$
+$$x = 3$$
+$$y = -2(3-5)$$
+$$y = 4$$
+The lines intersect at $(3,4)$}
+
+\vspace{5cm}
+
+\hrule
+
+There is a special property certain pairs of lines have, such as the following pair:
+
+$y-2 = \frac{1}{2}(x+1)$
+
+$y = -2(x-5)$
+
+what is the property called?
+
+\answer{Answer: Perpendicular}
+
+\vspace{3cm}
+
+\hrule
+
+Two circles intersect at one or more points if the distance between the center of one circle and the center of the other circle is less than the sum of the radii of each circle.
+
+Radii is the plural of radius which is the distance from the center of a circle to any point on the edge.
+
+The distance, $d$, between two points $(x_1, y_1)$ and $(x_2, y_2)$ can be calculated using the distance formula:
+
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+
+Do the following circles intersect?
+
+Circle A has center: $(-1, 2)$ and radius 1.
+
+Circle B has center: $(5, 0)$ and radius 5.
+
+\answer{Answer:\\ 
+Is $d < 1+3$?\\
+$$d = \sqrt{(5--1)^2 + (0-2)^2}$$
+$$d = \sqrt{36 + 4}$$
+$$d \approx 6.3$$
+No. The circles are too far apart.}
+
+\vspace{6cm}
+
+\hrule
+
+Draw a picture to determine if the line
+
+$$y-2 = \frac{1}{2}(x+1)$$
+
+intersects Circle B which has center: $(5, 0)$ and radius 5.
+
+\answer{Answer: 
+Get the line perpendicular to the given line that goes through the center of the circle
+$$y = -2(x-5)$$
+Find where the lines intersect: $(3,4)$
+Check to see if the distance from the point is less than the radius.
+$$d = \sqrt{(5-3)^2 + (0-4)^2}$$
+$$d = \sqrt{4 + 16}$$
+$$d \approx 4.5$$
+$$d < 5$$
+The line intersects the circle!}
+
+\vspace{6cm}
+
+\hrule
+
+How can we tell if the line intersects the circle by only using algebra, that is, without using a picture?
+
+\answer{Answer: 
+Get a line perpendicular to the given line that passes through the center of the circle.
+Find the point where the two lines intersect.
+Check to see if the distance from the point is less than the radius.
+If it is, then the line intersects the circle.}
+
+\end{document}

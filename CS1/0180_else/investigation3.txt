@@ -1,0 +1,127 @@
+
+
+For 17 points, answer the following questions.
+
+
+#1. Use input, if, and elif to write a program that checks 
+#if I play rock and you play scissors, then prints "I win",
+#but if I play rock and you play paper, prints "you win".
+
+
+#2. Write an if statement that checks if an integer variable named 
+#age is less than zero and if so prints the word error.
+
+
+#3. Write an if statement that checks if an integer variable named x 
+#is greater than or equal to zero and if so adds 6 to x.
+
+
+'''Reminder: You can check how many letters are in a string using the
+length function, len().
+4. Does the following print "it is longer" or not?'''
+if len("short") > len("long"):
+    print("it is longer")
+
+
+'''Compare the following programs.
+5. Do they print different things when given the same input?
+6. Which program do you think is better? Why?'''
+
+#PROGRAM 1:
+a = 5.7
+b = 26
+c = 140
+if c/a > b:
+    print("Something")
+else:
+    print("other")
+
+#PROGRAM 2:
+a = 5.7
+b = 26
+c = 140
+result = c/a > b
+if result:
+    print("Something")
+else:
+    print("other")
+
+
+'''Compare the following programs.
+7. Do they print different things when given the same input?
+8. Which program do you think is better? Why?'''
+
+#PROGRAM 1:
+user_in = input("What is your name?")
+if len(user_in) > 10:
+    print("Do you have a nickname?")
+
+#PROGRAM 2:
+user_in = input("What is your name?")
+is_long = len(user_in) > 10
+if is_long:
+    print("Do you have a nickname?")
+
+
+'''9. Give both numbers of the lines of code that could come next 
+when we are currently on line 1:
+Line 1: if is_raining:
+Line 2:      getUmbrella()
+Line 3: elif is_snowing:
+Line 4:      getCoat()
+'''
+
+
+'''10. What line of code will run after line 3?
+1   x = 7
+2   y = 4*x/7
+3   if x*y > 20:
+4         print("transcendent computer experience")
+5   else:
+6         print("boring nonsense program")
+'''
+
+
+'''11. What does this code print?
+12. What does ** do? You can (should) google it.
+x = (4/2)**3
+if x < 8:
+	print("Big spender")
+elif x < 8:
+	print("Cheapskate")
+else:
+	print("Meh")
+'''
+
+
+'''13. What does this code print? Try to figure it out without running 
+it, but verify by running it.
+number = 4
+alpha = -1.0
+if number > 0:
+	if alpha > 0:
+		print("Here I am!")
+else:
+	print("No, I’m here!")
+print("No, actually, I’m here!")
+'''
+
+
+'''14. What does this code print? Try to figure it out without running 
+it, but verify by running it.
+x = 7
+y = -5
+if x*y < 0:
+    print("A")
+    if x > 0:
+        print("B")
+	elif y < 0:
+        print("C")
+    else:
+        print("D")
+if x*x < 100:
+    print("E")
+else:
+    print("F")
+'''
+

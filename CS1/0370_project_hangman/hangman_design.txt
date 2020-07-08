@@ -1,0 +1,15 @@
+
+For 35 points, turn in a design for a game of hangman.
+Your design must include the following.
+
+1. List the steps of a game of Hangman in order.
+How is the game begun? How is it played? How does the game end?
+Describe each step.
+
+2. Which of the actions or steps you listed should be functions?
+List the functions you expect to use. Name each function and say what
+it will do. The functions should be small actions.
+
+3. What information will you need to store to play a game of hangman?
+List the information needed and name a variable for each piece of
+information. You do not need to give the type of these variables.

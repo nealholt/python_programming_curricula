@@ -1,0 +1,9 @@
+
+You need to look at this guy's page.
+https://ianwitham.wordpress.com/category/python/
+I downloaded this image of his. I bet you can replicate it. Move, decrease pen size, move from brown to green, split into two turtles, continue.
+screenshot-python-turtle-graphics2.png
+
+-Genetic algorithm projects: start with genome changing how a turtle moves. Start with: forward, angle, color, num loops, fill or not?
+Repeated a few times, then try to evolve prettiest image. Or if you get this tree working, change parameters that create the tree!
+

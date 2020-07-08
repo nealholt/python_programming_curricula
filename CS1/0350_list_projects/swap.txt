@@ -1,0 +1,8 @@
+
+For 35 points, write a function that takes a list and two numbers,
+then swaps the values at the locations of the two numbers in the list.
+For example:
+
+my_list = [1,2,3,4,5]
+listSwap(my_list, 1,4)
+print(my_list) #This should print [1,5,3,4,2]

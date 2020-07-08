@@ -1,0 +1,32 @@
+
+Keep using debugger and "what line of code comes next".
+
+
+-understanding how the def keyword is used to create a function.
+-Students recognize basic function definitions
+-understand purpose of functions as organizing a singular action.
+
+Why to use functions: organization and re-use. A function as a contract. A function as how to do something.
+
+Identifying inside of Main.
+
+Identifying inside and outside a function.
+
+Calling existing functions. Students can write a function call. 
+
+Fundamental idea of a function being replaced with its return value. Students can write a function call to an existing function and use the return value.
+
+Basic syntax of writing a function with no argument and no return type. Create a function with a given name with the given code inside of it.
+
+Distinction between calling and defining a function.
+
+Functions with arguments. Students can write a function given its name and specified arguments and code to go inside it. They can then call the function effectively in their code.
+
+Description of arguments as variables waiting to be created. Created when the function is called. Calling a function with same-named variables or different named variables.
+
+Functions with return types. Students can write it given all the specified info and call it and use the returned value.
+
+Students recognize when a function is appropriate: very long and confusing code, or re-used code.
+
+Using print to see if a function is getting called.
+

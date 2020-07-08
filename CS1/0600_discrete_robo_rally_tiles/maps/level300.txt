@@ -1,0 +1,10 @@
+cv1r,cvrd,empt,empt,empt,cv1u,empt,empt,empt,empt,hole,empt,hole,empt,hole
+chek,cv1d,hole,chek,empt,cv1u,2wrd,2wdl,empt,empt,chek,empt,empt,empt,empt
+chek,cv1d,empt,empt,empt,cv1u,2wur,2wlu,empt,cvrr,cvrd,empt,hole,empt,hole
+chek,cv1d,hole,empt,empt,cv1u,empt,empt,empt,cvru,cvrl,empt,empt,empt,empt
+chek,cvlr,cv1r,cv1r,cv1r,cvlu,hole,empt,empt,empt,empt,empt,empt,empt,empt
+chek,cvrr,cv1r,cv1r,cv1r,cvrd,hole,empt,empt,empt,empt,empt,empt,empt,empt
+chek,cv1u,hole,empt,empt,cv1d,empt,empt,empt,cvld,cvll,empt,empt,empt,empt
+chek,cv1u,empt,empt,empt,cv1d,2wrd,2wdl,empt,cvlr,cvlu,empt,cvld,cv1l,cvll
+chek,cv1u,hole,chek,empt,cv1d,2wur,2wlu,empt,empt,chek,empt,cv1d,empt,cv1u
+cv1r,cvlu,empt,empt,empt,cv1d,empt,empt,empt,empt,hole,empt,cvlr,cv1r,cvlu

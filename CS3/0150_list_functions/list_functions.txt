@@ -1,0 +1,32 @@
+
+#For 70 points, write the following functions.
+
+'''Write a function that take a list and returns True if the list 
+contains 3 of same value in a row. Hint: Use a loop within a loop.'''
+
+
+'''Write a function to sum up and return the even digits of a number. 
+Check your function with the following.'''
+if sumEvenDigits(2678) == 16:
+    print('correct')
+if sumEvenDigits(853521) == 10:
+    print('correct')
+
+
+'''Write a function that takes a list of numbers and returns the two
+numbers that are closest together. Test your code with the following.'''
+pair = getClosest([15,12,7,2,1,9,4])
+if (pair[0]==1 and pair[1]==2) or (pair[0]==2 and pair[1]==1):
+    print('correct')
+pair = getClosest([15,12,7,2,12,9,4])
+if pair[0]==12 and pair[1]==12:
+    print('correct')
+
+
+'''The animals array contains a list of strings that are the names of animals. For example:'''
+animals = ["lizard", "duck", "duck", "goose", "duck", "lizard"]
+'''Write a function that prints out the total number of ducks and 
+separately prints the total number of ducks and geese combined.
+Your function should only use one loop!'''
+
+

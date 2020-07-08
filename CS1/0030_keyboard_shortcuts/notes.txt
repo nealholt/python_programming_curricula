@@ -1,0 +1,75 @@
+
+
+Teach these as you go, but I don't see the value in making a project for points out of this yet. The benefit is the time the students save.
+
+
+
+Shortcuts: The most common and important shortcuts will be taught, including: copy cut & paste, select all, rapid document navigation with control and the arrow keys, alt tabbing and window management, control-f find, save, and python-editor-specific shortcuts. Students will be graded based on their ability to complete sequences of tasks without use of the mouse. Speed and improvement will be ungraded, but rewarded in other ways.
+
+one cycle of keyboard shortcuts while getting python setup:
+	get pyscripter set up
+	debug any problems installing python
+	get the font size and color schemes for pyscripter set up
+	start learning and practicing keyboard shortcuts
+	lots of peer helping
+	some exercises in keyboard shortcuts.
+	some speed competitions in keyboard shortcuts.
+	record baseline times.
+	later on during the keyboarding/kahoot days we can do other keyboard shortcut speed run competitions.
+	badges for speed accomplishments and for improvement available. (see gamification)
+	points awarded for completing particular tasks without using the mouse and for achieving very low bar time goals.
+
+TODO: Create the shortcut-use speed test assignments. on a long day, each student demonstrates the assignment without use of a mouse. Grade of A given for any reasonable speed at all. Grade of B given for completing without use of mouse. This is an open-notes quiz.
+
+TODO: control-a, control-c, control-v, control-z, alt-tab.
+how to use the console
+using alt-r-r to run a program. alt-s to save. control-n for a new window
+Make this an investigation (and then a race) too!
+Downloading and saving files from email.
+Control-n
+What's the shortcut to rename a file? F2
+
+
+
+​Use Ctrl + shift to edit a document to misrepresent the text.
+For example: "Holtschulte is a pirate in search of buried treasure." trimmed out of
+Mr. Holtschulte is excited to be teaching math again this year. He knows that pi and rates of change are typically weak points for students so he will be researching ways to teach these concepts in the coming year. He's sure that buried beneath the homework and tests, students will discover a treasure trove of learning.
+
+or "Holtschulte hopes to break students with impossible tests."
+Mr. Holtschulte has high hopes for the coming school year. Though he enjoys summer break, he's looking forward to meeting a new set of students and experiencing a mathematical journey with them as tasks that once seemed impossible are completed and tests are aced.
+
+
+
+Hot key exercise ideas:
+
+Open chrome
+Navigate to webpage (maybe wikipedia or some short essay)
+Copy the page
+Open a word doc
+Paste the page in
+Delete much of the page
+Save it to file
+Copy the file
+Rename the copy
+
+Navigate to gmail
+open email from Mr. Holt
+copy all of email
+open pyscripter
+paste in email
+delete so it's a coherent program
+run it
+save it to file
+
+Move files from downloads folder to another folder
+
+A few days or weeks in the exercise is to clear the downloads folder:
+open downloads folder
+select all
+delete it
+
+A few days later, and periodically, exercise is to clean your personal folder:
+navigate to google drive
+create new folders
+select and rename
+

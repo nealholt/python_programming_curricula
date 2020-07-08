@@ -1,0 +1,30 @@
+'''
+For 35 points, complete the following challenge.
+The world is running out of computer code. You need to write a program
+that prints . then - repeatedly forever. For example, your output will
+look like:
+.
+-
+.
+-
+.
+-
+and so on.
+
+However, your program can only use one loop: while(True)
+Your program can only use 1 print statement.
+You can use as many variables and if-statements as you need.
+
+For example, you CANNOT use this as your answer because it has 2 
+print statements:'''
+while(True):
+	print('.')
+	print('-')
+
+'''You also cannot use this:'''
+while(True):
+	print('.' , '-')
+
+'''You can't use this either:'''
+while(True):
+	print('.\n-')

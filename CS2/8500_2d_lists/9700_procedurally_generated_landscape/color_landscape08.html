@@ -1,0 +1,364 @@
+<html>
+<head>
+<script src="color_spectrum.js" type="text/javascript"></script>
+<script src="random.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#000000" style="color:#FFFFCC;">
+
+
+Scale:
+<!-- Slider bar needs to come before the slider thumb so that the thumb is on top of the bar. -->
+<div id='slider_bar' style="position:absolute;left:65px;top:12px;background-color:rgb(0,0,255);width:300;height:3"></div>
+
+<div id='slider_thumb' style="position:absolute;left:50px;top:0px;background-color:rgb(255,0,0);width:30;height:30" onmousedown="javascript: selectElement(this);""></div>
+
+<div id="scale_output" style="position:absolute;left:410px;top:5px;"></div>
+
+
+<br /><br />
+
+<p>Input center: x=<input id="centerx" type="text" value="0" />, y=<input id="centery" type="text" value="0" /></p>
+
+
+<input type="button" value="Refresh map level 1" onclick="javascript: current_level = level1; current_label = level1_labels; updateAll();"/>
+<br />
+<input type="button" value="Refresh map level 10" onclick="javascript: current_level = level10; current_label = level10_labels; updateAll();"/>
+
+
+<div id="map" style="position:absolute;top:10px;left:600px;background-color:Gray"></div>
+
+<br /><br />
+<div id='landscape_code'></div>
+
+<br /><br />
+<div id='legend'>
+  Legend:<br />
+  <span id='color1_name'>Red</span>
+  <div id='color1_example' style="position:relative;left:50px;top:-14px;background-color:rgb(255,0,0);width:10;height:10"></div>
+  <span id='color2_name'>Green</span>
+  <div id='color2_example' style="position:relative;left:50px;top:-14px;background-color:rgb(0,255,0);width:10;height:10"></div>
+  <span id='color3_name'>Blue</span>
+  <div id='color3_example' style="position:relative;left:50px;top:-14px;background-color:rgb(0,0,255);width:10;height:10"></div>
+</div>
+
+
+
+<script type="text/javascript">
+//http://www.codelifter.com/main/javascript/capturemouseposition1.html
+//Code for the slider
+
+var left_limit = 50;
+var right_limit = left_limit+300
+
+var half_thumb = 30/2;
+
+var thumb_location = 0;
+
+//var tester = document.getElementById('tester');
+var scale_output = document.getElementById('scale_output');
+
+var selected = null;
+
+// Detect if the browser is IE or not.
+// If it is not IE, we assume that the browser is NS.
+var IE = document.all?true:false
+
+// If NS -- that is, !IE -- then set up for mouse capture
+if (!IE) document.captureEvents(Event.MOUSEMOVE)
+
+document.onmousemove = getMouseXY;
+
+document.onmouseup = deselectElement;
+
+var scale = 1; //For changing the scale of the map
+
+function getMouseXY(e){
+  if(selected){
+    if (IE) { // grab the x-y pos.s if browser is IE
+      tempX = event.clientX + document.body.scrollLeft
+      tempY = event.clientY + document.body.scrollTop
+    } else {  // grab the x-y pos.s if browser is NS
+      tempX = e.pageX;
+      tempY = e.pageY;
+    }  
+    // catch possible negative values in NS4
+    if (tempX < 0){tempX = 0}
+    if (tempY < 0){tempY = 0}  
+  
+    //Move the slider
+    var temp = tempX-half_thumb;
+	if(temp < left_limit){ temp = left_limit; }
+	else if(temp > right_limit){ temp = right_limit; }
+    selected.style.left = temp+'px';
+	//tester.innerHTML = 'Dragging selected to '+temp+'px';
+	//output.innerHTML = Math.floor(((temp-left_limit)*100/(right_limit-left_limit)))+'%';
+	scale = Math.ceil(((temp+1-left_limit)*99/(right_limit-left_limit)));
+	scale_output.innerHTML = scale;
+  }
+  
+  return true
+}
+
+//Trim "px" from the end of a string and return the result as a number.
+function trimpx(stringToTrim){ return stringToTrim.replace(/px$/,"")*1; }
+
+function selectElement(element){
+  selected = element;
+  /*if(selected){
+    tester.innerHTML = 'Selected element: '+selected.id;
+  }else{
+    tester.innerHTML = 'Selected element is null.';
+  }*/
+}
+
+function deselectElement(){
+  //Check for thumb movement
+  if(selected !== null){
+    var position = parseInt(trimpx(selected.style.left));
+    if(thumb_location != selected.style.left){
+      //Refresh the map at the latest scale
+	  updateAll();
+	}
+  }
+  selectElement(null);
+}
+
+</script>
+
+
+
+<script type="text/javascript">
+//Code for the map
+
+function getRandArray(min, max, length){
+  var toreturn = Array();
+  for(var i=0; i<length; i++){
+    toreturn[i] = getRandomInt(min, max);
+  }
+  return toreturn;
+}
+
+
+//This function prints the javacode to generate a given landscape object so you can use that code and make the landscape the same each time.
+function printLandscapeJSCode(landscape, outelement){
+  var string = 'var reds = {<br />&nbsp;&nbsp;frequencies:['+landscape.red[0];
+  for(var i=1; i<landscape.red.length; i++){
+    string += ','+landscape.red[i];
+  }
+  string += ']<br />}<br />';
+
+  string += 'var greens = {<br />&nbsp;&nbsp;frequencies:['+landscape.green[0];
+  for(var i=1; i<landscape.green.length; i++){
+    string += ','+landscape.green[i];
+  }
+  string += ']<br />}<br />';
+  
+  string += 'var blues = {<br />&nbsp;&nbsp;frequencies:['+landscape.blue[0];
+  for(var i=1; i<landscape.blue.length; i++){
+    string += ','+landscape.blue[i];
+  }
+  string += ']<br />}<br />';
+  
+  string += 'var landscape = {<br />&nbsp;&nbsp;red:reds,<br />&nbsp;&nbsp;green:greens,<br />&nbsp;&nbsp;blue:blues<br />};<br />return landscape;'
+
+  outelement.innerHTML = string;
+}
+
+
+function getColorLandscape(freq_min, freq_max, array_length){
+  var landscape = {
+    red:getRandArray(freq_min,freq_max,array_length),
+    green:getRandArray(freq_min,freq_max,array_length),
+    blue:getRandArray(freq_min,freq_max,array_length)
+  }
+  return landscape;
+}
+
+
+function updateLegend(labels){
+  document.getElementById('color1_name').innerHTML = labels.names[0];
+  document.getElementById('color2_name').innerHTML = labels.names[1];
+  document.getElementById('color3_name').innerHTML = labels.names[2];
+  document.getElementById('color1_example').style.background = 'rgb('+labels.color1[0]+','+labels.color1[1]+','+labels.color1[2]+')';
+  document.getElementById('color2_example').style.background = 'rgb('+labels.color2[0]+','+labels.color2[1]+','+labels.color2[2]+')';
+  document.getElementById('color3_example').style.background = 'rgb('+labels.color3[0]+','+labels.color3[1]+','+labels.color3[2]+')';
+}
+
+
+var level1 = getColorLandscape(3,10, 6);
+var level1_labels = {
+  names:['odd','even','prime'],
+  color1:[255, 20, 60],
+  color2:[0,200,100],
+  color3:[40,0,255]
+}
+var level10 = getColorLandscape(20,50, 6);
+var level10_labels = {
+  names:['integer','whole','natural'],
+  color1:[255, 20, 80],
+  color2:[20,250,100],
+  color3:[40,20,250]
+}
+
+//These are used so that when the scale changes, we can automatically update the map.
+var current_level = level1;
+var current_label = level1_labels;
+
+function sine1(x, y, shift, frequencies){
+  var upshift = 0; //Use this to keep the result positive
+  var inputx = x+shift;
+  var inputy = y+shift;
+  var output = 0;
+  var input = 0;
+  
+  //Add a slight random weight on x values to shift their importance relative to y
+  //This adds a nice little sprinkle of randomness
+  var rand_weight = getRandomArbitrary(0.9, 1.0);
+  
+  //Use switcher1 to oscillate between use of x, y, and x+y inputs.
+  var switcher1 = 0;
+
+  //The following loop and use of switcher reduces vertical, horizontal, and diagonal
+  //artifacts that result from using x and y as inputs.
+  //I'm using z on the next line because I think i is still in scope 
+  //and that's what was giving me such headaches!
+  for(var z=0; z<frequencies.length; z++){
+    if(switcher1===0){
+      input = inputx;
+	  switcher1 = 1;
+	}else if(switcher1===1){
+	  input = inputy;
+	  switcher1 = 2;
+	}else{
+	  input = rand_weight*inputx+inputy;
+	  switcher1 = 0;
+	}
+	output += Math.sin(input / frequencies[z]);
+    upshift += 1;
+  }
+  
+  //Make the output value between 0 and 1.
+  output = (output+upshift) / (2*upshift);
+  //Sanity check
+  if(output>1 || output<0){ document.write(output); }
+  //Multiply by 255 to make it a color.
+  return Math.round(255 * output);
+}
+
+
+/*TODO
+Use a slider bar to change the scale. Awesome!
+
+Add the number flavor. Start from the top and move down. At the top the colors will correspond to reals, imaginary, and complex numbers.
+
+Some terrain only exists as a subset of other terrain. Implement this as needed.
+
+At the very tippy top of the hierarchy you could have different representations: unary, hexadecimal, roman numeral, etc.
+Next level down: real, imaginary, complex
+Next: irrational, rational, or either
+Subset only of irrational: transcendental or algebraic
+Subsets of transcendental or algebraic: positive, negative, either
+Subset only of rational: integer or rational
+Subsets of integers and rationals: whole, natural, negative naturals
+Subsets of whole, natural, negative naturals: odd, even, prime
+1. odd, even, prime
+2. positive, negative, including zero or not
+3. transcendental or algebraic if irrational
+...
+Let's try a more sensible hierarchy
+1. Bottom level - divided into forest, ocean, mountain, deserts
+2. subsets of integer - divided into odds, evens, primes
+3. integer - divided into natural, whole, integer, or negative natural
+4. rational - split between rational and irrational
+5. complex - divided into real or imaginary or both
+6. representations - divided into unary, hexadecimal, decimal, roman numerals, etc
+And in parallel:
+1. Bottom level - divided into forest, ocean, mountain, deserts
+2. subsets of subsets of irrational - positive, negative, including zero or not
+3. subsets of irrational - divided into transcendental or algebraic or both
+4. irrational - split between rational and irrational
+5. complex - divided into real or imaginary or both
+6. representations - divided into unary, hexadecimal, decimal, roman numerals, etc
+
+Average width of features of each level:
+1. 40 - 4 days to cross using 10 turns of walking per day
+2. 8 days to cross
+3. 16 days to cross
+4. 32 days to cross
+5. 64 days to cross
+6. 128 days to cross
+
+Create an input and button such that you can ask a 1x1 square about all its parent types
+
+//Toying with sine waves:
+//$4\sin \left(\frac{x}{8}\right)+2\sin \left(\frac{x}{3}\right)+\sin \left(\frac{x}{7}\right)+8\sin \left(\frac{x}{11}\right)+4\sin \left(\frac{x}{5}\right)+\sin \left(x\right)+2\sin \left(\frac{x}{13}\right)+10\sin \left(\frac{x}{23}\right)$
+*/
+
+
+//Draw the map anew.
+function updateMap(level){
+  var red = 0;
+  var green = 0;
+  var blue = 0;
+  
+  var CELL_COUNT = 51;
+  var CELL_SIZE = 10;
+  var map_text = '';
+  var scaledx = 0;
+  var scaledy = 0;
+  //Get the location to center on from user input.
+  var half_size = (CELL_COUNT-1)/2;
+  var x_adjust = Number(document.getElementById('centerx').value) - half_size;
+  var y_adjust = Number(document.getElementById('centery').value) - half_size;
+  //The looping is weird over the y variable so that we use math coordinates, not computer science coordinates.
+  for(var y=CELL_COUNT-1; y>=0;y--){
+    for(var x=0; x<CELL_COUNT;x++){
+	  //The +0.5 on the next two lines might not be too important, but it makes it so that a cell takes on the color of the value at the center of the cell instead of the value at the upper left corner of the cell. This might make edges appear better.
+	  scaledx = (x+0.5+x_adjust) * scale;
+	  scaledy = (y+0.5+y_adjust) * scale;
+      red   = sine1(scaledx, scaledy, 7, level.red);
+	  green = sine1(scaledx, scaledy, 19, level.green);
+	  blue  = sine1(scaledx, scaledy, 0, level.blue);
+	
+	  //Dominant color wins. Everything else gets set to zero.
+	  if(red > green){
+	    green = 0;
+	    if(red > blue){
+	      blue = 0;
+	    }else{
+	      red = 0;
+	    }
+	  }else{
+	    red = 0;
+	    if(green > blue){
+	      blue = 0;
+	    }else{
+	      green = 0;
+	    }
+	  }
+	
+	  //y is subtracted from CELL_COUNT so that we use math coordinates, not computer science coordinates.
+      map_text += '<div style="position:absolute;top:'+((CELL_COUNT-y)*CELL_SIZE)+'px;left:'+(x*CELL_SIZE)+'px;background-color:rgb('+red+','+green+','+blue+');width:'+CELL_SIZE+';height:'+CELL_SIZE+'"></div>';
+    }
+  }
+  document.getElementById('map').innerHTML = map_text;
+  
+  //Write the javascript code to generate the level to an output division.
+  printLandscapeJSCode(level, document.getElementById('landscape_code'));
+}
+
+
+function updateAll(){
+  updateMap(current_level);
+  updateLegend(current_label);
+}
+
+
+//Draw the map for the first time.
+updateAll();
+
+</script>
+
+
+</body>
+</html>

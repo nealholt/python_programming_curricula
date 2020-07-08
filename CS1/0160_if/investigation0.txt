@@ -1,0 +1,16 @@
+
+For 35 points, read through the following webpages and complete all their challenge questions.
+
+https://learnpython.trinket.io/learn-python-part-6-conditionals#/if-statements/if
+
+https://learnpython.trinket.io/learn-python-part-6-conditionals#/if-statements/else
+
+https://learnpython.trinket.io/learn-python-part-6-conditionals#/if-statements/elif
+
+Answer the challenge questions on the previous webpage.
+
+https://learnpython.trinket.io/learn-python-part-6-conditionals#/if-statements/nesting
+
+https://learnpython.trinket.io/learn-python-part-6-conditionals#/wrap-up/use-what-you-learned
+
+Answer the challenge questions on the previous webpage.

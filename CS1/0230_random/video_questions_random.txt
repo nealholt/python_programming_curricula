@@ -1,0 +1,17 @@
+
+For 35 points, watched the video "Random" found here:
+https://youtu.be/odf9LuN5Cyc
+and answer the following questions.
+
+
+1. What does "dot" mean in Python?
+
+2. Write code to print a random decimal number between zero and one.
+
+3. Write two different programs that choose between two options with equal probability, in other words, 50/50 chance.
+
+4. Write code to print a random integer number between -43 and 81.
+
+5. What file opens when the narrator tries to get a random number between 100 and -100?
+
+6. Write code to print a decimal number between -12 and 10.

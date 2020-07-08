@@ -1,0 +1,112 @@
+
+'''For 17 points, answer the following questions.
+
+www.learnpython.org/en/Functions
+-Source for some of the following material
+
+Functions are a convenient way to divide your code into 
+useful blocks, allowing us to order our code, make it more
+readable, reuse it and save some time.
+
+Functions in python are defined using the keyword "def",
+followed by the function's name, then parentheses (possibly
+with arguments inside), then a colon, then on the next line
+indented code that will be run when the function is called.
+Arguments must have commas between them.
+
+What is missing from each of the following function definitions?
+Your options are: def, the function name, parentheses, colon, or comma
+
+1)	 def  myFunction()
+
+2)	 otherFunction():
+
+3)	 def  (a, b):
+
+4)	 def  functionName a, b:
+
+5)	 def  goodFunction(a b):
+
+Functions may also receive arguments (variables passed from 
+the caller to the function). Arguments are variables and 
+they must be separated by a comma. For example, the following 
+function has 2 arguments: username and greeting.
+
+def  myFunction(username, greeting):
+         print("Hello, "+username+" , I wish you "+greeting)
+
+How would you fix the arguments in each of the following functions?
+
+6)
+def calculate(x  y):
+	return x+y
+
+7)
+def combineStrings(a):
+	print(a+"  "+b)
+
+Functions may return a value to the caller, using the keyword return. For example:
+
+def sumTwoNumbers(a, b):
+	return a + b
+
+The keyword return ends a function.
+
+def sumTwoNumbers(a, b):
+	return a + b
+	print("This will never ever print.")
+
+When a function gets called, the function call gets replaced by the value it returns. For example, when the following line of code gets run
+
+x = sumTwoNumbers(4, 6)
+the function call, sumTwoNumbers(4,6), gets replaced by the return value
+x = 10
+then 10 becomes the value of the variable x.
+
+Print is different from return. Print merely puts text on the command window. This next function does not return anything.
+
+def combineStrings(a):
+	print(a+"  "+b)
+
+The following programs all use the sumTwoNumbers function defined above. What does each program print?
+
+8)
+x = 5
+y = 2
+print(sumTwoNumbers(x,y))
+
+
+9)
+x = 5
+y = 2
+x = sumTwoNumbers(x,y)
+print(x)
+
+
+10)
+x = 5
+y = 2
+x = sumTwoNumbers(x, 4)
+print(x)
+
+
+11)
+x = 5
+y = 2
+sumTwoNumbers(x, 4)
+print(x)
+
+
+12)
+x = 5
+y = 2
+print(x)
+x = sumTwoNumbers(x, 4)
+
+
+13)	Write a function that returns the subtracted value of its 
+arguments (in other words, if you pass the values 7 and 5, the 
+function will subtract 7-5 and return 2) then write code that 
+calls this function and prints the result. Use whatever values 
+you like.
+

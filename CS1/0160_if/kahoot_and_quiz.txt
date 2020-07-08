@@ -1,0 +1,278 @@
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+
+=== KAHOOT
+
+Which of the following is the correct operator to compare if two values are equal?
+A) equal
+B) <>
+C) ==
+D) =
+
+
+Which of the following is the correct operator to compare if one value is less than or equal to another?
+A) less than or equal
+B) <
+C) =<
+D) <=
+
+
+
+Which statements are True? List all correct answers.
+A) 5 == 6
+B) 3 <= 4
+C) 4 >= 4
+D) 5 != 4
+
+
+How many different things could print in this piece of code?
+if name == "Chris Pratt":
+    print("You were Thor, right?")
+else:
+    print("Never heard of you.")
+1
+2
+3
+4
+
+
+What does this code print?
+x = 7 > 6
+print(x)
+
+
+What does this code print?
+x = 7 < 6
+print(x)
+
+
+What does this code print?
+x = 9 == 2
+print(x)
+
+
+What must the user type in for "You were in Parks and Rec?" to print?
+name = input("What's your name?")
+if name == "Chris Hemsworth":
+    print("You were in Parks and Rec?")
+A Chris Pine
+B Chris Pratt
+C Chris Hemsworth
+D Chris Evans
+
+
+If this part of a program prints "You were Thor, right?" then the value of name must have been
+if name == "Chris Pratt":
+    print("You were Thor, right?")
+else:
+    print("Never heard of you.")
+A Chris Pine
+B Chris Pratt
+C Chris Hemsworth
+D Chris Evans
+
+
+
+What must the user type in for "Can vote, barely" to print?
+age = int(input("What's your age?"))
+if age == 18:
+    print("Can vote, barely")
+else:
+    print("who knows?")
+
+
+
+What could the user type in for "Can't rent" to print?
+age = int(input("What's your age?"))
+if age >= 21:
+    print("Can rent a car")
+else:
+    print("Can't rent")
+
+
+
+What does this program print?
+x = 46
+if x > 40:
+    print("older")
+else:
+	print("younger")
+
+
+
+What does this program print?
+x = 999
+y = 1000
+if y < x:
+    print("x larger")
+else:
+	print("y larger")
+
+
+
+
+What does this program print?
+x = 999
+y = 999
+if y < x:
+    print("x larger")
+else:
+	print("y larger")
+
+
+What does this program print?
+x = 999
+y = 999
+if y < x:
+    print("x larger")
+elif x == y:
+	print("equal")
+else:
+	print("y larger")
+
+
+True or False?
+14 <= 14
+
+
+True or False?
+14 < 14
+
+
+True or False?
+-9 > -25
+
+
+True or False?
+-25 > -9
+
+
+bill = 19
+money = 25
+True or False?
+bill <= money
+
+
+bill = 19
+money = 25
+True or False?
+bill > -1
+
+
+=== QUIZ:
+
+
+Which of the following is the correct operator to compare if two values are equal?
+A) equal
+B) <>
+C) ==
+D) =
+
+
+Which of the following is the correct operator to compare if one value is greater than or equal to another?
+A) greater than or equal
+B) <
+C) =<
+D) <=
+
+
+Which statements are True? List all correct answers.
+A) 10 == 1
+B) 4 <= 4
+C) 6 >= 4
+D) 7 != 7
+
+
+How many different things could print in this piece of code?
+if x > 40:
+    print("older")
+else:
+	print("younger")
+1
+2
+3
+4
+
+
+What does this code print?
+x = 8 < 5
+print(x)
+
+
+What does this code print?
+x = 4 != 1
+print(x)
+
+
+What could the user type in for "Can rent a car" to print?
+age = int(input("What's your age?"))
+if age >= 21:
+    print("Can rent a car")
+else:
+    print("Can't rent")
+
+
+What does this program print?
+age = 24
+age_fee = 25
+if age <= age_fee:
+    print("it'll cost ya")
+else:
+	print("no charge")
+
+
+True or False?
+16 <= 16
+
+
+True or False?
+16 > 16
+
+
+True or False?
+-22 < -1
+
+
+True or False?
+4 > 4-1
+
+
+True or False?
+0 > -2
+
+
+True or False?
+9 < 9
+
+
+
+The input function always returns a string. What error does this code throw if the user types in 4?
+response = input("Give me a number")
+print(response+10)
+Type Error
+Name Error
+Syntax Error
+Divide by Zero Error
+
+
+What does this code print?
+a = "Ted"
+b = 222
+a = b
+b = a
+print(a)
+print(b)
+
+
+
+What does this code print?
+a = "ted"
+b = 222
+c = a 
+a = b
+b = c
+print(a)
+print(b)
+

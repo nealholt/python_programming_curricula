@@ -1,0 +1,6 @@
+name:Attack
+target all:False
+health steal:0
+cooldown:0
+damage modifier:100
+target allies:False

@@ -1,0 +1,268 @@
+
+=== KAHOOT ===
+
+What will this code print?
+if 3 < 4:
+	print("A")
+else:
+	print("B")
+	print("C")
+A
+B C
+ERROR
+A B C
+
+
+What could this code print?
+x = int(input("number?"))
+if x < 4:
+	print("A")
+else:
+	print("B")
+	print("C")
+A
+B C
+A B
+A B C
+
+
+What will this code print?
+if 3 < 4:
+    print("A")
+else:
+    print("B")
+print("C")
+
+A
+A B
+A C
+B C
+
+
+What could this code print?
+x = int(input("number?"))
+if x < 4:
+    print("A")
+else:
+    print("B")
+print("C")
+
+A
+A B
+A C
+B C
+
+
+What will this code print?
+a = True
+if a:
+    print("A")
+else:
+    print("B")
+print("C")
+
+A
+A B
+A C
+B C
+
+
+What will this code print?
+a = True
+if not a:
+    print("A")
+else:
+    print("B")
+print("C")
+
+A
+A B
+A C
+B C
+
+
+What will this code print?
+if 4 < 4:
+    print("A")
+elif 3 < 4:
+    print("B")
+else:
+    print("C")
+print("D")
+
+A D
+B D
+C D
+D
+
+
+What will this code print?
+orange_quality = "fresh"
+orange_price = 4.0
+if orange_quality == "fresh":
+    if orange_price < 5:
+        print('buy 24')
+    else: 
+        print('buy 12')
+else:
+    print("don’t buy oranges")
+
+
+Which program below adds 1 to x if x is positive and subtracts 1 from x if x is negative but leaves x alone if x is 0?
+
+A:
+if x > 0:
+	x+=1
+else:
+	x-=1
+
+B:
+if x > 0:
+	x+=1
+elif x < 0:
+	x-=1
+
+C:
+if x == 0:
+	x=0
+else:
+	x+=1
+x-=1
+
+D:
+	x+=1
+	x-=1
+
+
+Python the programming language was invented by
+Guido van Rossum
+Monty Python
+Pythagoras Ontario
+Jean Claude Van Damme
+
+
+Which of the following is the correct way to create a variable?
+7 = x
+x == 7
+x = 7
+x gets 7
+
+
+What does this program print?
+name = "Jim"
+jim = "Jake"
+print(jim)
+print("name")
+
+
+Which of the following shows the correct syntax for an if statement? Indentation matters.
+
+A:
+if condition
+	code
+
+B:
+if condition
+code
+
+C:
+if condition:
+	code
+
+D:
+condition if:
+	code
+
+
+
+Python the programming language is named after...
+...Monty Python's Flying Circus
+...a family of nonvenomous snakes
+...Guido's favorite type of pet
+...Holt's greatest fear
+
+
+=== QUIZ ===
+
+What could this code print?
+x = int(input("number?"))
+if x < 4:
+	print("A")
+else:
+	print("B")
+	print("C")
+A
+B C
+A B
+A B C
+
+
+What could this code print?
+x = int(input("number?"))
+if x < 4:
+    print("A")
+else:
+    print("B")
+print("C")
+
+A
+A B
+A C
+B C
+
+
+Suppose the variable temperature has already been created and given a numeric value. Write code that prints "hot" if temperature is greater than 85 and prints "nice" otherwise.
+
+
+Write an if-else statement that checks if a variable named grade is less than or equal to 92. If so, the code prints A, otherwise it prints B.
+
+
+Which program below adds 1 to x if x is positive and subtracts 1 from x if x is negative but leaves x alone if x is 0?
+
+A:
+if x > 0:
+	x+=1
+else:
+	x-=1
+
+B:
+if x > 0:
+	x+=1
+elif x < 0:
+	x-=1
+
+C:
+if x == 0:
+	x=0
+else:
+	x+=1
+x-=1
+
+D:
+	x+=1
+	x-=1
+
+
+Which of the folowing lines of code will NOT cause an error?
+7 = x
+7x = 7
+x 7
+x = 7
+
+
+What does this program print?
+age = 10
+date = 14
+c = age
+age = date
+date = c
+print(age)
+print(date)
+
+
+Which of the following is NOT a programming error?
+   A. Type Error
+   B. Name Error
+   C. Syntax Error
+   D. Billing Error
+

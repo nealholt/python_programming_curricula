@@ -1,0 +1,25 @@
+
+For 5 points, answer the following questions.
+
+
+'''if it's raining outside grab an umbrella otherwise grab sunscreen.
+1. raining outside is True. Do you have umbrella or sunscreen?
+2. It is sunny, not a cloud in the sky. Do you have umbrella or sunscreen?
+3. Do you ever have both umbrella and sunscreen?'''
+
+'''x=2
+if x<4 clap your hands
+otherwise cluck like a chicken
+
+4. Are you clapping or clucking?'''
+
+#Run the following code. The indentation is VITAL!
+response = input("Is it raining?")
+if response == "yes":
+    print("Get umbrella")
+else:
+    print("Get sunscreen")
+#5. What happens when you run the program and type in yes?
+#6. What happens when you run the program and type in no?
+#7. What happens when you run the program and type in carrots?
+

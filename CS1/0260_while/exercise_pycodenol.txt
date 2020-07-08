@@ -1,0 +1,12 @@
+
+For 10 points write the Pycodenol medical program:
+
+Create three boolean variables named: anemia, high_cholesterol, 
+heart_disease.
+
+A patient should not take the new medication Pycodenol if they are 
+anemic or if they have both high_cholesterol and heart_disease.
+
+Write a program with an if and else statement that tells the user if 
+they should take Pycodenol. You can set the values of the boolean 
+variables however you like.

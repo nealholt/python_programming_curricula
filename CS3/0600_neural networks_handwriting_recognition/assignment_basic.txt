@@ -1,0 +1,17 @@
+
+For 300 points, use a given neural network and dataset to train
+the network how to recognize hand-written digits.
+
+Our data comes from here:
+https://www.kaggle.com/strideradu/handwriting
+To see what the data looks like, run visualizer.py and press any key
+to see the next image.
+
+Examples of how to read in the data can be found in visualizer.py
+
+Examples of how to create and run the neural network can be found at
+the bottom of neural_net_draft08.py
+
+You must turn in well-commented code as well as clear notes about the 
+decisions you made regarding the size and shape of your network,
+how much time was spent training, and the learning rate you used.

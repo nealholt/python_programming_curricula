@@ -1,0 +1,26 @@
+'''
+For 35 points, write a program that scrambles the letters of a word, 
+prints the scrambled word then asks the user to guess the unscrambled 
+word. The program should repeat until the user gets it right.
+
+Start your program off with the following code:
+'''
+
+import random
+
+original_word = "a t t a c k"
+
+#Scramble a copy of the word and convert it back to a string
+scrambled_word = original_word.split()
+random.shuffle(scrambled_word)
+scrambled_word = "".join(scrambled_word)
+
+#Remove spaces from the original word
+original_word = "".join(original_word.split())
+
+'''
+Reminder: you can compare variable values with ==
+
+If you need a reminder about input, visit this webpage:
+https://www.w3schools.com/python/ref_func_input.asp
+'''

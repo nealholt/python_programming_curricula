@@ -1,0 +1,12 @@
+
+Start with the provided code.
+
+TIME LIMIT
+For 18 points add a time limit to the game.
+
+SPEED BLIND
+For 35 points add the feature that the player can hold down a key to increase their speed but decrease their vision.
+You will need to modify what functions.py imports to make this work. You will also need to modify handleEvents to return the modified vision_radius for use in scwary_squares.py.
+
+ENEMY
+For 120 points add an enemy (using a class). The enemy should slowly chase the player and the game ends if the enemy catches the player. The enemy does not need to avoid the red rectangles.

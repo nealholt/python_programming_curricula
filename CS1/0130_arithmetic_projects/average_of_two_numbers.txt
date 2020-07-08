@@ -1,0 +1,13 @@
+'''
+
+For 12 points, write a program that asks the user for 
+two numbers, then prints the average of the numbers.
+
+Interaction with your program might look like the following:
+>Give me a number.
+4
+>Give me a number.
+7
+>The average is 5.5.
+
+'''

@@ -1,0 +1,6 @@
+
+
+For 40 to 100 points, depending on the complexity and organization of the code, write code for a new power-up for the python version of diep.io.
+
+For more information and example instructions for a power-up, watch this video:
+https://drive.google.com/open?id=1lTrL_VvkQWD-l1fpp6OBt1SkWtc_UVcX

@@ -1,0 +1,13 @@
+
+For 25 points, watched the video "If else debugger" found here:
+https://youtu.be/RIwdG_pZvBs
+and answer the following questions.
+
+
+1. How do we compare if two things are the same in Python?
+
+2. A line of Python starting with if has to end with what symbol?
+
+3. Which button is pressed to start the debugger that runs a program one line at a time?
+
+4. What's the last value of x in the video?

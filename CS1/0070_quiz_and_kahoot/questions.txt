@@ -1,0 +1,144 @@
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+
+=== KAHOOT
+
+Which of the following lines of code will throw an error?
+print(5)
+print('5')
+print("5")
+print '5'
+
+In a computer program actions are performed by
+Functions
+Variables
+Symbols
+Gremlins
+
+Functions are written as a verb followed by
+Dessert
+Semi-colon
+Period
+Parentheses
+
+The command to print text is usually written
+print('text')
+What happens if you capitalize print?
+A. Error
+B. It prints text
+
+What does this code print?
+x = 8
+print("x")
+
+What does this code print?
+x = 8
+print(x)
+
+Which of the following does NOT print 3?
+x = 3
+print(x)
+print('3')
+print(3)
+They all print 3
+
+Which of the following programs throws an error?
+print('Galifanakis')
+print('name')
+ name = 'Galifanakis'
+ print(name)
+print(name)
+
+Code runs in order from
+top to bottom
+bottom to top
+right to left
+left to right
+
+Variable names should be
+all lowercase
+all uppercase
+start with a capital letter
+end with a capital letter
+
+Multi-word variable names should be separated by
+spaces like this
+underscores_like_this
+hyphens-like-this
+periods.like.this
+
+In Python a dot or period . means
+belongs to
+is a function
+is a variable
+is a party animal
+
+Which of the following means "the rectangle's width" in Python
+rectangle.width
+rectangle's width
+rectangle owns(width)
+width belongs to rectangle
+
+
+
+=== QUIZ
+
+Write a program that prints out your name and favorite color.
+
+Rearrange the following lines of code so that the output of the program makes sense:
+print('Next, buy eggs.')
+exit()
+print('Then return home')
+print('First, walk to the store')
+
+Which of the following means "the circle's radius" in Python
+circle.radius
+circle's radius
+circle owns(radius)
+radius belongs to circle
+
+Which of the following is a sensible variable name in Python
+5nX6G4#rR
+account_number
+MY_TAXES
+dIdGeRiDoO
+
+Which of the following does NOT print 3?
+x = 3
+print(x)
+print('3')
+print(3)
+They all print 3
+
+Which of the following programs throws an error?
+print('Galifanakis')
+print('name')
+ name = 'Galifanakis'
+ print(name)
+print(name)
+
+Code runs in order from
+top to bottom
+bottom to top
+right to left
+left to right
+
+In a computer program actions are performed by
+Functions
+Variables
+Symbols
+Gremlins
+
+Functions are written as a verb followed by
+Dessert
+Semi-colon
+Period
+Parentheses
+
+In Python a dot or period . means
+belongs to
+is a function
+is a variable
+is a party animal

@@ -1,0 +1,153 @@
+
+READ THIS ENTIRE DOCUMENT BEFORE BEGINNING THIS PROJECT
+
+For 1000 points, create an overhead or side-view game with a tiled
+background and animated sprites and enemies. Animation and RPG-style
+tile examples can be found in the folders right before this one.
+
+Examples of animations (walking and sword swinging) and dungeon tiles
+can be found by running the test python files in this folder.
+I strongly recommend that you use the provided tile set.
+
+You may work in groups of as many people as you like for this project.
+All group members are eligible for 1000 points each. If this project
+takes more than a quarter AND group members have been focused and
+diligent, we can discuss modifying the points to allow the group to
+keep working on it.
+
+Each day all group members must turn in a Scrum sheet. For each day 
+that a Scrum sheet is not turned in, 20 points will be taken off your 
+total for the project.
+
+
+This project can and should be split into separate pieces with different
+group members working on different pieces.
+
+
+I recommend using tutorials such as this one for general game making:
+https://realpython.com/pygame-a-primer/
+and this one for tile map drawing:
+https://qq.readthedocs.io/en/latest/
+
+
+=== GAME DESIGN DOCUMENT
+
+The first thing you and your group should do is create a game design 
+document so that you are all in agreement regarding what you want in
+your game. You must turn in this game design document.
+
+Watch this video then discuss and plan your primary game loop:
+https://www.youtube.com/watch?v=yh26jd9UqRw
+
+Some major considerations:
+-Should the dungeon scroll? In other words, should the player stay centered and move the dungeon around them or simply load a different dungeon each time they reach a door? (Note: Centering the player is harder.)
+-How much is the game skill-based vs stats-based? Is there chance to hit and chance to block based on a random number generator? Of course there are many combinations of both. We could even have distance to target and frame of animation influence things like chance to hit, chance to critical, chance to block, chance to stun.
+-and many more.
+
+
+=== NOTES ON IMAGE SOURCES AND PRE-SETUP
+
+Files:
+	0x72_DungeonTilesetII_v1.2.png
+	crop.py
+	tiles_list.txt
+Downloaded from here:
+https://0x72.itch.io/dungeontileset-ii
+To run crop.py you need PIL
+which I downloaded no problem with the following line in the command prompt:
+	pip install Pillow
+I modified crop.py slightly. crop.py cuts out every image from the spritesheet and saves each one into the images folder.
+
+
+=== DESIGN DOCUMENT EXTENDED: CLASS OBJECTS & FUNCTIONS
+
+Your plan may change, but you need to start with a plan of all the 
+objects and functions your game will need, AND tests that will 
+demonstrate that the objects and functions are working as intended.
+I have included an extensive but incomplete description of objects 
+and functions below:
+
+
+Function that cuts out, converts, and loads all images into a single dictionary, which it returns.
+
+
+Dungeon object: draws on screen tiles, given a coordinate returns False if that coordinate is blocked by a wall or otherwise out of bounds, helper function that translates xy coordinates into row col of a particular cell, perhaps functions that generate particular dungeon rooms that can be strung together or loads a dungeon from file, dungeon will also keep track of which cells are occupied by enemies or the player or items or traps etc.
+
+
+	Sprite Object Description:
+All images on the screen will be some sort of sprite. Minimally a sprite consists of an image and a location.
+	Sprite Functions:
+getRect - returns this sprite's bounding rectangle.
+collidePoint - takes an x,y coordinate and returns true if this sprite's rectangle contains that point. This function doesn't need to do anything more than returning the restult of calling the rectangle's collide_point function.
+collideRect - Much like the previous, this function doesn't need to do anything more than returning the restult of calling the rectangle's collide_rect function.
+draw - a sprite can draw its image at a particular location.
+	Sprite Tests:
+Demonstrate correct collision with point
+Demonstrate correct collision with rect
+Draw on screen
+
+
+	MovingSprite Object Description:
+This object inherits from the base Sprite. MovingSprites animate, move, attack, and receive damage. MovingSprites consist of sequences of running and idling animations. They have hitpoints and collision damage. They have speed and direction.
+All players and enemies will be sprite objects.
+	MovingSprite Functions:
+takeDamage - Takes an amount of damage, triggers this sprite's got_hit animation (if any) and reduces the hp of this sprite. This function may also check if this sprite is dead and trigger a death animation.
+dealDamage - Takes a moving sprite as an argument and calls that sprite's takeDamage function with collisionDamage as an argument.
+updateFunction - Updates the current animation image
+moveLeft - Checks to see if this is a change in direction and, if so, updates the animation set in use. Changes x coordinate, sets direction variable.
+moveRight - similar to previous
+moveUp - similar to previous but changes y coordinate and does not update direction variable.
+moveDown - similar to previous
+	MovingSprite Tests:
+walk right as a pygame circle
+walk right as a circle (shadow) with run animation sequence
+Same as above but while moving left.
+Same as the above except moving up or down. When moving up or down player keeps facing left or right as they were when they started to move up and down.
+Moving diagonally.
+Cycle through idle animation when not moving.
+Transition smoothly from the idle animation to the running animation and back again.
+Go to target location: Given a target (x,y), take one step toward that location each frame until arrival, then transition to idle animation. This will be used by enemies to seek the player. We could also use it to send player's to a mouse click location if that's the game control scheme we want.
+
+
+Enemy object: move toward target location including updating the animation, attack that includes animation (initially just do damage on contact and try to move toward the player) and temporarily telling the dungeon object that a cell is having damage dealt to its occupant, function stringing all this together into implementation of moving to and attacking player, take damage function and animation, draw function, death animation, much later enemies can have different attack patterns; visions; etc.
+Vision radius for enemy sprites
+
+
+Player Object: movement in all cardinal directions with displaying appropriate animation, picking up items, wielding swords, attacking, taking damage with animation, displaying health, later interacting with any dungeon elements; special abilities; etc
+
+
+sprite_group object: keep list of all sprites, update all sprites, draw them all, check for collisions (though this might be mediated by the dungeon which tracks who is occupying which tiles), remove dead or unused sprites from the game.
+
+
+Small test pieces
+	-cutting out images, formatting them, slotting them into a dictionary for ready use
+	-tiling. using 2d arrays to create maps. solely visual for starters, but later walls must prevent movement.
+	-moving the player around and animating this movement
+	-sword swinging animation (need image rotation?)
+	-hitboxes
+	-integrating the last three to swing sword and strike enemy
+	-enemies: moving and animating
+	-enemies damaging player
+	-walls that obtruct movement
+	-other environment interaction
+	-picking up items off the ground
+
+
+
+Notes / thoughts / ideas / miscellany:
+
+-scrolling world with follow camera. Initially, players will move between static maps for which the whole map is visible on the screen at the same time.
+
+-a shadow under the creature helps clarify its location and can show if the creature is being flung through the air or hovering over the ground by displaying the sprite significantly above the shadow and shrinking the size of the shadow the higher the sprite goes.
+
+-auto-generating maps. probably make them static at first.
+
+-game over screen and new game screens.
+
+-distinct enemy movement and attack patterns.
+
+-special character roles and abilities
+
+-death animations: turn character horizontal, draw them lower and stretch their shadow to make it look like they are lying down. Draw a couple overlapping red circles for blood animations beneath them.
+
+-add random star-shaped spiky polygon flash at point of contact to give hit feedback. Color the polygon to signify the damage.

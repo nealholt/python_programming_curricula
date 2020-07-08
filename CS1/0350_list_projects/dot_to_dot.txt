@@ -1,0 +1,8 @@
+
+For 200 points, write a program that creates a dot-to-dot image using turtles.
+
+You must
+-Design the dot-to-dot on paper beforehand (I recommend using graph paper). This will save you time in the long run by letting you figure out where all the coordinates will be located.
+-Use lists to store the coordinates.
+-Include a boolean (True/False) variable such that the turtle connects the dots when it is True, and does not connect them when it is false. Use this for testing that your dot-to-dot draws what you want.
+-Use the turtle write command to number the dots.

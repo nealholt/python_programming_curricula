@@ -1,0 +1,54 @@
+
+#For 35 points, answer the following questions.
+
+#1: Everything in a computer is represented by a number. Run the 
+#following code, then guess what is printed by print(ord('d))
+x = ord('a')
+y = ord('b')
+z = ord('c')
+print(x)
+print(y)
+print(z)
+
+
+#2: Write a program that prints the first 4 numbers representing 
+#the first 4 letters of your name.
+
+
+#3: The ord() function converts symbols into 
+#numbers. Guess what the chr() function does based on
+#the following code.
+x = ord('p')
+y = ord('q')
+z = ord('r')
+print(x)
+print(y)
+print(z)
+print(chr(x))
+print(chr(y))
+print(chr(z))
+
+
+#4: All information in a computer is stored as 
+#a number. Those numbers are represented by ones and 
+#zeroes. The following program converts a binary number
+#to a traditional decimal number. Change the list of
+#ones and zeroes until you can represent the number 9
+binary = [1,0,1,1]
+x=0
+for i in reversed(range(len(binary))):
+    x = x+ binary[i] * 2**i
+print(x)
+
+
+'''5: Binary addition. Consider the following pattern then answer 
+the question below.
+0  + 1 =   1
+1  + 1 =  10
+10 + 1 =  11
+10 +10 = 100
+10 +11 = 101
+101+ 1 = 110
+What does this sum equal?
+11 + 1 = ?
+'''

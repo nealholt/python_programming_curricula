@@ -1,0 +1,27 @@
+'''
+
+For 50 points, write a "Choose Your Own Adventure Game" program that
+tells a story and lets the user decide what the character does next.
+
+You should use NESTED if statements for this program. If you don't 
+know what I mean, check out the 20 questions game.
+
+By the way, you can always use the lower() function to convert a 
+string to lowercase:'''
+
+text = "Hi ThErE"
+text = text.lower()
+print(text)
+
+'''Interaction with your program might look like the following:
+>What is your name, adventurer?
+Neal
+>Welcome, Neal. Do you dare cross the treacherous sea (1), delve the dangerous dungeon (2), or climb the majestic mountain (3)?
+1
+>You board a ship and set sail, but a storm blows you off course.
+>Do you curse Neptune (1), stow the sails (2), or drop anchor (3)?
+1
+>The sea god rises from the depths and smites you with his trident.
+>You die.
+
+'''

@@ -1,0 +1,122 @@
+
+'''
+For 35 points, read the information about while loops below then 
+answer the following questions.
+
+While loops have two parts: a condition and a body, just like if statements.
+
+while condition:
+	body
+
+Similar to
+if condition:
+	body
+
+The body is indented. The code in the body is executed repeatedly
+as long as the condition is true.
+
+Here is a fully functional program using while loops:'''
+
+cold = True
+while cold:
+	print("wear coat")
+
+'''This could be expressed in english as
+"as long as it is cold, wear a coat".
+
+The only problem is that the value of the cold variable is never 
+changed. The above program prints "wear coat" forever.
+
+(You can kill the program by clicking the red square button.)
+
+
+Here is a program that teaches kids how to count to 10 with the help 
+of the Count.'''
+
+#Declare how high we will count
+n = 5
+#Declare who is counting
+name = "The Count"
+#Loop up to n, counting and laughing as the Count does along the way.
+i = 1
+while i < n+1:
+    print(str(i)+" ah! ah! ahhh!")
+    i = i + 1
+print("and that is how "+name+" counts to "+str(n))
+
+
+'''The previous program is better written using a for loop.
+1. Rewrite it using a for loop instead of a while loop.'''
+
+
+'''For loops are good for counting and for repeating a specific number
+of times. While loops are better when we don't know how many 
+repetitions are needed. For example:'''
+
+x = ""
+while x!='quit':
+	x = input('Say quit to stop')
+
+#2. What does the previous program do?
+
+
+'''3. Write a while loop that repeats as long as a variable named x 
+is less than 100. Inside the loop, increase x by one.'''
+
+
+'''4. Use a while loop to print every fifth whole number from 5 to 45. 
+Try to get your program down to only 4 lines of code.'''
+
+
+'''5. Write a program that asks the user for the password and only 
+ends when the user types opensesame.'''
+
+
+'''While loops introduce a new problem that we've never dealt with
+before, a program that runs forever and never ends.
+6. which of the following loops never ends?'''
+#OPTION A
+x = 4
+while x > 0:
+	x = x-1
+#OPTION B
+x = 4
+while x > 0:
+	x = x+1
+#OPTION C
+x = 4
+while 0 > 4:
+	x = x+1
+
+
+#7. What does this program print?
+x = 0
+while x<5:
+	print(x)
+	x = x+2
+
+
+#8. What does this program print?
+x = 10
+while x<4:
+	x = x+1
+	print(x)
+
+
+#9. What does this program print?
+x = 5
+while x != 1:
+	print(x)
+	if x%2==0: #if x is even
+		x = x/2
+	else: #else if x is odd
+		x = 3*x+1
+
+
+#10. How many times can you get the wrong answer before the program ends?
+answer = input("What is the capital of France?")
+lives = 6
+while answer != "paris" and lives > 0:
+    answer = input("What is the capital of France?")
+    lives = lives - 2
+

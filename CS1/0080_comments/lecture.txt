@@ -1,0 +1,31 @@
+
+
+-Commented code does not run
+-Comments are used for notes to self or collaborators
+-Comments can be used to temporarilly remove a line of code
+-Comments begin with #
+-'''Long comments can be written with'''
+
+
+Comments are notes you write to yourself (in English) or other collaborators about your code.
+
+Comments begin with # in python.
+
+Comments can also be used to temporarily remove a line of code without deleting it.
+
+
+
+Excerpt from https://blog.udemy.com/comments-in-python/
+The first rule when commenting is to know your audience. Your audience is always other coders. This means that you don’t need to explain every line of code especially the easily understood lines. For instance, when you declare a variable, you don’t need to explain that you’re declaring a variable. A coder already knows what a variable declaration statement is for, but you can describe why you’re declaring the variable. For instance, you might declare a temp variable that you will use several lines down the code editor. The coder might not understand why you declare an extra variable at the beginning of the code. You can leave a note next to the temporary variable to explain why the variable is declared and what it’s used for later in the code.
+
+Example code with little comments:
+http://sandbox.mc.edu/~bennet/python/code/
+http://sandbox.mc.edu/~bennet/python/code/for_py.html
+http://sandbox.mc.edu/~bennet/python/code/for2_py.html
+
+GOALS:
+Students know the purpose of comments and when they will be expected to use them in class. Students can use comments to test out changes to code.
+Mandatory comments and variable naming.
+
+How to use comments to make code drafts and test or save old code.
+

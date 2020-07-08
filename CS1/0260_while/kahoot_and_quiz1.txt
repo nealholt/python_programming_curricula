@@ -1,0 +1,157 @@
+
+TITLE
+Python: While and For 1
+
+
+Use while instead of for...
+when code might repeat more
+when code is a chore
+to return a number floor
+if variables we need more
+
+Use for instead of while...
+when counting so infantile
+with an electronic technophile
+when life is futile
+for sand so tactile
+
+For loops are for...
+repeating a specific number of times
+returning a value
+combining strings
+defining a specific action
+
+While loops are for...
+repeating who knows how many times
+choosing between actions
+combining strings together
+combining data and actions
+
+
+True or False: While loops can run forever.
+
+
+True or False: For loops can run forever.
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+for i in range(2,12,4):
+	print(i)
+#PROGRAM B:
+i=2
+while i<12:
+	print(i)
+	i = i+4
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+i=0
+while i<15:
+	i = i+1
+	print(i)
+#PROGRAM B:
+for i in range(15):
+	print(i)
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+x=0
+while x<200:
+	print(x)
+	x = x+1
+#PROGRAM B:
+for i in range(200):
+	print(i)
+
+
+True or False: An if statement is like a while loop that only happens zero or one times.
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+x = input('number?')
+if int(x)<10:
+	print('less')
+#PROGRAM B:
+x = input('number?')
+while int(x)<10:
+	print('less')
+	x = 10
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+text = input('?')
+if text=='frivolous':
+	print('ok')
+#PROGRAM B:
+text = input('?')
+while text=='frivolous':
+	print('ok')
+	text = ''
+
+
+True or False: These two programs do the exact same thing.
+#PROGRAM A:
+text = input('?')
+if text=='cat':
+	print('no dog')
+#PROGRAM B:
+text = input('?')
+while text=='cat':
+	print('no dog')
+
+
+True or False: This while loop repeats forever.
+x = 50
+while x > 0:
+	if x<25:
+		x = x*2
+	else:
+		x = x-1
+
+
+True or False: This while loop repeats forever.
+x = 5
+while x < 0:
+	if x<25:
+		x = x*2
+	else:
+		x = x-1
+
+
+True or False: This while loop repeats forever.
+x = -1
+while x < 0:
+	if x<-4:
+		x = x*2
+	else:
+		x = -1*x
+
+
+How many times does this while loop repeat? (Same as asking how many times "Loop" is printed.)
+x = 7
+while x < 12:
+	x = x*2 - 6
+	print('Loop')
+
+
+How many times does this while loop repeat? (Same as asking how many moves does the turtle make.)
+import turtle
+t = turtle.Turtle.()
+while t.xcor() < 100:
+	t.forward(5)
+
+
+How many times will this while loop repeat?
+response = input("stay or leave")
+while response != "leave":
+	print('Here you are')
+A either zero or infinity
+B impossible to determine
+C zero
+D at least once
+

@@ -1,0 +1,43 @@
+
+'''
+For 18 points, answer the following questions.
+
+1. If the user types "no" then enter, "y" then enter, "yes" then enter, 
+what does the following program print? (Include the input text as 
+printing.)'''
+response = input('Continue?')
+while response=="yes":
+	response = input('Continue?')
+print("I'm glad we're done.")
+
+
+#2. What is the bug in the following code?
+x=0
+While x<100:
+	x = x+1
+
+
+#3. What is the bug in the following code?
+x=0
+while x<100
+	x = int(input("Give me a number"))
+
+
+#4. What is the bug in the following code?
+x=0
+while 0<100:
+	x = int(input("Give me a number"))
+
+
+'''5. Use a while-loop and if-statements to write a program that
+prints "Are we there yet?" then takes input from the user.
+If the user says "yes" then the program stops.
+If the user says "no" then the program writes "Drive faster?" and 
+repeats the question "are we there yet?"
+If the user says anything else, the program writes "whatever!" and 
+repeats the question "are we there yet?"
+The program continues repeating its question forever until the user 
+says "yes".'''
+
+
+

@@ -1,0 +1,15 @@
+
+For 20 points, watch the video "Attack Optimization" found here:
+https://drive.google.com/file/d/19vkDq1LHIO929GCJoUIEZQ0xtNi3VyCL/view?usp=sharing
+and answer the following questions.
+
+
+1. What do the red dots near the ship indicate?
+
+2. What are the only two things the Bullet class does?
+
+3. What are the four controls that affect ship movement and shooting?
+
+4. What does the experiment function return?
+
+5. What are some extensions you can make to the project?

@@ -1,0 +1,41 @@
+
+For 35 points, answer the following questions.
+
+Read through the code in colorPlay.py and colors.py.
+Pay particular attention to 
+from colors import *
+Then answer the following questions.
+
+
+1. What error do you get when you comment out 
+from colors import *
+in colorPlay.py?
+
+
+Uncomment
+from colors import *
+so that the program is back to the way it was originally.
+
+2. What is different about the program when you comment out i=i+1?
+
+3. Why is i=i+1 important?
+
+
+I downloaded pygame_drawing_examples.py from the pygame website. You will notice that it has a different organizational style for its game loop.
+Comment out
+BLACK = (  0,   0,   0)
+WHITE = (255, 255, 255)
+BLUE =  (  0,   0, 255)
+GREEN = (  0, 255,   0)
+RED =   (255,   0,   0)
+from pygame_drawing_examples.py then use
+from colors import *
+and some other small changes to modify pygame_drawing_examples.py to 
+work again using the colors in colors.py.
+
+4. What did you need to change?
+
+
+5. Create at least one new color in colors.py, name it, and write the 
+line of code that creates it here.
+

@@ -1,0 +1,6 @@
+
+Make this a student task that an advanced student (such as cal and connor) can do to the benefit of the whole class:
+-Fast matrix multiplication. Get a demo of Numpy running.
+https://www.python-course.eu/matrix_arithmetic.php
+Then try to make a neural net with it.
+Then later maybe add this speed up too: https://www.benjaminjohnston.com.au/matmul

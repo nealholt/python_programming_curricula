@@ -1,0 +1,28 @@
+
+For 45 points, watch the video "List Pop Culture" found here:
+https://youtu.be/iY6eDesdd7I
+and answer the following questions. Email all your answers and code to your teacher with the subject line: "CS1: List Pop Culture"
+
+
+1) Write four lines of code that do the following
+	A. import random
+	B. Create an empty list
+	C. Loop one thousand times
+	D. And use the loop to append 1000 random numbers to the list
+
+2) Write a line of code that creates a list with initial values already in the list. Include at least three items in your list such as family member names, pets, or activities you've done while at home recently.
+
+3) Use the index function and print to print out the index of one of the values in your list from the previous question.
+
+4) What's the plural of index?
+
+5) Use a "for i in range" loop to print out the indicies AND values of the items in your list from question 2.
+
+6) At the end of the program you wrote for question 1, write another loop, a "for i in range" loop to print out all the values in your list.
+
+7) In the insertInOrder function why is it important that my "for i in range" has a minus one in it. Specifically, why is it written like this:
+for i in range(len(sprite_list)-1):
+
+8) Write a "for variable in list" loop to print out all the items in your list from question 2.
+
+9) How was Dua Lipa's New Rules song "fixed" at the end of the video?

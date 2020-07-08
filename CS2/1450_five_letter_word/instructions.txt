@@ -1,0 +1,49 @@
+
+The 5 Letter Game is played as follows:
+Player one picks a 5 letter word.
+Player two guesses 5 letter words and player one says how many of the letters in player two's word show up in player one's word. (It doesn't matter how many times the letter shows up.)
+
+For example:
+Player one's word is start.
+Player two guesses: apple
+One letter appears in player one's word.
+Player two guesses: strap
+Four letters appear in player one's word.
+
+A longer example is given at the end of this document.
+
+For 50 points write a version of this game where the computer chooses a secret word then the player has to guess what it is. The computer gives feedback on how many letters match the user's guess and the secret word.
+
+For 200 points, write a program that plays the game and attempts to guess the secret word. You do not get credit for writing a "brute force" player that just guesses randomly.
+
+
+BIG EXAMPLE (with some strategy):
+
+The secret word is stove.
+
+Guess: worst
+Three letters appear in both words
+Guess: woven
+Three letters appear in both words
+(After this I could have tried stone to get a lot more information, but I was still bad at this game.)
+Guess: xerox
+Two letters appear in both words
+Guess: apple
+One letters appear in both words
+Guess: earth
+Two letters appear in both words
+Guess: stare
+Three letters appear in both words
+Guess: store
+Four letters appear in both words
+Guess: stair
+Two letters appear in both words
+(This tells me that the two letters in store that are not in stair have to be in the word.)
+Guess: abbey
+One letters appear in both words
+Guess: stole
+Four letters appear in both words
+Guess: guess
+Three letters appear in both words
+Guess: tents
+Five letters appear in both words

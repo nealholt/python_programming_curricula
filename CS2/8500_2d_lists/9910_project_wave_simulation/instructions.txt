@@ -1,0 +1,41 @@
+NOTE: Do not do projects like this unless students can come up with all the code themselves from scratch. It does them a disservice to write code for them.
+This project did not fly well last year and honestly I only did it because I said at the start of the year I would. Flexibility would have been better. No one would have missed this.
+
+
+PRE: 
+Talk through the existing code and run the program.
+
+Walk students through each step of this project. Don't make them do it on their own.
+
+
+PROJECT:
+Write a Pygame copy of the NetLogo Raindrops program
+
+Step 1: Create and draw 2d array of water blobs.
+	See TODO1 and TODO2
+Step 2: getClickedRowCol. Test this by clicking to change individual cell colors.
+	See #TODO3
+Step 3: sumNeighborsZs. Test this by having the click change the color and use this to average the colors of neighboring cells.
+	See #TODO4
+Step 4: releaseDrop, computeDeltaZ, updatePosAndColor. Don't forget to compute all delta z's before updating in the main loop. Also explain the rationale behind computeDeltaZ. The surface tension acts like a trampoline surface. If neighboring cells are above middle cell, then they pull it up. If they are below, they pull it down.
+You are given the code for these functions, but you have to put everything together to make them work.
+
+In the main loop, before drawing, loop through and update all delta z's by caling the computeDeltaZ function on each water blob.
+	See #TODO5
+
+Uncomment the call to releaseDrop that happens when the mouse is clicked.
+	See #TODO6
+
+Don't forget to call updatePosAndColor right before drawing each water blob.
+
+
+
+PROJECT RUBRIC:
+10 points: Completing all TODOs and ending up with a working wave simulation.
+
+Write your name, the date, and the assignment in a multi-line comment at the top of the program.
+
+
+
+POST:
+Debreif different student programs and discuss their relative merits.

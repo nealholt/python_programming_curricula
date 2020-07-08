@@ -1,0 +1,21 @@
+
+'''For 35 points, complete the following assignment.
+
+Attached is a Python file with 4 functions in it.
+
+Your task is to write code that calls each function and prints 
+the return value. Use the unformation you gain to figure out 
+what each function does and give each function a better name.
+
+This might mean calling the function with lots of different 
+arguments until you figure out what it does. Some functions will 
+be harder to figure out than others. Feel free to go out of order.
+
+Some functions are useful. Others are nonsense. See if you can 
+figure out which is which.
+
+To complete this assignment you need to turn in:
+1. The code you used to call the functions and print their results.
+2. A better name for each function
+3. A one-sentence description of what each function does.
+'''

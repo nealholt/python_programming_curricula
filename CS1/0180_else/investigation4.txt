@@ -1,0 +1,50 @@
+
+#For 17 points, answer the following questions.
+
+
+#The next 4 questions will refer to the following program:
+
+answer = input("Do you remember floppy disks?")
+if(answer=="yes"):
+	print("Oregon Trail and Carmen Sandiego are awesome.")
+else:
+	print("Get off my lawn, you whippersnappers!")
+
+#1. If I type "yes" into this program, what will be printed?
+
+#2. If I type "YES" into this program, what will be printed?
+
+#3. If I type "7" into this program, what will be printed?
+
+#4. If I type "no" into this program, what will be printed?
+
+
+'''5. Suppose the variable temperature has already 
+been created and been given a numeric value. Write 
+code that prints "hot" if temperature is greater than 
+85 and prints "nice" otherwise.'''
+
+
+'''6. Suppose the variable temperature has already been 
+created and been given a numeric value. Write code that 
+prints "hot" if temperature is greater than 85 and prints
+"cold" if temperature is less than 65.'''
+
+
+'''7. Write an if-elseif statement that checks if a String
+variable named street is equal to Edith and if so prints 
+"go east". Otherwise the code checks if street equals Osuna 
+and if so prints "go south".'''
+
+
+'''8. Write an if-elseif-else statement that checks if an 
+integer variable named investment is greater than 50 and if 
+so prints sell. If investment is less than 25 print buy. 
+Otherwise print hold.'''
+
+
+'''9. Write a program that takes a number as input and prints
+an ascii smiley face :) if the number is positive and a frowny
+face :( if the number is negative. If the number is zero, print
+an uninterested face :|'''
+

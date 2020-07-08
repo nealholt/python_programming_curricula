@@ -1,0 +1,28 @@
+
+For 35 points, write code that solves each of the following problems.
+
+You will need to use slicing which you can learn more about here:
+https://learnpython.trinket.io/learn-python-part-4-changing-text#/changing-text/slicing
+
+Note: This tutorial uses Python2, but we, cutting edge people that we
+are, use Python3. One big difference is that this works in Python2
+print "hello"
+but in Python3 you have to say
+print("hello")
+
+1. Use slicing to get subordinate out of insubordinate
+
+2. Use slicing to get fun out of fundamental
+
+3. Use slicing to get thematic out of mathematics
+
+4. Use slicing to get put out of computer
+
+5. Use slicing to get nova out of innovation
+
+6. Write a line of code that turns the string "san francisco" into 
+"San Francisco". You can type "san francisco" as many times as you need
+but no other strings.
+Hint: the capitalize() function will help you out. For example:
+name = "neal"
+print(name.capitalize())

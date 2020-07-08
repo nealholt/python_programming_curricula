@@ -1,0 +1,5 @@
+chek,empt,empt,1wl ,empt
+empt,1wr ,empt,empt,empt
+empt,empt,hole,1wu ,empt
+empt,1wd ,empt,hole,empt
+empt,empt,empt,chek,empt

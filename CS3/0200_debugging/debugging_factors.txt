@@ -1,0 +1,30 @@
+'''
+This is not a project for points. This is the program that I used for the debugging video.
+
+Computer Science 2/1250_debugging
+Computer Science 3/0200_debugging
+
+The program is supposed to print all the factors of any number that 
+you give to it. If you give it 60, it should print out 
+1,2,3,4,5,6,10,12,15,30,60
+
+Unfortunately the program has bugs in it. All the comments are correct,
+but not all of the code does what the comments say.
+'''
+
+# Python Program to find the factors of a number
+
+# define a function
+def printFactrs(x):
+    # This function takes a number and prints the factors
+    print("The factors of",x,"are:")
+    #Loop from 1 to x, including both.
+    for i in range(1, x):
+        #Check if x is divisible by i
+        if i % x == 0:
+            #print i, if i is a factor of x
+            print(i)
+
+#Get input from the user
+num = input("Enter a number: ")
+printFactors(num)

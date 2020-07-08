@@ -1,0 +1,34 @@
+
+For 100 points, write a program that is very simlar to the 
+'Choose Your Own Adventure' project you may have done earlier, but 
+this time the character you choose has attributes such as strength,
+intelligence, and dexterity that affect the abilities that the
+character uses.
+
+Here is an example from a Text Adventure I wrote. Yours can and should
+be quite different.
+
+You CAN take your old 'Choose Your Own Adventure' project and modify it.
+
+>What is your name, adventurer?
+Trogdor
+>Choose a difficulty. 1: hard. 2: medium. 3: easy.
+2
+>Trogdor has 7 health and 9 magic.
+>Your strength is 3
+>Your intelligence is 4
+>Your dexterity is 4
+
+>Welcome, Trogdor. Do you dare cross the treacherous sea (1), delve the dangerous dungeon (2), or climb the majestic mountain (3)?
+1
+>A tentacled sea monster rises from the depths and attacks your ship.
+>The monster looks angry. It slaps you with a tentacle for 4 damage.
+>1: Cast a fire spell. 2. Shoot it with an arrow. 3. Stab it with your sword.
+1
+>The sea monster writhes in pain.
+>The monster looks angry. It slaps you with a tentacle for 5 damage.
+>1: Cast a fire spell. 2. Shoot it with an arrow. 3. Stab it with your sword.
+2
+>The sea monster is barely bothered by your arrows.
+>The monster drags you down to a watery grave.
+>Better luck next time.

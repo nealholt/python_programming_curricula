@@ -1,0 +1,85 @@
+'''For 35 points, answer the following questions.
+
+Create a python program named reader.py in the same folder as the 
+data.txt file. Copy the following code into the program and run it. 
+1) Compare what is printed to what you see by opening the text file in 
+notepad.
+'''
+
+#Open for reading. The 'r' stands for reading. We could 
+# use 'w' for writing, but let's save that for later.
+file_handle = open('data.txt', 'r')
+#Read the first line
+line = file_handle.readline()
+print(line)
+
+
+'''2) What is different if we call readline() again like this?'''
+#Open for reading. The 'r' stands for reading.
+file_handle = open('data.txt', 'r')
+line = file_handle.readline()
+line = file_handle.readline()
+print(line)
+
+
+'''So readline() automatically goes to the next line each time you 
+call it.
+3) What happens if you keep reading beyond the end of the file?
+Meaning, what happens if you call readline more times than there are 
+lines in the file?'''
+
+
+
+'''An empty string variable is treated like False. Run the following program to see what I mean.
+4) If empty string variables were treated as True, what would have 
+printed?'''
+line = ""
+if line:
+    print("The line says: "+line)
+else:
+    print("The line is empty.")
+'''This is useful to read through a whole file with a loop and stop at the end. For example:
+'''
+#Open for reading. The 'r' stands for reading.
+file_handle = open('data.txt', 'r')
+#Fill the line variable with anything except an empty string so it 
+#will be treated like True.
+line = 'temporary'
+#Read and print every line.
+while line:
+    line = file_handle.readline()
+    print(line)
+
+'''Why are there blank lines when we print, but no blank lines in 
+our data.txt file? It's because there is an invisible symbol at the 
+end of each line that tells Python to make a new line.
+Let's strip that invisible symbol off.
+
+Inside the while loop, after line = file_handle.readline() but before print(line) insert the code line = line.strip()
+
+Re-run the program.
+'''
+
+
+'''Suppose I want a list of 1,2,3 or A,B,C. How can I split those up?
+'''
+#Open for reading. The 'r' stands for reading.
+file_handle = open('data.txt', 'r')
+file_handle.readline() #Skip the first line
+file_handle.readline() #Skip the second line
+#Read the third line
+line = file_handle.readline()
+line = line.strip()
+list = line.split(',')
+print(list)
+print(list[0])
+print(list[1])
+print(list[2])
+
+'''Something weird happens if you don't use strip. Comment that line 
+out in the previous program, re-run it.
+5) What happens differently?
+
+6) Modify the above program to read in the line A,B,C, then print the 
+line as a list and then just prints the letter C from the list.
+'''

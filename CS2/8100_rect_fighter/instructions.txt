@@ -1,0 +1,22 @@
+
+For 800 points create a "rectangle fighter" game in which two rectangular 
+players fight. This is an exercise in using hitboxes. See the associated image
+in which player 1's fist box is about to hit player 2's torso box.
+
+IMPORTANT: You can work in groups on this project, but before you begin coding 
+you must share a project plan with the teacher that includes the pieces of the 
+project that you will need to create, the order in which you will create them, 
+and which group members will work on which piece. This plan can change but you
+need to start somewhere.
+
+Use Pygame's colliderect function to easily check if two rectangles collided.
+
+You should consider the movement, combat, and damage models you want your game
+to have. For instance:
+	Movement: Will there be jumping, sliding, crouching?
+	Combat: Will there be punches as well as kicks? Tackles? Throws? Ranged attacks?
+	Damage: Will head hits cause more damage? Can leg damage slow a player?
+
+I have some super nintendo controllers that we can hook up to your game so 
+consider how gameplay might work well particularly for the controller in
+the image in this folder.

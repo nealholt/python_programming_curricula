@@ -1,0 +1,20 @@
+
+Code for students to practice simulating on paper. This is not great code, but it seems ok at first glance. Give students a left and right handed L maze. And also left and right side starting H mazes. Ask the students for which mazes this code works and for which it does not work.
+    runner.moveAhead(maze)
+    runner.turnRight()
+    if not runner.wallAhead(maze):
+        runner.moveAhead(maze)
+    if runner.wallAhead(maze):
+        runner.turnLeft()
+
+
+An example of implementing remembering where a maze runner has been before:
+    #Have I been here before?
+    if (runner.col,runner.row) in runner.memorylist:
+        print("I have been here before")
+
+    #Remember where I have been with no duplicates
+    if not( (runner.col,runner.row) in runner.memorylist ):
+        runner.memorylist.append( (runner.col,runner.row) )
+
+    print(runner.memorylist)

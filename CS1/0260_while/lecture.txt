@@ -1,0 +1,22 @@
+
+-Students understand the term "control flow"
+-Students can make flow charts to diagram control flow of a loop
+-Students can figure out what line comes next
+-Students understand that a loop must end and can predict when a loop will end
+-Students begin translating english such as "as long as" into loops.
+-writes a comment before virtually all loops
+
+- Translates instructions using keywords such as while, each, every, until, as long as, into loops.
+
+
+loop lesson
+-testing what code actually runs using print statements.
+-Review program state making state diagrams. Flow charts too.
+
+Introduce the term CONTROL FLOW.
+
+Loop key words: repeat, until, while, as long as, for.
+
+Repeating code or skipping it entirely.
+Loops do not always execute.
+

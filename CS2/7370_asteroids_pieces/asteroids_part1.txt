@@ -1,0 +1,17 @@
+
+ASTEROIDS: Polygons
+
+This series of projects will teach you how to make the classic
+arcade game Asteroids.
+
+Step one is to learn how to use Pygame's draw.polygon function.
+
+pygame.draw.polygon(window,blue,point_list)
+
+window (often called screen or surface) is a variable referencing the window to draw the polygon on.
+
+blue is a variable for the color, for example: (0,255,0)
+
+point_list is a list of coordinates, for example: [(0,0),(100,50),(50,100)]
+
+For 35 points, demonstrate your understanding of draw.polygon by drawing a hexagon and a five-pointed star with pygame.

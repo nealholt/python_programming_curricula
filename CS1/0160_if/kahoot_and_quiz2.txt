@@ -1,0 +1,270 @@
+
+TODO NOT DONE YET
+
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+
+=== KAHOOT
+
+Which statement will check if a is less than b?
+if a < b:
+if a > b
+if a >= b
+if a less than b:
+
+
+Which statement will check if a is equal to b?
+if a equals b:
+if a = b:
+if a == b:
+if a === b:
+
+
+Which statement will check if a is less than or equal to b?
+if a <= b:
+if a < = b:
+if a =< b:
+if a < or = b:
+
+
+Which statement will check if a is less than b and less than c?
+if a < b and < c:
+if a < b and c:
+if a < b & c:
+if a < b and a < c:
+
+
+Which statement will check if a gallon is greater than a quart and greater than a cup?
+if gallon > quart and > cup:
+if quart and cup < gallon:
+if (quart and cup) < gallon:
+if cup < gallon and quart < gallon:
+
+
+Which variable name is best for the distance of a home run?
+home_run_distance
+HRD
+HomeRunDistance
+distance
+
+
+Which of the following is a valid variable name?
+catch22
+22_catch
+catch-22
+catch 22
+
+
+The following are all comments except
+#This is a comment
+'''This is a comment'''
+###This is a comment
+===This is a comment===
+
+
+Which comment best explains why this line of code exists? Assume all answers are true.
+score = 2 * score
+#Double the score
+#Player gained score-doubling bonus
+#Points
+#Make score bigger
+
+
+What does this code print?
+apples = 9
+oranges = 2
+pears = 6
+if apples > oranges and oranges > pears:
+    print('keep doctor away')
+else:
+    print('orange or green')
+
+
+What does this code print?
+doors = 3
+windows = 10
+floors = 2
+if windows > doors + floors:
+    print('Nice house')
+else:
+    print('Too dim')
+
+
+What does this program print?
+speed_limit = 55
+speed = 55
+if speed <= speed_limit:
+    print("safe driving")
+else:
+    print("ticket")
+
+
+
+Identify the error in the following code.
+
+response = int(input("Give a number"))
+if response > 0:
+    print("A negative.")
+else:
+    print("That's a + number.")
+
+A)  Missing :
+B)  Missing )
+C)  Typo
+D)  Inequality is wrong
+
+
+What's the type of the error in the following code?
+
+timezone = input("What zone?")
+time = int(input("What hour?"))
+if timezone == 'mountain'
+    time = time+2
+    print(str(time)+"pm Eastern")
+else:
+    print("Don't know!")
+
+A)  Type Error
+B)  Name Error
+C)  Syntax Error
+D)  Divide by Zero Error
+
+
+
+This program always prints swamp. Why?
+if "frogs":
+    print("swamp")
+else:
+    print("meadow")
+
+an error causes it to default to the first option
+"frogs" is treated like a True statement
+Python prefers swamps to meadows
+"frogs" are True, but "deer" are False
+
+
+The following code ALWAYS prints gloomy. Why?
+sky = "sunny"
+if sky=="cloudy" or "overcast":
+    print("gloomy")
+else:
+    print("happy")
+
+the code needs a single equals sign
+the code is missing a quotation mark
+should have used and instead of or
+should have used sky=="cloudy" or sky=="overcast"
+
+
+In English it's reasonable to say: if your socks are uncomfortable or worn out get new socks, but in Python you have to say
+
+if socks == "uncomfortable" or socks == "worn out":
+if socks = "uncomfortable" or socks = "worn out":
+if socks == "uncomfortable" or "worn out":
+if socks == ("uncomfortable" + "worn out"):
+
+
+=== QUIZ
+
+
+Which statement will check if a is less than b?
+if a < b
+if (a < b):
+if a <= b:
+if a > b
+
+
+Which statement will check if a is equal to b?
+if a == b:
+if a = b
+if a === b
+if a same as b:
+
+
+Which statement will check if a is less than or equal to b?
+if a <= b:
+if a < b or == b:
+if a <== b:
+if a >= b:
+
+
+Which statement will check if a is less than b and less than c?
+if a < b and < c:
+if a < b and c:
+if a < b & c:
+if a < b and a < c:
+
+
+Which variable name is best for the range of an electric car?
+car_range
+electric_how_far_car_can_travel_good
+CarRange
+go_far
+
+
+Which comment best explains why this line of code exists? Assume all answers are true.
+jump_height = 2 * jump_height
+#Double the jump_height
+#Player gained a jump powerup
+#Jump
+#Make jump_height bigger
+
+
+What does this code print?
+x = 7
+y = 81
+print(x+3)
+y = x+7
+print(y)
+
+
+What does this code print?
+x = 7
+y = 81
+x = x+3
+y = x+7
+print(x)
+print(y)
+
+
+What does this code print?
+cars = 12
+bikes = 2
+busses = 1
+if cars > bikes and cars > busses:
+    print('traffic')
+else:
+    print('clear roads')
+
+
+Identify the error in the following code.
+
+preference = int(input("Marvel or DC?"))
+if preference == "Marvel":
+    print("Hulk smash!")
+elif preference == "DC":
+    print("I'm Batman!")
+else:
+    print("Never heard of it.")
+
+A)  Missing :
+B)  Expected input is string not integer
+C)  Elif needs parentheses
+D)  Use single equals sign
+
+
+
+The following code ALWAYS prints gloomy. What's wrong with it?
+sky = "sunny"
+if sky=="cloudy" or "overcast":
+    print("gloomy")
+else:
+    print("happy")
+
+the code needs a single equals sign
+the code is missing a quotation mark
+should have used and instead of or
+should have used sky=="cloudy" or sky=="overcast"
+

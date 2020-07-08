@@ -1,0 +1,131 @@
+
+Choose one or many of the following topics to review and answer the associated questions for points.
+
+You are encouraged to look up answers to these questions online, but you must cite any sources you use, whether they be digital (cite the web address), human (cite the person's name), or otherwise.
+
+
+VARIABLES REVIEW
+For 35 points, answer the following questions.
+1. Give 3 examples of assigning a value to a variable.
+2. How should a variable be named? Give 3 examples of good naming and 3 examples of bad naming.
+3. Demonstrate use of the input function to ask the user for a value and assign the value to a variable.
+4. List at least four different variable types.
+5. Demonstrate how to convert a variable from a string to an integer.
+6. Demonstrate how to convert a variable from a integer to a string.
+7. Demonstrate how to swap the values of two variables.
+8. If you mis-type a variable name, what error might you get?
+9. In your own words, what are variables used for?
+10. Write some english words that, if you heard them, would make you think "Aha! I need to use a variable."
+
+
+ARITHMETIC OPERATORS
+For 18 points, answer the following questions.
+Demonstrate, in a working program, how to do each of the following and save the results to a variable:
+  1. add
+  2. subtract
+  3. multiply
+  4. divide
+  5. raise a number to a power.
+First import math, then demonstrate how to do each of the following and save the results to a variable
+  6. square root a number
+  7. divide pi by two
+  8. take the sine of a number
+  9. round pi to 4 decimal places.
+
+
+STRING OPERATORS
+For 8 points, answer the following questions.
+Demonstrate, in a working program, how to do each of the following: 
+  1. concatenate two strings together
+  2. print the third letter of a string
+  3. convert a string such as "36" into an integer add 4 to it then convert it back to a string.
+
+
+FOR LOOPS REVIEW
+For 18 points, answer the following questions.
+Give examples of for loops that
+  1. count up
+  2. count down
+  3. count by some number other than one
+4. Write a mini-program that sums up all the numbers between 5 and 5000, including both.
+5. In your own words, what are for loops used for?
+6. Write some english words that, if you heard them, would make you think "Aha! I need to use for loops."
+7. Tell me about indentation and why it's important with relation to for loops.
+
+
+WHILE LOOPS REVIEW
+For 18 points, answer the following questions.
+1. Write a mini-program that uses a while loop to repeatedly ask the user for some input and only stops when the user types in a specific word.
+2. Write a while loop that runs forever.
+3. In your own words, what are while loops used for? Specifically address why you would want to use a while loop instead of a for loop.
+4. Write some english words that, if you heard them, would make you think "Aha! I need to use a while loop."
+5. Tell me about indentation and why it's important with relation to while loops.
+
+
+CONDITIONS REVIEW
+For 35 points, answer the following questions.
+1. Give an example of a chain of if, elif, and else statements in pseudocode, for example:
+if too hot:
+	drink cold beverage
+elif too cold:
+	drink hot beverage
+else:
+	drink whatever you like
+2. Rewrite your example using only if statements.
+3. Rewrite my example using only if statements.
+4. In your own words, what are if statements used for? Give examples in pseudocode.
+5. In your own words, what are elif statements used for? Give examples in pseudocode.
+6. In your own words, what are else statements used for? Give examples in pseudocode.
+7. Give an example of when it would be appropriate to use nested if statements. If you cannot think of an example, look one up and then explain why nested conditions are appropriate.
+8. Write some english words that, if you heard them, would make you think "Aha! I need to use if."
+9. Tell me about indentation and why it's important with relation to if, elif, and else statements.
+
+
+BOOLEAN OPERATORS
+For 18 points, answer the following questions.
+1. In your own words, what is a boolean variable?
+2. If A and B are boolean variables and "A and B" is True, do you know the values of A and B? What could the values be?
+3. If A and B are boolean variables and "A and B" is False, do you know the values of A and B? What could the values be?
+4. If A and B are boolean variables and "A or B" is True, do you know the values of A and B? What could the values be?
+5. If A and B are boolean variables and "A or B" is False, do you know the values of A and B? What could the values be?
+6. Is Python's "or" exclusive? Why or why not?
+7. What does "not" do? Give an example in pseudocode.
+
+
+FUNCTIONS REVIEW
+For 35 points, answer the following questions.
+1. Give an example of a function that you regularly use but didn't write.
+2. Create an example of a function that returns an aithmetic calculation.
+3. Create an example of a function that uses if to return one of two different things.
+4. Create an example of a function that returns nothing.
+5. Describe how a function is called compared to how it is defined.
+6. In your own words, what are functions used for?
+7. Write some english words that, if you heard them, would make you think "Aha! I need to use a function."
+8. Tell me about indentation and why it's important with relation to functions.
+9. What error do you get if you mis-type the name of your function when calling it?
+
+
+LIST REVIEW
+For 35 points, answer the following questions.
+Demonstrate, in a working program, how to do each of the following: 
+  1. create an empty list
+  2. create a list with values already in it
+  3. append to a list
+  4. access the first value in a list
+  5. access the second value in a list
+  6. access the last value in a list (even if you don't know its length), delete from a list.
+7. Write a mini-program that finds and prints the biggest value in a list and the index of that value.
+8. In your own words, what are lists used for?
+9. Write some english words that, if you heard them, would make you think "Aha! I need to use a list."
+10. What error occurs if you try to access an index that is more than the size of the list?
+11. Demonstrate two different ways that a for loop can be used to print every item in a list.
+
+
+OBJECTS AND CLASSES REVIEW
+For 35 points, answer the following questions.
+1. In your own words, what are objects used for?
+2. A class is a blueprint or definition for an object. How would you know if you needed to create a new class?
+3. Tell me about indentation and why it's important with relation to classes.
+4. What is an object you have used before but did not define with a class?
+5. Describe a class you created in the past?
+6. Create a new class that has at least two attributes (variables that belong to the class) and at least two methods (functions that belong to the class). Then create an object based on the class and demonstrate how to call the object's methods.

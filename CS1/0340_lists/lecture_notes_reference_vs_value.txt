@@ -1,0 +1,56 @@
+'''import random
+
+#Reference and value
+#refers to an original
+#value is a copy of the original
+#Lists are always passed by reference
+
+def changeToThree(my_x):
+    my_x = 3
+
+
+def changeToThrees(my_list):
+    for i in range(len(my_list)):
+        my_list[i] = 3
+
+
+#Create list
+numbers = []
+for i in range(10):
+    numbers.append(random.randint(0,100))
+print(numbers)
+
+#Create variable
+number = random.randint(0,100)
+print(number)
+
+#list to threes
+changeToThrees(numbers)
+print(numbers)
+
+#number to three
+changeToThree(number)
+print(number)
+'''
+
+
+#Also how pop remove insert and delete work
+#insert takes a location first and then the value to put in the list.
+
+#Also copy versus swap
+
+#Also + joins lists
+x = 6
+y = 4
+z = x+y
+print(10)
+
+x = "abc"
+y = "def"
+z = x+y
+print(z)
+
+numbers = [1,2,3]
+more_numbers = [4,5,6]
+z = numbers+more_numbers
+print(z)

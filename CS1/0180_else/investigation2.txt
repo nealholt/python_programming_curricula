@@ -1,0 +1,107 @@
+
+'''For 17 points, answer the following questions.
+
+
+if raining:
+	print("get umbrella")
+else:
+	print("put on sunscreen")
+
+Is exactly the same as
+
+if raining:
+	print("get umbrella")
+if not raining:
+	print("put on sunscreen")
+
+but else is easier to write.
+
+1. Rewrite the following program using else.'''
+
+response = input('Are you hungry?')
+if response == 'yes':
+	print("Let's make lunch.")
+if response != 'yes':
+	print("Let's wait.")
+
+
+'''else MUST follow the body of an if statement. It can go nowhere else. You cannot do this:'''
+raining = True
+if raining:
+	print("get umbrella")
+print("go to the store and buy milk")
+else:
+	print("put on sunscreen")
+
+#2. What error do you get if you try to run the above program?
+
+
+#3. What does the following program print?
+total = 14
+if total < 20:
+	print("Under ")
+else:
+	print("Over  ")
+print("the limit.")
+#A. Under
+#B. Over
+#C. Under the limit.
+#D. Over the limit.
+
+
+#4. What does the following program print?
+total = 14
+if total < 20:
+	print("Under ")
+else:
+	print("Over  ")
+	print("the limit.")
+#A. Under
+#B. Over
+#C. Under the limit.
+#D. Over the limit.
+
+
+#5. What does the following program print?
+total = 94
+if total < 20:
+	print("Under ")
+	print("the limit.")
+else:
+	print("Over  ")
+	print("the limit.")
+#A. Under
+#B. Over
+#C. Under the limit.
+#D. Over the limit.
+
+
+'''6. This program prints "Put on a coat" if temperature 
+is below 45 degrees. Modify this program to print
+"Wear what you want" otherwise.'''
+temperature = int(input("Tell me the temperature."))
+if temperature < 45:
+	print("Put on a coat.")
+
+
+'''7. What does the following program print?
+
+8. What code would you add so that it is possible to get a 
+grade of F?'''
+testscore = 76
+grade = ''
+if testscore >= 90:
+	grade = 'A'
+elif testscore >= 80:
+	grade = 'B'
+elif testscore >= 70:
+	grade = 'C'
+elif testscore >= 60:
+	grade = 'D'
+print("Grade = " + grade)
+
+
+'''9. Write a program that asks the user for the numeric 
+day of the month, adds 7, then prints the result as long
+as it is less than 32, otherwise it prints "new month".'''
+

@@ -1,0 +1,9 @@
+
+For 20 points, study the example of image rotation found here:
+https://drive.google.com/open?id=1oyOlMIFVPnleGY3s5fc-4eKiYp_8XbxO
+and apply your knowledge by making the hand in the "Ball Coin Hand" program
+rotate clockwise when the d key is pressed and counterclockwise when the
+a key is pressed.
+
+Turn in the "Ball Coin Hand" program again with the change to make the hand 
+rotate.

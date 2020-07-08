@@ -1,0 +1,111 @@
+
+=== KAHOOT
+
+Which comes first a function call or a function definition?
+
+
+If a function returns a value you must capture it in a variable or it will be lost forever. All of the following are examples of this except what?
+x = pen.xcor()
+name = input("What name?")
+y = math.sqrt(x)
+print(x)
+
+
+Functions are like little programs that you give some information to and they do an action or give back a value. All of the following functions probably gives back a value except?
+function to calculate x-intercepts
+function to draw a rectangle
+function to sort a list
+function to capitalize a word
+
+
+Arguments are like mailboxes that you have to put information in to tell a function how to do its job. Identify the argument:
+def sum(numbers):
+	total = 0
+	for n in numbers:
+		total = total + n
+	return total
+numbers
+total
+sum
+return
+
+
+return is a keyword that ends a function and
+A gives back a result.
+B returns variables to their previous values.
+C turns around again.
+D resets the function so it can be called again.
+
+
+The following function is supposed to return the larger of the two numbers given to it, but it has one flaw
+def getMaximum(a,b):
+    if a>b:
+        return a
+    elif b>a:
+        return b
+The flaw is:
+It might return nothing
+It needs another argument
+The inequality is reversed
+return needs parentheses
+
+
+Write the definition for a function named cosine that 
+takes one argument named angle.
+OPTIONS:
+def cosine(angle):
+def angle(cosine):
+cosine(angle)
+angle(cosine)
+
+
+Suppose a function named cosine has been defined. Call the function and capture the result in a variable.
+OPTIONS:
+adj = cosine(angle)
+cosine(angle)
+adj = angle
+adj = cosine
+
+
+Write the definition for a function named beginTimer that takes no arguments.
+
+
+Suppose a function named beginTimer has been defined. Call the function. DO NOT capture the result in a variable.
+OPTIONS:
+x = beginTimer()
+x = beginTimer
+beginTimer
+beginTimer()
+
+
+True or False: The given function prints something and returns nothing
+def foo():
+    print('something')
+TRUE
+
+
+True or False: The given function prints nothing and returns something
+def foo(x):
+    return x**(1/3)
+TRUE
+
+
+True or False: The given function BOTH prints something and returns something
+def foo(x):
+    print('return '+str(x))
+FALSE
+
+
+This function definition has how many arguments? def repeatWord(word, count):
+0
+1
+2
+3
+
+
+All of the following are examples of calls to this function except what?
+def repeatWord(word, count):
+repeatWord(word, count)
+repeatWord("lala", 4)
+repeatWord(sentence, 4)
+def repeatWord(sentence, count):

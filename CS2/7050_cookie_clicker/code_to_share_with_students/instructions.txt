@@ -1,0 +1,14 @@
+
+For 140 points, write a game of cookie clicker including:
+	-displaying a cookie image and a count of how many cookies have been earned.
+	-the ability to click on the cookie to increase the cookie count.
+	-displaying at least 3 upgrades such as cursor, mine, and farm.
+	-the ability to click on the upgrades to increase their level.
+	-earning cookies over time based on the level of the mine and farm.
+	-earning more cookies per click based on the level of the cursor.
+
+The provided code will help you get started by showing you
+	-how to detect mouse clicks
+	-how to write text on the screen
+
+If you struggle with how to detect which button was clicked, check out the mouseover examples in the next folder.

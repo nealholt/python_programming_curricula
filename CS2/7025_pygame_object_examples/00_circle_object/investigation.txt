@@ -1,0 +1,21 @@
+
+For 35 points, read the associated code, run it, then answer the following questions:
+
+1. Copy and paste the entirety of the circle's constructor here:
+
+2. Copy and paste the line of code that creates an instance of a circle here:
+
+3. Objects have variables, called attributes, and functions, called methods.
+Part A. List all of the circle's attributes:
+
+Part B. List all of the circle's functions:
+
+4. What keyword do all objects use to refer to their own variables and functions?
+
+5. Give at least two examples of lines of code that call a circle's methods.
+
+6. Change the code to add two more circles, one red and one blue that appear on the screen and move in different directions.
+
+7. Add a white circle to the screen and add a new method that moves a circle randomly, then call this method for only the white circle.
+
+Turn in your answers and code.

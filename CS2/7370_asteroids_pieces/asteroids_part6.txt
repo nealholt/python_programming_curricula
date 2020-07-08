@@ -1,0 +1,28 @@
+
+ASTEROIDS: Collisions
+
+For 70 points, add to your code as described below.
+
+Next you need objects to collide with each other. It's strange to check if
+polygons collide with each other because polygons don't easily translate
+into rectangles. I recommend using circular "hitboxes".
+
+If you add a radius attribute to the Polygon class and specify the radius
+of the player's ship, bullets, and asteroids, then you can use the 
+following function to check if two polygons collide.
+
+def collided(A, B):
+    '''Returns True if A and B have collided.
+    Returns False otherwise.'''
+    distance = (A.x-B.x)**2+(A.y-B.y)**2
+	return distance < (A.radius+B.radius)**2
+
+You might want to use one of the radii from the radii list as the "hitbox"
+radius. Perhaps the minimum, maximum, or average radius? It's up to you.
+
+Don't forget to loop over asteroid and bullet lists in reverse when
+deleting collided asteroids and bullets. Otherwise you will run off the
+end of the list.
+
+Don't worry about the smaller asteroids appearing when the larger 
+asteroids are destroyed. That will be the next part.

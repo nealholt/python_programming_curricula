@@ -1,0 +1,89 @@
+
+Hangman 
+http://inventwithpython.com/chapter8.html
+http://inventwithpython.com/chapter9.html
+http://inventwithpython.com/chapter9.5.html
+
+Alternative hangman: 
+http://www.pythonforbeginners.com/code-snippets-source-code/game-hangman/
+
+== == == == == == == == == == == == == == == == == == == == 
+Example code. The hard part of hangman:
+
+display_word = []
+secret_word = "mitochondria"
+guessed_letters = ["r", "s", "t", "e"]
+for letter in secret_word:
+	if letter in guessed_letters:
+		display_word.append(letter)
+	else:
+		display_word.append("_")
+print(display_word)
+
+== == == == == == == == == == == == == == == == == == == == 
+
+Hangman
+
+Hangman - develop the design of the game as part of the assignment for the students. Plan the control flow. Plan the functions and variables to use. Plan it with the students so they can do the next game on their own.
+
+What happens first in a game of Hangman? What next? Then what? ... What do 
+we need to repeat? When do we have a choice between two or more actions?
+
+A function should be a "unit of action". Any repeated action is a good 
+candidate for a function. What functions should we create for a game of 
+hangman?
+
+What information do we need to keep track of? The answer to this question 
+will determine what variables we anticipate needing.
+
+MORE FORMAL ASSIGNMENT FOLLOWS
+
+Submit 3 things:
+
+1. List the steps of a game of Hangman in order. How is the game begun? How is it played? How does the game end? Describe each step.
+
+2. Which of the actions or steps you listed should be functions? List the functions you expect to use. Just name each function and say what it will do. The functions should be small actions.
+
+3. What information will you need to store to play a game of hangman? List the information needed and name a variable for each piece of information. You do not need to give the type of these variables.
+
+== == == == == == == == == == == == 
+
+Hangman Project
+
+Submit the main.cpp file for a hangman game.  You can either enter the hangman word or choose it randomly from a list.  Your hangman game should let the user guess a letter each round and the game should display blanks for the word with certain letters filled in as well as some kind of ascii representation of how many mistakes the user has made.
+
+For example:
+    ____
+   |      
+   |
+_____
+_ ____ ____
+Choose a letter:
+u
+
+    ____
+   |      
+   |
+_____
+
+_ __u_ __u_
+Choose a letter:
+e
+
+    ____
+   |      O
+   |
+_____
+
+_ __u_ __u_
+Choose a letter:
+a
+
+    ____
+   |      O
+   |       |
+_____
+
+_ __u_ __u_
+Choose a letter:
+

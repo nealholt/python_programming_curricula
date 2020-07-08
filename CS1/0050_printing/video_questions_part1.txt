@@ -1,0 +1,11 @@
+
+For 10 points, watched the video "Printing Part 1" found here:
+https://youtu.be/eyL0owd-rdA
+and answer the following questions.
+
+
+1. What's the shortcut to run a program in Pyscripter?
+
+2. What's the sum of the first two numbers Holt adds together in the video?
+
+3. What does EOL stand for?

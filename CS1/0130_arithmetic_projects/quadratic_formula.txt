@@ -1,0 +1,35 @@
+'''
+
+For 35 points, write a program that prints the x intercepts of a 
+quadratic equation. In other words, write a program that calculates
+the quadratic formula.
+https://www.programiz.com/python-programming/examples/quadratic-roots
+
+You will need to ask the user for the coefficiencts a, b, and c.
+
+You will need to use
+import math
+and to use
+math.sqrt()
+
+math.sqrt() calculates the square root of whatever number you give it.
+For example:
+math.sqrt(4) #This prints 2
+math.sqrt(36) #This prints 6
+
+You may need to use parentheses to enforce order of operations. 
+Python will perform order of operations the same as your calculator.
+
+Check your program by using coefficients you know how to factor.
+For example y=x^2+3x+2 is the same as y=(x+1)(x+2)
+
+Interaction with your program might look like the following:
+>What is the leading coefficient a?
+1
+>What is the second coefficient b?
+3
+>What is the constant term c?
+2
+>The x intercepts are -1 and -2
+
+'''

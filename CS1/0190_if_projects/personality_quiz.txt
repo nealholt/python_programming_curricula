@@ -1,0 +1,22 @@
+'''
+
+For 50 points, write a "Personality Quiz" program that asks the user
+a series of questions, perhaps scoring their results, then uses if
+statements to label the user in some way.
+
+Interaction with your program might look like the following:
+>You lost a game. Are you more likely to 
+>A. complement your opponent on a game well played
+>B. give your team a pep talk about winning next time
+>C. analyze how your strategy went wrong
+>or D. claim your opponent cheated?
+A
+>Which animal do you prefer
+>A. Lion
+>B. Snake
+>C. Raven
+>or D. Badger?
+D
+>You are a Hufflepuff
+
+'''

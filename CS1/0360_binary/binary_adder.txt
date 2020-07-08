@@ -1,0 +1,13 @@
+'''
+For 140 points, write and test a function that takes two lists of
+ones and zeroes representing binary numbers and returns the sum
+as another binary number.
+
+For example:
+[1,0,1] + [0,1,1] = [1,0,0,0]
+but the code you will use to test your function will look more like this:
+'''
+bin1 = [1,0,1]
+bin2 = [0,1,1]
+result = binaryAdder(bin1, bin2)
+print(result) #Prints [1,0,0,0]

@@ -1,0 +1,34 @@
+'''
+
+For 100 points, write a program that asks the user how much 
+the bill was for, then asks the user how many dollars they gave 
+the cashier. The program should then calculate and print out the 
+number of dollars, quarters, dimes, nickels, and pennies that the 
+user should get in change.
+
+You might find this webpage useful:
+learnpython.trinket.io/learn-python-part-1-numbers#/numbers/modulus
+but you can also use if statements to write this program without
+using modulus.
+
+If you get stuck try:
+1. Doing some examples on paper and analyzing the process.
+2. Work step by step first pretending your only change can be in
+dollars and pennies
+then dollars, quarters, and pennies
+then dollars, quarters, dimes, and pennies
+and so on. Make sure the code works at each step.
+
+Interaction with your program might look like the following:
+>How much is the bill?
+21.53
+>How many dollars will you give the cashier?
+22
+>You will receive $0.47 in the form of
+>0 dollars
+>1 quarters
+>2 dimes
+>0 nickels
+>2 pennies
+
+'''

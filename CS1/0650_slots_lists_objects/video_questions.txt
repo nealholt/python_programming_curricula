@@ -1,0 +1,22 @@
+
+For 60 points, watch this video and answer the following questions. 
+https://youtu.be/qCtjB305e4Q
+Email your answers to your teacher.
+
+
+1) What problem is the program in the video inspired by?
+
+2) The variable named user starts out as a string. How do I need to change user to use it as an index?
+
+3) What is encapsulation?
+
+4) Why do I have to write an if statement with code that swaps minimum and maximum?
+
+5) Define a class named Cat. Write a constructor (an init function) for the class that takes one True or False variable called has_stripes as input, and stores the value of has_stripes in an attribute (a self variable).
+
+6) Write a short program that creates a list of 10 random numbers using a loop and append. Then the program should let the user choose 5 numbers out of the list and add those numbers together. At the end of the program, print the sum as the user's score.
+
+This is related to, but different from the program written in the video.
+
+7) Write a short program that fills a list with 10 random numbers and then finds and prints the smallest value in the list.
+

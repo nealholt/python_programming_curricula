@@ -1,0 +1,25 @@
+
+#The following lines of code are out of order. Write the numeric order that would 
+#cause this program to run correctly. There may be more than one correct answer.
+1 screen_width = 100
+2 pygame.init()
+3 import pygame
+4 dimensions = (screen_width,screen_height)
+5 screen_height = 150
+6 surface = pygame.display.set_mode(dimensions)
+
+
+
+
+#The following lines of code are out of order. Write the numeric order that would 
+#cause this program to run correctly. There may be more than one correct answer.
+
+1 #Update the surface to dsiplay the new drawing.
+1 pygame.display.flip()
+2 #Draw the image on the surface
+2 screen.blit(image, (0,0))
+3 #Fill the drawing surface with black. (This also erases any previous images)
+3 screen.fill((0,0,0))
+4 #Load an image from file
+4 image = pygame.image.load('images/left000.png')
+

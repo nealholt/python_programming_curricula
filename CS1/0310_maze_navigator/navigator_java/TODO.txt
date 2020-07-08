@@ -1,0 +1,39 @@
+Navigator
+
+Navigator programming project has obvious next steps in it. Modify navigator to be in 4 sections: 1 linear code, 2 while loops, 3 conditions, 4 putting it all together to solve all maps.
+
+
+Many more notes and TODO's follow.
+
+
+write a manhattan-distance function and provide it to the students.
+
+Consider NOT doing the on paper assignment, or doing it physically first with partners. or giving instructions to you the teacher.
+Pure on paper assignment is too theoretical.
+However, if the students first write the instructions in plain english, this assignment is within reach of all students. I allowed some to write it in english and they could all do it after I told them where the instructions were unclear and they fixed them.
+
+give the function directionIs(String direction) so students can write
+if(directionIs("north"))
+
+Together with the students write functions for 
+faceNorth, South, etc.
+
+Then show them face(String direction). Let them choose what they prefer.
+
+Together with students write goNorth() using faceNorth() and move
+Write goSouth, etc unless they prefer writing goDirection(String direction)
+
+Give students goalIsEast west etc. Or write it together. Also write goalIsDirection(String direction)
+
+First set of maps should vary the relative location of the goal from immediately adjacent to the player to straight away in one direction, to diagonal, and should vary the initial heading for the maps.
+
+Then do mazes where the right hand rule will work.
+
+Then do the mazes you designed where you have to use a combination of the two approaches.
+
+Give the students getDistanceToGoal()
+
+First assign homework graded for completion on writing directions for in the classroom. Play the robot in the room. Do it incrementally. Make it incrementally harder. No obstacles, here's what instructions I know. Then there are obstacles and I know certain instructions. Then there are obstacles and the map nor my orientation are known ahead of time.
+
+You might even be able to start the whole class with this project, but start with hour of code  maze navigator. Find link to that and put it with the navigator NOW.
+

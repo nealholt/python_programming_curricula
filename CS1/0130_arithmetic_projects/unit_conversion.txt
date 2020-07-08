@@ -1,0 +1,12 @@
+'''
+
+For 18 points, write a conversion program that converts between units 
+of measure. You may choose the units. Feel free to use goofy units 
+like knots and furlongs and moles.
+
+For instance, you might ask how many mole-kilometers wide is the galaxy?
+In other words, how many 6.02*10^23 * 1000 meters wide?
+
+You will have to google any units or distances you don't know.
+
+'''

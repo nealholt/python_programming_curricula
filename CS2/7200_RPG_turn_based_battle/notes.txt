@@ -1,0 +1,77 @@
+0 Display the name of the attack when it occurs
+text_splash has been modified to make display of text easier.
+I think next step is to randomly select an action in game_manager's attack function and then display the name of it.
+1 implement attack one or all
+Check if the attack targets all and hit all of them if it does.
+Change animation to be an array of targets instead of just one.
+Check for healing and change the text color if it is healing.
+2 
+3 implement targeting allies or enemies
+4 make the damage percent modifier work
+5 implement the attack cooldown
+6 
+7 Implement health steal and create an attack to test it
+8 Add a targeting reticle on targeted character. 4 cardinal direction red line segments.
+9 Implement choice of target
+10 let player choose attacks
+11 implement stealth and perception
+12 The loops at top of game manger's attack function can cause infinite loop if one team dies. Fix please. Just need to detect win condition, print win and end the game.
+13 Implement charge counters or making all attacks interruptible. Opportunity windows for all attacks.
+14 Rock paper scissors abilities: counter stance, attack, charge up or interruptible power move.
+15 Have circles shoot out and splash at destination. Use bullet.py Color indicates effect:
+	damage - red
+	heal - green
+	buff - blue
+	debuff - orange
+Animation list:
+	-a shoots b with color
+	-splash color on character
+16 Add a go back in time ability!
+
+Image sources. More images are available.
+https://www.spriters-resource.com/snes/ff6/
+https://www.spriters-resource.com/snes/ff6/sheet/54685/
+
+FF6 battle game for self and marie:
+Buffs and debuffs that expire.
+Resistance to debuffs.
+Defense - subracted from incoming damage.
+Offense - damage dealt.
+Evade - chance to avoid an attack.
+Accuracy - if less than 100 then the difference is added to enemy's evade. If over 100, then the difference is subtracted from enemy's evade.
+Crit hit chance
+Crit hit percent increase in damage over normal.
+Health steal
+Destabilizing attacks or abilities so fights don't last forever, such as the doom spell from FF6, or characters that charge up for an uber attack, charge could be a move they perform with exponential gain. Other characters could build up a charge by dealing or taking damage. Interruptible attack that, if not interrupted takes one or more enemies down to one hp. Other powerful interruptible attacks force opponent to change who they target.
+stealth / perception prevents or allows viewing of enemy's health bar and or activation meter.
+Equipment gives tradeoffs such as 5% gain to one stat and 5% loss to another stat.
+Passive health gain or loss. Passive critical damage or percent gain.
+Caps on health. Some characters have no cap on health.
+Haste / slow spells.
+Paladin like passive buffs.
+Corpse explode spell to end a fight early once it starts to turn.
+Add to action object:
+	double[] chance to apply corresponding buff or debuff to target (corresponding via same index in buff/debuff array)
+	int[] buff/debuff longevity
+	Note: who can or cannot be targeted can be implemented as a buff or debuff.
+Character attributes (each of the following until level have a base and effective valued named like base_health and health. Each also has an incremental per-level increase named like health_change such that starting effective health = base_health + level * health_change):
+	int health
+	int offense
+	int defene
+	double accuracy
+	double evasion
+	double crit chance
+	double crit percent (percent damage increase)
+	double debuff resistance chance
+	int cooldown (big integer like 1000 or 10,000)
+	int level
+	bool[] active buffs and debuffs
+	int[] buff and debuff expiration timers
+You may need to add experience per character and formula or schedule for how level ups proceed.
+
+
+
+Make attacks reset turn meters, remove charge counters, and interrupt attacks so that perception/stealth is more valuable. You need to see counters, incoming attacks, and turn meter in order to interrupt them. This means having at least one high perception character in the party is vital, but if there is only one, they become a target.
+On the flip side, use abilities that increase charge counters, or multiply their damage output by consuming charge counters, powerful interruptible abilities that activate next turn or after a cooldown.
+Boolean flag: attacks may or may not interrupt other attacks.
+Make most attacks interruptible and occur after a short (or large) delay.

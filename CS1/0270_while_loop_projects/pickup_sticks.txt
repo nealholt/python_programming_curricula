@@ -1,0 +1,6 @@
+
+For 50 points, complete part 1 on the following webpage:
+http://nifty.stanford.edu/2014/laaksonen-vihavainen-game-of-sticks/handout.html
+
+For 70 points, complete parts 2, 3, and 4, though you will find this 
+easier after learning about lists.

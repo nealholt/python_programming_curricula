@@ -1,0 +1,17 @@
+
+For 35 points, write a program that graphs a sine wave on the 
+screen.
+
+You will need to
+	import math and turtle
+	use math.sin(x)
+	use goto
+	use a for loop
+
+
+Use a for loop to loop at least from 0 to 1000. Suppose x is
+the name of your loop control variable as in
+for x in range(1000):
+Tell your turtle to goto the x coordinate x, and the y coordinate
+math.(x)
+

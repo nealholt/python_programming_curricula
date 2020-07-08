@@ -1,0 +1,90 @@
+
+#For 17 points, answer the following questions.
+
+
+#1. The following code never prints C. Explain why not.
+x = int(input("Give me a number"))
+y = int(input("Give me a number"))
+if x > 0:
+	print("A")
+elif y > 0:
+	print("B")
+elif x > 0 and y < 0:
+	print("C")
+
+
+#2. Change the code in the previous question so that it 
+#prints C sometimes, but can still print A and B.
+
+
+#3. What is wrong with the following code?
+x = int(input("give me a number"))
+if x=0:
+	x = x+10
+
+
+#4. What is wrong with the following code?
+x = int(input("give me a number"))
+if x>0
+	x = x+10
+
+
+'''5. Identify at least three errors in the following code. 
+(The indentation is correct.)'''
+if num_neighbors >= 3 or num_neighbors = 4
+	num_neighbors = num_neighbors + 1
+else
+	num_neighbors = num_neighbors - 1
+
+
+'''Consider the following code. Assume that does_big_work, makes_breakthrough,
+and nobel_prize_candidate are all boolean variables that were created
+earlier in the program:
+
+if does_big_work:
+	if makes_breakthrough:
+		nobel_prize_candidate = True
+	else:
+		nobel_prize_candidate = False
+elif !does_big_work:
+	nobel_prize_candidate = False
+
+6. Write a simpler version of the code above that does the exact same thing.
+7. Write a single assignment statement that does the same thing as the code above.
+
+Two examples follow that may help you with questions 6 and 7:
+
+#We want the variable named precipitation to increase if it rains or snows. We could write our program like this:
+
+rains = True
+snows = False
+if rains:
+	precipitation = precipitation+1
+else if snows:
+	precipitation = precipitation+1
+
+#But a shorter and easier-to-read way to write the program is this:
+
+if rains or snows:
+	precipitation = precipitation+1
+
+
+#We want a program that decreases the variable hitpoints if the player gets hit by an enemy and does not have the invincibility powerup
+if self.hitByEnemy():
+	if not self.isInvincible():
+		hitpoints = hitpoints-1
+
+#A better way to write this code follows:
+if self.hitByEnemy()and not self.isInvincible():
+	hitpoints = hitpoints-1
+'''
+
+
+'''8. Use the variables allen_parlour_size and 
+nabbey_parlour_size to write a condition that expresses 
+the same thing as this quote:
+
+Mr. Allen's dining-parlour was not more than half as large (compared 
+to the dining-parlour at Northanger Abbey).
+-Northanger Abbey by Jane Austen'''
+

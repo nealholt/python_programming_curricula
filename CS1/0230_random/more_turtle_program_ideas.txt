@@ -1,0 +1,9 @@
+
+You could write turtle programs with if statements asking about x or y coordinates.
+
+
+Change something based on distance. Or implement warmer/colder game:
+https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.distance
+
+Make turtles more interactive:
+https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.textinput

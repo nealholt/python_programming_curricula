@@ -1,0 +1,6 @@
+
+Good accompanying projects might include:
+
+Frankenstein sentence generator: read from file
+
+DnD game with dictionary?

@@ -1,0 +1,46 @@
+
+For 35 points, read through the following three short webpages and complete all their challenge questions.
+
+https://learnpython.trinket.io/learn-python-part-2-logic-expressions#/booleans/booleans
+
+Challenges (these also appear on the webpage):
+
+1. Use the console below to type four "less than or greater than" math problems. Two should return True and two should return False.
+
+2. Above, in the sample problems, we used the == symbol. What do you think it means? Try using it in the console below with different numbers on either side, until you think you've got a sense for it. 
+
+
+
+https://learnpython.trinket.io/learn-python-part-2-logic-expressions#/booleans/boolean-expressions
+
+Challenges (these also appear on the webpage):
+
+Use the console above to create:
+
+1. A boolean expression that includes the "greater than" symbol
+2. A boolean expression that includes the "less than" symbol
+3. A boolean expression that includes the "greater than or equal to" symbol
+4. A boolean expression that includes the "less than or equal to" symbol
+5. A boolean expression that includes the "equivalent" symbol
+6. A boolean expression that includes the "not equivalent" symbol
+
+
+
+https://learnpython.trinket.io/learn-python-part-2-logic-expressions#/booleans/combining-boolean-expressions
+
+Challenges (these also appear on the webpage):
+
+Read through the boolean problems below and try to figure out what Python will return. Run each in the console below if you like.
+
+1. True and False
+2. True or False
+3. (True or False) and True
+4. (True or False) and True
+5. not False or True
+6. not True and False
+7. not True or False
+8. not True or True
+9. 3 + 3 == 6 and len("hi!") == 3
+10. 3 + 3 == 6 or len("hi!") == 3
+11. 3 + 3 != 6 or len("hi!") == 3
+12. 4 + 4 > 2 and 4 != 5

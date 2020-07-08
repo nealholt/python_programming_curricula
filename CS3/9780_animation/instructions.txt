@@ -1,0 +1,54 @@
+PRE:
+Talk through the code and how it all works so far.
+Discuss dictionaries.
+Discuss the sequence and motion arrays.
+Show how the right button is sensitive to if the character is standing or crouching.
+Discuss the dwell variables.
+
+
+PROJECT:
+Your goal is to write a program that provides a variety of animations and movements for a sprite depending on what key is pressed.
+
+The images have been cut out of the sprite sheet for you.
+
+Begin by creating a folder named animated sprite and copying all the attached files into it.
+
+You will get to start with an outline of the code.
+
+
+INSTRUCTIONS
+	PART 1
+Go to #TODO1 and follow the steps to write the setSequence function. This function takes two lists as arguments, a list of images and a list of motions. setSequence checks to see if the most recent sequence has finished and if so, copies the values of the given lists into its own sequence and motion lists. If the current sequence is still ongoing then this function does nothing.
+	PART 2
+Go to #TODO2 and follow the steps to write the update function. This function moves the sprite and updates what frame it is currently showing. update also resets the sprite to its default frame when the sequence is complete. Update is called once per frame of the program, about 30 times per second.
+	PART 3
+Add one or more of the following animation sequences:
+	climb up (uses ascend frames)
+	roll
+	hurdle
+	leap
+	fall
+To do so you will create sequence and motion lists. Then on a particular key press you will call the sprite's setSequence function and pass it the lists you created.
+In order to respond to a key press, first figure out which number corresponds to which key you want to use. Currently this line of code
+	print(event.key)
+causes your every key press to be printed to the console.
+For example, you can use
+	if event.key == 114:
+to see if the "r" key was pressed.
+	PART 4
+The following code flips an image horizontally (assuming rect is the image's rectangle and has already been stored in the variable rect):
+image = pygame.transform.flip(image, False, True), rect)
+If time allows, try to use this code to create walking left, crawling left, and other left-moving animations.
+
+
+PROJECT RUBRIC:
+3 points: Part 1 completed.
+3 points: Part 2 completed.
+3 points: Part 3 completed.
+1 BONUS point: Part 4 completed.
+
+Your name, the date, and the assignment must be written in a multi-line comment at the top of the program.
+
+
+POST:
+Debreif different student programs and discuss their relative merits.

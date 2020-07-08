@@ -1,0 +1,3 @@
+
+Python Turtle snowman with a bug: https://stackoverflow.com/questions/22757542/python-simple-turtle-progam
+Do you think students can debug it?

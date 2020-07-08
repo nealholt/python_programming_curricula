@@ -1,0 +1,209 @@
+
+First place Kahoot winner gets 6 points, second place gets 4, third place gets 2.
+Playing Kahoot is optional, but it's an excellent review for the quiz!
+
+
+=== KAHOOT
+
+What does this code print?
+age = 7
+print(age)
+print("age")
+#7 then age
+#age then 7
+#7 then 7
+#age then age
+
+
+What does this code print?
+level = "ten"
+print(level)
+level = "four"
+print(level)
+#ten then four
+#level then level
+#ten then ten
+#level then four
+
+
+
+What does this code print?
+street = "Osuna"
+print("street")
+osuna = "Edith"
+print("osuna")
+#street then osuna
+#Osuna then Edith
+#Osuna then osuna
+#street then osuna
+
+
+What does this code print?
+game1 = "trickery"
+print(game1)
+game2 = "treatery"
+print(game1)
+#trickery then trickery
+#trickery then treatery
+#game1 then treatery
+#trickery then game1
+
+
+What does this code print?
+scheme1 = "bait"
+print(scheme1)
+scheme2 = "switch"
+print("scheme2")
+#bait then scheme2
+#bait then switch
+#bait then bait
+#scheme1 then scheme2
+
+
+Which of the following is the correct way to save an input to a variable?
+one = input("red or Blue"
+1 = input("red or Blue")
+one = input("red or Blue")
+one = input "red or Blue"
+
+
+Suppose we've already run the following code, then which of the following increases y by one?
+y = 12**2-14
+print(y+1)
+y = y+1
+y = print(y+1)
+y+1
+
+
+
+The input function always returns a string. What error does this code throw if the user types in 4?
+response = input("Give me a number")
+print(response+10)
+Type Error
+Name Error
+Syntax Error
+Divide by Zero Error
+
+
+What's the fix for this error?
+response = input("Give me a number")
+response = int(response
+print(response+10)
+#Add a parend )
+#Convert response to a string
+#Convert response to an int
+#Add quotation marks
+
+
+The input function always returns a string. What error does this code throw if the user types in 4?
+response = input("Give me a number")
+response = int(response
+print(response+10)
+Type Error
+Name Error
+Syntax Error
+Divide by Zero Error
+
+
+Does this code swap the values of a and b?
+a = 1
+b = 2
+a = b
+b = a
+print(a)
+print(b)
+Yes
+No
+
+
+Does this code swap the values of number and integer?
+number = 1
+integer = 2
+temp = integer
+number = integer
+integer = temp
+print(number)
+print(integer)
+Yes
+No
+
+
+This code swaps the values of a and b. Why is a third variable needed?
+a = 1
+b = 2
+copy_a = a
+a = b
+b = copy_a
+print(a)
+print(b)
+It's not needed
+It's needed to save the previous value
+A fourth variable is needed
+Aliens
+
+
+What is missing from this code?
+input("What is your name?")
+print("Pleased to meet you "+name)
+The name variable has to be created.
+The user's input needs captured in a variable.
+The user's input value needs put into name.
+All of these things are missing.
+
+
+Which of the following is not a function?
+int()
+exit()
+print()
+math
+
+
+Which variable name is best?
+pay_raise
+Pay_Raise
+PayRaise
+dollar
+
+
+Which of the following is a valid variable name?
+num_sprites
+22_sprites
+num-sprites
+22 sprites
+
+
+Commented code...
+does not run
+can be used for notes
+begins with # in Python
+all of the above
+
+
+The following are all comments except which one?
+#This is a comment
+'''This is a comment'''
+"""This is a comment"""
+===This is a comment===
+
+
+A good comment...
+tells you what the code does
+organizes and explains the code
+is at least 3 paragraphs long
+contains your bank password
+
+
+Which comment best explains this code? Assume all answers are true and there is more code around this line.
+x = x * 0.9
+#Multiply x by 0.9
+#Remove 10% due to fees
+#Reduce x by 10%
+#x too big, make smaller
+
+
+Which comment best explains why this line of code exists? Assume all answers are true.
+response = input("Your name is "+name+"?")
+#Confirm that the user's name is correct
+#Set response equal to the text result given after asking for user's name
+#LOL, this program is boring.
+#Users have a lot of typos.

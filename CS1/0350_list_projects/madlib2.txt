@@ -1,0 +1,25 @@
+
+For 70 points, write a program that prints out a different wacky 
+story each time you run the program by choosing different nouns, verbs, 
+or adjectives from lists.
+
+For example, if you start with the template:
+The ADJECTIVE1 NOUN1 went to LOCATION1 to VERB1 the NOUN2, but the NOUN1 
+had to return to LOCATION2 because NOUN1 VERB2 a NOUN3.
+
+Then one run of your program might print:
+The wooly farmer went to the store to peck the clouds, but the farmer 
+had to return to the cave because farmer ate a pigeons.
+
+But the next run of your program could print something different in 
+every underlined location.
+
+Think about the pieces involved in this program.
+ - You will need lists of adjectives, locations, verbs, and nouns.
+ - You will need to use random to generate random numbers.
+ - You will need a variable to store any words you would like to repeat 
+ such as NOUN1 in the MadLib above.
+
+For full credit you need to repeat one of your variables, perhaps the 
+protagonist's name will be repeated, for example.
+

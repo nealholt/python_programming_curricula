@@ -1,0 +1,212 @@
+
+=== KAHOOT ===
+
+else is more commonly expressed as what in English?
+otherwise
+the princess from Disney's Frozen
+do not
+condition
+
+You can't have an else without...
+an if
+a fire
+$5
+a variable
+
+You can't have an elif without...
+an if
+an else
+an elif
+2/3rds majority in the senate
+
+
+True or False, you can have as many elifs in a row as you want, like this:
+if something:
+	do stuff
+elif something else:
+	do stuff
+elif another thing:
+	do stuff
+
+
+True or False, you can have as many elses in a row as you want, like this:
+if something:
+	do stuff
+else:
+	do stuff
+else:
+	do stuff
+
+
+According to this code, is it possible to put on a coat AND enjoy the great outdoors?
+if snowing:
+	putOnCoat()
+elif raining:
+	getUmbrella()
+else:
+	enjoyOutside()
+
+
+According to this code, is it possible to put on a coat AND enjoy the great outdoors?
+if snowing:
+	putOnCoat()
+if raining:
+	getUmbrella()
+else:
+	enjoyOutside()
+
+
+According to this code, is it possible to put on a coat AND get an umbrella?
+if snowing:
+	putOnCoat()
+if raining:
+	getUmbrella()
+else:
+	enjoyOutside()
+
+
+len is a useful function that returns the length of a string. True or false, this code prints "longer".
+if len("short") > len("long"):
+    print("longer")
+
+
+What line of code will run after line 3?
+1   x = 7
+2   y = 4*x/7
+3   if x*y > 20:
+4         print("transcendent")
+5   else:
+6         print("nonsense")
+Answers: 4,5,6,28
+
+
+What line of code will run after line 3?
+1   x = 7
+2   y = 2*x/7
+3   if x*y > 20:
+4         print("transcendent")
+5   elif x!=0:
+6         print("nonsense")
+Answers: 4,5,6,28
+
+
+#What does this code print?
+roses_are_red = True
+violets_are_blue = False
+if roses_are_red and violets_are_blue:
+    print('Be my valentine')
+else:
+    print('Violets are purple')
+
+
+#What does this code print?
+roses_are_red = True
+violets_are_blue = False
+if roses_are_red or violets_are_blue:
+    print('Be my valentine')
+else:
+    print('Violets are purple')
+
+
+#What does this code print?
+roses_are_red = True
+violets_are_blue = False
+sugar_is_sweet = True
+if roses_are_red and violets_are_blue and sugar_is_sweet:
+    print('...and so are you.')
+elif roses_are_red and violets_are_blue:
+    print('I like flowers.')
+elif roses_are_red and sugar_is_sweet:
+    print('I like candy.')
+else:
+    print('You ruined valentines day.')
+
+
+=== QUIZ ===
+
+
+else is more commonly expressed as what in english.
+otherwise
+the princess from Disney's Frozen
+do not
+condition
+
+
+You can't have an elif without...
+an if
+an else
+an elif
+2/3rds majority in the senate
+
+
+True or False, you can have as many elses in a row as you want, like this:
+if something:
+	do stuff
+else:
+	do stuff
+else:
+	do stuff
+
+
+According to this code, is it possible to put on a coat AND enjoy the great outdoors?
+if snowing:
+	putOnCoat()
+elif raining:
+	getUmbrella()
+else:
+	enjoyOutside()
+
+
+According to this code, is it possible to put on a coat AND enjoy the great outdoors?
+if snowing:
+	putOnCoat()
+if raining:
+	getUmbrella()
+else:
+	enjoyOutside()
+
+
+True or false, this code prints longer?
+if len("short") > len("long"):
+    print("longer")
+
+
+What line of code will run after line 3?
+1   x = 7
+2   y = x - 12
+3   if x < y:
+4         print("cat")
+5   elif x!=0:
+6         print("dog")
+Answers: 4,5,6,28
+
+
+What line of code will run after line 3?
+1   x = 7
+2   y = x - 7
+3   if x < y:
+4         print("cat")
+5   elif y!=0:
+6         print("dog")
+Answers: 4,5,6,28
+
+
+Suppose the variable x has already been created and given a numeric value. Write code that prints "big number" if x is greater than 100.
+
+
+Circle the line of code that is broken in this program.
+speed = 70
+if speed >= 75:
+    print("Issue speeding ticket")
+elif speed > 70:
+    print("Issue warning")
+else speed<=70:
+    print("No action")
+
+
+What error does this code throw?
+condition = input("?")
+elif condition=="A":
+	print('A')
+else:
+	print('B')

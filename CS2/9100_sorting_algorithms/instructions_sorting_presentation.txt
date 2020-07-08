@@ -1,0 +1,13 @@
+
+SORTING DANCE PRESENTATION
+For 80-240 points (depending on quality of the presentation), individually or in groups of no more than 2, choose a sorting algorithm other than bubble sort or insertion sort that has a sorting dance video on youtube, for example:
+Shell sort: https://www.youtube.com/watch?v=CmPA7zE8mx0
+Select sort: https://www.youtube.com/watch?v=Ns4TPTC8whw
+Quick sort: https://www.youtube.com/watch?v=ywWBy6J5gz8
+Merge sort: https://www.youtube.com/watch?v=XaqR3G_NVoo
+1. Present to the class how the sorting algorithm works. We will project the dance alongside some code and you will need to be able to describe which line of code is being executed as the dance progresses.
+2. Describe to the class the efficiency of the algorithm compared to other sorts. Is it fast? Is it slow? Is it fast in some cases, but slow in others?
+(For up to 100 points more, you may choose a more exotic sorting algorithm such as Bogo sort, Pigeonhole sort, Radix sort, or other sorting techniques that you can find listed here:
+https://en.wikipedia.org/wiki/Sorting_algorithm
+If you choose this option, you need to describe the sort well enough that volunteers from the class can perform the sort, with your direction.)
+

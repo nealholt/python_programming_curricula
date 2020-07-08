@@ -1,0 +1,67 @@
+
+Demonstrate #15 using an if-statement for the students.
+Show them how blocks snap together and how to view the code.
+https://studio.code.org/s/20-hour/stage/2/puzzle/15
+
+Demonstrate #18 using an if-else-statement for the students.
+Show them how blocks snap together and how to view the code.
+https://studio.code.org/s/20-hour/stage/2/puzzle/18
+
+Assignment:
+Write a program that gets the zombie to the flower in #19. Copy the code in the space provided then complete the following questions.
+
+The function named notFinished() is not clearly named. Rename this function to make it easier to understand.
+
+Sketch a different maze for which this program would also work. 
+
+Draw the path the zombie would take in this maze.
+
+Sketch a different maze for which this program would fail.
+
+Draw the path the zombie would take.
+
+Describe in words the types of mazes that your algorithm works in. In other words, what feature does a maze need to have for your algorithm to work in it?
+
+Describe in words the types of mazes that your algorithm fails in. In other words, what feature does a maze need to have for your algorithm to fail in it?
+
+Modify your algorithm to work in the types of mazes it previously failed in. Write the code here. Leave space for comments:
+
+Lastly, include comments describing the purpose of each loop and if-else statement. Why are these structures needed to make the program work.
+
+
+
+
+Notes:
+You can show the students #6 and #7.
+Make sure they see the code.
+You could demonstrate a maze with #14
+#15 is better.
+#16 is the exact same thing in the other direction, but maybe that's good for the students to do one.
+#17 is exactly the same as #15.
+#18 uses if-else
+#19 uses if-else in same way but turns other direction.
+#20 basically does create the general maze runner, but it gives away too much of the code.
+
+For what types of mazes does your algorithm work?
+For what types of mazes does your algorithm fail?
+Draw a different maze for which this code would also work. 
+Draw the path the zombie would take.
+Draw a different maze for which this code would fail.
+Draw the path the zombie would take.
+https://studio.code.org/s/20-hour/stage/2/puzzle/19
+What comments would you add to this code?
+Are the function names clear?
+//Move forward until you run out of path, then turn right and try again.
+//Repeat all this until a flower is reached.
+while (notFinished())
+{
+  if (isPathForward())
+  {
+    moveForward();
+  }
+  else
+  {
+    turnRight();
+  }
+}
+

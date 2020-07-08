@@ -1,0 +1,17 @@
+
+For 140 points, create a Square class that is similar to the circle class
+in the associated shared code. You will also need to write a short main.py
+program.
+
+Use circle.py and main.py as examples.
+
+The constructor for your square class takes one argument, the size of one 
+side of the square. Your square must have two functions: getArea and 
+getPerimeter which will calculate and return the area and perimeter.
+
+Next write a third function named fitsIn. fitsIn takes two arguments, a 
+width and a height. fitsIn returns True if a rectangle with the given width 
+and height could fit in the square. fitsIn returns False otherwise.
+
+Write a short test program, main.py, that creates a Square and calls its
+functions, similar to what is done in main.py with circle.

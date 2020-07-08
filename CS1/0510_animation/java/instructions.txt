@@ -1,0 +1,77 @@
+
+Skills: loops, arrays, variables, if.
+
+STEP 0  - Percent Completion: 10/100
+Create a new Java Project named Animation.
+Navigate to the folder for your project. It should be in C:(Local Disk)\Users\SCC\workspace\Animation\
+Copy and paste the shared files into this folder.
+Refresh the project in eclipse by clicking on the project folder in the menu on the left and pressing F5 or by right clicking on the project and selecting refresh.
+Open Main.
+Type Alt - r - enter to run the project.
+
+STEP 1:  - Percent Completion: 25/100
+Open Main and locate the update function:
+public void animationLoop()
+
+Copy and paste this code into animationLoop:
+	//images/turning.png is one of the images we will display.
+	game_frame.setImage("images/turning.png");
+	//300 is the x location. 200 is the y location.
+	game_frame.setImageXY(300,200);
+	game_frame.updateGraphics();
+
+Run the program. You should see a green blob creature.
+
+STEP 2:  - Percent Completion: 50/100
+Let's create an animation of our green buddy crawling to the right.
+Put the following String array at the start of animationLoop:
+String[] image_list = {"images/right000.png",
+				"images/right001.png",
+				"images/right002.png",
+				"images/right003.png"};
+
+Next write a for loop that starts at zero and loops to image_list.length.
+Put this code inside the for loop:
+	//images/turning.png is one of the images we will display.
+	game_frame.setImage("images/turning.png");
+	//300 is the x location. 200 is the y location.
+	game_frame.setImageXY(300,200);
+	game_frame.updateGraphics();
+	delay(250); //Wait 250 milliseconds
+
+Note: the image_list should NOT be in the for loop.
+
+Replace "images/turning.png" with image_list[i], assuming that i is your loop control variable.
+This will cause the images to cycle from right000 through right003 in the loop.
+
+When you run the program now, the image should animate briefly then stop.
+
+STEP 3:  - Percent Completion: 70/100
+Let's keep the animation repeating. Put a while loop around your for loop. Make the condition of the while loop true because we want this loop to run forever. Don't put image_list in the while loop.
+
+STEP 4:  - Percent Completion: 85/100
+Our image is animating now, but it's not moving across the screen.
+This line of code that controls the position of the blob is:
+game_frame.setImageXY(300,200);
+Create a new integer variable named x. This variable should be created before all your loops, but inside animationLoop. It doesn't matter if the variable is created before or after the initialization of image_list.
+Set x equal to zero when you create it.
+
+Then inside of your for loop increase x by 5 every time the loop executes.
+
+Lastly make sure you change game_frame.setImageXY(300,200);
+to use the variable x instead of the constant 300.
+
+The blob should now move around the screen as it animates.
+
+STEP 5:  - Percent Completion: 98/100
+Make the blob walk half way across the screen and then turn around and walk back.
+
+You will need to look in the images folder that you downloaded and look at all the available images and change the contents of image_list.
+
+You may also need new variables and an if statement.
+
+STEP 6:  - Percent Completion: 100/100
+Challenge: See if you can make the blob jump. You will need to modify the blob's y value as well as x for this.
+
+STEP 7:
+Challenge: Create your own custom animation using the images in the image folder.

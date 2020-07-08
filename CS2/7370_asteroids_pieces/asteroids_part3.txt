@@ -1,0 +1,34 @@
+
+ASTEROIDS: Ballistic Movement
+
+For 35 points, add to the code from part 2 as described below.
+
+First, put the Polygon class in its own separate file and import it in 
+main.
+
+We want the polygon to drift through space like it does in the game of 
+asteroids. To do this we need to use dx and dy.
+
+Add self.dx and self.dy variables to the Polygon and initialize these
+variables to zero.
+
+Write a move function in the Polygon class that increases self.x by 
+self.dx and the same thing with dy for y.
+
+Make sure the move function is called once per loop in the main loop.
+
+Lastly, we want the up arrow to push the polygon in the direction the 
+polygon is facing. The polygon already has an angle. We'll use the angle
+and trigonometry to do this.
+
+Cosine takes an angle and gives the length of the horizontal (x) side.
+Sine takes an angle and gives the length of the vertical (y) side.
+
+Whenever the up key is pressed, add the following to dx
+    math.cos(self.angle)*force
+and add the following to dy
+    math.sin(self.angle)*force
+
+Force is a new variable that you should create for how fast you want the 
+polygon to accelerate. Start the force at 1. Make it larger if the 
+acceleration is too low. Make it smaller if the acceleration is too high.

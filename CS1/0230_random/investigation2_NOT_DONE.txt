@@ -1,0 +1,303 @@
+
+
+
+CHALLENGING. You need to build up to this more.
+
+
+#For 35 points, answer the following questions.
+
+'''1. Consider the following program. Which player would you rather be? 
+2. What are the odds you will win?'''
+import random
+#Flip two coins
+heads1 = random.randint(0,1)
+heads2 = random.randint(0,1)
+#Determine who wins
+if heads1==1 and heads2==1:
+    print('Player 1 wins')
+if heads1==1 or heads2==1:
+    print('Player 2 wins')
+
+
+#Question 2: Run the following program. Does it seem the same or different compared to the previous program?
+import random
+#Flip two coins
+heads1 = random.choice([True,False])
+heads2 = random.choice([True,False])
+#Determine who wins
+if heads1 and heads2:
+    print('Player 1 wins')
+if heads1 or heads2:
+    print('Player 2 wins')
+
+
+#Question 3: Rearrange the following lines of code to print "snake eyes" if the dice both roll 1.
+die2 = random.randint(1,6)
+print('snake eyes')
+else:
+import random
+die1 = random.randint(1,6)
+if die1==die2 and die1==1:
+points = 0
+points = points + die1 + die2
+
+
+#Question 4: In the previous program, what happens if the dice do not come up snake eyes?
+
+
+#Question 5: If the following program prints out "lucky" then what had to be the value of the 3 variables?
+import random
+#Flip three coins
+heads1 = random.choice([True,False])
+heads2 = random.choice([True,False])
+heads3 = random.choice([True,False])
+if heads1 or heads2:
+    print('Unlucky')
+elif heads3:
+    print('Close')
+else:
+    print('lucky')
+
+
+#Question 6: Write a program that flips 3 coins. The program should have a points variable. Increase points by 1 if all flips are tails, increase points by 8 if all three flips are heads, otherwise increase points by 2.
+
+
+
+###DAY 9
+
+#Question 1: Consider the following program. Would you 
+#rather have the coins land one or zero?
+#If one coin has to land zero, which coin would you
+#prefer that it be?
+import random
+def flipCoins():
+    coin1 = random.randint(0,1)
+    coin2 = random.randint(0,1)
+    coin3 = random.randint(0,1)
+    if coin1==1 and coin2==1 and coin3==1:
+        return 10
+    elif coin1==1 and coin3==1:
+        return 5
+    else:
+        return 0
+points = flipCoins()
+print("You won "+str(points)+" points")
+
+
+#Question 2: Modify the if statement in this program
+#so that the function returns 2 when coin1 and
+#coin2 are both one.
+import random
+def flipCoins():
+    coin1 = random.randint(0,1)
+    coin2 = random.randint(0,1)
+    if _____________: #fill in the blank
+        return 2
+    else:
+        return 0
+points = flipCoins()
+print("You won "+str(points)+" points")
+
+
+#Question 3: Modify the if statement in this program
+#so that the function returns 2 when coin1 or
+#coin2 is one.
+import random
+def flipCoins():
+    coin1 = random.randint(0,1)
+    coin2 = random.randint(0,1)
+    if _____________: #fill in the blank
+        return 2
+    else:
+        return 0
+points = flipCoins()
+print("You won "+str(points)+" points")
+
+
+#Question 4: Finish the following program so that the 
+#function returns "lucky match" if the dice both roll the 
+#same number. Otherwise the function returns "unlucky".
+import random
+def rollForMatch():
+    die1 = random.randint(1,6)
+    die2 = random.randint(1,6)
+
+
+#Question 5: If the following program prints out "Lucky" 
+#then what had to be the value of the 3 variables?
+import random
+#Roll dice coins
+heads1 = random.randint(0,1)
+heads2 = random.randint(0,1)
+heads3 = random.randint(0,1)
+if heads1==1 or heads2==1:
+    print('Unlucky')
+elif heads2==heads3:
+    print('Lucky')
+else:
+    print('Close')
+
+
+#Question 6: Write a program that includes a function
+#that performs 3 coin flips (50/50 odds).
+#The function returns 0 if all flips are tails, 
+#returns 8 if all three flips are heads, otherwise 
+#returns 2.
+
+
+#Question 3: A function ends whenever return is called. What does this 
+#code print?
+
+#This function returns the player's chance of beating
+#a certain boss in a video game.
+def getChanceOfWinning(level, element):
+    if level > 60 or element=='fire':
+        return 90
+    if level > 50:
+        return 60
+    return 10
+
+player1_chances = getChanceOfWinning(55, 'fire')
+print(player1_chances)
+player2_chances = getChanceOfWinning(30, 'fire')
+print(player2_chances)
+player3_chances = getChanceOfWinning(48, 'ice')
+print(player3_chances)
+
+
+#Question 3: What are all the possible things that the following program could print?
+import random
+r = random.randint(0,10)
+if r > 5:
+    print('yes')
+else:
+    print('no')
+
+
+
+
+#Question 4: The following program got scrambled. Rearrange the lines of code so that they make sense. Include proper indentation.
+print('If I flip heads twice or tails twice then I win.')
+print('You win')
+elif not(flip1 or flip2):
+flip1 = random.choice([True,False])
+import random
+flip2 = random.choice([True,False])
+if flip1 and flip2:
+print('I win')
+print('I win')
+else:
+
+
+
+
+#Question 3: Extend the following program to print 'All tails' if every coin flip variable is less than 0.5 and print 'At least one heads' otherwise.
+import random
+coin_flip1 = random.random()
+coin_flip2 = random.random()
+coin_flip3 = random.random()
+
+
+#Question 4: Remember this scrambled code from yesterday. Rewrite it using and, or, or not so that there is only one if statement and no elif statement.
+print('If I flip heads twice or tails twice then I win.')
+print('You win')
+elif not(flip1 or flip2):
+flip1 = random.choice([True,False])
+import random
+flip2 = random.choice([True,False])
+if flip1 and flip2:
+print('I win')
+print('I win')
+else:
+
+
+
+###DAY 4
+
+Quiz Day. Take Quiz
+
+Write a program that includes a function.
+The function performs 3 coin flips (50/50 odds).
+The function returns 0 if all flips are tails, returns
+returns 8 if all three flips are heads, otherwise 
+returns 2.
+
+
+###DAY 5
+
+
+#Question 1: What are all the possible things that the following program could print?
+import random
+r = random.random()
+if r > 0.5:
+    print('above half')
+elif r > 0.8:
+    print('more than 80%')
+else:
+    print('below half')
+
+
+#Question 2: What are the odds that this program prints koala?
+import random
+r = random.random()
+if r>0.7 or r<0.2:
+    print('koala')
+else:
+    print('kangaroo')
+
+
+#Question 3: The program is supposed to perform 3 coin flips (50/50 odds). Then print 8 if all the flips are heads (True), print 4 if two flips in a row are heads, print 2 if only one flip is heads, and print 0 otherwise. Rearrange the lines of code to fix the program. Include proper indentation.
+flip2 = random.choice([True, False])
+flip3 = random.choice([True, False])
+print(2)
+print(8)
+print(4)
+elif (flip1 or flip2 or flip3) and not(flip1 and flip3):
+elif not(flip1 or flip2 or flip3):
+if flip1 and flip2 and flip3:
+elif (flip1 and flip2) or (flip2 and flip3):
+import random
+flip1 = random.choice([True, False])
+print(0)
+
+
+
+#Question 2: Recall last class's coin flipping program. Rewrite the program as a function that returns 8 when all the flips are heads (True), returns 4 if two flips in a row are heads, returns 2 if only one flip is heads, and returns 0 otherwise.
+
+
+
+
+#Question 3: Empirically estimate the odds that this function returns squid. In other words, write additional code to loop repeatedly and count up the number of times squid gets returned compared to the total returns.
+import random
+def getCephelapod():
+    r1 = random.random()
+    r2 = random.random()
+    if (r1<0.2 and r2>0.8) or (r1<0.5 and r2<0.3):
+        print('squid')
+    else:
+        print('octopus')
+
+
+
+
+#Question 1: The following functoin performs 3 coin
+#flips (50/50 odds). Then returns 8 if all the flips are
+#heads (True), returns 4 if two flips in a row are heads,
+#returns 2 if only one flip is heads, and returns 0 
+#otherwise. Under what circumstances does the function 
+#return None? Fix the function so it returns -1 in this 
+#case instead of None.
+import random
+def playCoinGame():
+	flip1 = random.choice([True, False])
+	flip2 = random.choice([True, False])
+	flip3 = random.choice([True, False])
+	if flip1 and flip2 and flip3:
+		return 8
+	elif (flip1 and flip2) or (flip2 and flip3):
+		return 4
+	elif (flip1 or flip2 or flip3) and not(flip1 and flip3):
+		return 2
+	elif not(flip1 or flip2 or flip3):
+		return 0
+

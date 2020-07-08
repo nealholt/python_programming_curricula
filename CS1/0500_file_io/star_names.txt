@@ -1,0 +1,23 @@
+
+For 70 points, write a program to print out all the proper names of 
+stars in the hygdata_v3.csv file.
+
+In this project you will learn to read in a CSV (comma-separated values) file using Python and extract data from the file.
+
+STEP 1: Begin by going to this website then download the HYG 3.0 database and save the database file to your python folder:	www.astronexus.com/hyg
+			Or	https://github.com/astronexus/HYG-Database
+
+STEP 2: Create a python file named galaxy_reader.py
+
+STEP 3: Use what you learned in the reader_investigation to open the 
+file and print every line.
+
+STEP 4: Use the split command on the lines you are reading in from the 
+csv file and only print the 7th string in the list (Reminder: use 
+index 6 to print the 7th piece of data). This should print the proper 
+name of various stars.
+
+STEP 5: You will notice lots of blanks. Many stars do not have proper 
+names. Use an if statement to print only if a star does have a proper 
+name. If a star does not have a proper name, its name will be equal to 
+the empty string "".

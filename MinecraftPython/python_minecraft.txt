@@ -1,0 +1,72 @@
+
+=== GETTING STARTED ===
+
+Open Minecraft by clicking on the Window icon in the bottom left then navigate through the menu as follows:
+Window/Games/Minecraft Pi
+
+Open Python by clicking on the Window icon in the bottom left then navigate through the menu as follows:
+Window/Programming/Python 3 (IDLE)
+
+Press tab to make minecraft let go of the mouse.
+Press F5 to run the python code.
+
+Old code is stored in /home/pi/Documents/Python Projects/
+
+
+I have provided 4 example Python Minecraft projects. You should familiarize yourself with them by running and reading their code. The projects include:
+
+minecraft_example.py
+Includes code for a Variety of small functions that do things like building a tower or teleporting the player.
+
+minecraft_midas_touch.py
+This program turns any block beneath the player's feet to gold.
+
+minecraft_explosion.py
+This program contains a function that lets the player blow up TNT.
+
+minecraft_buried_treasure.py
+This program turns Minecraft into a game of finding a hidden gold brick.
+
+
+For a list of all the built-in Minecraft Py functions, see here:
+https://www.stuffaboutcode.com/p/minecraft-api-reference.html
+
+
+=== PROJECTS ===
+
+NOTE: These first few projects are mainly designed to familiarize you with the example code.
+
+
+For 20 points modify the minecraft_midas_touch program so that blocks to the left and right, front and behind the player also turn to gold as long as the blocks are not air. Note that the x axis is left to right, the y axis is up and down, and the z axis is front to back.
+
+
+For 10 points combine the code in minecraft_explosion with the function makeTNTBlock in minecraft_example to create a big block of TNT that you can then blow up.
+
+
+For 10 points modify the code in minecraft_midas_touch so that instead of a trail of gold you leave a trail of dynamite. Then incorporate the function from minecraft_explosion so you can make it explode.
+
+
+For 20 points modify the teleport fucntion in minecraft_example to teleport the player to a random location in the air. The player must not ever be teleported into the ground.
+
+
+For 20 points modify the minecraft_buried_treasure game to have a more exciting victory celebration for finding the gold such as springing the player into the air and spawning falling flowers all around them.
+
+
+For 40 to 400 points, write a function that builds a house. The complexity and customizability of your function determines how many points you get. Start off simple with a one room house, but include arguments for the size of the house.
+I recommend starting here: 
+https://arghbox.files.wordpress.com/2014/04/warehouse_a5.pdf
+Maybe later use helper functions that build individual rooms, walls, windows, roofs or other structures and you will combine these together. See how much you can reuse helper functions to build a giant mansion.
+Since there is a function that lets you create a solid block of material of certain dimensions, start off with a solid block of house and then make a smaller block of air inside it. Voila! You have a room.
+
+
+For 100 to 600 points, draw a tree made out of blocks in Minecraft. You must first complete the recursive tree drawing program. Think about how you can do something similar to that program but in 3 dimensions to draw branches recursively.
+
+
+For ??? points, propose and complete your own project.
+
+
+For ??? points, write a function that generates a landscape in Minecraft. In other words, build your own world using Python.
+
+
+More example projects to explore:
+https://www.stuffaboutcode.com/p/minecraft.html

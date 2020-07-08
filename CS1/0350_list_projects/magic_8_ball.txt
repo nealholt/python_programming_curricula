@@ -1,0 +1,17 @@
+
+For 35 points, write a "Magic 8-Ball" program.
+The magic 8 ball is a toy that responds to yes or no questions
+with one of 8 responses randomly.
+
+For example:
+Will it rain today?
+>You may rely on it
+
+Will my team win the game?
+>Concentrate and ask again
+
+You must put as many responses as you want in a list and randomly 
+choose which one to use to answer the user's questions.
+
+Use random.randint to pick a random whole number, then use that whole 
+number to index into the list.

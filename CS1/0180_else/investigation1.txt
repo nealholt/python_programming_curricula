@@ -1,0 +1,54 @@
+
+For 5 points, answer the following questions.
+
+
+Else statements are always paired with if statements.
+Else statements are never found without an if.
+Else means the same as otherwise.
+
+if something is True
+	then do this
+otherwise the thing is False
+	do this
+
+if it's cold outside:
+    put on a coat
+else:
+    put on sandles
+
+1. Make up an example of another if-else and write it in pseudo-code
+(pseudo-code is fake code that is closer to English, like above).
+
+
+Elif statements let you check if some other condition is met before running
+some other code. Elif statements are also always paired with if statements.
+Elif is short for Else-If
+
+if something is True
+	do this
+elif the first things is False and a second thing is True
+	then do this
+else
+	do this third thing
+
+
+if it's snowing:
+	put on a coat
+elif it's raining:
+	get an umbrella
+else:
+	enjoy the great outdoors
+
+2. Make up an example of another if-else and write it in pseudo-code.
+
+
+If statements can be put inside other if statements. It can help clean up your code.
+
+if raining:
+	if weekday:
+		get umbrella
+	else:
+		stay inside
+
+3. Write your own nested if statement for something other than the given example.
+

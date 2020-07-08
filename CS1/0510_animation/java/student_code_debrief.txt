@@ -1,0 +1,132 @@
+
+Here is working student code. Good for debreifing.
+
+======================================
+Brittany
+//Two while loops. turn to face camera in middle
+public void animationLoop()
+	{
+		String[] image_list = {"images/right000.png",
+				"images/right001.png",
+				"images/right002.png",
+		        "images/right003.png"};
+		String[] left_images = {"images/left000.png",
+				"images/left001.png",
+				"images/left002.png",
+		        "images/left003.png"};
+		String[] turning = {"turning.png", "turningleft.png"};
+		int x=0;
+
+		while(x<493)
+		{
+			//facing right
+			for(int i = 0; i<image_list.length; i++)
+			{
+				x+=5;
+				//images/turning.png is one of the images we will display.
+				game_frame.setImage(image_list[i]);
+				//300 is the x location. 200 is the y location.
+				game_frame.setImageXY(x,200);
+				game_frame.updateGraphics();
+				delay(50); //Wait 250 milliseconds
+			}
+		}
+		game_frame.setImage("images/turning.png");
+		game_frame.setImageXY(x,200);
+		game_frame.updateGraphics();
+		delay(250);
+		game_frame.setImage("images/turningleft.png");
+		game_frame.setImageXY(x,200);
+		game_frame.updateGraphics();
+		delay(250);
+		while(true)
+		{
+			//facing left
+			for(int i = 0; i<left_images.length; i++)
+			{
+				//game_frame.setImage(turning[i]);
+				x-=5;
+				//images/turning.png is one of the images we will display.
+				game_frame.setImage(left_images[i]);
+				//300 is the x location. 200 is the y location.
+				game_frame.setImageXY(x,200);
+				game_frame.updateGraphics();
+				delay(50); //Wait 250 milliseconds
+			}
+		}
+	} //public void animationLoop()
+======================================
+Jacob M
+//Two image lists. If-else in the for loop.
+	public void animationLoop()
+	{
+		int x = 0;
+		boolean going_right = true;
+		String[] image_list = {"images/right000.png",
+				"images/right001.png",
+				"images/right002.png",
+				"images/right003.png"
+		};
+		String[] image_list_2 = {"images/left000.png",
+				"images/left001.png",
+				"images/left002.png",
+				"images/left003.png"
+		};
+		while(true)
+		{
+			for (int i=0; i<image_list.length; i++)
+			{
+				if(going_right)
+				{
+					x = x + 5;
+					game_frame.setImage(image_list[i]);
+				}
+				else
+				{
+					x = x - 10;
+					game_frame.setImage(image_list_2[i]);
+				}
+				if (x > 390)
+				{
+					going_right = false;
+				}
+				//300 is the x location. 200 is the y location.
+				game_frame.setImageXY(x,200);
+				game_frame.updateGraphics();
+				delay(50); //Wait 250 milliseconds
+			}
+		}
+	}//public void animationLoop()
+======================================
+Ryan:
+//Just change image and direction once. Reuse all your code.
+	public void animationLoop()
+	{
+		int x=0;
+		String[] image_list = {"images/right000.png",
+				"images/right001.png",
+				"images/right002.png",
+		"images/right003.png"};
+		int direction=40;
+		while(true)
+		{
+			for(int i=0;i< image_list.length;i++)
+			{
+				//images/turning.png is one of the images we will display.
+				game_frame.setImage(image_list[i]);
+				//300 is the x location. 200 is the y location.
+				game_frame.setImageXY(x,200);
+				game_frame.updateGraphics();
+				delay(250); //Wait 250 milliseconds
+				x=x+direction;
+			}
+			if(x>939)
+			{
+				image_list[0]="images/left000.png";
+				image_list[1]="images/left001.png";
+				image_list[2]="images/left002.png";
+				image_list[3]="images/left003.png";
+				direction=-40;
+			}
+		}
+	}//public void animationLoop()

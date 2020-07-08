@@ -1,0 +1,9 @@
+
+For 35 points, write a game of Nim.
+http://programmingbydoing.com/a/nim.html
+
++30 points for completing Bonus 1
++10 points for completing Bonus 2
++15 points for completing Bonus 3
++25 points for completing Bonus 4
++50 points for completing Bonus 5

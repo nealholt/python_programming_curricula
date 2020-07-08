@@ -1,0 +1,123 @@
+
+CS2 INVESTIGATIONS USED IN 2019
+
+NOTE: The robo rally instructions are kind of broken because essential code is missing. You should work through those questions yourself to make sure everything works as expected.
+
+###DAY 1
+
+#Question 5: Download and extract the code attached to this email. When you try to run main.py, you will find it broken. It really needs a sprite class. Create sprite.py and in that file create a small Sprite object. The constructor should take (in order) an x, a y, and an image and save all these in self.x, self.y, and self.image.
+Also include a draw function that takes a surface as its argument and calls
+surface.blit(self.image, (self.x, self.y))
+
+
+#Question 6: If you have time, investigate the maps folder as well as functions.py and main.py, then create your own custom map and load it into the game. Email me your map too.
+
+
+
+#Question 5: Make sure you finish up yesterday's robo rally tasks. Create sprite.py and fill it in with the code to create the Sprite class. You will know you did it right if the game board displays and then breaks because outOfBounds is undefined.
+
+
+#Question 6: Fill in the outOfBounds function in functions.py. This function should return True if the indicated row and column is outside the board and return False otherwise. Note that board will be a 2-dimensional array so len(board) is the number of rows and len(board[0]) is the number of columns.
+
+
+#Question 5: Robo Rally: Make sure the sprite class has been created and works.
+
+
+#Question 6: Robo Rally: Make sure the outOfBounds function has been created in functions.py and works.
+
+
+#Question 7: Robo Rally: Create a getRowColChange function in functions.py. This function takes one argument, a string direction. In other words, the argument to this function has one of the following values: 'north', 'south', 'east', or 'west'.
+The function returns a pair of row, column adjustment. For example: Given 'north' the function should return (-1,0) since north decreases the row by 1, but leaves the column the same. east -> (0,1) and so on.
+
+
+
+#Instructions 4: You don't need to include this in your email response. Make sure robo rally is working at this point, by which I mean that you have a Sprite class, and outOfBounds and getRowColChange functions.
+
+
+#Instructions 5: In the shared robo rally code is a file named robot_ai.py. In this file, define a robot object that inherits from the class in robot.py. Don't forget to import robot. Put the name of the inherited class in parentheses after "class" and your object's name. Then call super().__init__ in your class's constructor.
+
+
+#Instructions 6: Find where the robot is created in main.py and create your robot instead. Run it to make sure that it works.
+
+
+#Instructions 4: Back to robo rally: Add a function named chooseAction to your robot
+def chooseAction(self, board, players, flags)
+In this function, randomly set self.next_action equal to 'left', 'right', 'move', 'wait', or 'zap' then return self.next_action.
+Congratulations, now you have a random robot.
+
+
+'''Instructions 2: If you don't have a random robot AI
+yet, finish that up. If you have a random robot, the next 
+step is to make the robot smarter. The robot's goal is to
+collect all the flags so for starters you should write a 
+function that returns a list of the flags the robot has 
+not collected yet. Create such a function. Give the 
+function one argument named flags. Useful pieces of code
+will include things like
+-creation of a new list variable that will be returned at the end of the function
+-a for loop to go through each flag
+-an if statement to check if the color of the current flag is found in self.flags (Note that self.flags is a list of colors of flags the robot has already picked up. This variable is automatically updated when your robot runs across a flag.)
+-the "in" command is handy. For example, the following program prints 'found 5':
+numbers = [2,5,8,9]
+if 5 in numbers:
+    print('found 5')
+'''
+
+
+
+###DAY 8
+
+
+
+
+#Instruction 2: Back to robo rally: In main.py set level_number equal to 1. This is an empty map on which you can test your flag collecting robot. If you have not already done so, write your "flags-needed" function.
+
+
+#Instruction 3: If you have time, write some sort of turnTowardDirection function that takes a direction as its argument and returns 'left' or 'right' depending on which way is best to turn to head in the desired direction.
+Note that every robot inherits a self.direction variable that equals 'north', 'south', 'east', or 'west'. You can and should use this variable to compare where you are headed to where you want to head.
+You may NOT simply set self.direction equal to the direction you want to go. Toward the end of the year we might have a "No Rules" robot competition, but until then this is a strict rule.
+
+
+
+
+
+
+
+#Question 5: If you have not already done so, write a function that returns the distance between two row,column pairs. This will be very useful for getting your robot to seek out the nearest flag, but it will also be useful for charting a path to the nearest flag, which is what we will do next.
+This function will not use any self variables so you should save the function in functions.py and then import it into your robot.
+
+
+#Question 6: If you have time, use your "flags-needed" function, along with the built-in isNorth, isEast, etc functions to orient your robot toward a flag.
+
+#Question 5: Continue working on your functions: one returns what flags are needed and another that turns your robot in a desired direction. If these are finished, write a more sophisticated chooseAction function that lets your robot collect all the flags on the level 1 map. 
+
+#Question 6: If you have time, modify your "flags-needed" function to return only the nearest flag your robot needs so your robot can work efficiently.
+
+
+
+In order to chart a course to a particular location, it's handy to be able to get a list of all the row,column pairs that are neighbors of a cell at a particular row and column. You might think this is as easy as (row+1,col), (row-1,col), (row,col+1), and (row,col-1), but things get trickier when we start to add in obstacles.
+Write a getAllNeighbors(board,row,col) function that returns a list of row,column pairs that are neighbors of the given row,col, but are also not out of bounds. Use your out of bounds function. Write getAllNeighbors in functions.py. Use your getRowColChange function.
+
+
+
+
+
+1. randomly search for a path (modify the code below)
+2. draw the path (see the BFS robot for desired code)
+3. use greedy depth-first search to find a more efficient path
+4. use breadth first search to find a more efficient path
+5. add in walls
+6. add in conveyors
+7. set students free to create their own best bots and maps
+
+Students might make a more traditional tree object.
+
+keep a list of all "discovered" cells
+get the current cell's neighbors
+while the goal is not in the list of neighbors:
+    order the neighbors based distance to goal
+    add all the neighbors onto the list that aren't already discovered.
+    add the furthest neighbors first.
+    grab the most recently added cell and ask for its neighbors.
+    while there are no neighbors found, pop the last cell on the list out of the list
+        grab the most recently added cell and ask for its neighbors.

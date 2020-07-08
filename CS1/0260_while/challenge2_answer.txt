@@ -1,0 +1,16 @@
+ANSWER:
+dot_countdown = 3
+dot_on = True
+to_print = '.'
+while(True):
+	if dot_on:
+		to_print = '.'
+		dot_countdown = dot_countdown-1
+	else:
+		to_print = '-'
+	if dot_countdown == 0:
+		dot_on = not dot_on
+		if dot_on:
+			dot_countdown = 3
+	print(to_print)
+

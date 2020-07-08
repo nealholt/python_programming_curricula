@@ -1,0 +1,26 @@
+
+For 45 points, watch this video 
+https://www.youtube.com/watch?v=7wEsF7IpWhw
+and answer the following questions and email them to your teacher with the subject line: "CS2: insertion sort video".
+
+1) What's always going to be true of insertion sort?
+
+2) Why doesn't insertion sort start with the first value in the list?
+
+3) The two loops in bubble sort both move left to right through the list to be sorted. What directions do the insertion sort loops move?
+
+4) How does insertion sort compare to bubble sort? (I want at least a three sentence answer.)
+
+5) What is Big O of 4n^3+7n^2+2n^6?
+In other words O(4n^3+7n^2+2n^6) = ?
+
+6) What is Big O of 3^n+2^n?
+In other words O(3^n+2^n) = ?
+
+7) What is the worst case time complexity for insertion sort?
+
+8) How much extra computer memory does insertion sort use?
+
+9) Insertion sort does not swap values the way bubble sort does. What does insertion sort do instead?
+
+10) How many comparisons does it take insertion sort to sort the cards at the end?

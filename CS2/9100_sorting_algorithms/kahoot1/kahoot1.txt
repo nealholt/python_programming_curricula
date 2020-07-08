@@ -1,0 +1,97 @@
+
+What is Big "O" of 12 log(n)+100?
+log(n)
+12log(n)
+100
+log(n)+100
+
+What is Big "O" of log(n)+2^n+n^8?
+log(n)
+2^n
+n^8
+
+#What does this code print?
+numbers = [3,12,1,9]
+for i in range(len(numbers)-1):
+    if numbers[i+1] < numbers[i]:
+        swap(numbers,i,i+1)
+print(numbers) #ANSWER: [3,1,9,12]
+[3,12,1,9]
+[1,3,12,9]
+[1,3,9,12]
+
+#What does this code print?
+numbers = [12,26,33,15]
+i = 3
+current = numbers[i]
+j = i-1
+while j >= 0 and current < numbers[j]:
+    swap(numbers,j,j+1)
+    j = j-1
+print(numbers) #ANSWER: [12,15,26,33]
+[12,26,33,15]
+[12,33,15,26]
+[12,15,33,26]
+
+After each additional loop of bubble sort...
+...one more value at the end of the list is in order
+...one more value at the start of the list is in order
+...your list is sorted or you get your money back
+...your list is more soapy clean than before
+
+The ideal pivot value to use when quicksorting...
+...splits your list into two equal size lists
+...banana splits your list with fudge sauce
+...splits your list like Jean-claude VanDamme
+...creates unbalanced split lists
+
+Thanos likes a good pivot value because...
+...good pivot values are evil
+...good pivot values are actually Gamora's father
+...good pivot values create two perfectly balanced lists
+...good pivot values hate the Avengers
+
+Quicksort question: What's the ideal pivot to use to split this list?
+[3,7,1,2,8]
+
+#What does this code print?
+list1 = []
+list2 = []
+numbers = [3,2,4,6,5,1]
+pivot = numbers.pop(3)
+for n in numbers:
+    if n < pivot:
+        list1.append(n)
+    else:
+        list2.append(n)
+print(list1+[pivot]+list2) #Answer: [3,2,4,5,1,6]
+[3,2,4,6,5,1]
+[3,2,4,1,5,6]
+[3,2,1,4,6,5]
+
+Was a good pivot used in the previous question, why or why not?
+
+What's a good pivot to use to split this list?
+[29, 40, 16, 37, 6, 77, 56, 8]
+
+What's the best pivot to use to split this list?
+[94, 38, 46, 92, 51]
+
+Which is fastest for sorting large lists?
+A Bubble Sort
+B Insertion Sort
+C Quick Sort
+D Bogo Sort
+
+Which is the slowest for sorting?
+A Bubble Sort
+B Insertion Sort
+C Quick Sort
+D Bogo Sort CORRECT ANSWER
+
+What is the advantage of an in-place sorting algorithm?
+A Can be written with fewer loops
+B Runs faster than other sorts
+C Low memory usage   #CORRECT ANSWER
+D Harder to read code
+

@@ -1,0 +1,27 @@
+
+For a minimum of 70 points and a maximum of 300 points (depending on how
+much code you add), add and use one new attribute and one new function
+in the Dragon and Character classes.
+
+Code is provided that uses objects to play a text based game in which the 
+player chooses a name and to be a wizard, rogue, or warrior and then tries
+to defeat a dragon.
+
+Your project is to extend the code to make the game more interesting. You 
+may also add your own ideas or change the existing gameplay.
+
+
+Here are some suggestions of things you may add:
+- Add health points to the Character, which decrease when the character 
+ makes the wrong decision. Then make it possible  to lose the game.
+- Add a fourth stat to the Character along with a fourth  action making use 
+ of the stat and a fourth Character class that specializes in the stat.
+- Add a takeDamage function to the dragon and write this function so that 
+ it decreases the dragon's hp and makes the dragon print "Ouch!"
+- Add one or more abilities for the dragon to perform to make the game more
+ interactive. These abilities must be written as functions in the dragon 
+ class and must be called in the main loop of the game.
+- Multiple enemies
+- Give the character a default role or otherwise deal with the issue of the 
+ user mistyping a role. For example, what if the user types in that they want
+ their character class to be rouge.

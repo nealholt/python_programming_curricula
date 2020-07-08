@@ -1,0 +1,14 @@
+
+For 200 points, create a game of flappy bird using the given starter code.
+
+The following steps might help:
+	-Find TODO in bird.py and write the code to animate the bird.
+	-Find TODO1 in main.py and write code that makes the wall reappear 
+	on the right side of the screen every time it reaches the left side 
+	of the screen.
+	-Find TODO2 in main.py and write code that makes the coin reappear 
+	on the right side of the screen every time it reaches the left side
+	of the screen.
+	-Find TODO3 in main.py and write code that checks if the bird hits 
+	the coin and if so, awards and prints points.
+	-Find TODO4 in main.py and write code that checks if the bird hits the walls and if so, deduct points.

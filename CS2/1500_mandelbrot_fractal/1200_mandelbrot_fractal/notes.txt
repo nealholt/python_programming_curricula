@@ -1,0 +1,8 @@
+
+Students must do the sanity checks and the function that are shown in the simple version.
+Students can extend this project by choosing a different viewing window and color set.
+Students should be directly challenged to find innefficiencies in their own code and fix them.
+
+
+Arren Buck suggested doing one fractal with the students then letting them choose their own fractal to do or have them investigate their own modifications.
+

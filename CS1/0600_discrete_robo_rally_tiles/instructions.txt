@@ -1,0 +1,40 @@
+
+Before you begin any of the following projects, you must complete the RoboRally board game project. (Project instructions are found at the bottom of this file.)
+
+
+For 40 points, answer the following questions about the video found here:
+https://youtu.be/kKc_NdH6Z4M
+QUESTION 1: What is the objective for the robot?
+QUESTION 2: What is the level number of the very simple test level that has no obstacles?
+QUESTION 3: In what function are you going to write your code for this project?
+QUESTION 4: What line of code puts the next flag into a variable named current_flag?
+QUESTION 5: What values can flagAhead return? (Hint, it's the same as what flagBehind, flagLeft, flagRight, holeAhead, wallAhead, and conveyorAhead returns.)
+QUESTION 6: What function detects holes?
+QUESTION 7: Show how to use the function that detects walls in an if statement to turn away from a wall by copying that code here.
+QUESTION 8: What is the line of code that puts a pre-selected action into the self.next_action variable?
+
+
+NOTE the following useful times in the video:
+00:00 Downloading the needed files.
+03:14 Changing the level (or map) and the speed of the game.
+04:48 Introduction to robot_student.py.
+08:05 Modifying robot to choose a random action.
+10:55 Flag functions (flagAhead, flagBehind, flagLeft, and flagRight)
+15:42 Detecting obstacles such as holes and walls.
+20:00 Taking a sequence of actions in a row. (Tip for getting around obstacles.)
+26:30 Rows and columns. getCellInDirectionCoordinates and getCellAheadType
+28:30 Names of tiles and images used to construct the maps.
+29:40 Making your own map.
+33:00 Adding a second robot player to the game.
+34:15 How to have two robots with different code competing.
+37:44 Simulating a movement sequence to see where the robot ends up.
+41:45 Two final function examples: conveyorAhead and outOfBoundsAhead
+
+
+For 140 points, write code in robot_student.py's chooseAction function that enables a robot to collect all the flags on maps level 0, 1, and 2.
+
+
+For 70 points, create your own map and share it with your instructor. Your map should have a clean layout and some minimal number of obstacles.
+
+
+For 30 points, demonstrate a competitive match between your robot code and another students' robot code.

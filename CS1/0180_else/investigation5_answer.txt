@@ -1,0 +1,5 @@
+
+ANSWER:
+! allen_parlour_size > nabbey_parlour_size/2
+with parentheses to clarify the order of operations:
+! (allen_parlour_size > nabbey_parlour_size/2)

@@ -1,0 +1,17 @@
+
+
+def divide(divisee, divisor):
+    if divisee==0:
+        return 0
+    elif divisee<0:
+        print("Sorry. This simple divide doesn't handle decimals.")
+        exit()
+    else:
+        return 1 + divide(divisee-divisor, divisor)
+
+What is the base case?
+
+What is the recursive case?
+
+Write a recursive function. It could be a function we've already seen in class such as multiply or factorial. It cannot be a divide function.
+

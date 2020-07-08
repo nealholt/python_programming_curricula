@@ -1,0 +1,89 @@
+
+For 15 points, answer the following questions.
+
+Read through this webpage then answer the following questions:
+https://learnpython.trinket.io/learn-python-part-1-numbers#/numbers/simple-math
+
+#1. Write a program to print the sum of 3 and 27 without using the number 30.
+
+#2. Write a program to calculate 946 minus 712 then print the result.
+
+#3. Write a program to divide 100 by 20 then print the result.
+
+#4. Write a program to multiple 2 times 8 then print the result.
+
+#5. Write a program to divide 144 by 9 then print the result.
+
+#6. Write a program to divide 36 by 7 then print the result.
+
+#7. Write a program to multiply 86 by 112 then print the result.
+
+#8. Write a program to first multiply 7 by 4 and then subtract 9 then print the result.
+
+'''9. Swapping variable values is harder than you might think.
+Write the indicated code after each comment:'''
+#Create a variable named a and give it the value 8
+
+#Create a variable named b and give it the value 4
+
+#Print a and b
+
+#Create a variable named temp and set it equal to the value of a
+
+#Set a equal to the value of b
+
+#Set b equal to the value of temp
+
+#Print a and b
+
+
+'''10. The previous question gave a correct implementation of swapping 
+two variable values. What does the following broken version of swap 
+print and why doesn't it work?'''
+a = 8
+b = 4
+print(a)
+print(b)
+a = b
+b = a
+print(a)
+print(b)
+
+
+'''11. variable replacement: If a variable name appears anywhere in 
+your program other than to the left of an equals sign, the program will 
+replace the name with the variable's value.
+What does this program print?
+'''
+x = 100
+print(x)
+'''The x in print(x) is replaced by its value. The program above has the 
+same output as'''
+print(100)
+
+
+#Consider the program:
+x = 9
+x = x+1
+print(x)
+'''In math this would make no sense:
+x = x+1
+If we subtract x from both sides we get:
+0 = 1
+This is impossible.
+
+In programming x = x + 1 is no problem. Whenever x appears anywhere 
+other than to the left of an equals sign, it gets replaced with its value so
+x = x+1 becomes
+x = 9+1 becomes
+x = 10
+then
+print(x) becomes
+print(10)
+
+12. What does this program print?'''
+x = 9
+x = x+1
+print(x)
+
+

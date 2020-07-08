@@ -1,0 +1,17 @@
+
+For 30 points, watched the video "Import, functions, comments" found here:
+https://youtu.be/ib7_GTrjYXM
+and answer the following questions.
+
+
+1. What are the values you put inbetween the parentheses of a function called?
+
+2. What does a hashtag # tell Python to do?
+
+3. What two random functions are demonstrated?
+
+4. How do you get the value of pi?
+
+5. What are two commands that turtles know how to do?
+
+6. How do I tell the turtle code to let me close the window?

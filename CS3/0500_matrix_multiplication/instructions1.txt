@@ -1,0 +1,29 @@
+
+For 70 points, write a function that takes two matrices and returns the product of the matrices.
+
+For example
+X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+
+Y = [[5,8,1,2],
+    [6,7,3,0],
+    [4,5,9,1]]
+
+result = matrixMultiply(X,Y)
+
+result should equal
+[[114, 160, 60, 27],
+[74, 97, 73, 14],
+[119, 157, 112, 23]]
+
+Also test your function on the product of
+[[-1,4],
+[1,2]]
+and
+[[3,1],
+[5,-1]]
+
+First figure out the product of the above two matrices on paper (keep your result, which you will turn in).
+
+Turn in your function, all tests of the function, and any work on paper with your name on it. 

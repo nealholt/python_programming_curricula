@@ -1,0 +1,8 @@
+
+http://stackoverflow.com/questions/573084/how-to-calculate-bounce-angle
+
+TODO: Implement line bounce off (should use angles similarly to what is used for the circle.
+Then you can write a pinball game. The paddles can use the line bounce off and you can modify friction, elasticity and such.
+
+Some physics notes toward the bottom of this page:
+https://www.real-world-physics-problems.com/bouncing-ball-physics.html

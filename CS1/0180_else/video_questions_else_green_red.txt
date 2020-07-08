@@ -1,0 +1,15 @@
+
+For 20 points, watched the video "Else green red" found here:
+https://youtu.be/ZL5jvG4em_Y
+and answer the following questions.
+
+
+1. How does the narrator change the first program so it prints "Green is also my fav" ONLY when the user types "Green"?
+
+2. What prints the first time the narrator types in Christmas?
+
+3. The else code runs under what condition? In other words, what has to be True (or False) for else to run?
+
+4. How many elif's can you chain together?
+
+5. How does a programmer indicate that certain code goes "inside" an if (or an elif or an else)?

@@ -1,0 +1,20 @@
+
+For 45 points, watch this video
+https://www.youtube.com/watch?v=hL-etXWXCos
+and answer the following questions and email them to your teacher with the subject line: "CS2: mergesort video".
+
+1) The process of a merge sort has two major halves. The second half is the merging. What is the first half?
+
+2) What is always true in merge sort about any sub list that have been merged?
+
+3) What does merge sort have in common with quick sort? List at least 2 features they have in common.
+
+4) Around 4 minutes I criticize the variable naming and the commenting in the example code. Give me an example of better variable naming for i, j, and k or a better comment for the loop.
+
+5) How is merge sort different from all of bubblesort, insertionsort, and quicksort? List at least 2 features of mergesort that are different from these other three sorts.
+
+6) How is mergesort better than the previous three sorts? Feel free to reuse an answer from the previous question.
+
+7) How is mergesort worse than the previous three sorts? Feel free to reuse an answer.
+
+8) What is the algorithmic paradigm of merge sort?

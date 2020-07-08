@@ -1,0 +1,34 @@
+
+For 180 points, make a Snake program.
+
+You may work in groups of no more than 2. Both students are
+eligible for 180 points each.
+
+Before starting, create a Program Plan.
+You must write down the pieces of the program that are 
+needed, in what order you will write them, and who will 
+work on what task.
+
+You will turn in your Program Plan and code.
+
+You should start simple and build up incrementally.
+0. Is pygame installed? Do you remember how to use it?
+1. Can you draw a rectangle on the screen?
+2. How about a list of rectangles?
+3. Can you make the rectangles move? THIS IS HARD FOR MOST STUDENTS. How will you move your rectangles?
+4. Only after you have those working should you add in controls using event handling and checking for collisions with food or the snake itself.
+
+
+You may use this tutorial, but you need to cite your sources clearly in the code:
+This python tutorial goes all the way from drawing lines to making snake:
+http://lorenzod8n.wordpress.com/2007/05/27/pygame-tutorial-2-drawing-lines/
+http://lorenzod8n.wordpress.com/2008/03/01/pygame-tutorial-9-first-improvements-to-the-game/
+
+
+If you want, you can add sound effects to your game such as an audio bleep when food is picked up. This webpage will explain the code:
+inventwithpython.com/chapter19.html
+This webpage will help you create unique sound effects:
+https://www.bfxr.net/
+or possibly this
+http://sfbgames.com/chiptone/
+it looks like the content moved.

@@ -1,0 +1,8 @@
+
+For 35 points, write a function that takes a list of numbers and 
+removes the largest number from the list.
+
+The function should not return anything.
+
+Test your function by calling it and removing a value from an example list,
+which you can make up.

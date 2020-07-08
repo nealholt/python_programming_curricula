@@ -1,0 +1,17 @@
+'''
+
+For 18 points, write a program that uses input to ask the 
+user for an angle in degrees and then converts that angle 
+to an angle in radians by multiplying by pi divided by 180.
+
+Make sure to make any type conversions that you need, such as 
+converting the string given by input to an integer.
+
+Print out the resulting radian measure.
+
+Interaction with your program might look like the following:
+
+> Give me a measure in degrees
+90
+> 90 degrees is 1.57 radians
+'''

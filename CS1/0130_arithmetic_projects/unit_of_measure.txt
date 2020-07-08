@@ -1,0 +1,28 @@
+'''
+
+For 18 points, write a program that asks the user for their name 
+and height in inches (make sure to convert to the correct type). 
+Then print out each of the following distances in units of their name.
+
+The golden gate bridge is ______ long.
+The Earth is ______ in diameter.
+The distance from the Earth to the moon is ______.
+
+You will have to google the above distances and calculate the conversion.
+
+BONUS: Express the width of a single-celled organism in 
+milli-person's-name. (The milli means 1/1000.)
+
+Interaction with your program might look like the following (I made up 
+all these numbers):
+
+> What is your name
+Paul
+> How tall are you in inches?
+65
+
+>The golden gate bridge is 266 Pauls long.
+>The Earth is 120,944 Pauls in diameter.
+>The distance from the Earth to the moon is 560,098 kiloPauls.
+>A paramecium is 0.06 milliPauls wide.
+'''

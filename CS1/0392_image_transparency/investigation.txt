@@ -1,0 +1,7 @@
+
+For 10 points, study the example of image transparency found here:
+https://drive.google.com/open?id=1mgFDxC28pRXbtj_WvHED8X9-W2b86dLo
+and apply your knowledge by making the hand transparent in the "Ball Coin Hand"
+program.
+
+Turn in that program again with the change to make the hand transparent.

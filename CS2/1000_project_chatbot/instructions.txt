@@ -1,0 +1,72 @@
+
+For 200 points, create a chatbot program. A chatbot has a 
+conversation with the user through text. Try to make your 
+chatbot as intelligent as possible. This will be difficult.
+
+I don't expect an intelligent conversation. Try to make
+your chatbot interesting. Perhaps write it as if you are
+interviewing a suspect, trying to get them to confess and
+the chatbot is the suspect. Or you are trying to convince
+the chatbot to go to prom with you. The choice is up to you.
+
+Your chatbot must:
+-Handle complete sentences typed in by the user.
+-Sometimes use a word typed by the user in its response. For example:
+  User: My favorite food is pizza.
+  Chatbot: Yes, pizza is delicious.
+There are many ways to make this work. You will find some useful code below.
+
+You may work in groups of no more than 2. Both students are
+eligible for 200 points each.
+
+Before starting, create a Program Plan.
+You must write down the pieces of the program that are 
+needed, in what order you will write them, and who will 
+work on what task.
+
+You will turn in your Program Plan and code.
+
+Use the following resources to create your chatbot:
+
+There is lots of useful string code here:
+learnpython.trinket.io/learn-python-part-4-changing-text
+
+#Change text to lowercase:
+text = 'Hello, how "are" you?'
+text = text.lower()
+print(text)
+
+#Remove all punctuation:
+import string
+text = 'Hello, how "are" you?'
+for i in reversed(range(len(text))):
+	if text[i] in string.punctuation:
+		text = text[:i] + text[i+1:]
+print(text)
+
+#Split up text into separate words:
+text = 'Hello, how "are" you?'
+array = text.split(" ")
+print(array)
+
+#Remove all the most common english words from an array:
+#https://en.wikipedia.org/wiki/Most_common_words_in_English
+most_common_words = ["be", "have", "do", "dont", "say", "get", "make", "go", "know", "take", "see", "come", "think", "look", "want", "give", "use", "find", "tell", "ask", "work", "seem", "feel", "try", "leave", "call", "good", "new", "first", "last", "long", "great", "little", "own", "other", "old", "right", "big", "high", "different", "small", "large", "next", "early", "young", "important", "few", "public", "bad", "same", "able", "to", "of", "in", "for", "on", "with", "at", "by", "from", "up", "about", "into", "over", "after", "the", "and", "a", "that", "i", "me", "it", "not", "he", "as", "you", "this", "but", "his", "they", "her", "she", "or", "an", "will", "my", "one", "all", "would", "there", "their", "hi", "is", "was", "were", "am", "name", "who", "what", "where", "when", "why", "how"]
+for i in reversed(range(len(array))):
+	if array[i] in most_common_words:
+		del array[i]
+
+#Choose a random word from a list:
+import random
+word_list = ["bamboozle", "blue", "xbox"]
+random.choice(word_list)
+
+#This function returns the first word that is found in both lists
+#of words
+def matchingWords(list1, list2):
+	'''Returns the first matching value in the two lists.
+	Returns the empty string if there are no matches.'''
+	for l in list1:
+		if l in list2:
+			return l
+	return ""

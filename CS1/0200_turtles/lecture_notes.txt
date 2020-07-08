@@ -1,0 +1,14 @@
+
+-Using comments
+-Organizing code in chunks (one for each letter)
+-variables that are turtle OBJECTS
+-multi-argument functions (goto)
+
+You MUST introduce the idea of a type named turtle. The idea of creating an OBJECT.
+
+
+
+
+Detailed turtle tutorial here:
+https://github.com/asweigart/simple-turtle-tutorial-for-python/blob/master/simple_turtle_tutorial.md#animation
+but it will spoil a bunch of the projects for them.

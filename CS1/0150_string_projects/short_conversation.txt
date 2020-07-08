@@ -1,0 +1,13 @@
+
+'''
+
+For 18 points, write a program that asks the user a question, then responds with something that incorporates their response. Do this twice.
+
+Interaction with your program might look like the following:
+>Hi, what is your name?
+Neal
+>Hi Neal. Pleased to meet you. What is your favorite hobby?
+running
+>I find running very tiring.
+
+'''

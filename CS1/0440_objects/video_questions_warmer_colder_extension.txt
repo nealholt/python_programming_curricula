@@ -1,0 +1,27 @@
+
+Watch the "Warmer Colder Object?" video found here:
+https://youtu.be/pb4TM7Lrqsw
+before doing this extension.
+
+For 30 points, watch the video "Warmer Colder Extension" found here:
+https://youtu.be/tXH9Ccy7Ytw
+and answer the following questions.
+
+
+1. Describe the extension made to the Warmer Colder Program
+
+2. The distance is the same as the length of what?
+
+3. Copy down the line of code that moves the x coordinate along the adjacent side of the right triangle.
+
+4. Copy down the line of code that moves the y coordinate along the opposite side of the right triangle.
+
+5. How many radians are there in one complete revolution around a circle?
+
+6. How can you convert from degrees to radians?
+
+7. How does Python know that the new print function I created is different from the built-in print function?
+
+8. What was my x and y coordinate when I got close enough to the goal (only give one decimal place)?
+
+9. Encapsulation lets a programmer hide what?

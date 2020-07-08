@@ -1,0 +1,8 @@
+
+For 10 points write the "Always sunny in Albuquerque" program:
+
+Use
+import random
+and
+random.randint(0, 365)
+then write a program that checks to see if the random value is less than 300 and, if so, prints "sunny" and otherwise prints "cloudy".

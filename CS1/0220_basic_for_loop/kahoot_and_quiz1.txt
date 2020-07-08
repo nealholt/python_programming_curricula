@@ -1,0 +1,168 @@
+
+Title: Python: For Loops 1
+
+
+The following function is supposed to print a given word 10 times, but it has one flaw
+def repeatTen():
+    for i in range(10):
+        print(word)
+It needs a return
+It needs an argument, word
+The loop needs an int
+A colon is missing
+
+
+Does 4 or 7 get passed to the addTwo function?
+x = 7
+def addTwo(x):
+	return x+2
+x = 4
+x = addTwo(x)
+print(x)
+
+
+The condition variable is either True or False. What can the following program NEVER print?
+text = ''
+if condition:
+	text = text+'A'
+elif not condition:
+	text = text+'B'
+if condition:
+	text = text+'C'
+print(text)
+AC
+A cannot print only A
+BC
+
+
+condition1 and condition2 are either True or False. What can the following program NEVER print?
+text = ''
+if condition1:
+	text = text+'A'
+if condition2:
+	text = text+'B'
+if condition1:
+	text = text+'C'
+print(text)
+AC
+A cannot print only A
+B
+ABC
+
+
+True or False: For loops are useful for repeating something a specific number of times.
+
+
+True or False: For loops are useful for repetition involving numbers.
+
+
+True or False: For loops always count by one.
+
+
+True or False: For loops can only count up.
+
+
+True or False: For loops can repeat forever.
+
+
+What does this code print?
+for i in range(7):
+        print(i)
+7 7 7 7 7 7 7
+i i i i i i i
+1 2 3 4 5 6 7
+0 1 2 3 4 5 6
+
+
+What does this code print?
+for i in range(3):
+        print(i)
+3 3 3
+i i i
+1 2 3
+0 1 2
+
+
+What does this code print?
+for i in range(2, 5):
+        print(i)
+5 5
+2 2 2 2 2
+2 3 4
+2 3 4 5
+
+
+For loops are also known as 
+Fortuitous loops
+Counting loops
+Never-ending loops
+Feral Ostrich Restrictions
+
+
+What does this code print?
+for i in range(3, 18, 3):
+        print(i)
+3 repeated 18 times
+18 18 18
+3 6 9 12 15
+3 6 9 12 15 18
+
+
+What does this code print?
+for i in range(10, 0, -2):
+        print(i)
+10  8  6  4  2
+10  8  6  4  2  0
+0  2  4  6  8  10
+-10  -8  -6  -4  -2
+
+
+What does this code print?
+total = 0
+for i in range(0,10,2):
+        total = total + i
+print(total)
+10
+20 correct answer
+30
+12
+
+
+What does this program draw?
+import turtle
+pen = turtle.Turtle()
+for i in range(4):
+    pen.forward(100) #pixels
+    pen.right(90) #degrees
+turtle.done()
+square
+circle
+triangle
+line
+
+
+What does this program draw?
+import turtle
+pen = turtle.Turtle()
+for i in range(3):
+    pen.forward(100)#pixels
+    pen.right(120)#degrees
+turtle.done()
+square
+circle
+triangle
+line
+
+
+What does this program draw?
+import turtle
+pen = turtle.Turtle()
+for i in range(360):
+        pen.forward(1) #pixels
+        pen.right(1) #degrees
+turtle.done()
+square
+circle
+triangle
+line
+

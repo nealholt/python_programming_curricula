@@ -1,0 +1,219 @@
+---DEBUGGING AND SYNTAX
+
+Which of the following answers does not belong?
+Shorter programs are better than longer programs because:
+A. They are usually easier to debug.
+B. They are easier to read mostly.
+C. They often run more efficiently.
+D. They are easier to digest.
+
+Python determines what is inside a loop, condition, or function based on which of the following:
+A. Curly brackets
+B. Random numbers
+C. Indentation
+D. The whims of the gods
+
+What causes the following error?
+TabError: Inconsistent use of tabs and spaces in indentation.
+
+#What is the bug in the following code and how do I fix it?
+#Feel free to run the code to find the bug. 
+#Print even numbers between 0 and 99
+for i in range(99)
+	if i%2 == 0:
+		print(i)
+
+#Feel free to run the code to find the bug. 
+#What is the bug in the following code and how do I fix it?
+age = input("How old are you?")
+born = 2017-age
+print("I think you were born in "+born)
+
+#Feel free to run the code to find the bug. 
+#What is the bug in the following code and how do I fix it?
+age = input("How old are you?")
+born = 2017-int(age)
+priut("I think you were born in "+str(born))
+
+#Feel free to run the code to find the bug.
+#What is the bug in the following code and how do I fix it?
+#This program checks if a word ends in a vowel.
+vowels = ['a', 'e', 'i', 'o', 'u']
+word = ipnut("Give me a word:  ")
+if word[-1] in vowels:
+	print(word+" ends in a vowel.")
+else:
+	print(word+" does NOT end in a vowel.")
+
+#Feel free to run the code to find the bug.
+#What is the bug in the following code and how do I fix it?
+#This program checks if a word ends in a vowel.
+vowels = ['a', 'e', 'i', 'o', 'u']
+word = input("Give me a word:  ")
+if word[-1] in vowels:
+	print(word+" ends in a vowel.")
+else
+	print(word+" does NOT end in a vowel.")
+
+#Why is Test 1 better than Test 2 at fixing results are WEIRD problems? Refer to your notes.
+#This program checks if a word ends in a vowel.
+vowels = ['a', 'e', 'i', 'o', 'u']
+word = input("Give me a word:  ")
+print("Test 1: the last letter in the word is "+word[-1])
+print("Test 2: "+word[-1])
+if word[-1] in vowels:
+	print(word+" ends in a vowel.")
+else:
+	print(word+" does NOT end in a vowel.")
+
+Subject: CS1 weird results part 2
+#Why are the A Tests A below better than the B Tests at fixing "results are WEIRD" problems? Refer to your notes.
+#This program checks if a word ends in a vowel.
+vowels = ['a', 'e', 'i', 'o', 'u']
+word = input("Give me a word:  ")
+print("Test A: a is a vowel is "+str("a" in vowels))
+print("Test A: b is NOT a vowel is "+str("b" in vowels))
+print("Test B: "+str("a" in vowels))
+print("Test B: "+str("b" in vowels))
+if word[-1] in vowels:
+	print(word+" ends in a vowel.")
+else:
+	print(word+" does NOT end in a vowel.")
+
+Subject: CS1 TabError
+#I get
+#TabError: inconsistent use of tabs and spaces in indentation
+#when I run the following code. How do I fix the problem?
+max_num = -429496296
+numbers = [-46, 28, 29000, 477, 1, -3492, 90728]
+for num in numbers:
+    if num > max_num:
+		max_num = num
+
+Subject: CS1 fill in the blank
+#The following function is supposed to return the largest number in numbers.
+#Fill in the missing line of code to make the function work:
+def findMax(numbers):
+	max_num = -429496296 #Start with a VERY negative number.
+	for num in numbers:
+		if num > max_num:
+			# Fill in the missing line here.
+	return max_num
+
+#answer: max_num = num
+
+Subject: CS1 in english
+Do 1 or 2 for the following instructions:
+1. If there is any part of the instructions you don't understand, write a question about it.
+2. Write a more detailed plan for this program.
+INSTRUCTIONS: Write a program that asks the user for two words then prints the number of letters that match in the two words.
+
+Subject: CS1 keywords
+Read the following general and more detailed description of a program. List keywords and the code those keywords indicate you would need to write for this program.
+Instructions General: Write a program that asks the user for two words then prints the number of letters that match in the two words.
+Instructions Detail: Ask the user for two words. Check each letter in the two words. If the letters are the same, increase a count of matches by one. Print the count at the end.
+
+Subject: CS1 add a print
+#Add one print statement to the following program that will help fix any WEIRD problems that the code might have.
+#You are encouraged to run the code if you want.
+#The following program counts the matches between strings
+word1 = input("Give me a word:  ")
+word2 = input("Give me another word:  ")
+#Make sure length is equal to the length of the shorter word
+#otherwise there will be an error when we loop.
+length = 0
+if len(word1) > len(word2):
+	length = len(word2)
+else:
+	length = len(word1)
+#Count up the matches between the two words.
+match_count = 0
+for i in range(length):
+	if word1[i] == word2[i]:
+		match_count = match_count+1
+print(str(match_count)+" letters match in the words.")
+
+Subject: CS1 in english part 2
+Do 1 or 2 for the following instructions:
+1. If there is any part of the instructions you don't understand, write a question about it.
+2. Write a more detailed plan for this program.
+INSTRUCTIONS: Write a program that picks a random number, then asks the user to guess the number until the user gets it right. The program tells the user after each guess if their guess is too high or too low.
+
+Subject: CS1 keywords part 2
+Read the following general and more detailed description of a program. List keywords and the code those keywords indicate you would need to write for this program.
+Instructions General: Write a program that picks a random number, then asks the user to guess the number until the user gets it right. The program tells the user after each guess if their guess is too high or too low.
+Instructions Detail: Remember a random number. Repeatedly ask the user for a number until the user guesses the number right. After each guess, check to see if the guess is too high or too low and tell the user which it is.
+
+Subject: CS1 deletable
+#Two lines can be deleted from the following program without having any effect on it. List the two lines.
+#You are encouraged to run the code to find the two lines.
+#High/low guess the number game:
+import random
+number = 0
+number = random.randint(1, 20)
+guess = 0
+print("I am thinking of a number between 1 and 20.")
+while guess != number:
+	guess = int(input('Take a guess: '))
+	number == guess
+	if guess < number:
+		print('Your guess is too low.')
+	elif guess > number:
+		print('Your guess is too high.')
+print("Good job! You guessed my number!")
+
+Subject: CS1 bug fix
+#There is a bug in the following program.
+#Email me the corrected line of code.
+#You are encouraged to run the code to find the bug.
+#High/low guess the number game:
+import random
+number = 0
+number = random.randint(1, 20)
+guess = 0
+print("I am thinking of a number between 1 and 20.")
+while guess != number:
+	guess = int(input('Take a guess: ')
+	number == guess
+	if guess < number:
+		print('Your guess is too low.')
+	elif guess > number:
+		print('Your guess is too high.')
+print("Good job! You guessed my number!")
+
+Subject: CS1 What Error?
+The following two programs both give the same error. Tell me the name of the error AND reply with possible fixes to the programs.
+#PROGRAM 1
+x = x-3
+print(x)
+#PROGRAM 2
+user_input = input("Say what?")
+print(user_ipnut)
+
+Subject: CS1 pseudocode
+Pseudocode is a hybrid of english and code. Use "pseudocode" to write a short section of a program to draw 3 birds on the screen to show how many lives the player has.
+For example, you can use "draw x birds" as valid code to draw x bird images. x, however must be a variable. Make sure you create x.
+Also write pseudocode for when x should change, for example: x should change "if bird hits wall".
+
+Subject: CS1 Fibonacci
+The Fibonacci sequence is a sequence of numbers that starts with 1, 1, and is followed by the sum of the previous two numbers in the sequence. For example: 1+1=2 so the third number is 2. 1+2=3 so the fourth number is 3. 2+3=5 so the fifth number is 5, and so on. 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+Write the shortest program you can write that prints out the fibonacci sequence. Your program should never end.
+
+Subject: CS1 frequency
+The update function gets called 60 times per second. How often does an enemy spawn?
+def update():
+      countdown = countdown - 1
+      if countdown <= 0:
+            countdown = 120
+            spawnEnemy()
+
+Subject: CS1 who's next
+What line of code will run after line 5?
+1   a = True
+2   b = False
+3   a = a and b
+4   b = a or b
+5   if a or b:
+6         print("one or the other")
+7   else:
+8         print("neither")

@@ -1,0 +1,7 @@
+
+For 35 points, write a program that draws a silly face based 
+on the provided starting face.
+
+Use comments to organize the pieces of your program.
+
+Make an interesting modification to the given face program.

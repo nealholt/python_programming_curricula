@@ -1,0 +1,25 @@
+'''
+
+For 18 points, write a program that translates anything the user types
+into pirate speak (or another language of your choosing, but I will
+explain the rest of the directions using the pirate example).
+
+You will make use of the replace function for this project. Try out
+the following code as an example:'''
+text = "Where are the gold coins?"
+text = text.replace("are", "arrgh")
+print(text)
+
+'''You must ask the user for a sentence of input, then perform at least 
+three different replacements. You may also add something onto the end.
+
+Consider also making common replacements such as
+you -> ye
+friend -> matey
+etcetera
+
+Interaction with your program might look like the following:
+>Type something in
+Hey, buddy, nice car. Have you met the new art teacher? 
+>Or as a pirate says: "Hey, matey, nice frigate. Have you met the new arrrght teacher? 
+'''

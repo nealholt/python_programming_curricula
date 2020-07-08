@@ -1,0 +1,65 @@
+
+#A class for a card object for games such as poker, blackjack, or spades
+class Card:
+    def __init__(self, name, value, suit):
+        self.name = name
+        self.value = value
+        self.suit = suit
+
+    def hasHigherValue(self, other_card):
+        return self.value > other_card.value
+
+    def print(self):
+        print(self.name+" of "+self.suit)
+
+1. Names of classes should be what?
+A. lowercase
+B. capitalized
+C. hyphenated
+D. use underscores
+
+2. Which of the following is not a method that belong to the class Card.
+__init__
+print
+hasHigherValue
+deal
+
+3. How are methods different from other functions?
+methods belong to objects
+methods take no arguments
+functions are more complicated
+functions start with self
+
+4. Dot . means what?
+belongs to
+call a function
+undo an operation
+copy and paste
+
+5. This line of code
+c = Card('Spades', 10, 'Jack')
+
+Creates a Jack of Spades
+Is incorrect, it creates a Spade of Jacks
+
+6. These lines of code
+a = Card('Jack', 10, 'Spades')
+b = Card('Three', 3, 'Clubs')
+c = Card('Queen', 10, 'Diamonds')
+
+Create three different objects, all of which are Cards
+Create three different classes, all of which are Cards
+Create three identical variables
+Don't create anything at all
+
+7. How does a Python class refer to itself?
+self
+this
+me
+myself
+
+8. Every class constructor in Python has the same name, __init__, how many underscores are in this name?
+1
+2
+4
+8

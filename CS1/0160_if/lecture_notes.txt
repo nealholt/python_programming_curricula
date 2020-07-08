@@ -1,0 +1,23 @@
+
+
+With if statements, before teacher answers any question, use print to see if the code runs, print variable values to see if they are what you expect. Use step-thru debugger.
+
+
+A comment must come before EVERY if statement explaining what the if does and why.
+Students must be taught now to test and debug their own code.
+
+
+If statement has two parts, a condition and a body. The body is code that gets executed if the condition is true.
+
+
+INDENTATION determines INSIDE vs OUTSIDE. Super important.
+
+
+keywords for ifs: check, compare, if, or, and, when, otherwise.
+
+
+Flowcharts
+
+
+What is if useful for?
+ANSWER: Running different code based on different situations. Responding intelligently.

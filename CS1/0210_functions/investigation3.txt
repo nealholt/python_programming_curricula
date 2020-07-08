@@ -1,0 +1,96 @@
+
+'''For 17 points, answer the following questions.
+
+
+'''1. Functions that return a value are replaced by that value 
+when you call them. Is the following function ever different
+from the number 5?'''
+def five():
+    return 5
+print(five())
+print(5)
+if 5 == five():
+    print('They are the same')
+x = 2+five()
+print(x)
+
+
+'''2. Write one line of code that calls the nonsense function 
+doStuff with the argument 8.'''
+def doStuff(argument):
+	if argument>1:
+		print(argument)
+
+
+#3. Does the x value of 4 or 7 get passed to the addTwo function?
+x = 7
+def addTwo(x):
+	return x+2
+x = 4
+x = addTwo(x)
+print(x)
+
+
+#4. What does this code print?
+#5. Why doesn't it print 6?
+def addTwo(x):
+	return x+2
+x = 4
+addTwo(x)
+print(x)
+
+
+'''6. What happens when you call a function that wants an 
+argument with no argument?'''
+def printWithGreeting(text):
+	print("Hello, "+text)
+printWithGreeting()
+
+
+#7. Does this fix it? Why or why not?
+text = Neal
+def printWithGreeting(text):
+	print("Hello, "+text)
+printWithGreeting()
+
+
+#8. How about this?
+def printWithGreeting(text):
+	print("Hello, "+text)
+text = "Neal"
+printWithGreeting(text)
+
+
+#9. Do the following programs print the same thing?
+#Program A
+def printWithGreeting(text):
+	print("Hello, "+text)
+x = "Neal"
+printWithGreeting(x)
+#Program B
+def printWithGreeting(text):
+	print("Hello, "+text)
+printWithGreeting("Neal")
+
+
+
+'''10. Write the definition for a function named printHello 
+that takes no arguments.'''
+
+
+'''11. Write the definition for a function named cosine that 
+takes one argument named angle.'''
+
+
+'''12. Write the definition for a function named sameFirstLetter
+that takes two arguments that are both strings. You can name the
+arguments whatever you like.'''
+
+
+'''13. Write the definition for a function named getCenterX that
+takes no arguments.
+
+
+'''14. Write a function named getExitCode that returns an integer
+and takes no arguments.'''
+

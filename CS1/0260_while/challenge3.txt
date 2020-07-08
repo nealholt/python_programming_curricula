@@ -1,0 +1,36 @@
+'''
+For 75 points, complete the following challenge.
+The world is running out of computer code. You need to write a program
+that prints ...---... repeatedly forever.
+
+However, your program can only use one loop: while(True)
+Your program can only use 2 print statements: print(".") and print("-")
+
+For example, you CANNOT use this program becuase it has too many print statements:'''
+while(True):
+	print(".")
+	print(".")
+	print(".")
+	print("-")
+	print("-")
+	print("-")
+	print(".")
+	print(".")
+	print(".")
+
+'''You CANNOT use this program because it has too many loops:'''
+while(True):
+	for i in range(3):
+		print(".")
+	for i in range(3):
+		print("-")
+	for i in range(3):
+		print(".")
+
+'''You also cannot use this:'''
+while(True):
+	print('.', '.', '.', '-', '-', '-', '.', '.', '.')
+
+'''You can't use this either:'''
+while(True):
+	print('.\n.\n.\n-\n-\n-\n.\n.\n.)

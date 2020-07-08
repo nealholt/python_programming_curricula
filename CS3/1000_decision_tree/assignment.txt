@@ -1,0 +1,131 @@
+
+For 800 points, write a decision tree classifier.
+
+You may work in groups of no more than 2. Both students are
+eligible for 800 points each.
+
+Each day you must both turn in a Scrum sheet. For each day that a
+Scrum sheet is not turned in, 20 points will be taken off your total 
+for the project.
+
+I provide a step-by step guide below, but group members should work on 
+separate pieces of the project so read the whole guide first and think
+about which pieces can be worked on separately and how they can be 
+tested.
+
+
+========= Understanding Decision Trees
+
+If you would like to learn more about decision trees, read these articles:
+
+https://medium.com/@chiragsehra42/decision-trees-explained-easily-28f23241248
+
+https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-understanding-decision-trees-adb2165ccab7
+
+
+========= Data sets for beginners:
+
+There are excellent free data sets available. I will be talking you 
+through an example using the Dogs of Zurich dataset
+https://www.kaggle.com/kmader/dogs-of-zurich
+with the data provided to you, but if you would like to do this 
+project with a different dataset I'd be happy to assist and see what 
+you come up with
+
+Alternative data sources:
+
+https://www.kaggle.com/rtatman/fun-beginner-friendly-datasets
+
+https://www.tableau.com/learn/articles/free-public-data-sets
+
+
+========= Project Steps
+
+The Dogs of Zurich is a dataset of dogs and their owners in Zurich.
+In this example, we will use the dataset to train a decision tree 
+classifier to recommend a dog breed for a person given that person's
+age, gender, and district within Zurich. Another to way to look at it
+is as a prediction; given age, gender, and district within Zurich, we
+predict what breed of dog you already own.
+
+
+Step 1: Write a function that reads in the csv file returns a 2d list. 
+I named my function getDogData()
+
+
+Step 2: Write a function that takes the 2d list from getDogData and
+the index of a column and returns the "alphabet" of that column.
+The "alphabet" is just a list of all the unique values in the column.
+
+
+Step 3: You will need to get the information entropy for individual 
+categories. I recommend writing two functions: getColumn(data, column) 
+and getEntropy(data_list, alphabet)
+
+getColumn takes the 2d list of data and an index and returns the whole 
+column as a single list.
+
+getEntropy takes a list (such as the one you just got from getColumn)
+and an alphabet for that list, and returns the enrtopy.
+
+
+Step 4: This is a big step. You need to understand all of it then
+break it up into substeps.
+
+Generate a decision tree based on a list of attributes and 
+single a single "target", which is the thing you want to predict.
+For instance:
+	Given owner age, owner gender, and city, recommend/predict a dog breed
+or
+	Given dog breed, age, gender, and color predict owner's age 
+
+This is a big step.
+
+You need to create a new object: class DecTreeNode, which has one child 
+for each value in the alphabet for a given split.
+
+You need to write a function that takes a 2d list of data and the index
+of a column and splits up the data based on the values in the column. 
+For example, if I split the data on owner gender, the function should
+given me a dictionary with two entries, one for all the male dog 
+owners and one for all the female dog owners.
+I called my version of this function splitOnAttribute.
+
+You need to write a function that calculates the summed entropy of all 
+the splits created by splitOnAttribute. I called my version of this
+function getSplitsEntropy and passed it a dictionary of split up data,
+the alphabet of the target column, and the index of the target column.
+The function returns the sum of the entropy.
+
+You need to write a function that decides on the best attribute to split
+on. This function will need a 2d list of data, the target attribute
+and possibly a list of attribute indicies. The function returns the
+index of the attribute that yields the lowest entropy groupings or splits
+of the target after we split.
+This function sounds mad complex, but relies heavily on the functions 
+you wrote earlier including splitOnAttribute and getSplitsEntropy.
+
+NOTE: Another thing that can be confusing here is that we want low 
+entropy. We want to split on an attribute that divides all of our target 
+attributes into separate buckets. We want something like gender to 
+predict hair length. We are looking for what category, when you split on 
+it, minimizes entropy of the target within the category.
+
+
+Step 5: Debugging:
+	A. Get it running at all
+	B. Print what was split on and the decrease in entropy at each split.
+	C. If you are getting an entropy of zero, make sure that the 
+	alphabet and the values match up. I had an issue in which I was 
+	getting the alphabet from the wrong column by accident.
+
+
+Step 6: Randomly partition data set into training and testing portions. 
+Write a function to do this. I called mine getRandomPartition(data, ratio)
+where ratio is the percentage of the data to use for training. The 
+remainder is used for testing.
+
+
+STEP 7: Evaluate accuracy of your decision tree using the testing data.
+Note: An error can occur if the training set does not contain all the 
+same attribute values as the test set.

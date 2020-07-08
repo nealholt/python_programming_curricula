@@ -1,0 +1,13 @@
+
+Write a program with variables ABC. Put calculus or pre calculus book in the variable print the variables to reveal what book is inside. Copy one variable to another by transferring books. Secretly you have many books in each box. Other programs do something similar but with colored pens or markers. Or the blocks in the closet for counting numbers. If and while can also be used. It is okay for the program's to be abstract
+a = "calculus"
+b = "precalculus"
+c = a
+print(c)
+print(a)
+a = b
+print(a)
+print(b)
+b = c
+print(b)
+print(a)

@@ -1,0 +1,144 @@
+
+'''For 17 points, answer the following questions.
+
+Here is an example of a function that only prints "Hello":'''
+def printHello():
+	print("Hello")
+'''If you copy this code into a python file and run it, nothing 
+will happen. You have to do more than define the function, you 
+have to call it. Run this code instead and see what happens:'''
+#This next part defines the function
+def printHello():
+	print("Hello")
+#This next part calls the function
+printHello()
+
+#1. Fix the bug in the following function.
+#2. Write a line of code that calls this function.
+def getName():
+    name = "Bill"
+    return Bill
+
+
+'''3. What is the mistake in the following function definition?
+(Answer key at the bottom)
+printScore(points):
+'''
+
+
+'''4. What is the mistake in the following function definition?
+def compareStrings(a b):
+'''
+
+
+'''5. What is the mistake in the following function definition:
+def capitalize string(word):
+'''
+
+
+'''6. Functions that have arguments (variables inside their 
+parentheses) expect to be given information in order to run.
+What happens when this function that expects a variable, is
+given none? In other words, what is the error when you run
+this code?'''
+def addOne(x):
+    return x+1
+print(addOne())
+
+
+'''7. Here is another program like the one before but broken
+differently. What error does it display?
+Now fix it.'''
+def addOne():
+    return x+1
+x=4
+print(addOne(x))
+
+
+#8. Give one example of a way to fix the code in question 6.
+
+
+#9. Give one example of a way to fix the code in question 7.
+
+
+'''Calling a function simply means using the function's name
+followed by parentheses. Sometimes we pass useful information
+inside the parentheses.
+10. What happens when you change the 7 to a different value?
+11. Give this function a better name based on what it is
+calculating.'''
+def foo(x):
+	print(x**2)
+foo(7)
+
+#12. Notice the difference between how the previous code and 
+the following code are written. When you run them do you notice
+any difference?'''
+def foo(x):
+	return x**2
+print(foo(7))
+
+
+'''Functions like to give values back, or return values.
+13. What does this function do?'''
+def getLarger(a, b):
+	if a>b:
+		return a
+	else:
+		return b
+x = getLarger(4, 12)
+print(x)
+print(getLarger(8, 3))
+
+
+#14. Write code that calls the following function:
+def sayHello():
+	print("Hello!")
+
+
+'''15. Fill in the blank with a call to the given function so 
+that this program will print "Hello, Neal."'''
+def helloNeal():
+	return "Hello, Neal")
+print(___________)
+
+
+'''16. Fill in the blank so that the this program will print
+"Hello, Neal".'''
+def hello(name):
+	return "Hello, "+name)
+print(hello(________))
+
+
+'''17. A function is an action verb or verb phrase followed by 
+parentheses. Which of the following are probably functions?
+Circle all that apply
+a print()
+b read
+c ball()
+d sleep(4)
+e jump()
+f read("book")
+g table()
+h throw
+i putOnTable()
+'''
+
+
+'''18. A function ends whenever return is called. What are 
+all the possible values this function could return?'''
+#This function returns the computer's choice of action in a game of RISK.
+def determineRiskAction(self, neighbor):
+    if self.army > neighbor.army:
+        return 'attack'
+    else:
+        return 'fortify'
+    return 'retreat'
+
+
+
+
+#Limited answer key:
+#3. Answer: def
+#4. Answer: Comma needed between arguments
+#5. Answer: Cannot put spaces in function name.

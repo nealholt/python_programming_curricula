@@ -1,0 +1,90 @@
+
+What is Big "O" of 86 n^3-25?
+
+What is Big "O" of 5n+n^3+n^7?
+
+#These are bubble sort questions
+#What does this code print?
+numbers = [8,3,5,1,1,9]
+for i in range(len(numbers)-1):
+    if numbers[i+1] < numbers[i]:
+        swap(numbers,i,i+1)
+print(numbers) #ANSWER: [3,5,1,1,8,9]
+[8,3,5,1,1,9]
+[1,1,3,5,8,9]
+[3,1,1,5,8,9]
+
+#What does this code print?
+numbers = [4,6,7,3,2,3]
+i = 3
+current = numbers[i]
+j = i-1
+while j>=0 and current<numbers[j]:
+    swap(numbers,j,j+1)
+    j = j-1
+print(numbers) #ANSWER: [3,4,6,7,2,3]
+[4,6,7,3,2,3]
+[2,3,3,4,6,7]
+[2,3,4,6,7,3]
+
+#What does this code print?
+numbers = [6,7,5]
+i = 2
+current = numbers[i]
+j = i-1
+while j>=0 and current<numbers[j]:
+    swap(numbers,j,j+1)
+    j = j-1
+print(numbers) #ANSWER: [5,6,7]
+
+Each additional loop of bubble sort guarantees that...
+...one more value at the end of the list is in order
+...one more value at the start of the list is in order
+...your list is sorted or you get your money back
+...your list is more soapy clean than before
+
+The ideal pivot value to use when quicksorting...
+...splits your list into two equal size lists
+...banana splits your list with fudge sauce
+...splits your list like Jean-claude VanDamme
+...creates unbalanced split lists
+
+Thanos likes a good pivot value because...
+...good pivot values are evil
+...good pivot values are Gamora's father
+...good pivot values create two perfectly balanced lists
+...good pivot values hate the Avengers
+
+Quicksort question: What's the ideal pivot to use to split this list?
+[7,5,7,2,3]
+
+#What does this code print?
+list1 = []
+list2 = []
+numbers = [5,2,4,1,3,6]
+pivot = numbers.pop(2)
+for n in numbers:
+    if n < pivot:
+        list1.append(n)
+    else:
+        list2.append(n)
+print(list1+[pivot]+list2) #Answer: [2,1,3,4,5,6]
+
+Was a good pivot used in the previous question, why or why not?
+
+What's a good pivot to use to split this list?
+[24, 98, 41, 31, 19, 84]
+
+An in-place sorting algorithm
+A Uses only a little bit more memory than the list being sorted
+B Requires a liquid-cooled gaming PC
+C Takes advantage of multi-core processors
+D Is more organized than out-of-place sort
+
+Which sorting algorithm is NOT in-place?
+A Bubble sort
+B Insertion sort
+C Quick sort
+D Merge sort CORRECT ANSWER
+
+

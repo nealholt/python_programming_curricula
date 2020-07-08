@@ -1,0 +1,15 @@
+time
+What should the user type in order to print 'quarter till'?
+
+food
+If eggs is printed then...
+breakfast is True and fruit is False
+breakfast is True and fruit is True
+breakfast is False and fruit is True
+breakfast is False and fruit is False
+
+math
+What does this program print?
+
+odds
+What are the odds that this program prints C?

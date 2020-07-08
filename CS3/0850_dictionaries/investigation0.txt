@@ -1,0 +1,22 @@
+
+For 35 points, read through each of the following links and then write code that completes the challenge question on each page. The challenge questions have been copied below.
+
+https://learnpython.trinket.io/learn-python-part-9-dictionaries#/dictionaries/storing-information
+
+Challenge:
+Create a new dictionary, using whichever keys and values you like. Your dictionary should have at least three entries.
+
+https://learnpython.trinket.io/learn-python-part-9-dictionaries#/dictionaries/adding-values
+
+Challenge
+Create your own dictionary, perhaps mapping your favorite cities to their home countries, with at least 3 entries. Then, add one country:city pair with the update(..) function – the second way we talked about above – and another by creating a new key in the dictionary and setting its value – the first way we talked about.
+
+https://learnpython.trinket.io/learn-python-part-9-dictionaries#/dictionaries/getting-values
+
+Challenge
+Take a look at the dictionary in the console. See if you can pull out all the names of the cities that start with the letter 'C' from the places dictionary
+
+https://learnpython.trinket.io/learn-python-part-9-dictionaries#/dictionaries/removing-values
+
+Challenge
+Delete the keys from the breads dictionary in the console one by one:

@@ -1,0 +1,129 @@
+
+=== KAHOOT
+
+A function is all of the following except what
+a self-contained action
+a miniature program with input and output
+a part of memory
+called using its name and parentheses
+
+
+Which calls the following function?
+def sayHello():
+	print("Hello!")
+A sayHello()
+B sayHello
+C sayHello():
+D def sayHello():
+
+
+True or False
+def is short for definitely
+
+
+Fill in the blank with a call to the function so this program will print "Hello, Holt."
+def helloHolt():
+	return "Hello, Holt"
+print(______________________)
+A helloHolt()
+B "helloHolt()"
+C "helloHolt"
+D helloHolt():
+
+
+Fill in the blank with a call to the function so this program prints "Hello, Mr. Sinfield"
+def helloTo(person):
+	return "Hello, "+person
+print(____________________)
+A helloTo("Mr. Sinfield")
+B "Hello, Mr. Sinfield"
+C helloTo(Mr. Sinfield)
+D "helloTo(Mr. Sinfield)"
+
+
+A function is called with
+A its name followed by parentheses
+B a variable and an equals sign
+C def and a colon
+D a return statement
+
+
+Fill in the blank with a call to the function so this program prints "Hello, Mr. Sinfield"
+def helloTo(person):
+	print("Hello, "+person)
+_____________
+A helloTo("Mr. Sinfield")
+B print(helloTo("Mr. Sinfield"))
+C print("helloTo(Mr. Sinfield)")
+D print(helloTo(Mr. Sinfield))
+
+
+True or False
+return ends a function and gives back a value
+
+
+What does this code print?
+def multiply(a,b):
+	return a*b
+multiply(7,4)
+A 28
+B nothing
+C 11
+D return
+
+
+True or False
+def is short for define
+
+
+What does this code print?
+def multiply(a,b):
+	return a*b
+print(multiply(7,4))
+A 28
+B nothing
+C 11
+D return
+
+
+Function names should be action verbs or verb phrases like all of the following except
+print
+goto
+draw
+tree
+
+
+Turtle code violates the rule of verb-named functions with all the following examples except:
+xcor
+color
+right
+goto
+
+
+A better "action verb" name for the turtle xcor function would be
+xvalue
+getxcor
+
+
+A better "action verb" name for the turtle color function would be
+turtleColor
+setColor
+
+
+A better "action verb" name for the turtle right function would be
+turnRight
+otherLeft
+
+
+Turtle code violates the rule of verb-named functions because programmers are
+Correct: lazy
+Correct: efficient
+Incorrect: don't know parts of speech
+Incorrect: can't spell
+
+
+Functions are called using their name followed by parentheses. All of the following are examples of this except
+print("Hello")
+pen.goto(40, 200)
+exit
+x = input("Give a number")

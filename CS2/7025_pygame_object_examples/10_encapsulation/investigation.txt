@@ -1,0 +1,24 @@
+
+ENCAPSULATION
+
+Encapsulation is a key concept in modern programming.
+
+For 35 points, read the following definitions of encapsulation then answer the following questions.
+
+Definitions
+-Encapsulation means that the internal representation of an object is generally hidden from view outside of the object's definition.
+-Encapsulation means binding object state(attributes) and behaviour(methods) together. If you are creating a class, you are doing encapsulation.
+-Encapsulation is the mechanism that binds together code and the data it manipulates. 
+-Encapsulation is a protective shield that prevents data from being accessed by the code outside this shield.
+
+Two themes emerge from these definitions:
+BINDING - data and actions are linked
+HIDING (or shielding) - outsiders don't get to look at data (or functions)
+
+Compare the length of main.py in the objects folder versus main.py in the no_objects folder.
+1. How many lines of code is each?
+2. Which one is easier to read in your opinion? Give a reason why.
+
+3. What's the total number of lines of code in all the python files in the no_objects folder?
+
+4. Write a short essay (let's say at least 8 complete sentences) about the advantages and disadvantages of encapsulation and how they play out in the objects and no_objects examples. Discuss simplicity both in terms of ease of reading and of writing. How does reuse fit in? What else is important to consider?

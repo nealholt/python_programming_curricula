@@ -1,0 +1,5 @@
+
+For 40 to 300 points, depending on the complexity and organization of the code, write instructions for a non-player character that plays  the python version of diep.io to win.
+
+For more information and example instructions for a basic character, watch this video:
+https://drive.google.com/open?id=1maCuCoWQhOneboj6c9Hne4H-nl3a7M76

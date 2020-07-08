@@ -1,0 +1,103 @@
+//Sees if the letter is in the word
+int LetterGuess(string Guess, string Word, string & underscores, int WrongGuessesLeft)
+{
+    for (int i=0; i<Word.length(); i++)
+    {
+        if (Guess[0]==Word[i])
+        {
+            underscores[i]=Guess[0];
+        }
+    }
+    return WrongGuessesLeft;
+}
+
+
+//This is suppossed to print out "_" for how many letters there are in the word it picks from guess.
+string WGuesser (string word, string underscores, string guess)
+{
+    int length =(int) word.length();
+    for ( int u = 0; u < length; u++ )
+    {
+        if (guess[0]==word[u])
+        {
+            underscores[u]=guess[0];
+        }
+        cout << underscores[u]<<" ";
+    }
+    return underscores;
+}
+
+
+bool IsGuessCorrect(string words,char guess, string dashes)
+{
+    for(int x = 0; x <= words.length(); x++)
+    {
+        return false;
+    }
+    for(int x = 0; x <= words.length();)
+    {
+        return true;
+    }
+    return false;
+}
+
+
+//Picks a word from the list at random
+string GetWord ()
+{
+    string nouns[66] =
+    {
+	"ear", "celery", "volleyball", "channel", "cross country", "zebra", "magic", "zoo", "thumb", "vacation", "uncle", "scissors", "berry", "expert", "price", "shower", "silk", "wealth", "earthquake", "lumber", "trousers", "pot", "duck", "cough", "knee", "arrow", "hobby", "poison", "ocean", "holiday", "committee", "zipper", "minute", "point", "language", "thought", "cake", "hope", "cheese", "request", "credit", "volcano", "aftermath", "sundae", "son", "day", "development", "copper", "apple", "imac", "poster", "sock", "cup", "bottle", "lynx", "plot", "shade", "work", "woman", "rest", "earth", "verse", "rod", "keyboard", "hope", "quilt"
+    };
+    return nouns[(rand())%66];
+}
+
+
+//Takes the word then converts it to underscores for each charecter then prints it to the screen
+string HangmanLetters(string hangman_word , string underscores)
+{
+    for (int x=0; x<hangman_word.length(); x++)
+    {
+        cout<<underscores[x];
+        cout<<" ";
+    }
+    return underscores;
+}
+
+
+
+
+           //runs through and if the guessed letter is the same as the letter in the word it sets the guessed letter to the number we are at in the array of underscores. if not it leaves it as a space
+            for(int a=0; a < hangman_word.length(); a++)
+            {
+                if( letter_guess[0]==hangman_word[a])
+                {
+                    underscores[a]=letter_guess[0];
+                    cout<<underscores[a]<<" ";
+                    wrong_guess=false;
+                    right_guess++;
+                }
+                else
+                {
+                    cout<<underscores[a]<<" ";
+                }
+            }
+            //If you have guessed a letter wrong then it will print out how many strikes you have
+            if (wrong_guess==true)
+            {
+                strikes++;
+                cout<< endl<<"your strikes so far:"<< strikes;
+            }
+            
+            guesses_number=guesses_number+2;
+            //prints out what your guesses are if you havent yet won the game and you have guessed at least one letter incorrectly
+            if (guesses_number!=0 && right_guess!=hangman_word.length())
+            {
+                cout<<endl<<"Your guesses:"<<used_letters;
+            }
+            //if the right guesses are equal to the ammount of letters in the word then it prints out you win and breaks from the loop
+            if(right_guess==hangman_word.length()){
+                cout<< endl<<"You win";
+                break;
+            }
+ 

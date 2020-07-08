@@ -1,0 +1,18 @@
+
+For 70 points write a program that chooses a random number then asks 
+the user to guess the random number. After each guess, the program 
+tells the user if their guess was too low or too high.
+
+For example:
+>Guess the number
+33
+>Higher
+71
+>Lower
+50
+>Lower
+40
+>Higher
+44
+>You got it!
+

@@ -1,0 +1,20 @@
+
+#For 70 points, create the following functions.
+
+'''Write a function that counts up and returns the number of ones in 
+a list. Test your function with the following.'''
+if countOnes([6,1,5,2,1,0,9,1,1]) == 4:
+    print('It works')
+
+
+'''Write a function that takes a list of numbers and returns the largest 
+number in the list.'''
+
+
+'''Write a function that takes a list as its only argument and 
+returns True if every number in the list less than 4?'''
+
+
+'''Write a function that takes a list of numbers and an integer variable 
+and returns the number of values in the list that are greater than the 
+integer variable.'''

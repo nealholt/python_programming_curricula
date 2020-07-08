@@ -1,0 +1,41 @@
+Name:Syclich
+x:9
+y:25
+width:33
+height:49
+Base Health:100
+Health:100
+Health Change:10
+Base Offense:15
+Offense:15
+Offense Change:2
+Base Defense:2
+Defense:2
+Defense Change:1
+Base Accuracy:98
+Accuracy:98
+Accuracy Change:0
+Base Evasion:5
+Evasion:5
+Evasion Change:0
+Base Crit chance:5
+Crit chance:5
+Crit chance Change:1
+Base Crit percent:40
+Crit percent:40
+Crit percent Change:0
+Base Debuff resistance chance:5
+Debuff resistance chance:5
+Debuff resistance chance Change:0
+Base Stealth:1
+Stealth:1
+Stealth change:1
+Base Perception:1
+Perception:1
+Perception change:1
+Base Cooldown:1000
+Cooldown:1000
+Cooldown Change:-4
+Level:0
+action1:basic_attack
+action2:team_heal

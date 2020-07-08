@@ -1,0 +1,66 @@
+NOTE: Do this on prep unplugged day. You can do it for all classes.
+
+
+The history of computing:
+Insight and Tragedy
+
+Jacquard's attachment.
+Beautiful patterns for the masses. Craftsmen and artists out of a job.
+The advantages and disadvantages of technology. Some benefit. Others suffer. Just as today we are facing continued encroachment of AI into human held jobs (show self-driving truck).
+
+Flash forward to punch card programming.
+
+But we skipped a step. Back to the early 1800's.
+Situate Charles Darwin in the timeline. Man's egotistical ideas about what was special about himself was being assaulted on all sides.
+Some claimed that the ability to do math separates man from beast.
+
+Charles Babbage proposes a machine to perform mathematical calculations: an analytical engine.
+Numbers are entered into the machine by cranking numerically labeled cylinders into specific arrangements and then turning a primary crank to perform the calculations.
+
+Introducing Ada Lovelace.
+Insight: Just as the numbers can be mechanically represented, the operations themselves could be modified so that one machine could perform more than one operation. The machine itself could be programmed.
+
+Babbage called Ada the Enchantress of Numbers
+She is widely considered the first computer programmer.
+
+Now makes humanity special cannot be math. Inanimate objects can perform math.
+
+Tragedy: babbage never constructs his engine. Ada dies of cancer at the age of 36.
+
+Flash forward to World War 2. A version of Babbage's analytical engine is at work inside the navy's battleships and destroyers. Brief snippet of video.
+
+The word computer refers to a job title. Women perform calculations for ballistics calculations, code breaking, and scientific research including work on the atomic bomb. They literally do assigned math problems all day long as their job. Refer to the recent movie about the black women computers, perhaps show a brief clip.
+
+In England, a mathematician by the name of Alan Turing is working alongside other British and American mathematicians to crack the German Enigma codes. Show clip of Imitation Game.
+
+Alan Turing is instrumental in cracking the codes, reducing the length of the war and saving thousands of lives. Turing invents a computing machine, defines what it means for an operation to be copmutable, and proves that his machine is capable of being programmed to copmute ANY computable operation.
+
+Tragedy: Turing is convicted by the British government of being gay. He is chemically castrated and ends up committing suicide at the age of ___.
+
+Computers replace the women computers, removing one of the few sources of independent income for women at the time, but that's jumping a bit ahead too.
+
+The prodigy Jon VonNeumann worked in LosAlamos on the atomic bomb. The stories about von neumman are legendary. Calculus at the age of __, ___ languages.
+
+After the war VonNeumann became interested in computers. VN performed some of the first experiments in self-replicating programs, foreseeing viruses and worms decades before their time.
+
+Insight: VN realized that the same memory that is used to store data could be used to store the instructions that operate on the data. This type of computer became known as the Von Neumman architecture which is the fundamental design in all modern computers.
+
+Ironically, the so-called Non-VonNeumman architecture was also invented by VonNeumman.
+
+Tragedy: VonNeumman died at the age of ___ due to cancer, most likely as a result of exposure from his work on the atomic bomb.
+
+Grace Hopper....
+
+Gates and Jobs bring computers to the masses.
+
+While size shrinks, the speed of copmuters increases at a truly astounding rate driven in no small part by demands of video games for ever improving graphics.
+
+Calculus, statistics, mass data, and fast computers team up to create Machine Learning, the modern name for Artificial Intelligence. Machine Learning is responsible for most of the intelligence attributed to machines today. Look forward to a presentation on this in calculus class.
+
+Computers are beating humans at Chess, Go, and the ability to drive safely from point A to point B.
+
+Obama suggests that the challenge of the future is figuring out how to structure society when the economy no longer needs human labor.
+
+Challenge of the future: computer intelligence chipping away not only at blue collar jobs, but white collar jobs as well. What does that mean for a society and culture like what we have in the united states in which one of the first questions asked when making small talk with a stranger is: so, what do you do?
+
+Jobs are identities in this country. How does it feel to learn that a computer is better at doing what you have devoted your life to than you are? How can the youth be promised that they can have a good job if they simply play by the rules and get a college degree when there are fewer and fewer jobs to be had and a growing world wide population. These will be the challenges of the future.

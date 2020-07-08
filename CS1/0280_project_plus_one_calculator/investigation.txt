@@ -1,0 +1,34 @@
+
+'''
+For 18 points, answer the following questions.
+
+Loops can be put inside of other loops, but you have to be careful, for
+example, you shouldn't use "i" as the loop variable for both loops.
+1. What does this code print.'''
+for i in range(3):
+	for i in range(3):
+		print(i)
+
+
+#2. Fix the previous program to print 000111222
+
+
+'''3. Write a for loop that loops from 0 to 4. Inside that loop, write 
+another for loop that prints the numbers from 0 to the other for 
+loop's number. For example:
+0
+0
+1
+0
+1
+2
+0
+1
+2
+3'''
+
+
+#4. What does the following program print?
+for row in range(3)
+	for column in range(3):
+		print(row,column,"   ")

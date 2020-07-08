@@ -1,0 +1,15 @@
+
+For anywhere from 50 to 500 points, extend the Ink Spill Flood It
+code to create a Color Matching game like Candy Crush.
+
+The number of points this project earns you depends on how 
+complicated you plan to make your game.
+
+Before beginning, you should consider what you want to include.
+Will you include features such as:
+-Blocks slide down the screen into openings created by destroyed blocks.
+-Use of images instead of colored blocks.
+-Multiple levels or just one level.
+-Number and variety of power-ups.
+-Bonus scores for eliminating lots of blocks at once.
+-Different types of blocks and obstacles.

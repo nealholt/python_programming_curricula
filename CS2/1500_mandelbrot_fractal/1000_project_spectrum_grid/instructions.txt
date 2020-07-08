@@ -1,0 +1,4 @@
+
+For 70 points, use turtles and nested for loops to draw the spectrum
+grid image. One color must change along the vertical axis and a 
+different color must change along the horizontal axis.

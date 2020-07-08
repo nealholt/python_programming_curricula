@@ -1,0 +1,74 @@
+PRE: 
+Talk through the existing code and run the program.
+
+Discuss:
+-Writing text on the screen.
+-Sprite object as used in flappy bird.
+-Responding to mouse clicks in the event handler.
+-How to see if a rectangle contains a point: rect.collidepoint(pos) -> returns true or false.
+
+Each day of this project you should discuss more pieces, but also give them time to work.
+
+
+I WILL NOT ANSWER QUESTIONS ABOUT HOW TO ADD FUNCTIONALITY UNLESS THERE IS ALREADY A COMMENT IN THE CODE DESCRIBING WHAT YOU ARE TRYING TO ACCOMPLISH
+
+
+PROJECT:
+Write a game of cookie clicker including:
+	-displaying a cookie image and a count of how many cookies have been earned.
+	-the ability to click on the cookie to increase the cookie count.
+	-displaying 3 upgrades: cursor, mine, and farm.
+	-the ability to click on the upgrades to increase their level.
+	-earning cookies over time based on the level of the mine and farm.
+	-earning more cookies per click based on the level of the cursor.
+
+Step 1:
+Copy over the sprite from flappy bird.
+
+Step 2:
+Import the sprite, then create a cookie sprite and display it on the screen.
+
+Step 3:
+Display the number of cookies on the screen.
+
+Step 4:
+Write code that lets you increase the cookie count by clicking on the cookie image.
+You will need a variable for the current number of cookies.
+You will need to access the cookie sprite's rectangle and use something like rect.collidepoint(pos) in an if statement in the event handling code to check to see if the cookie was clicked.
+
+Step 5:
+Add the cursor upgrade to the screen. Enable clicking the upgrade to increase the number of cookies earned by each click of the cookie.
+
+Step 6:
+Add the farm upgrade and an increase in the number of cookies automatically over time based on the level of the farm.
+
+Step 7:
+Add the mine upgrade, which will be very similar to the farm.
+
+Step 8:
+Make the upgrades cost cookies.
+
+Step 9:
+Increase the cost of the upgrades as the levels go up.
+
+Step 10:
+Challenge yourself to make more additions to the cookie clicker game.
+
+
+
+PROJECT RUBRIC:
+1 point: Make use of the sprite object to draw the images.
+2 points: Display the cookie and the 3 upgrades.
+2 points: Clicking on the cookie increases the number of cookies.
+2 points: Upgrading the cursor increases the number of cookies gained per click.
+2 points: Upgrading the mine and farm increase the number of cookies gained automatically over time.
+2 points: Upgrades cost cookies.
+1 point: Upgrades cost more cookies as the level goes up.
+? bonus points: Make other additions to the game, which will be judged by Mr. H for points.
+
+Write your name, the date, and the assignment in a multi-line comment at the top of the program.
+
+
+
+POST:
+Debreif different student programs and discuss their relative merits.

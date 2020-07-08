@@ -1,0 +1,4 @@
+
+For 5 points, read this webpage then complete the challenge at the bottom.
+https://learnpython.trinket.io/learn-python-part-5-variables#/variables/naming-rules
+Turn in the code you wrote for the challenge.

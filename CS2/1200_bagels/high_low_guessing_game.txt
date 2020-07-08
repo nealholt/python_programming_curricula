@@ -1,0 +1,42 @@
+
+For 35 points, create a higher/lower guessing game program.
+This is the game where the program creates a random number.
+The user guesses a number and the program tells the user if 
+their guess is too high, too low, or they got it right.
+
+This is an individual project. No teams.
+
+Before starting, create a Program Plan.
+You must write down the pieces of the program that are 
+needed.
+
+You will turn in your Program Plan and code.
+
+Use the following resources to create your game:
+
+#Here's how to remember a random number between 1 and 100 in the
+#variable named secret number:
+import random
+secret_number = random.randint(1,100)
+
+#Here's how to ask the user to guess a number and store the number
+#in a variable named guess.
+guess = input("Give me a number")
+guess = int(guess) #Convert the text of guess to an integer
+
+#Here's how to loop until the user says "quit"
+response = ""
+while response != "quit":
+    response = input("quit or continue?")
+
+#Here's how to compare two numbers:
+x = int(input("Give me a number"))
+y = int(input("Give me another number"))
+if x>y:
+    print('Your first number was bigger')
+else:
+    print('Your second number was bigger')
+
+
+#That's all you need to know. Now write the guessing game!
+

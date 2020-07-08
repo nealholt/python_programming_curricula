@@ -1,0 +1,46 @@
+'''
+
+For 50 points, write a "Game of 20 Questions" program that tries to figure
+out what the user is thinking of. You don't need to use 20 questions. That
+would take a long time.
+
+You MUST have at least 16 answers in your game of 20 questions.
+
+Start with the following example.
+
+You should use NESTED if statements for this program. Try out the 
+following program to see what I mean:'''
+
+answer = input('Is it a physical object?').lower()
+if answer == 'yes' or answer == 'y':
+    answer = input('Is it alive?').lower()
+    if answer == 'yes' or answer == 'y':
+        answer = input('Is it an animal?').lower()
+        if answer == 'yes' or answer == 'y':
+			print("It's a dog, right?")
+		else:
+			print("It's a tree, right?")
+	else:
+		print("It's a rock, right?")
+else:
+	print("It's the concept of love, right?")
+
+'''By the way, you can always use the lower() function to convert a string to
+lowercase:'''
+
+text = "Hi ThErE"
+text = text.lower()
+print(text)
+
+'''Interaction with your program might look like the following:
+>Is it a physical object?
+Yes
+>Is it alive
+y
+>Is it an animal?
+no
+>Is it a plant
+no
+>Are you thinking of Ecoli?
+
+'''

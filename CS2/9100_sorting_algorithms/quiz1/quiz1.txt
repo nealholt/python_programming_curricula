@@ -1,0 +1,69 @@
+
+What is Big "O" of n + log(n)?
+
+What is Big "O" of 4^n+n^5+8^n?
+
+def swap(list, i1, i2):
+    temp = list[i1]
+    list[i1]= list[i2]
+    list[i2] = temp
+
+#What does this code print?
+numbers = [7,5,5,2,8]
+for i in range(len(numbers)-1):
+    if numbers[i+1] < numbers[i]:
+        swap(numbers,i,i+1)
+print(numbers) #ANSWER: [5, 5, 2, 7, 8]
+
+#What does this code print?
+numbers = [1,2,8,9,4]
+i = 4
+current = numbers[i]
+j = i-1
+while j >= 0 and current < numbers[j]:
+    swap(numbers,j,j+1)
+    j = j-1
+print(numbers) #ANSWER: [1, 2, 4, 8, 9]
+
+#How many comparisons does this version of insertion sort make in order to sort this list?
+count = 0
+numbers = [3,2,1]
+for i in range(len(numbers)):
+    current = numbers[i]
+    j = i-1
+    count += 1
+    while j >= 0 and current < numbers[j]:
+        swap(numbers,j,j+1)
+        j = j-1
+        count += 1
+print(numbers, count) #ANSWER: 6
+
+#How many comparisons does this version of bubble sort make in order to sort this list?
+count = 0
+numbers = [3,2,1]
+for _ in range(len(numbers)):
+    for i in range(len(numbers)-1):
+        count += 1
+        if numbers[i+1] < numbers[i]:
+            swap(numbers,i,i+1)
+print(numbers, count) #ANSWER: 6
+
+Quicksort question: What's the ideal pivot to use to split this list?
+[6,1,4]
+
+#What does this code print?
+list1 = []
+list2 = []
+numbers = [3, 7, 5, 6, 2, 4, 1]
+pivot = numbers.pop(5)
+for n in numbers:
+    if n < pivot:
+        list1.append(n)
+    else:
+        list2.append(n)
+print(list1 + [pivot] + list2) #Answer: [3, 2, 1, 4, 7, 5, 6]
+
+Was a good pivot used in the previous question, why or why not?
+
+What's the best pivot to use to split this list?
+[53, 21, 19, 15, 3, 89, 28]

@@ -1,0 +1,12 @@
+
+For 15 points, watch the video "List Turtles" found here:
+https://youtu.be/LlY7u27_2uw
+and answer the following question.
+
+
+1. Below I have created 4 variables. Instead of using numbered variables, put the values in a list and print a random value from your list. Turn in your code to get credit for this video.
+
+class1 = "english"
+class2 = "science"
+class3 = "math"
+class4 = "history"

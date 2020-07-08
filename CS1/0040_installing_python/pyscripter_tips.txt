@@ -1,0 +1,15 @@
+
+To install Pyscripter, copy this link into your browser:
+https://sourceforge.net/projects/pyscripter/files/PyScripter-v3.6/PyScripter-3.6.1-x86-Setup.exe/download
+
+Once the download is complete, double click on the installer and run it.
+
+
+WARNING: If you get an error about 32 bit and 64 bit versions, you either installed the wrong Python or the wrong Pyscripter. The x86 version of Pyscripter above is compatible with 32 bit Python.
+
+
+Once Pyscripter is installed, you can change options under:
+Tools -> Options -> Editor Options
+ -> Display: Show line numbers and bigger default font.
+ -> Options: Turn on or off word wrap
+ -> Color Theme: Click apply before clicking ok.

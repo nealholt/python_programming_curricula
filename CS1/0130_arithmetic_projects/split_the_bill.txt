@@ -1,0 +1,20 @@
+'''
+
+For 35 points, write a program that figures out a restuarant bill by 
+1 asking how many people dined together,
+2 asking what percent to tip,
+3 asking for the amount of the bill,
+4 and finally printing the amount that each person should pay assuming
+everyone wants to split the bill evenly.
+
+Interaction with your program might look like the following:
+>How many people?
+4
+>What percent tip?
+0.2
+>What was the bill?
+114.50
+>Your total bill is $137.4.
+>Each person should pay $35.35.
+
+'''

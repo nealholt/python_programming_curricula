@@ -1,0 +1,36 @@
+
+ASTEROIDS: Bullets
+
+For 70 points, add to your code as described below.
+
+It's time for our ship to shoot.
+
+Create a Bullet class in a new file, bullet.py. Bullet must inherit 
+from Polygon.
+
+Write similar code to what you wrote for asteroids. Create a list of 
+bullets and loop through this list in the main loop to move each bullet.
+
+In main.py, when a button, usually the space bar, is pressed, create a 
+new bullet and add it to the bullet list.
+
+How to move your bullets:
+Suppose your player polygon is in a variable named player then the initial
+dx and dy values for each new bullet should be set like this:
+    new_bullet.dx = math.cos(player.angle)*bullet_speed
+    new_bullet.dy = math.sin(player.angle)*bullet_speed
+where bullet_speed is a variable you create that determines how fast the bullets travel.
+
+Bullets should be removed from the game after a while. Open up bullet.py 
+and add a new variable, self.timeout, to the Bullet class. Initialize
+this variable to the number of frames that a bullet should last before
+being removed from the game. Then in the main loop, decrease each bullet's
+timeout and check if the timeout is below zero. If so, remove the bullet.
+You will need to reverse your loop. Something like this:
+
+    for i in reversed(range(len(bullets))):
+        #Move bullets[i]
+
+        #Reduce the timer on bullets[i]
+
+        #Delete bullets[i] if its timer is less than zero

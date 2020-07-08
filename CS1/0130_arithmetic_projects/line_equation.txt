@@ -1,0 +1,13 @@
+'''
+
+For 12 points, write a program that asks the user for the value
+of x, then prints out the y value of the line y = -7x+4 for the
+given x value.
+
+Interaction with your program might look like the following:
+
+>Give me an x value:
+2
+>The resulting y value is -10
+
+'''

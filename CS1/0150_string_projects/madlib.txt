@@ -1,0 +1,46 @@
+
+'''
+
+For 35 points, write a program that asks the user for nouns, verbs, 
+adjectives, and adverbs, then uses these words to fill in a MadLib.
+
+NOTE: You must use comments to indicate the section of code where 
+input is being retrieved from the user and separately the section 
+where the MadLib is printed.
+
+Interaction with your program might look like the following:
+>Hero/Villain
+villain
+>city
+Minneapolis
+>action verb without ing
+butter
+>noun
+bread
+>adj
+chilled
+>noun
+koala
+>noun
+sidewalk gum
+>adj
+sick
+>noun
+rutabaga
+>action verb
+steal
+>action verb
+drive
+>adverb
+awkwardly
+>past tense verb
+boogied
+>action verb
+waddles
+>He's the villain Minneapolis deserves, but not the one it needs right now.
+>So we'll butter him because he can take it. Because he's not our bread. 
+>He's a chilled koala, a watchful sidewalk gum, a sick rutabaga.
+>He is able to steal and drive awkwardly. He has boogied one too many time 
+>before. Now he waddles all the time.
+
+'''

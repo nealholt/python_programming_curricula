@@ -1,0 +1,42 @@
+#For 5 points, answer the following questions.
+
+
+
+'''Code runs in order from top to bottom.
+1. Put the following code 
+in the correct order.'''
+print("name")
+print("[insert your name]")
+print("my")
+print("is")
+
+
+'''print and exit are standard, built-in functions. Other functions we
+have to ask for in order to use. import is how we request code.
+2. Run the following program and figure out what time.sleep does.'''
+import time
+print("I'm")
+time.sleep(1)
+print("so")
+time.sleep(1)
+print("sleepy.")
+
+'''3. What error do you get if you capitalize import?'''
+
+'''4. What error do you get if you call time.sleep(1) without first importing?'''
+
+'''sleep is a function (or action) that belongs to time.
+dot means belongs.
+
+Every function is written as a word followed by parentheses
+Functions are action verbs followed by parentheses.
+print() is a function.
+
+Sometimes we put something inside the parentheses to tell the function how to do its job.
+sleep(2) #rest for 2 seconds
+
+5. Can you tell the program to sleep for a decimal amount of time?
+6. What about a fractional amount of time?'''
+
+'''If you accidentally type time.sleep(1000) into your program, you can end the program early by clicking on the red square button that appears while a program is running.
+7. Test this out and determine the name of the error that you get.'''

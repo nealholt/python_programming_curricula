@@ -1,0 +1,87 @@
+
+For 600 points, train a "car" to navigate a sequence of courses.
+
+Watch this video. This is exactly what our goal is:
+https://www.youtube.com/watch?v=wL7tSgUpy8w
+
+When you run main.py you will see a whole bunch of lines extending in 
+every direction. The yellow lines are the sensors extending out from the
+triangles, which are the cars.
+
+You may work in groups for this project, but for each additional group
+member above 2, you must implement an extension described in step 5.
+All group members are eligible for 600 points each.
+
+Each day all group members must turn in a Scrum sheet. For each day 
+that a Scrum sheet is not turned in, 20 points will be taken off your 
+total for the project.
+
+I provide a step-by step guide below, but group members should work on 
+separate pieces of the project so read the whole guide first and think
+about which pieces can be worked on separately and how they can be 
+tested.
+
+
+=== INSTRUCTIONS
+
+These are suggestions. You don't have to follow the instructions exactly. You don't have to follow them in this order.
+
+
+Step 1: Choose a control structure for your cars. Could be a neural 
+network, could be a "genome".
+
+This sequence of videos does pretty much exactly what we are doing 
+using a genetic algorithm to "train" a neural network:
+https://www.youtube.com/watch?v=ZX2Hyu5WoFg
+https://www.youtube.com/watch?v=OpodKCR6P-M
+https://www.youtube.com/watch?v=GDy45vT1xlA
+but there are other ways of doing things. I'm not at all convinced
+that a neural net is the best choice here, so consider other options.
+
+
+Step 1A: Determine how your control structure will "attach" to the car. 
+I've demonstrated a simple way to attach the neural net, but maybe you 
+think there's a better way.
+You could use a genome representing a list of weights that contribute 
+to a weighted sum. The genome could represent parameters in a series of 
+nested if statements terminating in outputs to control the car.
+There are probably other options I've not thought of yet.
+
+
+Step 2: Determine how your control structure will learn. In other 
+words, design a genetic algorithm or a hill climber or some other 
+system. Plan which mutation operators you will use. If you are going to 
+use crossover, write a crossover operator.
+Backpropagation won't work here, unlike with handwriting recognition,
+because we don't already know the right answer.
+
+
+Step 3: Set up how to evaluate success. You may use manual clicking,
+which is already implemented if you like, however, I would prefer to
+see "checkpoints" that give "fitness" to neural nets. You should also
+consider how to evaluate the same car on multiple tracks to make sure 
+the cars generalize. High quality projects will write code to evaluate 
+cars automatically on a sequence of tracks and sums up their 
+checkpoint-crossing to calculate a total fitness.
+
+
+Step 4: See how well your system works. Perform experiments. Make 
+refinements.
+
+
+Step 5: Optional extensions and investigations:
+-Can you train your cars to avoid other cars on the road?
+-Can you train your cars to complete the race as fast as possible?
+-Currently the cars are either slamming on the brake, slamming the accelerator, driving straight or cranking the wheel in either direction. It would not be hard to implement intermediate turning, braking, and accelerating like in a real car.
+-Does shortening sensor length increases sensitivity? Is there an optimal sensor length?
+-How does the number of sensors affect learning? Is 3 sufficient? What's the best number?
+-If you're using a neural net, what if mutation can change the number of layers or the neuron count in each layer? (Note, you can't use crossover if you do this.)
+
+
+You need to turn in commented code and a short paper answering the 
+following questions:
+-What control structure did you use?
+-How did you modify or mutate your control structure? (I want specifics such as what mutation operators were used, how frequently they were applied, if the best of the previous generation was saved or not, if the population size is constant or not, etc.)
+-How did you evaluate individuals' fitness?
+-What refinements or changes did you have to make in the end?
+-What extensions did you make?

@@ -1,0 +1,5 @@
+
+For 40 to 300 points, depending on the complexity and organization of the code, write a critter variant for the python version of diep.io.
+
+For more information and example instructions for a critter variant, watch this video:
+https://drive.google.com/open?id=1moZaysZ5W8Y85z9FeKkrOJgtsXji47b2

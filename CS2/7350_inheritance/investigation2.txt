@@ -1,0 +1,48 @@
+'''
+For 35 points read the following and answer the questions.
+'''
+
+class Pet(object):
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+    def getName(self):
+        return self.name
+
+    def getSpecies(self):
+        return self.species
+
+    def print(self):
+        print(self.name +" is a " +self.species)
+
+
+class Dog(Pet):
+    def __init__(self, name, chases_cats):
+        Pet.__init__(self, name, "Dog")
+        self.chases_cats = chases_cats
+
+    def chasesCats(self):
+        return self.chases_cats
+
+
+fido = Dog("Fido", True)
+rover = Dog("Rover", False)
+
+print(fido)
+print(rover.getName()+" chases cats: "+str(rover.chasesCats()))
+
+'''
+1) What does the above program print?
+
+2) What is the parent class?
+
+3) What is the child class?
+
+4) Create a Cat class that inherits from Pet and has a purr method that
+the Dog class doesn't have.
+
+5) What error do you get if you try to call the chasesCats method on a Cat object, or the purr method on a Dog object?
+
+6) Why can you call the getName method on a Cat or a Dog, but not the purr method?
+'''

@@ -1,0 +1,21 @@
+
+For 35 points, watched the video "For Loop" found here:
+https://youtu.be/VR95mvHIiAk
+and answer the following questions.
+
+
+1. What does this program print?
+for i in range(5):
+    print(i)
+
+2. How many times does the code  print(i)  repeat in this program?
+for i in range(5):
+    print(i)
+
+3. Write a program that adds up all the numbers from 1 to 456, including 456.
+
+4. Write a program that adds up all the numbers from 120 to 360, including 360.
+
+5. Write a function that adds up all the even numbers between start and end, which as passed to the function. The function should then return the sum. You may assume that start is always given as an even number.
+
+6. Write a program with a loop that counts down from 100 to 0 counting by -5, for example, 100, 95, 90, etc.

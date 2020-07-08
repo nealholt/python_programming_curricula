@@ -1,0 +1,10 @@
+
+For 70 points, write a program that draws a square, then separately
+draws a pentagon, then separately draws an octagon. Use loops.
+THEN write a function that takes two arguments, a turtle and the 
+number of sides, then uses the turtle to draw a shape with the given
+number of sides.
+
+You will need to figure out what angle to turn your turtles at based on 
+the number of sides. In fact, you want the angle to be 360 divided by 
+the number of sides.

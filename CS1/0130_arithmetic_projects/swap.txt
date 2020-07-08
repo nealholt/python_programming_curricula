@@ -1,0 +1,32 @@
+'''
+
+For 18 points, write a program that asks the user for a name and 
+then another name. Then print the names in the order the user typed
+them in, then swap the variable values and print them again.
+
+Some code has been provided below. Fill in the blanks.
+
+Interaction with your program might look like the following:
+
+>Give me a name:
+Tom
+>Give me another name:
+Jerry
+Tom
+Jerry
+Jerry
+Tom
+
+'''
+
+#Get the two names as input
+#WRITE YOUR CODE HERE
+
+print(name1) #If this prints Tom 
+print(name2) #...and this prints Jerry
+
+#Swap the values in name1 and name2
+#WRITE YOUR CODE HERE
+
+print(name1) #Then this should now print Jerry
+print(name2) #...and this should print Tom

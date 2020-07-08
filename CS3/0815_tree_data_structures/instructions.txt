@@ -1,0 +1,8 @@
+
+For 200 points watch this video
+https://www.youtube.com/watch?v=oSWTXtMglKE
+then implement a binary search tree and insert 20 random values into it. You do not have to balance your search tree.
+
+Implement functions that insert values into the tree, return True if the tree contains a given value, and print your tree in-order.
+
+The video will go through how to write these functions in Java, but I would like you to try it without watching that part.

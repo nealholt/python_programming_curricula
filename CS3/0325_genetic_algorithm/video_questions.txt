@@ -1,0 +1,14 @@
+
+For 20 points, watch the video "Genetic Algorithm" found here:
+https://drive.google.com/file/d/10qXrHq0lTFq4jgVnupb1kJjjNHNRMZWL/view?usp=sharing
+and answer the following questions.
+
+1. What are the three types of crossover that are demonstrated?
+
+2. What should the possible gene values be for this project? For instance, can a gene have a text value such as "A"? What about a numeric value such as 12?
+
+3. How long should the genome you use be for this project? How many values in the list?
+
+4. What does it mean for an optimization problem to be deceptive?
+
+5. What's the bare minimum number of functions you need to write for this project?

@@ -1,0 +1,81 @@
+
+What is Big "O" of n^4+10n^3?
+
+What is Big "O" of n^2+2^n?
+
+What is Big "O" of log(n)+100n^2?
+
+def swap(list, i1, i2):
+    temp = list[i1]
+    list[i1]= list[i2]
+    list[i2] = temp
+
+#What does this code print?
+numbers = [2,6,7,5,3]
+for i in range(len(numbers)-1):
+    if numbers[i+1] < numbers[i]:
+        swap(numbers,i,i+1)
+print(numbers) #ANSWER: [2, 6, 5, 3, 7]
+
+#What does this code print?
+numbers = [4,6,10,13,12]
+i = 2
+current = numbers[i]
+j = i-1
+while j >= 0 and current < numbers[j]:
+    swap(numbers,j,j+1)
+    j = j-1
+print(numbers) #ANSWER: [4, 6, 10, 13, 12]
+
+#What is a good comment for this line of code in Bubblesort or another sorting algorithm?
+#    if numbers[i+1] < numbers[i]:
+A. If numbers less than
+B. If adjacent values are out of order
+C. If the value after numbers i is greater than numbers i
+D. Compare adjacent values in numbers list
+#ANSWER: I'd say B is the best answer
+
+
+#How many comparisons does this version of insertion sort make in order to sort this list?
+count = 0
+numbers = [1,3,2]
+for i in range(len(numbers)):
+    current = numbers[i]
+    j = i-1
+    count += 1
+    while j >= 0 and current < numbers[j]:
+        swap(numbers,j,j+1)
+        j = j-1
+        count += 1
+print(numbers, count) #ANSWER: 4
+
+#How many comparisons does this version of bubble sort make in order to sort this list?
+count = 0
+numbers = [1,3,2]
+for _ in range(len(numbers)):
+    for i in range(len(numbers)-1):
+        count += 1
+        if numbers[i+1] < numbers[i]:
+            swap(numbers,i,i+1)
+print(numbers, count) #ANSWER: 6
+
+Quicksort question: What's the ideal pivot to use to split this list?
+[4,12,9,4,76]
+
+#What does this code print?
+list1 = []
+list2 = []
+numbers = [2, 1, 3, 5, 3, 4, 6, 7]
+pivot = numbers.pop(3)
+for n in numbers:
+    if n < pivot:
+        list1.append(n)
+    else:
+        list2.append(n)
+print(list1 + [pivot] + list2) #Answer: [2, 1, 3, 3, 4, 5, 6, 7]
+
+Was a good pivot used in the previous question, why or why not?
+
+What's the best pivot to use to split this list?
+[41, 51, 70, 19, 56, 45]
+

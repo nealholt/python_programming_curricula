@@ -1,0 +1,69 @@
+
+Skills: loops, variables, if. Complex critical thinking.
+
+
+STEP 0  - Percent Completion: 10/100
+In Eclipse, create a new Java Project named Navigator.
+Outside of Eclipse open the folder for your project. It should be in C:(Local Disk)\Users\SCC\workspace\Navigator\
+Copy and paste the shared files attached to this email into this folder.
+Refresh the project in Eclipse by clicking on the project folder in the menu on the left and pressing F5 or by right clicking on the project and selecting refresh.
+Open Main.
+Type Alt - r - enter to run the project.
+
+
+STEP 1:  - Percent Completion: 40/100
+Open Main and locate the actionLoop function:
+public void actionLoop()
+
+Put the following code right after //TODO Write your code here.
+	move();
+
+Run the program. You should see the boat move across the screen.
+
+
+STEP 2:  - Percent Completion: 60/100
+Solve the starting map.
+
+Your boat will start out in the lower left corner of this map facing east. The boat is trying to get to the top right corner. 
+
+Your task is to write the instructions that will get your boat to its destination.
+
+Read the comment in actionLoop and experiment with these functions. You should only write code inside the actionLoop function. You are encouraged to create any variables, if-statements, loops, or other code that you may need.
+
+Does any of your code make sense to put in a function? Write those functions now. This will save you time later on!
+
+Move on to the next step once you have solved the starting map.
+
+
+STEP 3:  - Percent Completion: 70/100
+Locate maps/starting_map.txt in Main and change it to
+maps/challenge_map0.txt
+
+Does your code work on this map? If so, move on to step 4. If not, rewrite your code so that it works on BOTH the starting map and challenge map 0.
+
+Does any of your code make sense to put in a function now? Write those functions. This will save you time later on!
+
+
+STEP 4:  - Percent Completion: 80/100
+Change the map to maps/challenge_map1.txt and solve this map.
+
+You must create at least one function before moving on to step 5, but you may have as many as five or six functions at this point.
+
+
+STEP 5:  - Percent Completion: 90/100
+Attempt to change your code so that it works on every map:
+maps/starting_map.txt
+maps/challenge_map0.txt
+maps/challenge_map1.txt
+maps/challenge_map2.txt
+maps/challenge_map3.txt
+
+
+STEP 6:  - Percent Completion: 98/100
+AFTER you and your neighbor have completed all the previous steps, read each other's code. What is something surprising they did?
+Go across the room to a random student. Read their code. What is something surprising they did?
+Email me what you found along with your actionLoop code.
+
+
+STEP 7:  - Percent Completion: 100/100
+Open one of the maps in a text editor and create your own map.

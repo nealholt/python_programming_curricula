@@ -1,0 +1,28 @@
+
+For 70 points, write a program that repeats back user sentences in
+pig latin. Your program should make use of the split function to divide
+strings into separate words. You should also leave words that begin
+with vowels alone.
+
+The following examples will help you get started.
+
+#You can check to see if the first letter of a string is a vowel like this:
+word = 'aardvark
+vowels = ['a','e','i','o','u']
+if word[0] in vowels:
+    print('This word begins with a vowel.')
+
+#You can split up the first letter and the remainder of a word, like this:
+word = 'tackle'
+first_letter = word[0]
+remainder = word[1:]
+print(first_letter)
+print(remainder)
+
+#You can split up the second letter and the remainder of a word, like this:
+word = 'throw'
+first_letter = word[0]
+second_letter = word[1]
+remainder = word[2:]
+print(second_letter)
+print(remainder)

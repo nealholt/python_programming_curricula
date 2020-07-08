@@ -1,0 +1,5 @@
+
+For 35 points, write a program that plays "baby blackjack"
+as described here:
+https://programmingbydoing.com/a/baby-blackjack.html
+

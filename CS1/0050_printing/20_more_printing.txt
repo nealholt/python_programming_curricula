@@ -1,0 +1,28 @@
+#For 5 points, answer the following questions.
+
+
+'''1. Write two different lines of code that both print out the number 10.'''
+
+'''2. Write a line of code to print your own name.'''
+
+'''This code prints "print this"
+print("print this")
+3. What error do you get if you remove the quotation marks in this code?'''
+
+'''4. What error do you get if you mis-spell print like the following?'''
+pint("print this")
+
+'''5. What error do you get if you forget the close parend like the following?'''
+print("print this"
+
+'''6. What error do you get if you capitalize print?'''
+Print("print this")
+
+'''This code does not work:'''
+print(name)
+'''but this code does:'''
+name = "Ingrid"
+print(name)
+'''7. In your own words, explain why?'''
+
+'''Write a program that prints out your name and a list of some of your favorite activities.'''
