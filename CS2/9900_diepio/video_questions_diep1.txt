@@ -1,6 +1,6 @@
 
 For 100 points watch the video linked here
-https://drive.google.com/file/d/1b5_pSGklZrKJ7GxZn_3PPsNWl8tMv3iW/view?usp=sharing
+https://youtu.be/TTyBgDaB8uM
 and answer the following questions. Email the answers to your teacher with the subject line "CS2 (or CS3) Diep Objects"
 
 1) What four arguments are passed to the constructor of the initial DiepCritter class?
