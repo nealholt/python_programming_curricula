@@ -1,15 +1,11 @@
-'''
 Zork is the name of an old text-based adventure game.
 
-For 200 points, create an object-oriented text adventure game. This will be
-similar to the dungeons and dragons game you may have made last year.
+For 200 points, create an object-oriented text adventure game. This will be similar to the dungeons and dragons game you may have made last year.
 
 You should begin by watching this video to get an idea of what I'm looking for:
-https://drive.google.com/file/d/1d12f6T357BzEWa-zsfqQmkGs-P7p-9Hd/view?usp=sharing
+https://youtu.be/xWzUHRIgYCc
 
 You should add at least one more object, a player with an inventory.
 You should also modify the Location class described in the video.
 
-We can discuss the possibilty of earning more than 200 points if you want to
-take this project further.
-'''
+We can discuss the possibilty of earning more than 200 points if you want to take this project further.

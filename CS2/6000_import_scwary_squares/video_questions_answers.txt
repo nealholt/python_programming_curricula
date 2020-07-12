@@ -1,16 +1,12 @@
 
-The video is: 1400_import_and_pygame
-
-For 35 points watch the video and answer these questions:
-
-1. What 3 files did Holt create and import?
+1. What 3 files did the narrator create and import?
 constants, functions, player
 
-2. When Holt first tested his collision function, no collisions occurred. Why?
+2. When the narrator first tested his collision function, no collisions occurred. Why?
 he forgot to call the function
 
-3. What was the original value of vision_radius before Holt changed it?
+3. What was the original value of vision_radius before the narrator changed it?
 50
 
-4. Why did Holt keep self.x and self.y variables, but rather than simply keeping a self variable to reference the rectangle, he created rectangles inside the draw and collision functions in the Player object?
+4. Why did the narrator keep self.x and self.y variables, but rather than simply keeping a self variable to reference the rectangle, he created rectangles inside the draw and collision functions in the Player object?
 the pygame rect rounds rect.x and rect.y to whole numbers.

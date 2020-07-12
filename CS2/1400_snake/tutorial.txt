@@ -1,4 +1,7 @@
 
+Before starting this project, watch this video:
+https://youtu.be/tC_t_jN_Vvs
+
 For 180 points, make a Snake program.
 
 You may work in groups of no more than 2. Both students are
